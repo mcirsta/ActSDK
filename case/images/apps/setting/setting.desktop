@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=setting.app
+Icon-id=
+Icon=
+Name-id=
+Name=Setting
+Name[zh_CN]=设置
+Name[zh_TW]=設置
+Name[en_GB]=Setting
+Name[ja_JP]=セッティング
+Name[ko_KP]=설정
+Name[fr_FR]=Réglage
+Name[de_GE]=Einstellung
+Name[it_IT]=mantatura
+Name[nl_NL]=Instellen
+Name[pt_PT]=Ajustes
+Name[es_PE]=Instalación
+Name[sv_SE]=inställningar
+Name[cs_CZ]=nastavení
+Name[da_DK]=indstilling
+Name[pl_PL]=ustawienie
+Name[ru_RU]=настройка
+Name[tr_TR]=ayarla
+Name[he_IL]=יציב 	
+Name[th_TH]=การตั้งค่า
+Name[hu_HU]=berendezés
+Name[ro_RO]=Setare
+Name[ar]=ضبط 
+Name[id_ID] = Pengaturan
+Name[el_EG] =Πλαίσιο
+

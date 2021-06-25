@@ -1,0 +1,3 @@
+BuildFW_**.bat里面有对FIMaker.exe和对BatchProduct.exe应用程序的引用。
+请首先安装固件量产工具，并将此两个可执行文件的全路径填入此处的bat文件中。
+否则无法正确调用。

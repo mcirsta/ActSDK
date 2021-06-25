@@ -1,0 +1,4 @@
+/*kerninfo.dot*/
+digraph kerninfo {
+	kerninfo->kernel
+}

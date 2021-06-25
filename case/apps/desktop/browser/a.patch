@@ -1,0 +1,24 @@
+--- C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_widget_filelist.c
++++ C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_widget_filelist.c
+@@ -2876,18 +2876,19 @@
+ 
+     if ((s_dialog_nofile_visible == true) || (s_dialog_nodisk_visible == true))
+     {
+         return;
+     }
+ 
+-    if ((s_filelist->data->content->content_list->menu->total) == 0)
++    if ((s_filelist->data->content != NULL) && (s_filelist->data->content->content_list != NULL)
++            && (s_filelist->data->content->content_list->menu != NULL)
++            && (s_filelist->data->content->content_list->menu->total) == 0)
+     {
+         dialog_init_t init;
+         init.head = DIALOG_HEAD_WARN;
+         init.str_id = s_filelist->data->content->str_nofile->str_id;
+-
+         s_dialog_nofile_visible = true;
+         dialog_modal(&init);
+         s_dialog_nofile_visible = false;
+     }
+ }
+ 

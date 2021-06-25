@@ -1,0 +1,395 @@
+Archive member included because of file (symbol)
+
+./../../../case/lib/applib_api.a(applib_api1157.o)
+                              fusion.o (sys_pm_set_clk_domain)
+./../../../case/lib/applib_api.a(applib_api1165.o)
+                              fusion.o (sys_pm_clear_clk_domain)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                              fusion.o (getpid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                              fusion.o (__errno)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                              fusion.o (close)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                              fusion.o (ioctl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                              fusion.o (open)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                              fusion.o (memcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                              fusion.o (memset)
+./../../../psp_rel/lib/libc/libc_sysindep.a(random.o)
+                              fusion.o (random)
+./../../../psp_rel/lib/gui_api.a(gui_api398.o)
+                              fusion.o (gui_get_area)
+./../../../psp_rel/lib/gui_api.a(gui_api478.o)
+                              fusion.o (gui_framebuffer_update)
+./../../../psp_rel/lib/transimage.a(transimage_api.o)
+                              fusion.o (transimage)
+./../../../psp_rel/lib/transimage.a(waterwave.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (waveimage)
+./../../../psp_rel/lib/transimage.a(zoom.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (fadezoomimage)
+./../../../psp_rel/lib/transimage.a(cube.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (cubeimage)
+./../../../psp_rel/lib/transimage.a(fade.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (fadeimage)
+./../../../psp_rel/lib/transimage.a(move.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (popupalphaimage)
+./../../../psp_rel/lib/transimage.a(plane.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (ImpDisp_Check)
+./../../../psp_rel/lib/transimage.a(reverse.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (reverseimage)
+./../../../psp_rel/lib/transimage.a(rotation.o)
+                              ./../../../psp_rel/lib/transimage.a(transimage_api.o) (rotaionimage2d)
+./../../../psp_rel/lib/transimage.a(uicommon.o)
+                              ./../../../psp_rel/lib/transimage.a(move.o) (fillfadeimagealphafun)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                              fusion_config.o (set_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                              fusion_config.o (get_config)
+./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                              fusion.o (api_install)
+./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                              fusion.o (api_uninstall)
+./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                              fusion.o (printf)
+./../../../psp_rel/lib/syscall_api.a(syscall_api430.o)
+                              fusion.o (mdelay)
+./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                              fusion.o (malloc)
+./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                              fusion.o (free)
+
+Allocating common symbols
+Common symbol       size              file
+
+pthread_mutex_type_t
+                    0x4               fusion.o
+dlook               0x4               ./../../../psp_rel/lib/transimage.a(cube.o)
+pthread_share_type_t
+                    0x4               fusion.o
+tx                  0x4               ./../../../psp_rel/lib/transimage.a(waterwave.o)
+counter             0x4               ./../../../psp_rel/lib/transimage.a(waterwave.o)
+ty                  0x4               ./../../../psp_rel/lib/transimage.a(waterwave.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.init           0x0000000054000000       0x20
+ *(.init)
+ .init          0x0000000054000000        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000054000000                _init
+ .init          0x0000000054000008        0x8 ./../../../psp_rel/lib/libcrt/crtend.o
+ .init          0x0000000054000010       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.text           0x0000000054000020     0x95e4
+ *(.text)
+ .text          0x0000000054000020     0x1cb4 fusion.o
+                0x0000000054000848                fusion_set_first_frame
+                0x0000000054001ccc                fusion_api_exit
+                0x0000000054000bfc                fusion_display
+                0x0000000054001ca4                fusion_api_init
+                0x000000005400079c                fusion_set_effect
+                0x0000000054000938                fusion_set_last_frame
+                0x0000000054000aa0                _get_rtc_stdsec
+ .text          0x0000000054001cd4      0x3a8 fusion_config.o
+                0x0000000054002074                fusion_update_config
+                0x0000000054001cd4                fusion_set_config
+                0x0000000054001e10                fusion_get_config
+ .text          0x000000005400207c        0xc ./../../../case/lib/applib_api.a(applib_api1157.o)
+                0x000000005400207c                sys_pm_set_clk_domain
+ .text          0x0000000054002088        0xc ./../../../case/lib/applib_api.a(applib_api1165.o)
+                0x0000000054002088                sys_pm_clear_clk_domain
+ .text          0x0000000054002094       0x68 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000054002094                __do_global_dtors_aux
+ .text          0x00000000540020fc       0x68 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x00000000540020fc                __do_global_ctors_aux
+ .text          0x0000000054002164        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                0x0000000054002164                getpid
+ .text          0x0000000054002170        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                0x0000000054002170                __errno
+ .text          0x000000005400217c        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                0x000000005400217c                close
+ .text          0x0000000054002188        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                0x0000000054002188                ioctl
+ .text          0x0000000054002194        0x8 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                0x0000000054002194                open
+ .text          0x000000005400219c       0x50 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                0x000000005400219c                memcpy
+                0x00000000540021c4                bcopy
+ .text          0x00000000540021ec       0x44 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                0x0000000054002210                bzero
+                0x00000000540021ec                memset
+ .text          0x0000000054002230      0x14c ./../../../psp_rel/lib/libc/libc_sysindep.a(random.o)
+                0x0000000054002230                random
+                0x00000000540022b4                srandom
+ .text          0x000000005400237c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api398.o)
+                0x000000005400237c                gui_get_area
+ .text          0x0000000054002388        0xc ./../../../psp_rel/lib/gui_api.a(gui_api478.o)
+                0x0000000054002388                gui_framebuffer_update
+ *fill*         0x0000000054002394        0x4 00
+ .text          0x0000000054002398      0x2b8 ./../../../psp_rel/lib/transimage.a(transimage_api.o)
+                0x0000000054002398                transimage
+ .text          0x0000000054002650      0xed8 ./../../../psp_rel/lib/transimage.a(waterwave.o)
+                0x0000000054002798                waveimage
+                0x0000000054002698                SQRT2
+ .text          0x0000000054003528      0x7f0 ./../../../psp_rel/lib/transimage.a(zoom.o)
+                0x0000000054003528                linesample
+                0x0000000054003b40                zoomhrimage
+                0x00000000540037c8                zoomimage
+                0x00000000540035b0                fadezoomimage
+ .text          0x0000000054003d18      0x8e8 ./../../../psp_rel/lib/transimage.a(cube.o)
+                0x0000000054003d60                cubeimage
+ .text          0x0000000054004600      0x158 ./../../../psp_rel/lib/transimage.a(fade.o)
+                0x0000000054004600                fadeimage
+ .text          0x0000000054004758     0x1440 ./../../../psp_rel/lib/transimage.a(move.o)
+                0x0000000054005668                movealphaimage
+                0x0000000054004758                popupalphaimage
+                0x0000000054005310                moveimage
+                0x0000000054004db0                popupimage
+ .text          0x0000000054005b98     0x1d80 ./../../../psp_rel/lib/transimage.a(plane.o)
+                0x0000000054005bc8                ImpDisp_Check
+                0x00000000540074f0                ImpDisp_Fade
+                0x00000000540067d0                ImpDisp_Erase
+                0x0000000054007170                ImpDisp_RandomLine
+                0x0000000054006c38                ImpDisp_Louver
+                0x0000000054006390                ImpDisp_Cut
+ .text          0x0000000054007918      0x898 ./../../../psp_rel/lib/transimage.a(reverse.o)
+                0x0000000054007960                reverseimage
+ .text          0x00000000540081b0      0x308 ./../../../psp_rel/lib/transimage.a(rotation.o)
+                0x00000000540081f0                rotaionimage2d
+ .text          0x00000000540084b8      0xaa0 ./../../../psp_rel/lib/transimage.a(uicommon.o)
+                0x0000000054008df0                fillimagefun
+                0x0000000054008eb8                fillzerofun
+                0x00000000540086b0                fillfadeimagefun
+                0x00000000540084b8                fillfadeimagealphafun
+ .text          0x0000000054008f58       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                0x0000000054008f58                set_config
+ .text          0x0000000054008f68        0xc ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                0x0000000054008f68                get_config
+ .text          0x0000000054008f74        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                0x0000000054008f74                api_install
+ .text          0x0000000054008f80        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                0x0000000054008f80                api_uninstall
+ .text          0x0000000054008f8c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                0x0000000054008f8c                printf
+ .text          0x0000000054008f98        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api430.o)
+                0x0000000054008f98                mdelay
+ .text          0x0000000054008fa4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                0x0000000054008fa4                malloc
+ .text          0x0000000054008fb0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                0x0000000054008fb0                free
+ *(.rodata)
+ .rodata        0x0000000054008fbc      0x120 fusion.o
+ .rodata        0x00000000540090dc       0x38 fusion_config.o
+ .rodata        0x0000000054009114       0x50 ./../../../psp_rel/lib/transimage.a(transimage_api.o)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000054009164      0x2dd fusion.o
+                                        0x2e0 (size before relaxing)
+ *fill*         0x0000000054009441        0x3 00
+ .rodata.cst4   0x0000000054009444        0x4 fusion.o
+ .rodata.str1.4
+                0x0000000054009448      0x1b6 fusion_config.o
+                                        0x1b8 (size before relaxing)
+ *fill*         0x00000000540095fe        0x2 00
+ .rodata.cst4   0x0000000054009600        0x4 ./../../../psp_rel/lib/transimage.a(zoom.o)
+
+.fini           0x0000000054009604       0x20
+ *(.fini)
+ .fini          0x0000000054009604        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000054009604                _fini
+ .fini          0x000000005400960c        0x8 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .fini          0x0000000054009614       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.dlsym
+ *(.dlsym)
+
+.dlstr
+ *(.dlstr)
+                0x000000005400a000                . = ALIGN (0x1000)
+
+.ctors          0x000000005400a000        0xc
+ *crtbegin*.o(.ctors)
+ .ctors         0x000000005400a000        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000005400a000                __CTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ .ctors         0x000000005400a004        0x4 fusion.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000005400a008        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x000000005400a008                __CTOR_END__
+
+.dtors          0x000000005400a00c        0xc
+ *crtbegin*.o(.dtors)
+ .dtors         0x000000005400a00c        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000005400a00c                __DTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ .dtors         0x000000005400a010        0x4 fusion.o
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000005400a014        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x000000005400a014                __DTOR_END__
+
+.data           0x000000005400a018     0x8150
+ *(.data)
+ .data          0x000000005400a018       0x2c fusion.o
+ .data          0x000000005400a044       0x90 fusion_config.o
+                0x000000005400a044                s_fusion_cfg
+ .data          0x000000005400a0d4       0x90 ./../../../psp_rel/lib/libc/libc_sysindep.a(random.o)
+ .data          0x000000005400a164     0x5000 ./../../../psp_rel/lib/transimage.a(waterwave.o)
+ .data          0x000000005400f164     0x1000 ./../../../psp_rel/lib/transimage.a(cube.o)
+ .data          0x0000000054010164        0x4 ./../../../psp_rel/lib/transimage.a(plane.o)
+ .data          0x0000000054010168     0x1000 ./../../../psp_rel/lib/transimage.a(reverse.o)
+ .data          0x0000000054011168     0x1000 ./../../../psp_rel/lib/transimage.a(rotation.o)
+ *(.sdata)
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x0000000054012168     0x3500
+ *(.bss)
+ .bss           0x0000000054012168       0xd8 fusion.o
+ .bss           0x0000000054012240     0x2000 ./../../../psp_rel/lib/transimage.a(zoom.o)
+ .bss           0x0000000054014240     0x1410 ./../../../psp_rel/lib/transimage.a(plane.o)
+ *(COMMON)
+ COMMON         0x0000000054015650        0x8 fusion.o
+                0x0000000054015650                pthread_mutex_type_t
+                0x0000000054015654                pthread_share_type_t
+ COMMON         0x0000000054015658        0xc ./../../../psp_rel/lib/transimage.a(waterwave.o)
+                0x0000000054015658                tx
+                0x000000005401565c                counter
+                0x0000000054015660                ty
+ COMMON         0x0000000054015664        0x4 ./../../../psp_rel/lib/transimage.a(cube.o)
+                0x0000000054015664                dlook
+
+.rel.dyn
+Address of section .init set to 0x54000000
+LOAD fusion.o
+LOAD fusion_config.o
+LOAD ./../../../case/lib/style_api.a
+LOAD ./../../../case/lib/applib_api.a
+LOAD ./../../../psp_rel/lib/libcrt/crti.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend.o
+LOAD ./../../../psp_rel/lib/libcrt/crtn.o
+LOAD ./../../../psp_rel/lib/ime_api.a
+LOAD ./../../../psp_rel/lib/mlang_api.a
+LOAD ./../../../psp_rel/lib/mnavi_api.a
+LOAD ./../../../psp_rel/lib/plist_api.a
+LOAD ./../../../psp_rel/lib/sqlite_api.a
+LOAD ./../../../psp_rel/lib/libc_sys_api.a
+LOAD ./../../../psp_rel/lib/libc_fs_api.a
+LOAD ./../../../psp_rel/lib/libc/libc_sysindep.a
+LOAD ./../../../psp_rel/lib/gui_api.a
+LOAD ./../../../psp_rel/lib/mmm_api.a
+LOAD ./../../../psp_rel/lib/transimage.a
+LOAD ./../../../psp_rel/lib/apconfig_api.a
+LOAD ./../../../psp_rel/lib/syscall_api.a
+LOAD ./../../../psp_rel/lib/kmodule_api.a
+OUTPUT(./../../../case/images/lib/fusion.so elf32-tradlittlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 fusion.o
+
+.pdr            0x0000000000000000      0x900
+ .pdr           0x0000000000000000      0x160 fusion.o
+ .pdr           0x0000000000000160       0x60 fusion_config.o
+ .pdr           0x00000000000001c0       0x20 ./../../../case/lib/applib_api.a(applib_api1157.o)
+ .pdr           0x00000000000001e0       0x20 ./../../../case/lib/applib_api.a(applib_api1165.o)
+ .pdr           0x0000000000000200       0x20 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .pdr           0x0000000000000220       0x20 ./../../../psp_rel/lib/libcrt/crtend.o
+ .pdr           0x0000000000000240       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+ .pdr           0x0000000000000260       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+ .pdr           0x0000000000000280       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+ .pdr           0x00000000000002a0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+ .pdr           0x00000000000002c0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+ .pdr           0x00000000000002e0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .pdr           0x0000000000000320       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .pdr           0x0000000000000360       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(random.o)
+ .pdr           0x00000000000003a0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api398.o)
+ .pdr           0x00000000000003c0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api478.o)
+ .pdr           0x00000000000003e0       0x20 ./../../../psp_rel/lib/transimage.a(transimage_api.o)
+ .pdr           0x0000000000000400       0x80 ./../../../psp_rel/lib/transimage.a(waterwave.o)
+ .pdr           0x0000000000000480       0x80 ./../../../psp_rel/lib/transimage.a(zoom.o)
+ .pdr           0x0000000000000500       0x60 ./../../../psp_rel/lib/transimage.a(cube.o)
+ .pdr           0x0000000000000560       0x20 ./../../../psp_rel/lib/transimage.a(fade.o)
+ .pdr           0x0000000000000580       0x80 ./../../../psp_rel/lib/transimage.a(move.o)
+ .pdr           0x0000000000000600       0xe0 ./../../../psp_rel/lib/transimage.a(plane.o)
+ .pdr           0x00000000000006e0       0x60 ./../../../psp_rel/lib/transimage.a(reverse.o)
+ .pdr           0x0000000000000740       0x40 ./../../../psp_rel/lib/transimage.a(rotation.o)
+ .pdr           0x0000000000000780       0x80 ./../../../psp_rel/lib/transimage.a(uicommon.o)
+ .pdr           0x0000000000000800       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+ .pdr           0x0000000000000820       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+ .pdr           0x0000000000000840       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+ .pdr           0x0000000000000860       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+ .pdr           0x0000000000000880       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+ .pdr           0x00000000000008a0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api430.o)
+ .pdr           0x00000000000008c0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+ .pdr           0x00000000000008e0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+
+.debug_abbrev   0x0000000000000000      0x431
+ .debug_abbrev  0x0000000000000000      0x2ee fusion.o
+ .debug_abbrev  0x00000000000002ee      0x143 fusion_config.o
+
+.debug_info     0x0000000000000000     0x1544
+ .debug_info    0x0000000000000000     0x1119 fusion.o
+ .debug_info    0x0000000000001119      0x42b fusion_config.o
+
+.debug_line     0x0000000000000000      0x7b6
+ .debug_line    0x0000000000000000      0x64c fusion.o
+ .debug_line    0x000000000000064c      0x16a fusion_config.o
+
+.debug_frame    0x0000000000000000      0x200
+ .debug_frame   0x0000000000000000      0x190 fusion.o
+ .debug_frame   0x0000000000000190       0x70 fusion_config.o
+
+.debug_pubnames
+                0x0000000000000000      0x178
+ .debug_pubnames
+                0x0000000000000000       0xde fusion.o
+ .debug_pubnames
+                0x00000000000000de       0x9a fusion_config.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 fusion.o
+ .debug_aranges
+                0x0000000000000020       0x20 fusion_config.o
+
+.debug_ranges   0x0000000000000000      0x1c0
+ .debug_ranges  0x0000000000000000      0x1c0 fusion.o
+
+.debug_str      0x0000000000000000      0x9eb
+ .debug_str     0x0000000000000000      0x886 fusion.o
+                                        0x8fe (size before relaxing)
+ .debug_str     0x0000000000000886      0x165 fusion_config.o
+                                        0x4b2 (size before relaxing)
+
+.comment        0x0000000000000000      0x2db
+ .comment       0x0000000000000000       0x2b fusion.o
+ .comment       0x000000000000002b       0x2b fusion_config.o
+ .comment       0x0000000000000056       0x2b ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .comment       0x0000000000000081       0x2b ./../../../psp_rel/lib/libcrt/crtend.o
+ .comment       0x00000000000000ac       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .comment       0x00000000000000d7       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .comment       0x0000000000000102       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(random.o)
+ .comment       0x000000000000012d       0x2b ./../../../psp_rel/lib/transimage.a(transimage_api.o)
+ .comment       0x0000000000000158       0x2b ./../../../psp_rel/lib/transimage.a(waterwave.o)
+ .comment       0x0000000000000183       0x2b ./../../../psp_rel/lib/transimage.a(zoom.o)
+ .comment       0x00000000000001ae       0x2b ./../../../psp_rel/lib/transimage.a(cube.o)
+ .comment       0x00000000000001d9       0x2b ./../../../psp_rel/lib/transimage.a(fade.o)
+ .comment       0x0000000000000204       0x2b ./../../../psp_rel/lib/transimage.a(move.o)
+ .comment       0x000000000000022f       0x2b ./../../../psp_rel/lib/transimage.a(plane.o)
+ .comment       0x000000000000025a       0x2b ./../../../psp_rel/lib/transimage.a(reverse.o)
+ .comment       0x0000000000000285       0x2b ./../../../psp_rel/lib/transimage.a(rotation.o)
+ .comment       0x00000000000002b0       0x2b ./../../../psp_rel/lib/transimage.a(uicommon.o)

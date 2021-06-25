@@ -1,0 +1,1 @@
+config.cfg中放置psp的配置项及配置结果,SDKConfig里的配置项添加到本文件，SDKConfig不再存在

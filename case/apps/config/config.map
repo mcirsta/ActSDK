@@ -1,0 +1,589 @@
+Archive member included because of file (symbol)
+
+./../../../case/lib/applib_api.a(applib_api1005.o)
+                              config_main.o (sys_check_media_dir)
+./../../../case/lib/applib_api.a(applib_api1157.o)
+                              config_main.o (sys_pm_set_clk_domain)
+./../../../case/lib/applib_api.a(applib_api1165.o)
+                              config_main.o (sys_pm_clear_clk_domain)
+./../../../case/lib/applib_api.a(applib_api1261.o)
+                              config_main.o (sys_get_main_disk)
+./../../../case/lib/applib_api.a(applib_api1269.o)
+                              config_main.o (sys_set_main_disk)
+./../../../case/lib/applib_api.a(applib_api1301.o)
+                              config_main.o (sys_enable_sys_evt_detect)
+./../../../case/lib/applib_api.a(applib_api1309.o)
+                              config_main.o (filter_msg)
+./../../../case/lib/applib_api.a(applib_api1341.o)
+                              config_main.o (sys_get_media_dir)
+./../../../case/lib/applib_api.a(applib_api439.o)
+                              config_main.o (applib_init)
+./../../../case/lib/applib_api.a(applib_api447.o)
+                              config_main.o (applib_quit)
+./../../../case/lib/applib_api.a(applib_api455.o)
+                              config_main.o (get_msg)
+./../../../case/lib/applib_api.a(applib_api465.o)
+                              config_main.o (send_sync_msg)
+./../../../case/lib/applib_api.a(applib_api473.o)
+                              config_main.o (reply_sync_msg)
+./../../../case/lib/applib_api.a(applib_api481.o)
+                              config_main.o (send_async_msg)
+./../../../case/lib/applib_api.a(applib_api497.o)
+                              config_main.o (dispatch_msg)
+./../../../case/lib/applib_api.a(applib_api505.o)
+                              config_main.o (register_sys_dispatcher)
+./../../../case/lib/applib_api.a(applib_api513.o)
+                              config_main.o (unregister_sys_dispatcher)
+./../../../case/lib/applib_api.a(applib_api521.o)
+                              config_main.o (exit_msg_loop)
+./../../../case/lib/applib_api.a(applib_api529.o)
+                              config_main.o (clear_sys_msg_queue)
+./../../../psp_rel/lib/libcom.a(format.o)
+                              config_main.o (format)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api15.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_release_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                              config_main.o (getpid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api210.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_set_envp)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api23.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_get_process_struct)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                              config_main.o (__errno)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api269.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__current_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api285.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_insert_sub_to_parent)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api293.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_remove_sub_from_parent)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api566.o)
+                              config_main.o (pthread_getschedparam)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api574.o)
+                              config_main.o (pthread_setschedparam)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api590.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_create)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api614.o)
+                              config_main.o (pthread_self)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api7.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_get_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api718.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_init)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api726.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_destroy)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api734.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_setinheritsched)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api750.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_setdetachstate)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api862.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (exit)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api87.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (_kernel_change_thread_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api870.o)
+                              config_main.o (sleep)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+                              config_main.o (usleep)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                              config_main.o (close)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+                              config_main.o (read)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api47.o)
+                              config_main.o (fcntl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                              config_main.o (ioctl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                              config_main.o (open)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (memcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                              config_main.o (memset)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (strcasecmp)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+                              config_main.o (strcat)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                              config_main.o (strcpy)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                              config_main.o (set_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                              config_main.o (get_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api60.o)
+                              config_main.o (sync_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api69.o)
+                              config_main.o (nandflash_update)
+./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_sched_lock)
+./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_sched_unlock)
+./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                              config_main.o (printf)
+./../../../psp_rel/lib/syscall_api.a(syscall_api526.o)
+                              config_main.o (sys_mount)
+./../../../psp_rel/lib/syscall_api.a(syscall_api542.o)
+                              config_main.o (sys_mknod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api550.o)
+                              config_main.o (sys_open)
+./../../../psp_rel/lib/syscall_api.a(syscall_api558.o)
+                              config_main.o (sys_close)
+./../../../psp_rel/lib/syscall_api.a(syscall_api566.o)
+                              config_main.o (sys_read)
+./../../../psp_rel/lib/syscall_api.a(syscall_api574.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (sys_write)
+./../../../psp_rel/lib/syscall_api.a(syscall_api582.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (sys_lseek)
+./../../../psp_rel/lib/syscall_api.a(syscall_api630.o)
+                              config_main.o (sys_mkdir)
+./../../../psp_rel/lib/syscall_api.a(syscall_api646.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (sys_fstat)
+./../../../psp_rel/lib/syscall_api.a(syscall_api694.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (sys_fsync)
+./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+                              config_main.o (insmod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api862.o)
+                              config_main.o (rmmod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                              config_main.o (dlopen)
+./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                              config_main.o (dlclose)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api14.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_cpu_store_sr)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api286.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (kmalloc)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api294.o)
+                              ./../../../psp_rel/lib/libcom.a(format.o) (kfree)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api6.o)
+                              config_main.o (os_cpu_save_sr)
+
+Allocating common symbols
+Common symbol       size              file
+
+pthread_mutex_type_t
+                    0x4               config_main.o
+pthread_share_type_t
+                    0x4               config_main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.init           0x0000000069c00000       0x20
+ *(.init)
+ .init          0x0000000069c00000        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000069c00000                _init
+ .init          0x0000000069c00008        0x8 ./../../../psp_rel/lib/libcrt/crtend.o
+ .init          0x0000000069c00010       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.text           0x0000000069c00020     0x5289
+ *(.text)
+ .text          0x0000000069c00020     0x18cc config_main.o
+                0x0000000069c00b34                main
+ .text          0x0000000069c018ec        0xc ./../../../case/lib/applib_api.a(applib_api1005.o)
+                0x0000000069c018ec                sys_check_media_dir
+ .text          0x0000000069c018f8        0xc ./../../../case/lib/applib_api.a(applib_api1157.o)
+                0x0000000069c018f8                sys_pm_set_clk_domain
+ .text          0x0000000069c01904        0xc ./../../../case/lib/applib_api.a(applib_api1165.o)
+                0x0000000069c01904                sys_pm_clear_clk_domain
+ .text          0x0000000069c01910        0xc ./../../../case/lib/applib_api.a(applib_api1261.o)
+                0x0000000069c01910                sys_get_main_disk
+ .text          0x0000000069c0191c        0xc ./../../../case/lib/applib_api.a(applib_api1269.o)
+                0x0000000069c0191c                sys_set_main_disk
+ .text          0x0000000069c01928        0xc ./../../../case/lib/applib_api.a(applib_api1301.o)
+                0x0000000069c01928                sys_enable_sys_evt_detect
+ .text          0x0000000069c01934        0xc ./../../../case/lib/applib_api.a(applib_api1309.o)
+                0x0000000069c01934                filter_msg
+ .text          0x0000000069c01940        0xc ./../../../case/lib/applib_api.a(applib_api1341.o)
+                0x0000000069c01940                sys_get_media_dir
+ .text          0x0000000069c0194c        0xc ./../../../case/lib/applib_api.a(applib_api439.o)
+                0x0000000069c0194c                applib_init
+ .text          0x0000000069c01958        0xc ./../../../case/lib/applib_api.a(applib_api447.o)
+                0x0000000069c01958                applib_quit
+ .text          0x0000000069c01964        0xc ./../../../case/lib/applib_api.a(applib_api455.o)
+                0x0000000069c01964                get_msg
+ .text          0x0000000069c01970        0xc ./../../../case/lib/applib_api.a(applib_api465.o)
+                0x0000000069c01970                send_sync_msg
+ .text          0x0000000069c0197c        0xc ./../../../case/lib/applib_api.a(applib_api473.o)
+                0x0000000069c0197c                reply_sync_msg
+ .text          0x0000000069c01988        0xc ./../../../case/lib/applib_api.a(applib_api481.o)
+                0x0000000069c01988                send_async_msg
+ .text          0x0000000069c01994        0xc ./../../../case/lib/applib_api.a(applib_api497.o)
+                0x0000000069c01994                dispatch_msg
+ .text          0x0000000069c019a0        0xc ./../../../case/lib/applib_api.a(applib_api505.o)
+                0x0000000069c019a0                register_sys_dispatcher
+ .text          0x0000000069c019ac        0xc ./../../../case/lib/applib_api.a(applib_api513.o)
+                0x0000000069c019ac                unregister_sys_dispatcher
+ .text          0x0000000069c019b8        0xc ./../../../case/lib/applib_api.a(applib_api521.o)
+                0x0000000069c019b8                exit_msg_loop
+ .text          0x0000000069c019c4        0xc ./../../../case/lib/applib_api.a(applib_api529.o)
+                0x0000000069c019c4                clear_sys_msg_queue
+ .text          0x0000000069c019d0     0x2408 ./../../../psp_rel/lib/libcom.a(format.o)
+                0x0000000069c03b5c                format
+                0x0000000069c03ce4                is_block_dev_format
+ .text          0x0000000069c03dd8       0x68 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000069c03dd8                __do_global_dtors_aux
+ .text          0x0000000069c03e40        0x8 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+                0x0000000069c03e40                exec_release
+ .text          0x0000000069c03e48      0x384 ./../../../psp_rel/lib/libcrt/crtend1.o
+                0x0000000069c03e48                dumpargv
+                0x0000000069c03ea4                process_start
+                0x0000000069c03fbc                __start
+ .text          0x0000000069c041cc       0x68 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000069c041cc                __do_global_ctors_aux
+ .text          0x0000000069c04234        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api15.o)
+                0x0000000069c04234                __kernel_release_pid
+ .text          0x0000000069c04240        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                0x0000000069c04240                getpid
+ .text          0x0000000069c0424c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api210.o)
+                0x0000000069c0424c                __kernel_set_envp
+ .text          0x0000000069c04258        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api23.o)
+                0x0000000069c04258                __kernel_get_process_struct
+ .text          0x0000000069c04264        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                0x0000000069c04264                __errno
+ .text          0x0000000069c04270        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api269.o)
+                0x0000000069c04270                __current_pid
+ .text          0x0000000069c0427c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api285.o)
+                0x0000000069c0427c                __kernel_insert_sub_to_parent
+ .text          0x0000000069c04288        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api293.o)
+                0x0000000069c04288                __kernel_remove_sub_from_parent
+ .text          0x0000000069c04294        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api566.o)
+                0x0000000069c04294                pthread_getschedparam
+ .text          0x0000000069c042a0        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api574.o)
+                0x0000000069c042a0                pthread_setschedparam
+ .text          0x0000000069c042ac        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api590.o)
+                0x0000000069c042ac                pthread_create
+ .text          0x0000000069c042b8        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api614.o)
+                0x0000000069c042b8                pthread_self
+ .text          0x0000000069c042c4        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api7.o)
+                0x0000000069c042c4                __kernel_get_pid
+ .text          0x0000000069c042d0        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api718.o)
+                0x0000000069c042d0                pthread_attr_init
+ .text          0x0000000069c042dc        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api726.o)
+                0x0000000069c042dc                pthread_attr_destroy
+ .text          0x0000000069c042e8        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api734.o)
+                0x0000000069c042e8                pthread_attr_setinheritsched
+ .text          0x0000000069c042f4        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api750.o)
+                0x0000000069c042f4                pthread_attr_setdetachstate
+ .text          0x0000000069c04300        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api862.o)
+                0x0000000069c04300                exit
+ .text          0x0000000069c0430c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api87.o)
+                0x0000000069c0430c                _kernel_change_thread_pid
+ .text          0x0000000069c04318        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api870.o)
+                0x0000000069c04318                sleep
+ .text          0x0000000069c04324        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+                0x0000000069c04324                usleep
+ .text          0x0000000069c04330        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                0x0000000069c04330                close
+ .text          0x0000000069c0433c        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+                0x0000000069c0433c                read
+ .text          0x0000000069c04348        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api47.o)
+                0x0000000069c04348                fcntl
+ .text          0x0000000069c04354        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                0x0000000069c04354                ioctl
+ .text          0x0000000069c04360        0x8 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                0x0000000069c04360                open
+ .text          0x0000000069c04368       0x50 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                0x0000000069c04368                memcpy
+                0x0000000069c04390                bcopy
+ .text          0x0000000069c043b8       0x44 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                0x0000000069c043dc                bzero
+                0x0000000069c043b8                memset
+ .text          0x0000000069c043fc       0xfc ./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+                0x0000000069c04468                strncasecmp
+                0x0000000069c043fc                strcasecmp
+ .text          0x0000000069c044f8       0xac ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+                0x0000000069c044f8                strcat
+                0x0000000069c04544                strncat
+ .text          0x0000000069c045a4       0x80 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                0x0000000069c045a4                strcpy
+                0x0000000069c045d0                strncpy
+ .text          0x0000000069c04624       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                0x0000000069c04624                set_config
+ .text          0x0000000069c04634        0xc ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                0x0000000069c04634                get_config
+ .text          0x0000000069c04640       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api60.o)
+                0x0000000069c04640                sync_config
+ .text          0x0000000069c04650       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api69.o)
+                0x0000000069c04650                nandflash_update
+ .text          0x0000000069c04660        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+                0x0000000069c04660                os_sched_lock
+ .text          0x0000000069c0466c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+                0x0000000069c0466c                os_sched_unlock
+ .text          0x0000000069c04678        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                0x0000000069c04678                printf
+ .text          0x0000000069c04684        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api526.o)
+                0x0000000069c04684                sys_mount
+ .text          0x0000000069c04690        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api542.o)
+                0x0000000069c04690                sys_mknod
+ .text          0x0000000069c0469c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api550.o)
+                0x0000000069c0469c                sys_open
+ .text          0x0000000069c046a8        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api558.o)
+                0x0000000069c046a8                sys_close
+ .text          0x0000000069c046b4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api566.o)
+                0x0000000069c046b4                sys_read
+ .text          0x0000000069c046c0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api574.o)
+                0x0000000069c046c0                sys_write
+ .text          0x0000000069c046cc        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api582.o)
+                0x0000000069c046cc                sys_lseek
+ .text          0x0000000069c046d8        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api630.o)
+                0x0000000069c046d8                sys_mkdir
+ .text          0x0000000069c046e4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api646.o)
+                0x0000000069c046e4                sys_fstat
+ .text          0x0000000069c046f0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api694.o)
+                0x0000000069c046f0                sys_fsync
+ .text          0x0000000069c046fc        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+                0x0000000069c046fc                insmod
+ .text          0x0000000069c04708        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api862.o)
+                0x0000000069c04708                rmmod
+ .text          0x0000000069c04714        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                0x0000000069c04714                dlopen
+ .text          0x0000000069c04720        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                0x0000000069c04720                dlclose
+ .text          0x0000000069c0472c        0xc ./../../../psp_rel/lib/kmodule_api.a(kmodule_api14.o)
+                0x0000000069c0472c                os_cpu_store_sr
+ .text          0x0000000069c04738        0xc ./../../../psp_rel/lib/kmodule_api.a(kmodule_api286.o)
+                0x0000000069c04738                kmalloc
+ .text          0x0000000069c04744        0xc ./../../../psp_rel/lib/kmodule_api.a(kmodule_api294.o)
+                0x0000000069c04744                kfree
+ .text          0x0000000069c04750        0x8 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api6.o)
+                0x0000000069c04750                os_cpu_save_sr
+ *(.rodata)
+ .rodata        0x0000000069c04758      0x110 config_main.o
+ .rodata        0x0000000069c04868       0x64 ./../../../psp_rel/lib/libcom.a(format.o)
+ .rodata        0x0000000069c048cc       0x18 ./../../../psp_rel/lib/libcrt/crtend1.o
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000069c048e4      0x8ec config_main.o
+ .rodata.cst4   0x0000000069c051d0       0x3c config_main.o
+ .rodata.str1.4
+                0x0000000069c0520c       0x9d ./../../../psp_rel/lib/libcrt/crtend1.o
+                                         0xa0 (size before relaxing)
+
+.fini           0x0000000069c052ac       0x20
+ *(.fini)
+ .fini          0x0000000069c052ac        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000069c052ac                _fini
+ .fini          0x0000000069c052b4        0x8 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .fini          0x0000000069c052bc       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+                0x0000000069c06000                . = ALIGN (0x1000)
+
+.ctors          0x0000000069c06000        0x8
+ *crtbegin*.o(.ctors)
+ .ctors         0x0000000069c06000        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000069c06000                __CTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000069c06004        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000069c06004                __CTOR_END__
+
+.dtors          0x0000000069c06008        0xc
+ *crtbegin*.o(.dtors)
+ .dtors         0x0000000069c06008        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000069c06008                __DTOR_LIST__
+ .dtors         0x0000000069c0600c        0x4 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000069c06010        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000069c06010                __DTOR_END__
+
+.data           0x0000000069c06014     0x18e0
+ *(.data)
+ .data          0x0000000069c06014       0x10 config_main.o
+ .data          0x0000000069c06024     0x18d0 ./../../../psp_rel/lib/libcom.a(format.o)
+ *(.sdata)
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x0000000069c078f4       0x28
+ *(.bss)
+ .bss           0x0000000069c078f4       0x20 config_main.o
+ *(COMMON)
+ COMMON         0x0000000069c07914        0x8 config_main.o
+                0x0000000069c07914                pthread_mutex_type_t
+                0x0000000069c07918                pthread_share_type_t
+
+.rel.dyn
+Address of section .init set to 0x69c00000
+LOAD config_main.o
+LOAD ./../../../case/lib/commonui_api.a
+LOAD ./../../../case/lib/style_api.a
+LOAD ./../../../case/lib/fusion_api.a
+LOAD ./../../../case/lib/applib_api.a
+LOAD ./../../../psp_rel/lib/libcom.a
+LOAD ./../../../psp_rel/lib/libcom.a
+LOAD ./../../../psp_rel/lib/libcrt/crti.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin1.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend1.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend.o
+LOAD ./../../../psp_rel/lib/libcrt/crtn.o
+LOAD ./../../../psp_rel/lib/ime_api.a
+LOAD ./../../../psp_rel/lib/mlang_api.a
+LOAD ./../../../psp_rel/lib/mnavi_api.a
+LOAD ./../../../psp_rel/lib/plist_api.a
+LOAD ./../../../psp_rel/lib/sqlite_api.a
+LOAD ./../../../psp_rel/lib/libc_sys_api.a
+LOAD ./../../../psp_rel/lib/libc_fs_api.a
+LOAD ./../../../psp_rel/lib/libc/libc_sysindep.a
+LOAD ./../../../psp_rel/lib/gui_api.a
+LOAD ./../../../psp_rel/lib/mmm_api.a
+LOAD ./../../../psp_rel/lib/transimage.a
+LOAD ./../../../psp_rel/lib/apconfig_api.a
+LOAD ./../../../psp_rel/lib/syscall_api.a
+LOAD ./../../../psp_rel/lib/kmodule_api.a
+OUTPUT(./../../../case/images/apps/config.app elf32-tradlittlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 config_main.o
+
+.pdr            0x0000000000000000      0xc20
+ .pdr           0x0000000000000000       0xa0 config_main.o
+ .pdr           0x00000000000000a0       0x20 ./../../../case/lib/applib_api.a(applib_api1005.o)
+ .pdr           0x00000000000000c0       0x20 ./../../../case/lib/applib_api.a(applib_api1157.o)
+ .pdr           0x00000000000000e0       0x20 ./../../../case/lib/applib_api.a(applib_api1165.o)
+ .pdr           0x0000000000000100       0x20 ./../../../case/lib/applib_api.a(applib_api1261.o)
+ .pdr           0x0000000000000120       0x20 ./../../../case/lib/applib_api.a(applib_api1269.o)
+ .pdr           0x0000000000000140       0x20 ./../../../case/lib/applib_api.a(applib_api1301.o)
+ .pdr           0x0000000000000160       0x20 ./../../../case/lib/applib_api.a(applib_api1309.o)
+ .pdr           0x0000000000000180       0x20 ./../../../case/lib/applib_api.a(applib_api1341.o)
+ .pdr           0x00000000000001a0       0x20 ./../../../case/lib/applib_api.a(applib_api439.o)
+ .pdr           0x00000000000001c0       0x20 ./../../../case/lib/applib_api.a(applib_api447.o)
+ .pdr           0x00000000000001e0       0x20 ./../../../case/lib/applib_api.a(applib_api455.o)
+ .pdr           0x0000000000000200       0x20 ./../../../case/lib/applib_api.a(applib_api465.o)
+ .pdr           0x0000000000000220       0x20 ./../../../case/lib/applib_api.a(applib_api473.o)
+ .pdr           0x0000000000000240       0x20 ./../../../case/lib/applib_api.a(applib_api481.o)
+ .pdr           0x0000000000000260       0x20 ./../../../case/lib/applib_api.a(applib_api497.o)
+ .pdr           0x0000000000000280       0x20 ./../../../case/lib/applib_api.a(applib_api505.o)
+ .pdr           0x00000000000002a0       0x20 ./../../../case/lib/applib_api.a(applib_api513.o)
+ .pdr           0x00000000000002c0       0x20 ./../../../case/lib/applib_api.a(applib_api521.o)
+ .pdr           0x00000000000002e0       0x20 ./../../../case/lib/applib_api.a(applib_api529.o)
+ .pdr           0x0000000000000300       0xc0 ./../../../psp_rel/lib/libcom.a(format.o)
+ .pdr           0x00000000000003c0       0x20 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .pdr           0x00000000000003e0       0x20 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .pdr           0x0000000000000400       0x60 ./../../../psp_rel/lib/libcrt/crtend1.o
+ .pdr           0x0000000000000460       0x20 ./../../../psp_rel/lib/libcrt/crtend.o
+ .pdr           0x0000000000000480       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api15.o)
+ .pdr           0x00000000000004a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+ .pdr           0x00000000000004c0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api210.o)
+ .pdr           0x00000000000004e0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api23.o)
+ .pdr           0x0000000000000500       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+ .pdr           0x0000000000000520       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api269.o)
+ .pdr           0x0000000000000540       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api285.o)
+ .pdr           0x0000000000000560       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api293.o)
+ .pdr           0x0000000000000580       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api566.o)
+ .pdr           0x00000000000005a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api574.o)
+ .pdr           0x00000000000005c0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api590.o)
+ .pdr           0x00000000000005e0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api614.o)
+ .pdr           0x0000000000000600       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api7.o)
+ .pdr           0x0000000000000620       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api718.o)
+ .pdr           0x0000000000000640       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api726.o)
+ .pdr           0x0000000000000660       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api734.o)
+ .pdr           0x0000000000000680       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api750.o)
+ .pdr           0x00000000000006a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api862.o)
+ .pdr           0x00000000000006c0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api87.o)
+ .pdr           0x00000000000006e0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api870.o)
+ .pdr           0x0000000000000700       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+ .pdr           0x0000000000000720       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+ .pdr           0x0000000000000740       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+ .pdr           0x0000000000000760       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api47.o)
+ .pdr           0x0000000000000780       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+ .pdr           0x00000000000007a0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+ .pdr           0x00000000000007c0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .pdr           0x0000000000000800       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .pdr           0x0000000000000840       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+ .pdr           0x0000000000000880       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+ .pdr           0x00000000000008c0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .pdr           0x0000000000000900       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+ .pdr           0x0000000000000920       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+ .pdr           0x0000000000000940       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api60.o)
+ .pdr           0x0000000000000960       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api69.o)
+ .pdr           0x0000000000000980       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+ .pdr           0x00000000000009a0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+ .pdr           0x00000000000009c0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+ .pdr           0x00000000000009e0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api526.o)
+ .pdr           0x0000000000000a00       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api542.o)
+ .pdr           0x0000000000000a20       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api550.o)
+ .pdr           0x0000000000000a40       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api558.o)
+ .pdr           0x0000000000000a60       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api566.o)
+ .pdr           0x0000000000000a80       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api574.o)
+ .pdr           0x0000000000000aa0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api582.o)
+ .pdr           0x0000000000000ac0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api630.o)
+ .pdr           0x0000000000000ae0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api646.o)
+ .pdr           0x0000000000000b00       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api694.o)
+ .pdr           0x0000000000000b20       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+ .pdr           0x0000000000000b40       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api862.o)
+ .pdr           0x0000000000000b60       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+ .pdr           0x0000000000000b80       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+ .pdr           0x0000000000000ba0       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api14.o)
+ .pdr           0x0000000000000bc0       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api286.o)
+ .pdr           0x0000000000000be0       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api294.o)
+ .pdr           0x0000000000000c00       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api6.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+
+.debug_abbrev   0x0000000000000000      0x582
+ .debug_abbrev  0x0000000000000000      0x32c config_main.o
+ .debug_abbrev  0x000000000000032c       0x80 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_abbrev  0x00000000000003ac      0x1d6 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_info     0x0000000000000000     0x1903
+ .debug_info    0x0000000000000000     0x1033 config_main.o
+ .debug_info    0x0000000000001033       0xfe ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_info    0x0000000000001131      0x7d2 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_line     0x0000000000000000      0x6d7
+ .debug_line    0x0000000000000000      0x51d config_main.o
+ .debug_line    0x000000000000051d       0x62 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_line    0x000000000000057f      0x158 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_frame    0x0000000000000000      0x148
+ .debug_frame   0x0000000000000000       0xc8 config_main.o
+ .debug_frame   0x00000000000000c8       0x20 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_frame   0x00000000000000e8       0x60 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_pubnames
+                0x0000000000000000      0x111
+ .debug_pubnames
+                0x0000000000000000       0x4d config_main.o
+ .debug_pubnames
+                0x000000000000004d       0x55 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_pubnames
+                0x00000000000000a2       0x6f ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_aranges  0x0000000000000000       0x60
+ .debug_aranges
+                0x0000000000000000       0x20 config_main.o
+ .debug_aranges
+                0x0000000000000020       0x20 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_aranges
+                0x0000000000000040       0x20 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_ranges   0x0000000000000000       0xc8
+ .debug_ranges  0x0000000000000000       0x98 config_main.o
+ .debug_ranges  0x0000000000000098       0x30 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_str      0x0000000000000000     0x17fa
+ .debug_str     0x0000000000000000     0x1444 config_main.o
+                                       0x14b3 (size before relaxing)
+ .debug_str     0x0000000000001444       0x6c ./../../../psp_rel/lib/libcrt/crtbegin1.o
+                                        0x1d9 (size before relaxing)
+ .debug_str     0x00000000000014b0      0x34a ./../../../psp_rel/lib/libcrt/crtend1.o
+                                        0x556 (size before relaxing)
+
+.comment        0x0000000000000000      0x1d9
+ .comment       0x0000000000000000       0x2b config_main.o
+ .comment       0x000000000000002b       0x2b ./../../../psp_rel/lib/libcom.a(format.o)
+ .comment       0x0000000000000056       0x2b ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .comment       0x0000000000000081       0x2b ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .comment       0x00000000000000ac       0x2b ./../../../psp_rel/lib/libcrt/crtend1.o
+ .comment       0x00000000000000d7       0x2b ./../../../psp_rel/lib/libcrt/crtend.o
+ .comment       0x0000000000000102       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .comment       0x000000000000012d       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .comment       0x0000000000000158       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+ .comment       0x0000000000000183       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+ .comment       0x00000000000001ae       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)

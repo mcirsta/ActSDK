@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=calendar.app
+Icon-id=
+Icon=
+Name-id=
+Name=Calendar
+Name[zh_CN]=日历
+Name[zh_TW]=日曆
+Name[en_GB]=Calendar
+Name[ja_JP]=カレンダー
+Name[ko_KP]=캘린더
+Name[fr_FR]=Calendrier
+Name[de_GE]=Kalender
+Name[it_IT]=calendario
+Name[nl_NL]=Kalender
+Name[pt_PT]=Calendário
+Name[es_PE]=Calendario
+Name[sv_SE]=kalender
+Name[cs_CZ]=Kalendář
+Name[da_DK]=Kalender
+Name[pl_PL]=kalendarz
+Name[ru_RU]=календарь
+Name[tr_TR]=takvim
+Name[he_IL]=לוח-שנה
+Name[th_TH]=ปฏิทิน
+Name[hu_HU]=naptár
+Name[ro_RO]=Calendar
+Name[ar]=التقويم 
+Name[id_ID] = Kalender
+Name[el_EG] =Ημερολόγιο
+

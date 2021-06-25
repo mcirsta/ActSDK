@@ -1,0 +1,1218 @@
+Archive member included because of file (symbol)
+
+./../../../case/lib/style_api.a(style_api67.o)
+                              style_dc.o (get_picregion_frame)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1004.o)
+                              msg_loop.o (sem_close)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1012.o)
+                              msg_loop.o (sem_unlink)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1020.o)
+                              msg_loop.o (sem_init)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1028.o)
+                              msg_loop.o (sem_destroy)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1044.o)
+                              msg_loop.o (sem_wait)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1060.o)
+                              msg_loop.o (sem_timedwait)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1068.o)
+                              msg_loop.o (sem_post)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                              app_running_list.o (getpid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                              app_running_list.o (__errno)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api320.o)
+                              msg_loop.o (mq_open)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api328.o)
+                              msg_loop.o (mq_close)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api336.o)
+                              msg_loop.o (mq_unlink)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api344.o)
+                              msg_loop.o (mq_send)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api360.o)
+                              msg_loop.o (mq_receive)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api384.o)
+                              msg_loop.o (mq_getattr)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+                              msg_loop.o (usleep)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api954.o)
+                              applib_config.o (mmap)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api978.o)
+                              app_running_list.o (shm_open)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api986.o)
+                              msg_loop.o (shm_unlink)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api996.o)
+                              msg_loop.o (sem_open)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api111.o)
+                              applib_config.o (ftruncate)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api127.o)
+                              bg_pic.o (mkdir)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                              app_running_list.o (close)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api151.o)
+                              sys_resource.o (stat)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api167.o)
+                              desktop_parser.o (fopen)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api175.o)
+                              desktop_parser.o (fclose)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api207.o)
+                              desktop_parser.o (fread)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+                              bg_pic.o (read)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api263.o)
+                              desktop_parser.o (fseek)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api279.o)
+                              desktop_parser.o (ftell)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api31.o)
+                              bg_pic.o (write)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api39.o)
+                              bg_pic.o (lseek)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                              software_watchdog.o (ioctl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api63.o)
+                              bg_pic.o (remove)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                              bg_pic.o (open)
+./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+                              bg_pic.o (sprintf)
+./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                              ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o) (vsprintf)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memchr.o)
+                              utilities.o (memchr)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                              app_running_list.o (memcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                              app_running_list.o (memset)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+                              sys_resource.o (strcat)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strchr.o)
+                              utilities.o (strrchr)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+                              app_running_list.o (strcmp)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                              msg_loop.o (strcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+                              sys_resource.o (strdup)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+                              applib_config.o (strlen)
+./../../../psp_rel/lib/gui_api.a(gui_api1006.o)
+                              style_dc.o (gui_dc_get_string_dist_x)
+./../../../psp_rel/lib/gui_api.a(gui_api1022.o)
+                              canvas.o (gui_set_display_mode)
+./../../../psp_rel/lib/gui_api.a(gui_api110.o)
+                              style_dc.o (gui_get_string_by_id)
+./../../../psp_rel/lib/gui_api.a(gui_api142.o)
+                              style_dc.o (gui_set_common_ui_res)
+./../../../psp_rel/lib/gui_api.a(gui_api150.o)
+                              style_dc.o (gui_set_common_string_res)
+./../../../psp_rel/lib/gui_api.a(gui_api158.o)
+                              style_dc.o (gui_open_ui_res)
+./../../../psp_rel/lib/gui_api.a(gui_api166.o)
+                              style_dc.o (gui_open_string_res)
+./../../../psp_rel/lib/gui_api.a(gui_api174.o)
+                              style_dc.o (gui_close_resource_file)
+./../../../psp_rel/lib/gui_api.a(gui_api278.o)
+                              style_dc.o (gui_get_language_mode)
+./../../../psp_rel/lib/gui_api.a(gui_api286.o)
+                              style_dc.o (gui_load_bitmap_into_buffer)
+./../../../psp_rel/lib/gui_api.a(gui_api310.o)
+                              style_dc.o (gui_set_dimension)
+./../../../psp_rel/lib/gui_api.a(gui_api318.o)
+                              style_dc.o (gui_load_sub_bitmap_into_buffer)
+./../../../psp_rel/lib/gui_api.a(gui_api406.o)
+                              style_dc.o (gui_bitmap_metrics)
+./../../../psp_rel/lib/gui_api.a(gui_api438.o)
+                              canvas.o (gui_fb_device_control)
+./../../../psp_rel/lib/gui_api.a(gui_api446.o)
+                              canvas.o (gui_select_layer)
+./../../../psp_rel/lib/gui_api.a(gui_api462.o)
+                              style_dc.o (gui_get_word_length)
+./../../../psp_rel/lib/gui_api.a(gui_api486.o)
+                              msg_loop.o (gui_screen_update)
+./../../../psp_rel/lib/gui_api.a(gui_api566.o)
+                              canvas.o (gui_wm_move_window)
+./../../../psp_rel/lib/gui_api.a(gui_api582.o)
+                              canvas.o (gui_wm_create_window)
+./../../../psp_rel/lib/gui_api.a(gui_api606.o)
+                              canvas.o (gui_wm_delete_window)
+./../../../psp_rel/lib/gui_api.a(gui_api62.o)
+                              msg_loop.o (gui_exec)
+./../../../psp_rel/lib/gui_api.a(gui_api646.o)
+                              canvas.o (gui_wm_set_size)
+./../../../psp_rel/lib/gui_api.a(gui_api718.o)
+                              style_dc.o (gui_dc_set_text_mode)
+./../../../psp_rel/lib/gui_api.a(gui_api726.o)
+                              style_dc.o (gui_dc_set_color)
+./../../../psp_rel/lib/gui_api.a(gui_api734.o)
+                              style_dc.o (gui_dc_set_background_color)
+./../../../psp_rel/lib/gui_api.a(gui_api758.o)
+                              style_dc.o (gui_dc_set_font_size)
+./../../../psp_rel/lib/gui_api.a(gui_api766.o)
+                              style_dc.o (gui_dc_set_text_align)
+./../../../psp_rel/lib/gui_api.a(gui_api782.o)
+                              style_dc.o (gui_dc_get_text_mode)
+./../../../psp_rel/lib/gui_api.a(gui_api790.o)
+                              style_dc.o (gui_dc_get_color)
+./../../../psp_rel/lib/gui_api.a(gui_api798.o)
+                              style_dc.o (gui_dc_get_background_color)
+./../../../psp_rel/lib/gui_api.a(gui_api822.o)
+                              style_dc.o (gui_dc_get_fontsize)
+./../../../psp_rel/lib/gui_api.a(gui_api830.o)
+                              style_dc.o (gui_dc_get_text_align)
+./../../../psp_rel/lib/gui_api.a(gui_api862.o)
+                              style_dc.o (gui_dc_display_string_in_rect)
+./../../../psp_rel/lib/gui_api.a(gui_api870.o)
+                              style_dc.o (gui_dc_scroll_string_in_rect)
+./../../../psp_rel/lib/gui_api.a(gui_api878.o)
+                              style_dc.o (gui_dc_set_scroll_string_in_rect)
+./../../../psp_rel/lib/gui_api.a(gui_api910.o)
+                              style_dc.o (gui_dc_show_picture)
+./../../../psp_rel/lib/gui_api.a(gui_api918.o)
+                              style_dc.o (gui_dc_show_sub_picture)
+./../../../psp_rel/lib/gui_api.a(gui_api926.o)
+                              style_dc.o (gui_dc_draw_bitmap_ext)
+./../../../psp_rel/lib/gui_api.a(gui_api934.o)
+                              style_dc.o (gui_dc_draw_sub_bitmap_ext)
+./../../../psp_rel/lib/gui_api.a(gui_api998.o)
+                              style_dc.o (gui_dc_get_char_dist_x)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                              applib_config.o (set_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api24.o)
+                              bg_pic.o (reset_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                              applib_config.o (get_config)
+./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+                              app_running_list.o (os_sched_lock)
+./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+                              app_running_list.o (os_sched_unlock)
+./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                              applib_api.o (api_install)
+./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                              applib_api.o (api_uninstall)
+./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                              app_running_list.o (printf)
+./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                              app_timer.o (malloc)
+./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                              app_timer.o (free)
+./../../../psp_rel/lib/syscall_api.a(syscall_api550.o)
+                              canvas.o (sys_open)
+./../../../psp_rel/lib/syscall_api.a(syscall_api558.o)
+                              canvas.o (sys_close)
+./../../../psp_rel/lib/syscall_api.a(syscall_api686.o)
+                              app_running_list.o (sys_ftruncate)
+./../../../psp_rel/lib/syscall_api.a(syscall_api782.o)
+                              canvas.o (sys_ioctl)
+./../../../psp_rel/lib/syscall_api.a(syscall_api790.o)
+                              app_running_list.o (sys_mmap)
+./../../../psp_rel/lib/syscall_api.a(syscall_api798.o)
+                              msg_loop.o (sys_munmap)
+./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                              msg_loop.o (dlopen)
+./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                              msg_loop.o (dlclose)
+./../../../psp_rel/lib/syscall_api.a(syscall_api918.o)
+                              canvas.o (sys_mem_allocate)
+./../../../psp_rel/lib/syscall_api.a(syscall_api926.o)
+                              canvas.o (sys_mem_free)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api742.o)
+                              app_timer.o (get_ab_timer)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_card_dir_cfgs     0x4               applib_config.o
+pthread_mutex_type_t
+                    0x4               app_running_list.o
+g_udisk_dir_cfgs    0x4               applib_config.o
+g_external_dir_cfgs
+                    0x4               applib_config.o
+pthread_share_type_t
+                    0x4               app_running_list.o
+g_dir_all           0x4               applib_config.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.init           0x0000000051000000       0x20
+ *(.init)
+ .init          0x0000000051000000        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000051000000                _init
+ .init          0x0000000051000008        0x8 ./../../../psp_rel/lib/libcrt/crtend.o
+ .init          0x0000000051000010       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.text           0x0000000051000020    0x12143
+ *(.text)
+ .text          0x0000000051000020      0xa24 app_running_list.o
+                0x0000000051000460                app_running_list_get_app_info
+                0x00000000510000f8                app_running_list_set_this_app_info
+                0x00000000510004ac                get_app_pid
+                0x00000000510009d4                app_running_list_deinit
+                0x0000000051000198                app_running_list_add
+                0x00000000510003d4                app_running_list_set_app_info
+                0x00000000510006c4                print_app_running_list
+                0x00000000510007f4                app_running_list_init
+                0x0000000051000178                app_running_list_get_list
+                0x0000000051000564                is_app_exist
+                0x00000000510004fc                get_app_type
+                0x00000000510000a4                app_running_list_get_this_app_info
+                0x00000000510005a0                app_running_list_delete
+                0x0000000051000054                get_app_name
+ .text          0x0000000051000a44      0xb84 app_timer.o
+                0x00000000510011c4                set_timer
+                0x0000000051000cfc                restart_timer
+                0x0000000051000b7c                kill_inner_timer
+                0x0000000051000e04                modify_timer
+                0x0000000051000b14                kill_timer
+                0x0000000051000c7c                restart_inner_timer
+                0x0000000051000be4                kill_timers
+                0x0000000051000d7c                modify_inner_timer
+                0x0000000051000c74                get_tick_time_ms
+                0x00000000510010b4                set_inner_timer
+                0x0000000051000a44                stop_timer
+                0x0000000051001530                delete_inner_timers
+                0x00000000510012d4                handle_timers
+                0x0000000051000c2c                kill_inner_timers
+                0x0000000051000aac                stop_inner_timer
+                0x0000000051000fa0                set_single_shot_timer
+                0x000000005100157c                delete_timers
+                0x0000000051000e8c                set_inner_single_shot_timer
+ .text          0x00000000510015c8       0x30 applib_api.o
+                0x00000000510015f0                api_api_exit
+                0x00000000510015c8                applib_api_init
+ .text          0x00000000510015f8       0x10 applib_common.o
+                0x00000000510015f8                is_applib_inited
+ .text          0x0000000051001608      0xf20 applib_config.o
+                0x00000000510020c4                applib_dir_cfg_deinit
+                0x0000000051002424                applib_dir_cfg_find
+                0x000000005100232c                applib_dir_cfg_read_all
+                0x0000000051001608                applib_dir_cfg_init
+                0x0000000051002144                applib_dir_cfg_read
+ .text          0x0000000051002528      0xe58 bg_pic.o
+                0x000000005100264c                set_user_bg_pic
+                0x0000000051002c10                set_boot_logo_pic
+                0x0000000051002e44                restore_default_bg_pic
+                0x0000000051002f78                get_user_bg_pic
+                0x0000000051003190                restore_default_all_animation
+ .text          0x0000000051003380      0xd38 canvas.o
+                0x00000000510039dc                canvas_erase
+                0x0000000051004044                canvas_get_blending_focus
+                0x00000000510036b0                canvas_show
+                0x0000000051003f04                canvas_get_focus
+                0x0000000051003c1c                canvas_get_info
+                0x0000000051003ae8                canvas_erase_all
+                0x0000000051003b6c                canvas_set_alpha
+                0x00000000510033cc                canvas_create
+                0x0000000051003710                canvas_hide
+                0x0000000051003c14                canvas_set_top
+                0x000000005100376c                canvas_set_region
+                0x0000000051003e80                canvas_disable_focus
+                0x0000000051003ec0                canvas_enable_focus
+                0x0000000051003df4                canvas_get_blending_top
+                0x0000000051003bb4                canvas_get_top
+                0x0000000051003e4c                canvas_set_blending_mode
+                0x00000000510035c4                canvas_delete
+ .text          0x00000000510040b8      0xa10 desktop_parser.o
+                0x0000000051004200                desktop_parse_key
+                0x0000000051004860                desktop_parser_get_key
+                0x000000005100411c                desktop_parse_group
+                0x0000000051004430                desktop_parse_buffer
+                0x00000000510045e8                desktop_parser_create
+                0x0000000051004190                desktop_parse_comment
+                0x0000000051004994                desktop_parser_delete
+ .text          0x0000000051004ac8     0x3400 msg_loop.o
+                0x00000000510069e4                applib_init
+                0x000000005100761c                enter_foreground_mode
+                0x00000000510076b4                create_global_msg_queue
+                0x0000000051004cb4                applib_unregister_app
+                0x0000000051005f20                unfilter_msg
+                0x00000000510051cc                get_msg
+                0x00000000510078e0                delete_global_msg_queue
+                0x0000000051005e1c                grab_msg
+                0x0000000051006774                exit_msg_loop
+                0x0000000051004ac8                applib_register_app
+                0x0000000051006708                register_sys_dispatcher
+                0x0000000051007580                enter_background_mode
+                0x0000000051005198                unregister_sys_dispatcher
+                0x00000000510055a0                send_sync_msg
+                0x0000000051006240                send_async_msg_to_global_mq
+                0x0000000051005a2c                send_async_msg
+                0x0000000051007d1c                disconnect_global_msg_queue
+                0x0000000051006928                applib_quit
+                0x00000000510061a0                unfilter_all_msg
+                0x0000000051006008                filter_msg
+                0x0000000051005c14                broadcast_msg
+                0x0000000051005064                disconnect_all_global_msg_queue
+                0x0000000051007b14                connect_global_msg_queue
+                0x0000000051006744                get_sys_dispatcher
+                0x000000005100645c                reply_sync_msg
+                0x0000000051006684                dispatch_msg
+                0x0000000051005d00                release_msg
+                0x0000000051007074                clear_sys_msg_queue
+                0x00000000510072e8                clear_key_msg_queue
+                0x000000005100610c                filter_all_msg
+ .text          0x0000000051007ec8      0x640 software_watchdog.o
+                0x000000005100803c                sys_forbid_soft_watchdog
+                0x0000000051007fc0                sys_is_soft_watchdog_forbid
+                0x0000000051007ec8                set_soft_watchdog_timeout
+                0x0000000051008360                check_soft_watchdogs
+ .text          0x0000000051008508     0x2000 style_dc.o
+                0x00000000510088d4                sty_restore_string_format
+                0x0000000051008fb0                sty_draw_string_res
+                0x000000005100937c                sty_draw_picture_id
+                0x0000000051009a74                sty_delete_bitmap
+                0x0000000051008700                sty_get_app_scene
+                0x00000000510093bc                sty_draw_picture_res
+                0x00000000510095cc                sty_draw_sub_bitmap
+                0x000000005100925c                sty_draw_scroll_string
+                0x000000005100a3e4                sty_lcd_update
+                0x000000005100852c                sty_open_common_str_res
+                0x00000000510085d8                sty_open_app_str_res
+                0x0000000051009658                sty_create_bitmap
+                0x000000005100871c                sty_get_common_scene
+                0x0000000051008d00                sty_draw_string_buf
+                0x0000000051008fb8                sty_create_scroll_string
+                0x000000005100940c                sty_draw_picregion_res
+                0x0000000051009fa4                sty_get_view_rotation
+                0x0000000051008738                sty_get_text_encoding
+                0x0000000051009584                sty_draw_bitmap
+                0x0000000051008728                sty_set_text_encoding
+                0x0000000051008dec                sty_draw_string_res_ext
+                0x00000000510092f4                sty_delete_scroll_string
+                0x0000000051008560                sty_open_app_pic_res
+                0x00000000510088e0                sty_truncate_string_by_width
+                0x0000000051008cd0                sty_get_string
+                0x0000000051009acc                sty_save_bitmap
+                0x000000005100a2bc                sty_get_screen_rotation
+                0x0000000051008650                sty_close_app_pic_res
+                0x0000000051009504                sty_draw_sub_picture_id
+                0x0000000051008838                sty_set_string_format
+                0x000000005100870c                sty_set_common_scene
+                0x0000000051008558                sty_close_common_str_res
+                0x0000000051009330                sty_draw_picture_buf
+                0x0000000051008550                sty_close_common_pic_res
+                0x0000000051009cb4                sty_restore_bitmap
+                0x000000005100983c                sty_create_sub_bitmap
+                0x000000005100a110                sty_set_screen_rotation
+                0x00000000510086f0                sty_set_app_scene
+                0x0000000051008508                sty_open_common_pic_res
+                0x0000000051009480                sty_draw_sub_picture_buf
+                0x00000000510086a0                sty_close_app_str_res
+                0x0000000051008d68                sty_draw_string_id
+ .text          0x000000005100a508      0x5d8 sys_info.o
+                0x000000005100aa40                sys_set_main_disk
+                0x000000005100a858                sys_get_main_disk
+                0x000000005100a72c                sys_power_threshold_check
+                0x000000005100a508                sys_get_hotplugin_dev_info
+ .text          0x000000005100aae0      0x45c sys_pm.o
+                0x000000005100ae70                sys_pm_set_clk_domain
+                0x000000005100ac44                sys_pm_get_clk_info
+                0x000000005100ada4                sys_pm_clear_clk_domain
+ .text          0x000000005100af3c     0x101c sys_resource.o
+                0x000000005100b804                sys_get_media_dir
+                0x000000005100b590                sys_get_cur_support_language_list
+                0x000000005100b1ac                sys_get_app_string_res_dir
+                0x000000005100b41c                sys_get_language_codes
+                0x000000005100b7bc                sys_delete_cur_support_language_list
+                0x000000005100bd48                sys_check_media_dir
+                0x000000005100af3c                sys_get_cur_theme_name
+                0x000000005100be58                sys_get_main_disk_dir
+                0x000000005100b308                sys_get_cur_language_codes
+                0x000000005100b4c0                sys_get_language_id
+                0x000000005100b2c0                sys_get_common_string_res_dir
+                0x000000005100b570                sys_get_cur_language_id
+                0x000000005100b050                sys_get_common_theme_res_dir
+                0x000000005100b098                sys_get_app_theme_res_dir
+                0x000000005100ba54                sys_get_default_font_file
+ .text          0x000000005100bf58     0x1528 sys_settings.o
+                0x000000005100c294                sys_forbid_auto_standby
+                0x000000005100d358                sys_enable_sys_evt_detect
+                0x000000005100d308                sys_set_key_tone_enable
+                0x000000005100d18c                sys_rtc_change_to_stdsec
+                0x000000005100c4e4                sys_is_timed_shutdown_forbidden
+                0x000000005100c080                sys_set_screensaver_idle_time
+                0x000000005100c19c                sys_is_screensaver_forbidden
+                0x000000005100d054                sys_get_rtc_drm_date_time
+                0x000000005100c560                sys_forbid_timed_shutdown
+                0x000000005100c218                sys_is_auto_standby_forbidden
+                0x000000005100bf58                sys_forbid_screensaver
+                0x000000005100c658                sys_set_auto_standby_idle_time
+                0x000000005100ccfc                sys_get_rtc_date_time
+                0x000000005100d258                sys_close_rtc_dev
+                0x000000005100c9ac                sys_open_rtc_dev
+                0x000000005100ced0                sys_set_rtc_drm_date_time
+                0x000000005100ca5c                sys_set_rtc_date_time
+                0x000000005100c890                sys_set_lcd_backlight
+                0x000000005100c774                sys_set_timed_shutdown_time
+ .text          0x000000005100d480      0x430 utilities.o
+                0x000000005100d808                dirname
+                0x000000005100d784                int_sqrt
+                0x000000005100d7d4                basename
+                0x000000005100d480                print_buf
+ .text          0x000000005100d8b0       0x10 ./../../../case/lib/style_api.a(style_api67.o)
+                0x000000005100d8b0                get_picregion_frame
+ .text          0x000000005100d8c0       0x68 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000005100d8c0                __do_global_dtors_aux
+ .text          0x000000005100d928       0x68 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x000000005100d928                __do_global_ctors_aux
+ .text          0x000000005100d990        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1004.o)
+                0x000000005100d990                sem_close
+ .text          0x000000005100d99c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1012.o)
+                0x000000005100d99c                sem_unlink
+ .text          0x000000005100d9a8        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1020.o)
+                0x000000005100d9a8                sem_init
+ .text          0x000000005100d9b4        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1028.o)
+                0x000000005100d9b4                sem_destroy
+ .text          0x000000005100d9c0        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1044.o)
+                0x000000005100d9c0                sem_wait
+ .text          0x000000005100d9cc        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1060.o)
+                0x000000005100d9cc                sem_timedwait
+ .text          0x000000005100d9d8        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1068.o)
+                0x000000005100d9d8                sem_post
+ .text          0x000000005100d9e4        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                0x000000005100d9e4                getpid
+ .text          0x000000005100d9f0        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                0x000000005100d9f0                __errno
+ .text          0x000000005100d9fc        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api320.o)
+                0x000000005100d9fc                mq_open
+ .text          0x000000005100da08        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api328.o)
+                0x000000005100da08                mq_close
+ .text          0x000000005100da14        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api336.o)
+                0x000000005100da14                mq_unlink
+ .text          0x000000005100da20        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api344.o)
+                0x000000005100da20                mq_send
+ .text          0x000000005100da2c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api360.o)
+                0x000000005100da2c                mq_receive
+ .text          0x000000005100da38        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api384.o)
+                0x000000005100da38                mq_getattr
+ .text          0x000000005100da44        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+                0x000000005100da44                usleep
+ .text          0x000000005100da50        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api954.o)
+                0x000000005100da50                mmap
+ .text          0x000000005100da5c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api978.o)
+                0x000000005100da5c                shm_open
+ .text          0x000000005100da68        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api986.o)
+                0x000000005100da68                shm_unlink
+ .text          0x000000005100da74        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api996.o)
+                0x000000005100da74                sem_open
+ .text          0x000000005100da80        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api111.o)
+                0x000000005100da80                ftruncate
+ .text          0x000000005100da8c        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api127.o)
+                0x000000005100da8c                mkdir
+ .text          0x000000005100da98        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                0x000000005100da98                close
+ .text          0x000000005100daa4        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api151.o)
+                0x000000005100daa4                stat
+ .text          0x000000005100dab0        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api167.o)
+                0x000000005100dab0                fopen
+ .text          0x000000005100dabc        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api175.o)
+                0x000000005100dabc                fclose
+ .text          0x000000005100dac8        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api207.o)
+                0x000000005100dac8                fread
+ .text          0x000000005100dad4        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+                0x000000005100dad4                read
+ .text          0x000000005100dae0        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api263.o)
+                0x000000005100dae0                fseek
+ .text          0x000000005100daec        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api279.o)
+                0x000000005100daec                ftell
+ .text          0x000000005100daf8        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api31.o)
+                0x000000005100daf8                write
+ .text          0x000000005100db04        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api39.o)
+                0x000000005100db04                lseek
+ .text          0x000000005100db10        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                0x000000005100db10                ioctl
+ .text          0x000000005100db1c        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api63.o)
+                0x000000005100db1c                remove
+ .text          0x000000005100db28        0x8 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                0x000000005100db28                open
+ .text          0x000000005100db30       0x28 ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+                0x000000005100db30                sprintf
+ .text          0x000000005100db58      0x9fc ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                0x000000005100de18                vsprintf
+ .text          0x000000005100e554       0x30 ./../../../psp_rel/lib/libc/libc_sysindep.a(memchr.o)
+                0x000000005100e554                memchr
+ .text          0x000000005100e584       0x50 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                0x000000005100e584                memcpy
+                0x000000005100e5ac                bcopy
+ .text          0x000000005100e5d4       0x44 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                0x000000005100e5f8                bzero
+                0x000000005100e5d4                memset
+ .text          0x000000005100e618       0xac ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+                0x000000005100e618                strcat
+                0x000000005100e664                strncat
+ .text          0x000000005100e6c4       0xb0 ./../../../psp_rel/lib/libc/libc_sysindep.a(strchr.o)
+                0x000000005100e708                strrchr
+                0x000000005100e6c4                strchr
+ .text          0x000000005100e774       0x78 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+                0x000000005100e7a0                strcoll
+                0x000000005100e7a8                strncmp
+                0x000000005100e774                strcmp
+ .text          0x000000005100e7ec       0x80 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                0x000000005100e7ec                strcpy
+                0x000000005100e818                strncpy
+ .text          0x000000005100e86c       0x64 ./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+                0x000000005100e86c                strdup
+ .text          0x000000005100e8d0       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+                0x000000005100e8d0                strlen
+ .text          0x000000005100e8f0        0xc ./../../../psp_rel/lib/gui_api.a(gui_api1006.o)
+                0x000000005100e8f0                gui_dc_get_string_dist_x
+ .text          0x000000005100e8fc        0xc ./../../../psp_rel/lib/gui_api.a(gui_api1022.o)
+                0x000000005100e8fc                gui_set_display_mode
+ .text          0x000000005100e908        0xc ./../../../psp_rel/lib/gui_api.a(gui_api110.o)
+                0x000000005100e908                gui_get_string_by_id
+ .text          0x000000005100e914        0xc ./../../../psp_rel/lib/gui_api.a(gui_api142.o)
+                0x000000005100e914                gui_set_common_ui_res
+ .text          0x000000005100e920        0xc ./../../../psp_rel/lib/gui_api.a(gui_api150.o)
+                0x000000005100e920                gui_set_common_string_res
+ .text          0x000000005100e92c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api158.o)
+                0x000000005100e92c                gui_open_ui_res
+ .text          0x000000005100e938        0xc ./../../../psp_rel/lib/gui_api.a(gui_api166.o)
+                0x000000005100e938                gui_open_string_res
+ .text          0x000000005100e944        0xc ./../../../psp_rel/lib/gui_api.a(gui_api174.o)
+                0x000000005100e944                gui_close_resource_file
+ .text          0x000000005100e950        0xc ./../../../psp_rel/lib/gui_api.a(gui_api278.o)
+                0x000000005100e950                gui_get_language_mode
+ .text          0x000000005100e95c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api286.o)
+                0x000000005100e95c                gui_load_bitmap_into_buffer
+ .text          0x000000005100e968        0xc ./../../../psp_rel/lib/gui_api.a(gui_api310.o)
+                0x000000005100e968                gui_set_dimension
+ .text          0x000000005100e974        0xc ./../../../psp_rel/lib/gui_api.a(gui_api318.o)
+                0x000000005100e974                gui_load_sub_bitmap_into_buffer
+ .text          0x000000005100e980        0xc ./../../../psp_rel/lib/gui_api.a(gui_api406.o)
+                0x000000005100e980                gui_bitmap_metrics
+ .text          0x000000005100e98c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api438.o)
+                0x000000005100e98c                gui_fb_device_control
+ .text          0x000000005100e998        0xc ./../../../psp_rel/lib/gui_api.a(gui_api446.o)
+                0x000000005100e998                gui_select_layer
+ .text          0x000000005100e9a4        0xc ./../../../psp_rel/lib/gui_api.a(gui_api462.o)
+                0x000000005100e9a4                gui_get_word_length
+ .text          0x000000005100e9b0        0xc ./../../../psp_rel/lib/gui_api.a(gui_api486.o)
+                0x000000005100e9b0                gui_screen_update
+ .text          0x000000005100e9bc        0xc ./../../../psp_rel/lib/gui_api.a(gui_api566.o)
+                0x000000005100e9bc                gui_wm_move_window
+ .text          0x000000005100e9c8        0xc ./../../../psp_rel/lib/gui_api.a(gui_api582.o)
+                0x000000005100e9c8                gui_wm_create_window
+ .text          0x000000005100e9d4        0xc ./../../../psp_rel/lib/gui_api.a(gui_api606.o)
+                0x000000005100e9d4                gui_wm_delete_window
+ .text          0x000000005100e9e0        0xc ./../../../psp_rel/lib/gui_api.a(gui_api62.o)
+                0x000000005100e9e0                gui_exec
+ .text          0x000000005100e9ec        0xc ./../../../psp_rel/lib/gui_api.a(gui_api646.o)
+                0x000000005100e9ec                gui_wm_set_size
+ .text          0x000000005100e9f8        0xc ./../../../psp_rel/lib/gui_api.a(gui_api718.o)
+                0x000000005100e9f8                gui_dc_set_text_mode
+ .text          0x000000005100ea04        0xc ./../../../psp_rel/lib/gui_api.a(gui_api726.o)
+                0x000000005100ea04                gui_dc_set_color
+ .text          0x000000005100ea10        0xc ./../../../psp_rel/lib/gui_api.a(gui_api734.o)
+                0x000000005100ea10                gui_dc_set_background_color
+ .text          0x000000005100ea1c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api758.o)
+                0x000000005100ea1c                gui_dc_set_font_size
+ .text          0x000000005100ea28        0xc ./../../../psp_rel/lib/gui_api.a(gui_api766.o)
+                0x000000005100ea28                gui_dc_set_text_align
+ .text          0x000000005100ea34        0xc ./../../../psp_rel/lib/gui_api.a(gui_api782.o)
+                0x000000005100ea34                gui_dc_get_text_mode
+ .text          0x000000005100ea40        0xc ./../../../psp_rel/lib/gui_api.a(gui_api790.o)
+                0x000000005100ea40                gui_dc_get_color
+ .text          0x000000005100ea4c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api798.o)
+                0x000000005100ea4c                gui_dc_get_background_color
+ .text          0x000000005100ea58        0xc ./../../../psp_rel/lib/gui_api.a(gui_api822.o)
+                0x000000005100ea58                gui_dc_get_fontsize
+ .text          0x000000005100ea64        0xc ./../../../psp_rel/lib/gui_api.a(gui_api830.o)
+                0x000000005100ea64                gui_dc_get_text_align
+ .text          0x000000005100ea70        0xc ./../../../psp_rel/lib/gui_api.a(gui_api862.o)
+                0x000000005100ea70                gui_dc_display_string_in_rect
+ .text          0x000000005100ea7c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api870.o)
+                0x000000005100ea7c                gui_dc_scroll_string_in_rect
+ .text          0x000000005100ea88        0xc ./../../../psp_rel/lib/gui_api.a(gui_api878.o)
+                0x000000005100ea88                gui_dc_set_scroll_string_in_rect
+ .text          0x000000005100ea94        0xc ./../../../psp_rel/lib/gui_api.a(gui_api910.o)
+                0x000000005100ea94                gui_dc_show_picture
+ .text          0x000000005100eaa0        0xc ./../../../psp_rel/lib/gui_api.a(gui_api918.o)
+                0x000000005100eaa0                gui_dc_show_sub_picture
+ .text          0x000000005100eaac        0xc ./../../../psp_rel/lib/gui_api.a(gui_api926.o)
+                0x000000005100eaac                gui_dc_draw_bitmap_ext
+ .text          0x000000005100eab8        0xc ./../../../psp_rel/lib/gui_api.a(gui_api934.o)
+                0x000000005100eab8                gui_dc_draw_sub_bitmap_ext
+ .text          0x000000005100eac4        0xc ./../../../psp_rel/lib/gui_api.a(gui_api998.o)
+                0x000000005100eac4                gui_dc_get_char_dist_x
+ .text          0x000000005100ead0       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                0x000000005100ead0                set_config
+ .text          0x000000005100eae0       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api24.o)
+                0x000000005100eae0                reset_config
+ .text          0x000000005100eaf0        0xc ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                0x000000005100eaf0                get_config
+ .text          0x000000005100eafc        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+                0x000000005100eafc                os_sched_lock
+ .text          0x000000005100eb08        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+                0x000000005100eb08                os_sched_unlock
+ .text          0x000000005100eb14        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                0x000000005100eb14                api_install
+ .text          0x000000005100eb20        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                0x000000005100eb20                api_uninstall
+ .text          0x000000005100eb2c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                0x000000005100eb2c                printf
+ .text          0x000000005100eb38        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                0x000000005100eb38                malloc
+ .text          0x000000005100eb44        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                0x000000005100eb44                free
+ .text          0x000000005100eb50        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api550.o)
+                0x000000005100eb50                sys_open
+ .text          0x000000005100eb5c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api558.o)
+                0x000000005100eb5c                sys_close
+ .text          0x000000005100eb68        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api686.o)
+                0x000000005100eb68                sys_ftruncate
+ .text          0x000000005100eb74        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api782.o)
+                0x000000005100eb74                sys_ioctl
+ .text          0x000000005100eb80        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api790.o)
+                0x000000005100eb80                sys_mmap
+ .text          0x000000005100eb8c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api798.o)
+                0x000000005100eb8c                sys_munmap
+ .text          0x000000005100eb98        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                0x000000005100eb98                dlopen
+ .text          0x000000005100eba4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                0x000000005100eba4                dlclose
+ .text          0x000000005100ebb0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api918.o)
+                0x000000005100ebb0                sys_mem_allocate
+ .text          0x000000005100ebbc        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api926.o)
+                0x000000005100ebbc                sys_mem_free
+ .text          0x000000005100ebc8        0xc ./../../../psp_rel/lib/kmodule_api.a(kmodule_api742.o)
+                0x000000005100ebc8                get_ab_timer
+ *(.rodata)
+ .rodata        0x000000005100ebd4       0x30 app_running_list.o
+ .rodata        0x000000005100ec04        0xc app_timer.o
+ .rodata        0x000000005100ec10      0x2c8 applib_api.o
+ .rodata        0x000000005100eed8       0x54 applib_config.o
+ .rodata        0x000000005100ef2c       0x74 bg_pic.o
+ .rodata        0x000000005100efa0       0x3c canvas.o
+ .rodata        0x000000005100efdc       0x60 desktop_parser.o
+ .rodata        0x000000005100f03c      0x1b4 msg_loop.o
+ .rodata        0x000000005100f1f0       0x44 software_watchdog.o
+ .rodata        0x000000005100f234       0xc4 style_dc.o
+ .rodata        0x000000005100f2f8       0x60 sys_info.o
+ .rodata        0x000000005100f358       0x48 sys_pm.o
+ .rodata        0x000000005100f3a0       0xf4 sys_resource.o
+ .rodata        0x000000005100f494      0x164 sys_settings.o
+ .rodata        0x000000005100f5f8        0x4 utilities.o
+ .rodata        0x000000005100f5fc      0x194 ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x000000005100f790      0x1b0 app_running_list.o
+ .rodata.str1.4
+                0x000000005100f940       0x40 app_timer.o
+ .rodata.str1.4
+                0x000000005100f980      0x7a9 applib_config.o
+                                        0x828 (size before relaxing)
+ *fill*         0x0000000051010129        0x3 00
+ .rodata.cst4   0x000000005101012c       0x34 applib_config.o
+ .rodata.str1.4
+                0x0000000051010160      0x3d3 bg_pic.o
+                                        0x444 (size before relaxing)
+ *fill*         0x0000000051010533        0x1 00
+ .rodata.cst4   0x0000000051010534        0x4 bg_pic.o
+ .rodata.str1.4
+                0x0000000051010538       0xf0 canvas.o
+ .rodata.str1.4
+                0x0000000051010628      0x1b9 desktop_parser.o
+                                        0x1bc (size before relaxing)
+ *fill*         0x00000000510107e1        0x3 00
+ .rodata.str1.4
+                0x00000000510107e4      0x584 msg_loop.o
+                                        0x640 (size before relaxing)
+ .rodata.cst4   0x0000000051010d68        0x8 msg_loop.o
+ .rodata.str1.4
+                0x0000000051010d70      0x14a software_watchdog.o
+                                        0x14c (size before relaxing)
+ *fill*         0x0000000051010eba        0x2 00
+ .rodata.str1.4
+                0x0000000051010ebc      0x330 style_dc.o
+                                        0x430 (size before relaxing)
+ .rodata.str1.4
+                0x00000000510111ec      0x1fc sys_info.o
+                                        0x230 (size before relaxing)
+ .rodata.str1.4
+                0x00000000510113e8       0x7e sys_pm.o
+                                         0xb4 (size before relaxing)
+ *fill*         0x0000000051011466        0x2 00
+ .rodata.str1.4
+                0x0000000051011468      0x929 sys_resource.o
+                                        0x970 (size before relaxing)
+ *fill*         0x0000000051011d91        0x3 00
+ .rodata.str1.4
+                0x0000000051011d94      0x348 sys_settings.o
+                                        0x3dc (size before relaxing)
+ .rodata.str1.4
+                0x00000000510120dc       0x20 utilities.o
+                                         0x2c (size before relaxing)
+ .rodata.cst4   0x00000000510120fc       0x10 utilities.o
+ .rodata.str1.4
+                0x000000005101210c       0x57 ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                                         0x58 (size before relaxing)
+
+.fini           0x0000000051012164       0x20
+ *(.fini)
+ .fini          0x0000000051012164        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000051012164                _fini
+ .fini          0x000000005101216c        0x8 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .fini          0x0000000051012174       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.dlsym
+ *(.dlsym)
+
+.dlstr
+ *(.dlstr)
+                0x0000000051013000                . = ALIGN (0x1000)
+
+.ctors          0x0000000051013000        0xc
+ *crtbegin*.o(.ctors)
+ .ctors         0x0000000051013000        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000051013000                __CTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ .ctors         0x0000000051013004        0x4 applib_api.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000051013008        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000051013008                __CTOR_END__
+
+.dtors          0x000000005101300c        0xc
+ *crtbegin*.o(.dtors)
+ .dtors         0x000000005101300c        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000005101300c                __DTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ .dtors         0x0000000051013010        0x4 applib_api.o
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000051013014        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000051013014                __DTOR_END__
+
+.data           0x0000000051013018     0x12fc
+ *(.data)
+ .data          0x0000000051013018        0x4 app_running_list.o
+ .data          0x000000005101301c        0x4 app_timer.o
+ .data          0x0000000051013020        0x4 applib_config.o
+ .data          0x0000000051013024        0x4 canvas.o
+ .data          0x0000000051013028        0x8 msg_loop.o
+ .data          0x0000000051013030        0x4 software_watchdog.o
+ .data          0x0000000051013034       0x1c sys_info.o
+ .data          0x0000000051013050        0x4 sys_pm.o
+ .data          0x0000000051013054     0x1298 sys_resource.o
+ .data          0x00000000510142ec       0x28 sys_settings.o
+ *(.sdata)
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x0000000051014314      0x6d8
+ *(.bss)
+ .bss           0x0000000051014314        0xc app_running_list.o
+ .bss           0x0000000051014320        0x8 app_timer.o
+ .bss           0x0000000051014328        0x8 applib_common.o
+                0x0000000051014328                g_applib_inited
+                0x000000005101432c                g_this_app_info
+ .bss           0x0000000051014330        0x4 applib_config.o
+ .bss           0x0000000051014334        0x4 bg_pic.o
+ .bss           0x0000000051014338      0x14c canvas.o
+ .bss           0x0000000051014484      0x4e4 msg_loop.o
+ .bss           0x0000000051014968        0x4 software_watchdog.o
+ .bss           0x000000005101496c       0x64 style_dc.o
+ .bss           0x00000000510149d0        0x4 sys_settings.o
+ *(COMMON)
+ COMMON         0x00000000510149d4        0x8 app_running_list.o
+                0x00000000510149d4                pthread_mutex_type_t
+                0x00000000510149d8                pthread_share_type_t
+ COMMON         0x00000000510149dc       0x10 applib_config.o
+                0x00000000510149dc                g_card_dir_cfgs
+                0x00000000510149e0                g_udisk_dir_cfgs
+                0x00000000510149e4                g_external_dir_cfgs
+                0x00000000510149e8                g_dir_all
+
+.rel.dyn
+Address of section .init set to 0x51000000
+LOAD app_running_list.o
+LOAD app_timer.o
+LOAD applib_api.o
+LOAD applib_common.o
+LOAD applib_config.o
+LOAD bg_pic.o
+LOAD canvas.o
+LOAD desktop_parser.o
+LOAD msg_loop.o
+LOAD software_watchdog.o
+LOAD style_dc.o
+LOAD sys_info.o
+LOAD sys_pm.o
+LOAD sys_resource.o
+LOAD sys_settings.o
+LOAD utilities.o
+LOAD ./../../../case/lib/style_api.a
+LOAD ./../../../case/lib/applib_api.a
+LOAD ./../../../psp_rel/lib/libcrt/crti.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend.o
+LOAD ./../../../psp_rel/lib/libcrt/crtn.o
+LOAD ./../../../psp_rel/lib/ime_api.a
+LOAD ./../../../psp_rel/lib/mlang_api.a
+LOAD ./../../../psp_rel/lib/mnavi_api.a
+LOAD ./../../../psp_rel/lib/plist_api.a
+LOAD ./../../../psp_rel/lib/sqlite_api.a
+LOAD ./../../../psp_rel/lib/libc_sys_api.a
+LOAD ./../../../psp_rel/lib/libc_fs_api.a
+LOAD ./../../../psp_rel/lib/libc/libc_sysindep.a
+LOAD ./../../../psp_rel/lib/gui_api.a
+LOAD ./../../../psp_rel/lib/mmm_api.a
+LOAD ./../../../psp_rel/lib/transimage.a
+LOAD ./../../../psp_rel/lib/apconfig_api.a
+LOAD ./../../../psp_rel/lib/syscall_api.a
+LOAD ./../../../psp_rel/lib/kmodule_api.a
+OUTPUT(./../../../case/images/lib/applib.so elf32-tradlittlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 app_running_list.o
+
+.pdr            0x0000000000000000     0x28a0
+ .pdr           0x0000000000000000      0x200 app_running_list.o
+ .pdr           0x0000000000000200      0x240 app_timer.o
+ .pdr           0x0000000000000440       0x40 applib_api.o
+ .pdr           0x0000000000000480       0x20 applib_common.o
+ .pdr           0x00000000000004a0       0xa0 applib_config.o
+ .pdr           0x0000000000000540       0xc0 bg_pic.o
+ .pdr           0x0000000000000600      0x240 canvas.o
+ .pdr           0x0000000000000840      0x100 desktop_parser.o
+ .pdr           0x0000000000000940      0x440 msg_loop.o
+ .pdr           0x0000000000000d80       0xa0 software_watchdog.o
+ .pdr           0x0000000000000e20      0x5a0 style_dc.o
+ .pdr           0x00000000000013c0       0x80 sys_info.o
+ .pdr           0x0000000000001440       0xa0 sys_pm.o
+ .pdr           0x00000000000014e0      0x200 sys_resource.o
+ .pdr           0x00000000000016e0      0x260 sys_settings.o
+ .pdr           0x0000000000001940       0x80 utilities.o
+ .pdr           0x00000000000019c0       0x20 ./../../../case/lib/style_api.a(style_api67.o)
+ .pdr           0x00000000000019e0       0x20 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .pdr           0x0000000000001a00       0x20 ./../../../psp_rel/lib/libcrt/crtend.o
+ .pdr           0x0000000000001a20       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1004.o)
+ .pdr           0x0000000000001a40       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1012.o)
+ .pdr           0x0000000000001a60       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1020.o)
+ .pdr           0x0000000000001a80       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1028.o)
+ .pdr           0x0000000000001aa0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1044.o)
+ .pdr           0x0000000000001ac0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1060.o)
+ .pdr           0x0000000000001ae0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api1068.o)
+ .pdr           0x0000000000001b00       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+ .pdr           0x0000000000001b20       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+ .pdr           0x0000000000001b40       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api320.o)
+ .pdr           0x0000000000001b60       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api328.o)
+ .pdr           0x0000000000001b80       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api336.o)
+ .pdr           0x0000000000001ba0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api344.o)
+ .pdr           0x0000000000001bc0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api360.o)
+ .pdr           0x0000000000001be0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api384.o)
+ .pdr           0x0000000000001c00       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+ .pdr           0x0000000000001c20       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api954.o)
+ .pdr           0x0000000000001c40       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api978.o)
+ .pdr           0x0000000000001c60       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api986.o)
+ .pdr           0x0000000000001c80       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api996.o)
+ .pdr           0x0000000000001ca0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api111.o)
+ .pdr           0x0000000000001cc0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api127.o)
+ .pdr           0x0000000000001ce0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+ .pdr           0x0000000000001d00       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api151.o)
+ .pdr           0x0000000000001d20       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api167.o)
+ .pdr           0x0000000000001d40       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api175.o)
+ .pdr           0x0000000000001d60       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api207.o)
+ .pdr           0x0000000000001d80       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+ .pdr           0x0000000000001da0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api263.o)
+ .pdr           0x0000000000001dc0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api279.o)
+ .pdr           0x0000000000001de0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api31.o)
+ .pdr           0x0000000000001e00       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api39.o)
+ .pdr           0x0000000000001e20       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+ .pdr           0x0000000000001e40       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api63.o)
+ .pdr           0x0000000000001e60       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+ .pdr           0x0000000000001e80       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+ .pdr           0x0000000000001ea0       0x60 ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ .pdr           0x0000000000001f00       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(memchr.o)
+ .pdr           0x0000000000001f20       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .pdr           0x0000000000001f60       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .pdr           0x0000000000001fa0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+ .pdr           0x0000000000001fe0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strchr.o)
+ .pdr           0x0000000000002020       0x60 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+ .pdr           0x0000000000002080       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .pdr           0x00000000000020c0       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+ .pdr           0x00000000000020e0       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+ .pdr           0x0000000000002100       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api1006.o)
+ .pdr           0x0000000000002120       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api1022.o)
+ .pdr           0x0000000000002140       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api110.o)
+ .pdr           0x0000000000002160       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api142.o)
+ .pdr           0x0000000000002180       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api150.o)
+ .pdr           0x00000000000021a0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api158.o)
+ .pdr           0x00000000000021c0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api166.o)
+ .pdr           0x00000000000021e0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api174.o)
+ .pdr           0x0000000000002200       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api278.o)
+ .pdr           0x0000000000002220       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api286.o)
+ .pdr           0x0000000000002240       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api310.o)
+ .pdr           0x0000000000002260       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api318.o)
+ .pdr           0x0000000000002280       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api406.o)
+ .pdr           0x00000000000022a0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api438.o)
+ .pdr           0x00000000000022c0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api446.o)
+ .pdr           0x00000000000022e0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api462.o)
+ .pdr           0x0000000000002300       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api486.o)
+ .pdr           0x0000000000002320       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api566.o)
+ .pdr           0x0000000000002340       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api582.o)
+ .pdr           0x0000000000002360       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api606.o)
+ .pdr           0x0000000000002380       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api62.o)
+ .pdr           0x00000000000023a0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api646.o)
+ .pdr           0x00000000000023c0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api718.o)
+ .pdr           0x00000000000023e0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api726.o)
+ .pdr           0x0000000000002400       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api734.o)
+ .pdr           0x0000000000002420       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api758.o)
+ .pdr           0x0000000000002440       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api766.o)
+ .pdr           0x0000000000002460       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api782.o)
+ .pdr           0x0000000000002480       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api790.o)
+ .pdr           0x00000000000024a0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api798.o)
+ .pdr           0x00000000000024c0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api822.o)
+ .pdr           0x00000000000024e0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api830.o)
+ .pdr           0x0000000000002500       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api862.o)
+ .pdr           0x0000000000002520       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api870.o)
+ .pdr           0x0000000000002540       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api878.o)
+ .pdr           0x0000000000002560       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api910.o)
+ .pdr           0x0000000000002580       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api918.o)
+ .pdr           0x00000000000025a0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api926.o)
+ .pdr           0x00000000000025c0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api934.o)
+ .pdr           0x00000000000025e0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api998.o)
+ .pdr           0x0000000000002600       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+ .pdr           0x0000000000002620       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api24.o)
+ .pdr           0x0000000000002640       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+ .pdr           0x0000000000002660       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+ .pdr           0x0000000000002680       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+ .pdr           0x00000000000026a0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+ .pdr           0x00000000000026c0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+ .pdr           0x00000000000026e0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+ .pdr           0x0000000000002700       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+ .pdr           0x0000000000002720       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+ .pdr           0x0000000000002740       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api550.o)
+ .pdr           0x0000000000002760       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api558.o)
+ .pdr           0x0000000000002780       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api686.o)
+ .pdr           0x00000000000027a0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api782.o)
+ .pdr           0x00000000000027c0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api790.o)
+ .pdr           0x00000000000027e0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api798.o)
+ .pdr           0x0000000000002800       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+ .pdr           0x0000000000002820       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+ .pdr           0x0000000000002840       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api918.o)
+ .pdr           0x0000000000002860       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api926.o)
+ .pdr           0x0000000000002880       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api742.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+
+.debug_abbrev   0x0000000000000000     0x1b61
+ .debug_abbrev  0x0000000000000000      0x207 app_running_list.o
+ .debug_abbrev  0x0000000000000207      0x247 app_timer.o
+ .debug_abbrev  0x000000000000044e       0xa5 applib_api.o
+ .debug_abbrev  0x00000000000004f3       0xea applib_common.o
+ .debug_abbrev  0x00000000000005dd      0x184 applib_config.o
+ .debug_abbrev  0x0000000000000761      0x229 bg_pic.o
+ .debug_abbrev  0x000000000000098a      0x1ff canvas.o
+ .debug_abbrev  0x0000000000000b89      0x1ca desktop_parser.o
+ .debug_abbrev  0x0000000000000d53      0x2cd msg_loop.o
+ .debug_abbrev  0x0000000000001020      0x1f2 software_watchdog.o
+ .debug_abbrev  0x0000000000001212      0x23d style_dc.o
+ .debug_abbrev  0x000000000000144f      0x132 sys_info.o
+ .debug_abbrev  0x0000000000001581      0x13e sys_pm.o
+ .debug_abbrev  0x00000000000016bf      0x1a4 sys_resource.o
+ .debug_abbrev  0x0000000000001863      0x212 sys_settings.o
+ .debug_abbrev  0x0000000000001a75       0xec utilities.o
+
+.debug_info     0x0000000000000000     0xb6da
+ .debug_info    0x0000000000000000      0xc84 app_running_list.o
+ .debug_info    0x0000000000000c84     0x1047 app_timer.o
+ .debug_info    0x0000000000001ccb      0x128 applib_api.o
+ .debug_info    0x0000000000001df3      0x769 applib_common.o
+ .debug_info    0x000000000000255c      0x3db applib_config.o
+ .debug_info    0x0000000000002937      0x943 bg_pic.o
+ .debug_info    0x000000000000327a      0xc34 canvas.o
+ .debug_info    0x0000000000003eae      0x711 desktop_parser.o
+ .debug_info    0x00000000000045bf     0x1c55 msg_loop.o
+ .debug_info    0x0000000000006214      0xa51 software_watchdog.o
+ .debug_info    0x0000000000006c65     0x1e67 style_dc.o
+ .debug_info    0x0000000000008acc      0xb1a sys_info.o
+ .debug_info    0x00000000000095e6      0x363 sys_pm.o
+ .debug_info    0x0000000000009949      0xaaf sys_resource.o
+ .debug_info    0x000000000000a3f8     0x10b1 sys_settings.o
+ .debug_info    0x000000000000b4a9      0x231 utilities.o
+
+.debug_line     0x0000000000000000     0x304c
+ .debug_line    0x0000000000000000      0x2e7 app_running_list.o
+ .debug_line    0x00000000000002e7      0x3a0 app_timer.o
+ .debug_line    0x0000000000000687       0x71 applib_api.o
+ .debug_line    0x00000000000006f8      0x105 applib_common.o
+ .debug_line    0x00000000000007fd      0x32c applib_config.o
+ .debug_line    0x0000000000000b29      0x31e bg_pic.o
+ .debug_line    0x0000000000000e47      0x39c canvas.o
+ .debug_line    0x00000000000011e3      0x234 desktop_parser.o
+ .debug_line    0x0000000000001417      0x813 msg_loop.o
+ .debug_line    0x0000000000001c2a      0x1d1 software_watchdog.o
+ .debug_line    0x0000000000001dfb      0x65f style_dc.o
+ .debug_line    0x000000000000245a      0x25b sys_info.o
+ .debug_line    0x00000000000026b5      0x17b sys_pm.o
+ .debug_line    0x0000000000002830      0x35b sys_resource.o
+ .debug_line    0x0000000000002b8b      0x3c6 sys_settings.o
+ .debug_line    0x0000000000002f51       0xfb utilities.o
+
+.debug_frame    0x0000000000000000     0x1a30
+ .debug_frame   0x0000000000000000      0x1e0 app_running_list.o
+ .debug_frame   0x00000000000001e0      0x240 app_timer.o
+ .debug_frame   0x0000000000000420       0x38 applib_api.o
+ .debug_frame   0x0000000000000458       0x20 applib_common.o
+ .debug_frame   0x0000000000000478       0xd8 applib_config.o
+ .debug_frame   0x0000000000000550      0x110 bg_pic.o
+ .debug_frame   0x0000000000000660      0x1f4 canvas.o
+ .debug_frame   0x0000000000000854      0x108 desktop_parser.o
+ .debug_frame   0x000000000000095c      0x4b0 msg_loop.o
+ .debug_frame   0x0000000000000e0c       0xb4 software_watchdog.o
+ .debug_frame   0x0000000000000ec0      0x4f4 style_dc.o
+ .debug_frame   0x00000000000013b4       0x94 sys_info.o
+ .debug_frame   0x0000000000001448       0xb4 sys_pm.o
+ .debug_frame   0x00000000000014fc      0x238 sys_resource.o
+ .debug_frame   0x0000000000001734      0x270 sys_settings.o
+ .debug_frame   0x00000000000019a4       0x8c utilities.o
+
+.debug_pubnames
+                0x0000000000000000     0x1702
+ .debug_pubnames
+                0x0000000000000000      0x1bd app_running_list.o
+ .debug_pubnames
+                0x00000000000001bd      0x1b1 app_timer.o
+ .debug_pubnames
+                0x000000000000036e       0x69 applib_api.o
+ .debug_pubnames
+                0x00000000000003d7       0x81 applib_common.o
+ .debug_pubnames
+                0x0000000000000458      0x111 applib_config.o
+ .debug_pubnames
+                0x0000000000000569       0xbf bg_pic.o
+ .debug_pubnames
+                0x0000000000000628      0x1b0 canvas.o
+ .debug_pubnames
+                0x00000000000007d8       0xf4 desktop_parser.o
+ .debug_pubnames
+                0x00000000000008cc      0x2e2 msg_loop.o
+ .debug_pubnames
+                0x0000000000000bae       0xb8 software_watchdog.o
+ .debug_pubnames
+                0x0000000000000c66      0x472 style_dc.o
+ .debug_pubnames
+                0x00000000000010d8       0xad sys_info.o
+ .debug_pubnames
+                0x0000000000001185       0x92 sys_pm.o
+ .debug_pubnames
+                0x0000000000001217      0x202 sys_resource.o
+ .debug_pubnames
+                0x0000000000001419      0x271 sys_settings.o
+ .debug_pubnames
+                0x000000000000168a       0x78 utilities.o
+
+.debug_aranges  0x0000000000000000      0x200
+ .debug_aranges
+                0x0000000000000000       0x20 app_running_list.o
+ .debug_aranges
+                0x0000000000000020       0x20 app_timer.o
+ .debug_aranges
+                0x0000000000000040       0x20 applib_api.o
+ .debug_aranges
+                0x0000000000000060       0x20 applib_common.o
+ .debug_aranges
+                0x0000000000000080       0x20 applib_config.o
+ .debug_aranges
+                0x00000000000000a0       0x20 bg_pic.o
+ .debug_aranges
+                0x00000000000000c0       0x20 canvas.o
+ .debug_aranges
+                0x00000000000000e0       0x20 desktop_parser.o
+ .debug_aranges
+                0x0000000000000100       0x20 msg_loop.o
+ .debug_aranges
+                0x0000000000000120       0x20 software_watchdog.o
+ .debug_aranges
+                0x0000000000000140       0x20 style_dc.o
+ .debug_aranges
+                0x0000000000000160       0x20 sys_info.o
+ .debug_aranges
+                0x0000000000000180       0x20 sys_pm.o
+ .debug_aranges
+                0x00000000000001a0       0x20 sys_resource.o
+ .debug_aranges
+                0x00000000000001c0       0x20 sys_settings.o
+ .debug_aranges
+                0x00000000000001e0       0x20 utilities.o
+
+.debug_str      0x0000000000000000     0x3ad1
+ .debug_str     0x0000000000000000     0x116a app_running_list.o
+                                       0x1245 (size before relaxing)
+ .debug_str     0x000000000000116a      0x236 app_timer.o
+                                       0x12f6 (size before relaxing)
+ .debug_str     0x00000000000013a0       0x38 applib_api.o
+                                        0x1f2 (size before relaxing)
+ .debug_str     0x00000000000013d8       0x31 applib_common.o
+                                       0x1069 (size before relaxing)
+ .debug_str     0x0000000000001409       0xf4 applib_config.o
+                                        0x2ec (size before relaxing)
+ .debug_str     0x00000000000014fd      0x251 bg_pic.o
+                                        0x460 (size before relaxing)
+ .debug_str     0x000000000000174e      0x4cb canvas.o
+                                        0x6fb (size before relaxing)
+ .debug_str     0x0000000000001c19      0x2f8 desktop_parser.o
+                                        0x51c (size before relaxing)
+ .debug_str     0x0000000000001f11      0x678 msg_loop.o
+                                       0x1a11 (size before relaxing)
+ .debug_str     0x0000000000002589       0xe2 software_watchdog.o
+                                       0x124e (size before relaxing)
+ .debug_str     0x000000000000266b      0x681 style_dc.o
+                                       0x1943 (size before relaxing)
+ .debug_str     0x0000000000002cec      0x55a sys_info.o
+                                       0x152b (size before relaxing)
+ .debug_str     0x0000000000003246       0xc0 sys_pm.o
+                                        0x2a6 (size before relaxing)
+ .debug_str     0x0000000000003306      0x4a6 sys_resource.o
+                                        0x7f7 (size before relaxing)
+ .debug_str     0x00000000000037ac      0x2cd sys_settings.o
+                                       0x1474 (size before relaxing)
+ .debug_str     0x0000000000003a79       0x58 utilities.o
+                                        0x22c (size before relaxing)
+
+.comment        0x0000000000000000      0x4df
+ .comment       0x0000000000000000       0x2b app_running_list.o
+ .comment       0x000000000000002b       0x2b app_timer.o
+ .comment       0x0000000000000056       0x2b applib_api.o
+ .comment       0x0000000000000081       0x2b applib_common.o
+ .comment       0x00000000000000ac       0x2b applib_config.o
+ .comment       0x00000000000000d7       0x2b bg_pic.o
+ .comment       0x0000000000000102       0x2b canvas.o
+ .comment       0x000000000000012d       0x2b desktop_parser.o
+ .comment       0x0000000000000158       0x2b msg_loop.o
+ .comment       0x0000000000000183       0x2b software_watchdog.o
+ .comment       0x00000000000001ae       0x2b style_dc.o
+ .comment       0x00000000000001d9       0x2b sys_info.o
+ .comment       0x0000000000000204       0x2b sys_pm.o
+ .comment       0x000000000000022f       0x2b sys_resource.o
+ .comment       0x000000000000025a       0x2b sys_settings.o
+ .comment       0x0000000000000285       0x2b utilities.o
+ .comment       0x00000000000002b0       0x2b ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .comment       0x00000000000002db       0x2b ./../../../psp_rel/lib/libcrt/crtend.o
+ .comment       0x0000000000000306       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+ .comment       0x0000000000000331       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ .comment       0x000000000000035c       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memchr.o)
+ .comment       0x0000000000000387       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .comment       0x00000000000003b2       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .comment       0x00000000000003dd       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+ .comment       0x0000000000000408       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strchr.o)
+ .comment       0x0000000000000433       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+ .comment       0x000000000000045e       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .comment       0x0000000000000489       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+ .comment       0x00000000000004b4       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+
+.debug_ranges   0x0000000000000000      0x2c0
+ .debug_ranges  0x0000000000000000      0x168 app_timer.o
+ .debug_ranges  0x0000000000000168       0x48 bg_pic.o
+ .debug_ranges  0x00000000000001b0       0x18 canvas.o
+ .debug_ranges  0x00000000000001c8       0x18 desktop_parser.o
+ .debug_ranges  0x00000000000001e0       0xb0 msg_loop.o
+ .debug_ranges  0x0000000000000290       0x18 software_watchdog.o
+ .debug_ranges  0x00000000000002a8       0x18 sys_settings.o

@@ -1,0 +1,4 @@
+/*sample.dot*/
+digraph sample {
+              multilang->libc
+}

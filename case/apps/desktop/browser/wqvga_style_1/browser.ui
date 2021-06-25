@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--Actions IDE, Rapid Application Development-->
+<ui-rad>
+    <property name="prj_name" value="browser" />
+    <property name="prj_language" value="0x0" />
+    <property name="prj_screen_width" value="0x190" />
+    <property name="prj_screen_height" value="0xf0" />
+    <property name="prj_res_file" value=".\images\apps\browser\wqvga_style_1\browser.res" />
+    <property name="prj_res_head_file" value=".\apps\desktop\browser\browser_pic.h" />
+    <property name="prj_res_str_head_file" value=".\apps\desktop\browser\browser_str.h" />
+    <property name="prj_sty_head_file" value=".\apps\desktop\browser\browser_sty.h" />
+    <property name="prj_sty_file" value=".\images\apps\browser\wqvga_style_1\browser.sty" />
+    <property name="prj_build_res_type" value="0x1" />
+    <property name="prj_case_path" value="..\..\..\..\..\case" />
+    <property name="prj_sdk_path" value="..\psp_rel" />
+    <property name="prj_build_res_mode" value="0x0" />
+    <property name="prj_res_str_dir" value=".\images\apps\browser\wqvga_style_1" />
+    <scene>
+        <property name="name" value="BROWSING_UPRIGHT_SCENE" />
+        <property name="id" value="0" />
+        <property name="direction" value="1" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="1" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x00f0" />
+            <property name="height" value="0x0190" />
+            <property name="background" value="0x00c8c8c8" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picture_resource">
+                <property name="name" value="PIC_BG" />
+                <property name="id" value="3" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x0190" />
+                <property name="visible" value="0x0001" />
+                <element class="layer">
+                    <property name="0" value=".\resource\wqvga_style_1\pic\share\sh_bg.bmp" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_TITLE" />
+                <property name="id" value="165" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x003b" />
+                <property name="height" value="0x0032" />
+                <property name="visible" value="0x0001" />
+                <element class="layer">
+                    <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_header.png" />
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_NOFILE" />
+                <property name="id" value="236" />
+                <property name="x" value="0x003e" />
+                <property name="y" value="0x010c" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="NOFILE" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_APP_NAME" />
+                <property name="id" value="4" />
+                <property name="x" value="0x0065" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="B_BRWSER" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_NO_SPACE" />
+                <property name="id" value="270" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x000c" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="M_NOSPAC" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_NO_MATCHING_ITEM" />
+                <property name="id" value="267" />
+                <property name="x" value="0x0072" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="B_NFOUND" />
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="ENTRY_RESGROUP" />
+                <property name="id" value="137" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x0140" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="string_resource">
+                    <property name="name" value="STR_INT_MEM" />
+                    <property name="id" value="138" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x0018" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="U_INTMEM" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_EXT_MEM" />
+                    <property name="id" value="139" />
+                    <property name="x" value="0x003e" />
+                    <property name="y" value="0x004f" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="U_EXTMEM" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_CAR_MEM" />
+                    <property name="id" value="140" />
+                    <property name="x" value="0x0041" />
+                    <property name="y" value="0x0034" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="CARDMEM" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_NO_DISK" />
+                    <property name="id" value="272" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x000c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="NODISK" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="ICONS_RESGROUP" />
+                <property name="id" value="142" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x005c" />
+                <property name="width" value="0x00eb" />
+                <property name="height" value="0x0092" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILE" />
+                    <property name="id" value="147" />
+                    <property name="x" value="0x0002" />
+                    <property name="y" value="0x0001" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_file.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILE_SEL" />
+                    <property name="id" value="163" />
+                    <property name="x" value="0x0014" />
+                    <property name="y" value="0x0002" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_files.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILEH" />
+                    <property name="id" value="148" />
+                    <property name="x" value="0x0027" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fileh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILEH_SEL" />
+                    <property name="id" value="164" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x0001" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_filehs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLD" />
+                    <property name="id" value="143" />
+                    <property name="x" value="0x0003" />
+                    <property name="y" value="0x001d" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fold.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLD_SEL" />
+                    <property name="id" value="161" />
+                    <property name="x" value="0x0013" />
+                    <property name="y" value="0x001d" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_folds.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLDH" />
+                    <property name="id" value="144" />
+                    <property name="x" value="0x0028" />
+                    <property name="y" value="0x001d" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_foldh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLDH_SEL" />
+                    <property name="id" value="162" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x001b" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_foldhs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSIC" />
+                    <property name="id" value="145" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_msc.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSIC_SEL" />
+                    <property name="id" value="146" />
+                    <property name="x" value="0x0014" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_mscs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTO" />
+                    <property name="id" value="149" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x004e" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_foto.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTO_SEL" />
+                    <property name="id" value="150" />
+                    <property name="x" value="0x0014" />
+                    <property name="y" value="0x004e" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fotos.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXT" />
+                    <property name="id" value="151" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x006a" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txt.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXT_SEL" />
+                    <property name="id" value="152" />
+                    <property name="x" value="0x0015" />
+                    <property name="y" value="0x0069" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txts.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEO" />
+                    <property name="id" value="153" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeo.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEO_SEL" />
+                    <property name="id" value="154" />
+                    <property name="x" value="0x0016" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeos.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSICH" />
+                    <property name="id" value="175" />
+                    <property name="x" value="0x0027" />
+                    <property name="y" value="0x0034" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_msch.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSICH_SEL" />
+                    <property name="id" value="176" />
+                    <property name="x" value="0x0039" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_mschs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTOH" />
+                    <property name="id" value="177" />
+                    <property name="x" value="0x0026" />
+                    <property name="y" value="0x004f" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fotoh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTOH_SEL" />
+                    <property name="id" value="178" />
+                    <property name="x" value="0x0038" />
+                    <property name="y" value="0x004e" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fotohs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXTH" />
+                    <property name="id" value="179" />
+                    <property name="x" value="0x0027" />
+                    <property name="y" value="0x006a" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txth.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXTH_SEL" />
+                    <property name="id" value="180" />
+                    <property name="x" value="0x0037" />
+                    <property name="y" value="0x0067" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txths.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEOH" />
+                    <property name="id" value="181" />
+                    <property name="x" value="0x0029" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeoh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEOH_SEL" />
+                    <property name="id" value="182" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x007a" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeohs.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="OPTION_RESGROUP" />
+                <property name="id" value="155" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0001" />
+                <property name="width" value="0x00ee" />
+                <property name="height" value="0x00ee" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="string_resource">
+                    <property name="name" value="STR_SEARCH_FILE" />
+                    <property name="id" value="156" />
+                    <property name="x" value="0x000b" />
+                    <property name="y" value="0x000d" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_SEARCH" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_SELECT_ALL" />
+                    <property name="id" value="157" />
+                    <property name="x" value="0x000b" />
+                    <property name="y" value="0x0020" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_SELALL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE" />
+                    <property name="id" value="158" />
+                    <property name="x" value="0x0009" />
+                    <property name="y" value="0x0034" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="FN_MOVE" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE_CONFIRM" />
+                    <property name="id" value="167" />
+                    <property name="x" value="0x0001" />
+                    <property name="y" value="0x0094" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMMOV" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVING" />
+                    <property name="id" value="168" />
+                    <property name="x" value="0x0001" />
+                    <property name="y" value="0x00a5" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_MOVING" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE_SUCCEED" />
+                    <property name="id" value="171" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x00b5" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_MOVSCD" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE_FAILED" />
+                    <property name="id" value="239" />
+                    <property name="x" value="0x0001" />
+                    <property name="y" value="0x00ca" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_MOVFAL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY" />
+                    <property name="id" value="159" />
+                    <property name="x" value="0x000a" />
+                    <property name="y" value="0x0045" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="FN_CP" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY_CONFIRM" />
+                    <property name="id" value="169" />
+                    <property name="x" value="0x0056" />
+                    <property name="y" value="0x0094" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMCOP" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPING" />
+                    <property name="id" value="170" />
+                    <property name="x" value="0x0055" />
+                    <property name="y" value="0x00a2" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_COPING" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY_SUCCEED" />
+                    <property name="id" value="172" />
+                    <property name="x" value="0x0052" />
+                    <property name="y" value="0x00b2" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_COPSCD" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY_FAILED" />
+                    <property name="id" value="238" />
+                    <property name="x" value="0x005e" />
+                    <property name="y" value="0x00c5" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_COPFAL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE" />
+                    <property name="id" value="160" />
+                    <property name="x" value="0x0007" />
+                    <property name="y" value="0x0059" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="DELETE" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE_CONFIRM" />
+                    <property name="id" value="166" />
+                    <property name="x" value="0x008a" />
+                    <property name="y" value="0x0050" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMDEL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETING" />
+                    <property name="id" value="173" />
+                    <property name="x" value="0x008a" />
+                    <property name="y" value="0x0065" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DELING" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE_SUCCEED" />
+                    <property name="id" value="174" />
+                    <property name="x" value="0x0085" />
+                    <property name="y" value="0x0076" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DELSCD" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE_FAILED" />
+                    <property name="id" value="263" />
+                    <property name="x" value="0x0086" />
+                    <property name="y" value="0x0089" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DELFAL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_REPLACE_CONFIRM" />
+                    <property name="id" value="183" />
+                    <property name="x" value="0x0085" />
+                    <property name="y" value="0x0033" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMREP" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_SUBDIR_ERR" />
+                    <property name="id" value="184" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DIRERR" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_FILE_OPENING" />
+                    <property name="id" value="259" />
+                    <property name="x" value="0x0088" />
+                    <property name="y" value="0x0009" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_OPENIN" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_FILE_NOTSUP" />
+                    <property name="id" value="265" />
+                    <property name="x" value="0x0083" />
+                    <property name="y" value="0x001b" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="M_NOTSUP" />
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_LOW_POWER" />
+                <property name="id" value="261" />
+                <property name="x" value="0x0037" />
+                <property name="y" value="0x0123" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="LW_NOPO2" />
+            </element>
+        </element>
+    </scene>
+    <scene>
+        <property name="name" value="BROWSING_SIDELONG_SCENE" />
+        <property name="id" value="185" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="186" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x0190" />
+            <property name="height" value="0x00f0" />
+            <property name="background" value="0x00c8c8c8" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picture_resource">
+                <property name="name" value="PIC_BG" />
+                <property name="id" value="187" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0190" />
+                <property name="height" value="0x00f0" />
+                <property name="visible" value="0x0001" />
+                <element class="layer">
+                    <property name="0" value=".\resource\wqvga_style_1\pich\share\sh_bg.bmp" />
+                </element>
+            </element>
+            <element class="picture_resource">
+                <property name="name" value="PIC_TITLE" />
+                <property name="id" value="188" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x003b" />
+                <property name="height" value="0x0032" />
+                <property name="visible" value="0x0001" />
+                <element class="layer">
+                    <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_header.png" />
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_NOFILE" />
+                <property name="id" value="237" />
+                <property name="x" value="0x003e" />
+                <property name="y" value="0x00dc" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="NOFILE" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_APP_NAME" />
+                <property name="id" value="189" />
+                <property name="x" value="0x007e" />
+                <property name="y" value="0x0002" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="B_BRWSER" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_NO_SPACE" />
+                <property name="id" value="271" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="align" value="0x000e" />
+                <property name="mode" value="0x0002" />
+                <property name="size" value="0x000c" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="M_NOSPAC" />
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_NO_MATCHING_ITEM" />
+                <property name="id" value="269" />
+                <property name="x" value="0x0072" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="B_NFOUND" />
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="ENTRY_RESGROUP" />
+                <property name="id" value="190" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x0140" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="string_resource">
+                    <property name="name" value="STR_INT_MEM" />
+                    <property name="id" value="191" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x0019" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="U_INTMEM" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_EXT_MEM" />
+                    <property name="id" value="192" />
+                    <property name="x" value="0x003e" />
+                    <property name="y" value="0x0050" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="U_EXTMEM" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_CAR_MEM" />
+                    <property name="id" value="193" />
+                    <property name="x" value="0x0041" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="CARDMEM" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_NO_DISK" />
+                    <property name="id" value="273" />
+                    <property name="x" value="0x003b" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="align" value="0x000e" />
+                    <property name="mode" value="0x0002" />
+                    <property name="size" value="0x000c" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="NODISK" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="OPTION_RESGROUP" />
+                <property name="id" value="240" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0001" />
+                <property name="width" value="0x00ee" />
+                <property name="height" value="0x00ee" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="string_resource">
+                    <property name="name" value="STR_SEARCH_FILE" />
+                    <property name="id" value="241" />
+                    <property name="x" value="0x000b" />
+                    <property name="y" value="0x000d" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_SEARCH" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_SELECT_ALL" />
+                    <property name="id" value="242" />
+                    <property name="x" value="0x000b" />
+                    <property name="y" value="0x0020" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_SELALL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE" />
+                    <property name="id" value="243" />
+                    <property name="x" value="0x0009" />
+                    <property name="y" value="0x0034" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="FN_MOVE" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE_CONFIRM" />
+                    <property name="id" value="244" />
+                    <property name="x" value="0x0001" />
+                    <property name="y" value="0x0094" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMMOV" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVING" />
+                    <property name="id" value="245" />
+                    <property name="x" value="0x0001" />
+                    <property name="y" value="0x00a5" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_MOVING" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE_SUCCEED" />
+                    <property name="id" value="246" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x00b5" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_MOVSCD" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_MOVE_FAILED" />
+                    <property name="id" value="247" />
+                    <property name="x" value="0x0001" />
+                    <property name="y" value="0x00ca" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_MOVFAL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY" />
+                    <property name="id" value="248" />
+                    <property name="x" value="0x000a" />
+                    <property name="y" value="0x0045" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="FN_CP" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY_CONFIRM" />
+                    <property name="id" value="249" />
+                    <property name="x" value="0x0056" />
+                    <property name="y" value="0x0094" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMCOP" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPING" />
+                    <property name="id" value="250" />
+                    <property name="x" value="0x0055" />
+                    <property name="y" value="0x00a2" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_COPING" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY_SUCCEED" />
+                    <property name="id" value="251" />
+                    <property name="x" value="0x0052" />
+                    <property name="y" value="0x00b2" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_COPSCD" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_COPY_FAILED" />
+                    <property name="id" value="252" />
+                    <property name="x" value="0x005e" />
+                    <property name="y" value="0x00c5" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_COPFAL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE" />
+                    <property name="id" value="253" />
+                    <property name="x" value="0x0007" />
+                    <property name="y" value="0x0059" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="DELETE" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE_CONFIRM" />
+                    <property name="id" value="254" />
+                    <property name="x" value="0x008a" />
+                    <property name="y" value="0x0050" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMDEL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETING" />
+                    <property name="id" value="255" />
+                    <property name="x" value="0x008a" />
+                    <property name="y" value="0x0065" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DELING" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE_SUCCEED" />
+                    <property name="id" value="256" />
+                    <property name="x" value="0x0085" />
+                    <property name="y" value="0x0076" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DELSCD" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_DELETE_FAILED" />
+                    <property name="id" value="264" />
+                    <property name="x" value="0x0086" />
+                    <property name="y" value="0x0088" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DELFAL" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_REPLACE_CONFIRM" />
+                    <property name="id" value="257" />
+                    <property name="x" value="0x0085" />
+                    <property name="y" value="0x0033" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_CFMREP" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_SUBDIR_ERR" />
+                    <property name="id" value="258" />
+                    <property name="x" value="0x0000" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_DIRERR" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_FILE_OPENING" />
+                    <property name="id" value="260" />
+                    <property name="x" value="0x0088" />
+                    <property name="y" value="0x000f" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="B_OPENIN" />
+                </element>
+                <element class="string_resource">
+                    <property name="name" value="STR_FILE_NOTSUP" />
+                    <property name="id" value="266" />
+                    <property name="x" value="0x0083" />
+                    <property name="y" value="0x001b" />
+                    <property name="width" value="0x0064" />
+                    <property name="height" value="0x0014" />
+                    <property name="mode" value="0x0002" />
+                    <property name="align" value="0x000e" />
+                    <property name="size" value="0x000c" />
+                    <property name="foreground" value="0x00000000" />
+                    <property name="background" value="0x00ffffff" />
+                    <property name="visible" value="0x0001" />
+                    <property name="scroll" value="0x0" />
+                    <property name="direction" value="-1" />
+                    <property name="space" value="0x0064" />
+                    <property name="pixel" value="0x0001" />
+                    <property name="strid" value="M_NOTSUP" />
+                </element>
+            </element>
+            <element class="resgroup_resource">
+                <property name="name" value="ICONS_RESGROUP" />
+                <property name="id" value="194" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x005d" />
+                <property name="width" value="0x00eb" />
+                <property name="height" value="0x0092" />
+                <property name="background" value="0x00c8c8c8" />
+                <property name="opaque" value="0x0000" />
+                <property name="transparency" value="0x00ff" />
+                <property name="visible" value="0x0001" />
+                <property name="editable" value="1" />
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILE" />
+                    <property name="id" value="195" />
+                    <property name="x" value="0x0002" />
+                    <property name="y" value="0x0001" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_file.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILE_SEL" />
+                    <property name="id" value="196" />
+                    <property name="x" value="0x0014" />
+                    <property name="y" value="0x0002" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_files.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILEH" />
+                    <property name="id" value="197" />
+                    <property name="x" value="0x0027" />
+                    <property name="y" value="0x0000" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fileh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FILEH_SEL" />
+                    <property name="id" value="198" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x0001" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_filehs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLD" />
+                    <property name="id" value="199" />
+                    <property name="x" value="0x0003" />
+                    <property name="y" value="0x001d" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fold.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLD_SEL" />
+                    <property name="id" value="200" />
+                    <property name="x" value="0x0013" />
+                    <property name="y" value="0x001d" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_folds.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLDH" />
+                    <property name="id" value="201" />
+                    <property name="x" value="0x0028" />
+                    <property name="y" value="0x001d" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_foldh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_FOLDH_SEL" />
+                    <property name="id" value="202" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x001b" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_foldhs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSIC" />
+                    <property name="id" value="203" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_msc.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSIC_SEL" />
+                    <property name="id" value="204" />
+                    <property name="x" value="0x0014" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_mscs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTO" />
+                    <property name="id" value="205" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x004e" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_foto.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTO_SEL" />
+                    <property name="id" value="206" />
+                    <property name="x" value="0x0014" />
+                    <property name="y" value="0x004e" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fotos.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXT" />
+                    <property name="id" value="207" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x006a" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txt.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXT_SEL" />
+                    <property name="id" value="208" />
+                    <property name="x" value="0x0015" />
+                    <property name="y" value="0x0069" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txts.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEO" />
+                    <property name="id" value="209" />
+                    <property name="x" value="0x0004" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeo.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEO_SEL" />
+                    <property name="id" value="210" />
+                    <property name="x" value="0x0016" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeos.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSICH" />
+                    <property name="id" value="211" />
+                    <property name="x" value="0x0027" />
+                    <property name="y" value="0x0034" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_msch.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_MUSICH_SEL" />
+                    <property name="id" value="212" />
+                    <property name="x" value="0x0039" />
+                    <property name="y" value="0x0035" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_mschs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTOH" />
+                    <property name="id" value="213" />
+                    <property name="x" value="0x0026" />
+                    <property name="y" value="0x004f" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fotoh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_PHOTOH_SEL" />
+                    <property name="id" value="214" />
+                    <property name="x" value="0x0038" />
+                    <property name="y" value="0x004e" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_fotohs.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXTH" />
+                    <property name="id" value="215" />
+                    <property name="x" value="0x0027" />
+                    <property name="y" value="0x006a" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txth.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_TXTH_SEL" />
+                    <property name="id" value="216" />
+                    <property name="x" value="0x0037" />
+                    <property name="y" value="0x0067" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_txths.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEOH" />
+                    <property name="id" value="217" />
+                    <property name="x" value="0x0029" />
+                    <property name="y" value="0x007c" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeoh.png" />
+                    </element>
+                </element>
+                <element class="picture_resource">
+                    <property name="name" value="PIC_VIDEOH_SEL" />
+                    <property name="id" value="218" />
+                    <property name="x" value="0x003a" />
+                    <property name="y" value="0x007a" />
+                    <property name="width" value="0x0016" />
+                    <property name="height" value="0x0016" />
+                    <property name="visible" value="0x0001" />
+                    <element class="layer">
+                        <property name="0" value=".\resource\wqvga_style_1\pich\browser\b_vdeohs.png" />
+                    </element>
+                </element>
+            </element>
+            <element class="string_resource">
+                <property name="name" value="STR_LOW_POWER" />
+                <property name="id" value="262" />
+                <property name="x" value="0x0037" />
+                <property name="y" value="0x00dc" />
+                <property name="width" value="0x0064" />
+                <property name="height" value="0x0014" />
+                <property name="mode" value="0x0002" />
+                <property name="align" value="0x000e" />
+                <property name="size" value="0x000c" />
+                <property name="foreground" value="0x00000000" />
+                <property name="background" value="0x00ffffff" />
+                <property name="visible" value="0x0001" />
+                <property name="scroll" value="0x0" />
+                <property name="direction" value="-1" />
+                <property name="space" value="0x0064" />
+                <property name="pixel" value="0x0001" />
+                <property name="strid" value="LW_NOPO2" />
+            </element>
+        </element>
+    </scene>
+    <resource>
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_file.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_fileh.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_filehs.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_files.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_fold.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_foldh.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_foldhs.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_folds.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_foto.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_fotoh.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_fotohs.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_fotos.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_header.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_msc.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_msch.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_mschs.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_mscs.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_txt.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_txth.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_txths.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_txts.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_vdeo.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_vdeoh.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_vdeohs.png" />
+        <picture value=".\resource\wqvga_style_1\pich\browser\b_vdeos.png" />
+        <picture value=".\resource\wqvga_style_1\pich\share\sh_bg.bmp" />
+        <picture value=".\resource\wqvga_style_1\pic\share\sh_bg.bmp" />
+        <txt value=".\resource\multilang_translate_table.xls" />
+        <txt value=".\resource\multiLang_translate_table.xls" />
+        <string value="STR_NULL" />
+        <string value="LM_TEXT" />
+        <string value="LM_SIZE" />
+        <string value="LM_DATE" />
+        <string value="MLM_PLAY" />
+        <string value="MLM_ALL" />
+        <string value="MLM_ART" />
+        <string value="MLM_ALB" />
+        <string value="MLM_GEN" />
+        <string value="MLM_LIST" />
+        <string value="MLM_DIR" />
+        <string value="MLM_VOC" />
+        <string value="MLM_TAG" />
+        <string value="MLM_LEV" />
+        <string value="A_DAY" />
+        <string value="A_HOUR" />
+        <string value="A_MINUTE" />
+        <string value="A_MONTH" />
+        <string value="A_YEAR" />
+        <string value="BIG_FILE" />
+        <string value="BIRGHT" />
+        <string value="BKLIGHT" />
+        <string value="BRWSMODE" />
+        <string value="C_ERR0" />
+        <string value="C_ERR1" />
+        <string value="C_ERR2" />
+        <string value="C_ERR3" />
+        <string value="CA_CARDF" />
+        <string value="CA_CARDI" />
+        <string value="CA_CARDO" />
+        <string value="HOST_IN" />
+        <string value="HOST_OUT" />
+        <string value="ALARM_IN" />
+        <string value="CA_FNS" />
+        <string value="CALCU_ID" />
+        <string value="CALEN_ID" />
+        <string value="CAM_DT" />
+        <string value="CAM_FULL" />
+        <string value="CAM_SEC" />
+        <string value="CAM_SPAC" />
+        <string value="CAMRRESO" />
+        <string value="VRESOLUT" />
+        <string value="CARDLEFT" />
+        <string value="CARDMEM" />
+        <string value="CHK_HINT" />
+        <string value="CHK_SYS" />
+        <string value="CHPLAY" />
+        <string value="CLR_HDS" />
+        <string value="CP_MADE" />
+        <string value="CPFAILED" />
+        <string value="CPING" />
+        <string value="CRADVOL" />
+        <string value="DATEINFO" />
+        <string value="DELETE" />
+        <string value="DRMTIME" />
+        <string value="E_BOOK" />
+        <string value="E_FL_NV" />
+        <string value="E_FM" />
+        <string value="E_GAME" />
+        <string value="E_MUSIC" />
+        <string value="E_PIC" />
+        <string value="E_REC" />
+        <string value="E_SET" />
+        <string value="E_TOOLS" />
+        <string value="E_VIDEO" />
+        <string value="E_WATCH" />
+        <string value="EARINSRT" />
+        <string value="EARINSRT0" />
+        <string value="EAUDIO" />
+        <string value="EB_AUTOT" />
+        <string value="EB_L_FON" />
+        <string value="EB_S_FON" />
+        <string value="EB_SKIP" />
+        <string value="EBK_MRK" />
+        <string value="EBLOWPW" />
+        <string value="EERRNOTS" />
+        <string value="EEXIT" />
+        <string value="EEXITMEN" />
+        <string value="EFULLSCR" />
+        <string value="EGAMERES" />
+        <string value="EINPUTC" />
+        <string value="ELOADPRG" />
+        <string value="ENOTKEYC" />
+        <string value="ENOTSUPP" />
+        <string value="EREALSIZ" />
+        <string value="ERESET" />
+        <string value="ESAVEPRG" />
+        <string value="ESELGAME" />
+        <string value="ESET" />
+        <string value="EVIDEOMO" />
+        <string value="FAILOPEN" />
+        <string value="FI_EXIST" />
+        <string value="FI_UNREC" />
+        <string value="FMCHLIST" />
+        <string value="FMDRVERR" />
+        <string value="FMENGERR" />
+        <string value="FMPLAY" />
+        <string value="FMRECORD" />
+        <string value="FMSEARCH" />
+        <string value="FMT_DONE" />
+        <string value="FMT_NAND" />
+        <string value="FRECGAIN" />
+        <string value="FWUGSTR" />
+        <string value="GIFROTAT" />
+        <string value="GIFZOOM" />
+        <string value="HAVESAVE" />
+        <string value="IMGINFO" />
+        <string value="IMGPLAY" />
+        <string value="IMGROTAT" />
+        <string value="IMGTVOUT" />
+        <string value="IMGZOOM" />
+        <string value="INITNAND" />
+        <string value="INITNAND0" />
+        <string value="JAPBAND" />
+        <string value="LDENDISK" />
+        <string value="LW_NOPO1" />
+        <string value="LW_NOPO0" />
+        <string value="LW_NOPO2" />
+        <string value="M_DECERR" />
+        <string value="M_FADE" />
+        <string value="M_NOSPAC" />
+        <string value="M_NOTSUP" />
+        <string value="M_SAMPLE" />
+        <string value="M_WAIT" />
+        <string value="VWAIT" />
+        <string value="MABREPEA" />
+        <string value="MADD2LIS" />
+        <string value="MALBUMS" />
+        <string value="MARTISRS" />
+        <string value="MCLEAR" />
+        <string value="MD_BDATE" />
+        <string value="MD_DAY" />
+        <string value="MD_DELCL" />
+        <string value="MD_DFORM" />
+        <string value="MD_DISCK" />
+        <string value="MD_EDATE" />
+        <string value="MD_NOLIM" />
+        <string value="MD_OPLAY" />
+        <string value="MD_PLAYC" />
+        <string value="MD_RESTT" />
+        <string value="MD_RSTOR" />
+        <string value="MD_RTIME" />
+        <string value="MD_TIMED" />
+        <string value="MD_TIMES" />
+        <string value="MEQ_CLAS" />
+        <string value="MEQ_DBB" />
+        <string value="MEQ_JAZZ" />
+        <string value="MEQ_NOR" />
+        <string value="MEQ_POP" />
+        <string value="MEQ_ROCK" />
+        <string value="MEQ_SOFT" />
+        <string value="MEQS_HD" />
+        <string value="MEQS_USE" />
+        <string value="MEQS_WOW" />
+        <string value="MEQSET" />
+        <string value="MGENRES" />
+        <string value="MMYLIST1" />
+        <string value="MMYLIST2" />
+        <string value="MMYLIST3" />
+        <string value="MMYLIST4" />
+        <string value="MMYLIST5" />
+        <string value="MNOCLASS" />
+        <string value="MPLAYBAC" />
+        <string value="MPLAYMOD" />
+        <string value="MRANDOM" />
+        <string value="MREPALL" />
+        <string value="MREPINTE" />
+        <string value="MREPTIME" />
+        <string value="MSELECEQ" />
+        <string value="MSEQUENC" />
+        <string value="MSHUFREP" />
+        <string value="MTP_FS" />
+        <string value="MTP_HDS" />
+        <string value="MTP_HINT" />
+        <string value="MUSR_3D" />
+        <string value="MUSR_CEN" />
+        <string value="MUSR_DEF" />
+        <string value="MUSR_FOC" />
+        <string value="MUSR_LIM" />
+        <string value="MUSR_TRU" />
+        <string value="MV_FILE" />
+        <string value="MV_MADE" />
+        <string value="MVFAILED" />
+        <string value="MVING" />
+        <string value="NMAINDSK" />
+        <string value="NOLIST" />
+        <string value="NOTAGFL" />
+        <string value="NOTEXIST" />
+        <string value="NOTXTFL" />
+        <string value="PFILELST" />
+        <string value="PL_GENRA" />
+        <string value="PL_NOSP" />
+        <string value="PLAYERNA" />
+        <string value="PLAYMODE" />
+        <string value="PREVIEW" />
+        <string value="R_LINE" />
+        <string value="R_STOP" />
+        <string value="RD_ONLY" />
+        <string value="READING" />
+        <string value="RECFDLTY" />
+        <string value="RECFMT" />
+        <string value="RECNOW" />
+        <string value="REMOVING" />
+        <string value="RESTORP" />
+        <string value="ROOTDIR" />
+        <string value="S_M_HIN7" />
+        <string value="S_M_HIN8" />
+        <string value="S_M_HIN9" />
+        <string value="S_OWNER" />
+        <string value="S_RESET" />
+        <string value="SADJTI" />
+        <string value="SADVAN" />
+        <string value="SAVECHNL" />
+        <string value="SCNORM" />
+        <string value="SCONNECT" />
+        <string value="SDISPSET" />
+        <string value="SFIRMV" />
+        <string value="SHUTDOWN" />
+        <string value="SLIDTIME" />
+        <string value="SPACEINF" />
+        <string value="TAGFULL" />
+        <string value="UBUSY" />
+        <string value="UCHRGE" />
+        <string value="UCHRGE1" />
+        <string value="UDATA" />
+        <string value="UDISK" />
+        <string value="UMTP" />
+        <string value="UNFORMAT" />
+        <string value="USABAND" />
+        <string value="VBITRATE" />
+        <string value="VFILENAM" />
+        <string value="VFILESIZ" />
+        <string value="VFRAMERA" />
+        <string value="VTOTALTI" />
+        <string value="W_CLEARH" />
+        <string value="WAVEBAND" />
+        <string value="ZOONIN" />
+        <string value="ZOONOUT" />
+        <string value="R_PAUSE" />
+        <string value="RECMRK" />
+        <string value="MADDBOOK" />
+        <string value="MALLMUSI" />
+        <string value="E_CALC" />
+        <string value="E_CALEND" />
+        <string value="COMCANCE" />
+        <string value="PCARDDIR" />
+        <string value="CRD_DIR" />
+        <string value="S_M_DAY" />
+        <string value="MDIRLIST" />
+        <string value="M_DIRLIS" />
+        <string value="DIRSLIST" />
+        <string value="DIR_LST" />
+        <string value="DISKERR" />
+        <string value="DISK_ERR" />
+        <string value="M_OPEN" />
+        <string value="FI_NAME" />
+        <string value="CHFULL" />
+        <string value="Q_HIGH" />
+        <string value="MD_HOURS" />
+        <string value="MDETAIL" />
+        <string value="VDETAILI" />
+        <string value="PMAINDIR" />
+        <string value="MMAINDIR" />
+        <string value="MINTERME" />
+        <string value="MAN_DIR" />
+        <string value="LOCALMEM" />
+        <string value="Q_LOW" />
+        <string value="Q_MID" />
+        <string value="MMUSIC" />
+        <string value="MPLAYLIS" />
+        <string value="S_1_EXIS" />
+        <string value="MNOWPLAY" />
+        <string value="M_NOWPLL" />
+        <string value="M_NOWPLA" />
+        <string value="VPLAYING" />
+        <string value="S_2_M_CL" />
+        <string value="M_CLOSE" />
+        <string value="RECVOL" />
+        <string value="MSAVEDRE" />
+        <string value="MSHUFFLE" />
+        <string value="MVOLUME" />
+        <string value="EGAMEVOL" />
+        <string value="VVOLUME" />
+        <string value="NOFILE" />
+        <string value="HDS_HINT" />
+        <string value="CAMSFILE" />
+        <string value="EAUDIOOP" />
+        <string value="KL_LOCK" />
+        <string value="R_MP3" />
+        <string value="COMAM" />
+        <string value="COMPM" />
+        <string value="SAMPM" />
+        <string value="MUSR_SPE" />
+        <string value="R_WAV" />
+        <string value="M_EQSRSE" />
+        <string value="MEQ_SRSH" />
+        <string value="ITEM" />
+        <string value="PH_LOUVE" />
+        <string value="PH_ERASE" />
+        <string value="CHFAILED" />
+        <string value="EBOOK" />
+        <string value="PH_FADE" />
+        <string value="PH_CUT" />
+        <string value="MLYRICDI" />
+        <string value="PH_SLIDE" />
+        <string value="R_MIC" />
+        <string value="PH_CHECK" />
+        <string value="M_OK" />
+        <string value="CALEN_OK" />
+        <string value="COMOK" />
+        <string value="PSETGOOD" />
+        <string value="PSETFAIL" />
+        <string value="PSETERR" />
+        <string value="MSETRATE" />
+        <string value="MSETSOUN" />
+        <string value="PH_DESK" />
+        <string value="PH_RAN" />
+        <string value="PH_LINE" />
+        <string value="R_STANDB" />
+        <string value="MREPONE" />
+        <string value="EAUDIOCL" />
+        <string value="MCUSTOM" />
+        <string value="S_LANG" />
+        <string value="MVOICERE" />
+        <string value="MLEVEL_1" />
+        <string value="MLEVEL_2" />
+        <string value="MLEVEL_3" />
+        <string value="MLEVEL_4" />
+        <string value="MLEVEL_5" />
+        <string value="MYRATING" />
+        <string value="MFMRECOR" />
+        <string value="PH_NONE" />
+        <string value="M_NREMOV" />
+        <string value="SFLUSHM" />
+        <string value="SPLAYIN" />
+        <string value="SSETUSE" />
+        <string value="SADJDA" />
+        <string value="SFPUSH" />
+        <string value="S_REBOOT" />
+        <string value="EB_FONT" />
+        <string value="FOPFILE" />
+        <string value="CHNOBAT" />
+        <string value="UNOTDISC" />
+        <string value="VLOOPMOD" />
+        <string value="VPREPROT" />
+        <string value="VREMOVE" />
+        <string value="M_FILEOE" />
+        <string value="M_ITEM" />
+        <string value="FMRECFIL" />
+        <string value="FMSTART" />
+        <string value="RMAFFIRM" />
+        <string value="MDELITEM" />
+        <string value="VPLAYLIS" />
+        <string value="INTE_ERR" />
+        <string value="MDELBOOK" />
+        <string value="MDELFILE" />
+        <string value="MTAGLIST" />
+        <string value="S_CHECK" />
+        <string value="S_IDLE" />
+        <string value="S_6_SLEE" />
+        <string value="U_INTMEM" />
+        <string value="U_EXTMEM" />
+        <string value="NCARDDSK" />
+        <string value="FM_SMUTE" />
+        <string value="FN_CP" />
+        <string value="FN_CPING" />
+        <string value="FN_MOVE" />
+        <string value="F_MOVING" />
+        <string value="MV_BREAK" />
+        <string value="CH_ADPNO" />
+        <string value="CH_CUT" />
+        <string value="CH_INVAL" />
+        <string value="MRK_LST" />
+        <string value="MBOOKMAR" />
+        <string value="VTAGLST" />
+        <string value="M_PREMOV" />
+        <string value="DELFILE" />
+        <string value="MDELETE" />
+        <string value="CAM_OFF" />
+        <string value="EB_M_FON" />
+        <string value="FLE_ABO" />
+        <string value="FLE_PRO" />
+        <string value="VPLAYER" />
+        <string value="M_FORMAT" />
+        <string value="M_ALBUM" />
+        <string value="M_TITLE" />
+        <string value="M_ARTIST" />
+        <string value="M_GENRE" />
+        <string value="M_DATE" />
+        <string value="DEL_FAIL" />
+        <string value="DEL_DONE" />
+        <string value="CAMERA" />
+        <string value="CAM_CAP" />
+        <string value="CAM_REC" />
+        <string value="CAM_PC" />
+        <string value="CAM_WHIT" />
+        <string value="CAM_LUMI" />
+        <string value="CAM_EFFE" />
+        <string value="CAM_PATH" />
+        <string value="CAM_SPAC0" />
+        <string value="CAM_RESO" />
+        <string value="CAM_SELF" />
+        <string value="CAM_SHUT" />
+        <string value="CAM_QUAL" />
+        <string value="CAM_AUTO" />
+        <string value="CAM_INDR" />
+        <string value="CAM_OUTD" />
+        <string value="CAM_EOFF" />
+        <string value="CAM_OFF0" />
+        <string value="CAM_BW" />
+        <string value="CAM_YELL" />
+        <string value="CAM_NEGA" />
+        <string value="CAM_ERR" />
+        <string value="CAM_EXPO" />
+        <string value="CAM_VBR" />
+        <string value="CAM_MARK" />
+        <string value="CAM_DATE" />
+        <string value="CAM_DT0" />
+        <string value="CAM_VIEW" />
+        <string value="CAMCABLE" />
+        <string value="CAM_SUD0" />
+        <string value="CAM_SUD1" />
+        <string value="CAM_SUD2" />
+        <string value="CAM_PRVW" />
+        <string value="CAMSUNNY" />
+        <string value="CAM_OVCS" />
+        <string value="CAM_INCL" />
+        <string value="CAM_FLUL" />
+        <string value="CAM_LEDL" />
+        <string value="CAM_BKCO" />
+        <string value="CAM_BKG1" />
+        <string value="CAM_BKG2" />
+        <string value="CAM_BKG3" />
+        <string value="CAM_FACE" />
+        <string value="CAM_ANCL" />
+        <string value="CAM_NEGA0" />
+        <string value="CAM_INTE" />
+        <string value="CAM_CARD" />
+        <string value="CAM_EXTE" />
+        <string value="CAM_SND1" />
+        <string value="CAM_SND2" />
+        <string value="CAM_SND3" />
+        <string value="CAM_QUAL0" />
+        <string value="CAM_CONT" />
+        <string value="CAM_ACDT" />
+        <string value="CAM_STIC" />
+        <string value="CAM_VPBK" />
+        <string value="CAM_IFAI" />
+        <string value="CAM_SFAI" />
+        <string value="CAM_MFAI" />
+        <string value="SYS_CLOS" />
+        <string value="TAGFAIL" />
+        <string value="NOSPACE" />
+        <string value="SETSTART" />
+        <string value="SETSHUT" />
+        <string value="SET_CUBE" />
+        <string value="SET_SS" />
+        <string value="SET_KS" />
+        <string value="SET_KS1" />
+        <string value="SET_KS2" />
+        <string value="SET_KS3" />
+        <string value="SET_KS4" />
+        <string value="CAM_2DV" />
+        <string value="FUWTVOUT" />
+        <string value="DESKTOP" />
+        <string value="COVERFL" />
+        <string value="PROJEC" />
+        <string value="FRAME" />
+        <string value="TV_PAL" />
+        <string value="TV_NTSC" />
+        <string value="TV_TIME" />
+        <string value="TV_REPEA" />
+        <string value="TV_PATH" />
+        <string value="TV_LCD" />
+        <string value="TV_TIME1" />
+        <string value="TV_TIME2" />
+        <string value="TV_TIME3" />
+        <string value="TV_REP1" />
+        <string value="TV_REP2" />
+        <string value="TV_REP3" />
+        <string value="TV_T_ST" />
+        <string value="TV_D_ST" />
+        <string value="TV_DURAT" />
+        <string value="TV_CANCE" />
+        <string value="TV_D_REP" />
+        <string value="TV_LCD_O" />
+        <string value="TV_LCD_C" />
+        <string value="TV_IN" />
+        <string value="SUNDAY" />
+        <string value="MONDAY" />
+        <string value="TUESDAY" />
+        <string value="WEDNESDA" />
+        <string value="THURSDAY" />
+        <string value="FRIDAY" />
+        <string value="STATURDA" />
+        <string value="TV_SAVE" />
+        <string value="TV_DISK" />
+        <string value="TV_SDMEM" />
+        <string value="ON" />
+        <string value="OFF" />
+        <string value="SAVEFILE" />
+        <string value="RECMODE" />
+        <string value="RECPATH" />
+        <string value="RECWMA" />
+        <string value="RECMIC" />
+        <string value="R_LINEIN" />
+        <string value="SET_THEM" />
+        <string value="SET_SCR" />
+        <string value="SET_TVOT" />
+        <string value="SET_CONN" />
+        <string value="SET_FONT" />
+        <string value="SET_HSCR" />
+        <string value="SET_VSCR" />
+        <string value="SET_AUTO" />
+        <string value="SET_POWE" />
+        <string value="SET_SDIR" />
+        <string value="SET_RSET" />
+        <string value="FMT_EXT" />
+        <string value="INF_FEXT" />
+        <string value="DEF_FONT" />
+        <string value="EXTEVOL" />
+        <string value="EXTELEFT" />
+        <string value="AMTMUSIC" />
+        <string value="AMTPHOTO" />
+        <string value="AMTVIDEO" />
+        <string value="AMTTXT" />
+        <string value="AMTGAME" />
+        <string value="FM_MHZ" />
+        <string value="FM_DELCH" />
+        <string value="FM_CHLST" />
+        <string value="FM_SENSI" />
+        <string value="FM_USECH" />
+        <string value="FM_TUNER" />
+        <string value="FM_PLAY" />
+        <string value="FM_CHINA" />
+        <string value="FM_USA" />
+        <string value="FM_JAPAN" />
+        <string value="FM_EUROP" />
+        <string value="MBROWSE" />
+        <string value="MSPECTR" />
+        <string value="MLYRIC" />
+        <string value="MEFFCT1" />
+        <string value="MEFFCT2" />
+        <string value="MEFFCT3" />
+        <string value="MSEARCH" />
+        <string value="B_BRWSER" />
+        <string value="B_SEARCH" />
+        <string value="B_SELALL" />
+        <string value="B_CFMMOV" />
+        <string value="B_CFMCOP" />
+        <string value="B_CFMREP" />
+        <string value="B_CFMDEL" />
+        <string value="B_MOVING" />
+        <string value="B_COPING" />
+        <string value="B_MOVSCD" />
+        <string value="B_COPSCD" />
+        <string value="B_MOVFAL" />
+        <string value="B_COPFAL" />
+        <string value="B_DELING" />
+        <string value="B_DELSCD" />
+        <string value="B_DELFAL" />
+        <string value="B_DIRERR" />
+        <string value="B_OPENIN" />
+        <string value="B_NFOUND" />
+        <string value="NODISK" />
+        <string value="DISKINS" />
+        <string value="MSRCHING" />
+        <string value="MSCHNONE" />
+        <string value="CHAR_PLA" />
+        <string value="MSCANSPD" />
+        <string value="MLINEREC" />
+        <string value="TV_CABLE" />
+        <string value="S_THEME1" />
+        <string value="S_THEME2" />
+        <string value="PH_WATER" />
+        <string value="E_FONTCL" />
+        <string value="E_PAGEEF" />
+        <string value="E_SELCOD" />
+        <string value="D_INIERR" />
+        <string value="EB_DEFAU" />
+        <string value="EB_COL1" />
+        <string value="EB_COL2" />
+        <string value="EB_COL3" />
+        <string value="EB_COL4" />
+        <string value="M_DELDF" />
+        <string value="M_DELML" />
+        <string value="DIR_FLA" />
+        <string value="LINOUPUT" />
+    </resource>
+</ui-rad>

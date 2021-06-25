@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=video.app
+Icon-id=
+ICon=
+Name-id=
+Name=Video
+Name[zh_CN]=视频
+Name[zh_TW]=視訊
+Name[en_GB]=Video
+Name[ja_JP]=動画
+Name[ko_KP]=동영상
+Name[fr_FR]=Vidéo
+Name[de_GE]=Video
+Name[it_IT]=Video
+Name[nl_NL]=Video
+Name[pt_PT]=Vídeo
+Name[es_PE]=Video
+Name[sv_SE]=Video
+Name[cs_CZ]=Video
+Name[da_DK]=Video
+Name[pl_PL]=Film
+Name[ru_RU]=Видео
+Name[tr_TR]=Video
+Name[he_IL]=וידאו 
+Name[th_TH]=วิดีโอ
+Name[hu_HU]=Videó
+Name[ro_RO]=Video
+Name[ar]=فيديو 
+Name[id_ID] = Video
+Name[el_EG] =Βίντεο
+

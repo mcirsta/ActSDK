@@ -1,0 +1,788 @@
+Archive member included because of file (symbol)
+
+./../../../../../case/lib/commonui_api.a(commonui_api320.o)
+                              launcher_scene_desktop.o (headbar_load_style)
+./../../../../../case/lib/commonui_api.a(commonui_api328.o)
+                              launcher_scene_desktop.o (headbar_paint)
+./../../../../../case/lib/commonui_api.a(commonui_api344.o)
+                              launcher_scene_desktop.o (headbar_create)
+./../../../../../case/lib/commonui_api.a(commonui_api352.o)
+                              launcher_scene_desktop.o (headbar_delete)
+./../../../../../case/lib/commonui_api.a(commonui_api416.o)
+                              launcher_scene_desktop.o (menu_create)
+./../../../../../case/lib/commonui_api.a(commonui_api424.o)
+                              launcher_scene_desktop.o (menu_delete)
+./../../../../../case/lib/commonui_api.a(commonui_api432.o)
+                              launcher_scene_desktop.o (menu_set_cur_index)
+./../../../../../case/lib/commonui_api.a(commonui_api514.o)
+                              launcher_scene_desktop.o (menu_append_item)
+./../../../../../case/lib/commonui_api.a(commonui_api596.o)
+                              launcher_scene_desktop.o (menuview_create)
+./../../../../../case/lib/commonui_api.a(commonui_api604.o)
+                              launcher_scene_desktop.o (menuview_delete)
+./../../../../../case/lib/commonui_api.a(commonui_api612.o)
+                              launcher_scene_desktop.o (menuview_paint)
+./../../../../../case/lib/commonui_api.a(commonui_api620.o)
+                              launcher_scene_desktop.o (menuview_proc_gui)
+./../../../../../case/lib/commonui_api.a(commonui_api628.o)
+                              launcher_scene_desktop.o (menuview_load_style)
+./../../../../../case/lib/commonui_api.a(commonui_api652.o)
+                              launcher_scene_desktop.o (menuview_set_menu)
+./../../../../../case/lib/commonui_api.a(commonui_api708.o)
+                              launcher_scene_desktop.o (msgbox_proc_gui)
+./../../../../../case/lib/commonui_api.a(commonui_api716.o)
+                              launcher_scene_desktop.o (msgbox_proc_sys)
+./../../../../../case/lib/commonui_api.a(commonui_api724.o)
+                              launcher_scene_desktop.o (msgbox_create)
+./../../../../../case/lib/commonui_api.a(commonui_api732.o)
+                              launcher_scene_desktop.o (msgbox_paint)
+./../../../../../case/lib/commonui_api.a(commonui_api740.o)
+                              launcher_scene_desktop.o (msgbox_delete)
+./../../../../../case/lib/commonui_api.a(commonui_api748.o)
+                              launcher_scene_desktop.o (msgbox_load_style)
+./../../../../../case/lib/commonui_api.a(commonui_api876.o)
+                              launcher_scene_desktop.o (volumebar_proc_gui)
+./../../../../../case/lib/commonui_api.a(commonui_api884.o)
+                              launcher_scene_desktop.o (volumebar_create)
+./../../../../../case/lib/commonui_api.a(commonui_api892.o)
+                              launcher_scene_desktop.o (volumebar_delete)
+./../../../../../case/lib/commonui_api.a(commonui_api900.o)
+                              launcher_scene_desktop.o (volumebar_paint)
+./../../../../../case/lib/commonui_api.a(commonui_api908.o)
+                              launcher_scene_desktop.o (volumebar_load_style)
+./../../../../../case/lib/fusion_api.a(fusion_api15.o)
+                              launcher_scene_desktop.o (fusion_set_first_frame)
+./../../../../../case/lib/fusion_api.a(fusion_api23.o)
+                              launcher_scene_desktop.o (fusion_set_last_frame)
+./../../../../../case/lib/fusion_api.a(fusion_api31.o)
+                              launcher_scene_desktop.o (fusion_display)
+./../../../../../case/lib/fusion_api.a(fusion_api47.o)
+                              launcher_scene_desktop.o (fusion_get_config)
+./../../../../../case/lib/fusion_api.a(fusion_api7.o)
+                              launcher_scene_desktop.o (fusion_set_effect)
+./../../../../../case/lib/style_api.a(style_api16.o)
+                              launcher_scene_desktop.o (close_style_file)
+./../../../../../case/lib/style_api.a(style_api26.o)
+                              launcher_scene_desktop.o (load_scene)
+./../../../../../case/lib/style_api.a(style_api35.o)
+                              launcher_scene_desktop.o (free_scene)
+./../../../../../case/lib/style_api.a(style_api47.o)
+                              Launcher_desktop_ui.o (get_scene_child)
+./../../../../../case/lib/style_api.a(style_api56.o)
+                              Launcher_desktop_ui.o (get_resgroup_child)
+./../../../../../case/lib/style_api.a(style_api7.o)
+                              launcher_scene_desktop.o (open_style_file)
+./../../../../../case/lib/applib_api.a(applib_api1157.o)
+                              launcher_scene_desktop.o (sys_pm_set_clk_domain)
+./../../../../../case/lib/applib_api.a(applib_api1165.o)
+                              launcher_scene_desktop.o (sys_pm_clear_clk_domain)
+./../../../../../case/lib/applib_api.a(applib_api1197.o)
+                              launcher_scene_desktop.o (sys_get_common_theme_res_dir)
+./../../../../../case/lib/applib_api.a(applib_api1205.o)
+                              launcher_scene_desktop.o (sys_get_common_string_res_dir)
+./../../../../../case/lib/applib_api.a(applib_api1285.o)
+                              launcher_scene_desktop.o (canvas_get_focus)
+./../../../../../case/lib/applib_api.a(applib_api282.o)
+                              Launcher_desktop_ui.o (get_user_bg_pic)
+./../../../../../case/lib/applib_api.a(applib_api455.o)
+                              launcher_scene_desktop.o (get_msg)
+./../../../../../case/lib/applib_api.a(applib_api473.o)
+                              launcher_scene_desktop.o (reply_sync_msg)
+./../../../../../case/lib/applib_api.a(applib_api497.o)
+                              launcher_scene_desktop.o (dispatch_msg)
+./../../../../../case/lib/applib_api.a(applib_api505.o)
+                              launcher_scene_desktop.o (register_sys_dispatcher)
+./../../../../../case/lib/applib_api.a(applib_api513.o)
+                              launcher_scene_desktop.o (unregister_sys_dispatcher)
+./../../../../../case/lib/applib_api.a(applib_api521.o)
+                              launcher_scene_desktop.o (exit_msg_loop)
+./../../../../../case/lib/applib_api.a(applib_api537.o)
+                              launcher_scene_desktop.o (clear_key_msg_queue)
+./../../../../../case/lib/applib_api.a(applib_api545.o)
+                              launcher_scene_desktop.o (enter_background_mode)
+./../../../../../case/lib/applib_api.a(applib_api555.o)
+                              launcher_scene_desktop.o (enter_foreground_mode)
+./../../../../../case/lib/applib_api.a(applib_api579.o)
+                              launcher_scene_desktop.o (sty_open_common_pic_res)
+./../../../../../case/lib/applib_api.a(applib_api587.o)
+                              launcher_scene_desktop.o (sty_open_common_str_res)
+./../../../../../case/lib/applib_api.a(applib_api595.o)
+                              launcher_scene_desktop.o (sty_close_common_pic_res)
+./../../../../../case/lib/applib_api.a(applib_api603.o)
+                              launcher_scene_desktop.o (sty_close_common_str_res)
+./../../../../../case/lib/applib_api.a(applib_api611.o)
+                              launcher_scene_desktop.o (sty_open_app_pic_res)
+./../../../../../case/lib/applib_api.a(applib_api619.o)
+                              launcher_scene_desktop.o (sty_open_app_str_res)
+./../../../../../case/lib/applib_api.a(applib_api627.o)
+                              launcher_scene_desktop.o (sty_close_app_pic_res)
+./../../../../../case/lib/applib_api.a(applib_api635.o)
+                              launcher_scene_desktop.o (sty_close_app_str_res)
+./../../../../../case/lib/applib_api.a(applib_api643.o)
+                              launcher_scene_desktop.o (sty_set_app_scene)
+./../../../../../case/lib/applib_api.a(applib_api651.o)
+                              Launcher_desktop_ui.o (sty_get_app_scene)
+./../../../../../case/lib/applib_api.a(applib_api659.o)
+                              launcher_scene_desktop.o (sty_set_common_scene)
+./../../../../../case/lib/applib_api.a(applib_api675.o)
+                              launcher_scene_desktop.o (sty_set_text_encoding)
+./../../../../../case/lib/applib_api.a(applib_api747.o)
+                              Launcher_desktop_ui.o (sty_draw_string_res_ext)
+./../../../../../case/lib/applib_api.a(applib_api787.o)
+                              Launcher_desktop_ui.o (sty_draw_picture_id)
+./../../../../../case/lib/applib_api.a(applib_api795.o)
+                              Launcher_desktop_ui.o (sty_draw_picture_res)
+./../../../../../case/lib/applib_api.a(applib_api827.o)
+                              Launcher_desktop_ui.o (sty_draw_bitmap)
+./../../../../../case/lib/applib_api.a(applib_api843.o)
+                              Launcher_desktop_ui.o (sty_create_bitmap)
+./../../../../../case/lib/applib_api.a(applib_api859.o)
+                              Launcher_desktop_ui.o (sty_delete_bitmap)
+./../../../../../case/lib/applib_api.a(applib_api883.o)
+                              launcher_scene_desktop.o (sty_get_view_rotation)
+./../../../../../case/lib/applib_api.a(applib_api891.o)
+                              launcher_scene_desktop.o (sty_set_screen_rotation)
+./../../../../../case/lib/applib_api.a(applib_api925.o)
+                              launcher_scene_desktop.o (sys_get_app_theme_res_dir)
+./../../../../../case/lib/applib_api.a(applib_api941.o)
+                              launcher_scene_desktop.o (sys_get_app_string_res_dir)
+./../../../../../case/lib/applib_api.a(applib_api949.o)
+                              launcher_scene_desktop.o (sys_get_cur_language_codes)
+./../../../../../case/lib/applib_api.a(applib_api957.o)
+                              launcher_scene_desktop.o (sys_get_cur_language_id)
+./../../../../../case/lib/applib_api.a(applib_api997.o)
+                              launcher_scene_desktop.o (sys_get_default_font_file)
+./../../../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                              Launcher_desktop_ui.o (getpid)
+./../../../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                              Launcher_desktop_ui.o (__errno)
+./../../../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+                              Launcher_desktop_ui.o (sprintf)
+./../../../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                              ./../../../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o) (vsprintf)
+./../../../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+                              Launcher_desktop_ui.o (strcasecmp)
+./../../../../../psp_rel/lib/gui_api.a(gui_api270.o)
+                              launcher_scene_desktop.o (gui_set_language_mode)
+./../../../../../psp_rel/lib/gui_api.a(gui_api350.o)
+                              launcher_scene_desktop.o (gui_create_font)
+./../../../../../psp_rel/lib/gui_api.a(gui_api358.o)
+                              launcher_scene_desktop.o (gui_destroy_font)
+./../../../../../psp_rel/lib/gui_api.a(gui_api486.o)
+                              Launcher_desktop_ui.o (gui_screen_update)
+./../../../../../psp_rel/lib/gui_api.a(gui_api518.o)
+                              launcher_scene_desktop.o (gui_wm_default_callback)
+./../../../../../psp_rel/lib/gui_api.a(gui_api582.o)
+                              launcher_scene_desktop.o (gui_wm_create_window)
+./../../../../../psp_rel/lib/gui_api.a(gui_api598.o)
+                              launcher_scene_desktop.o (gui_wm_set_focus)
+./../../../../../psp_rel/lib/gui_api.a(gui_api606.o)
+                              launcher_scene_desktop.o (gui_wm_delete_window)
+./../../../../../psp_rel/lib/gui_api.a(gui_api646.o)
+                              launcher_scene_desktop.o (gui_wm_set_size)
+./../../../../../psp_rel/lib/gui_api.a(gui_api694.o)
+                              Launcher_desktop_ui.o (gui_dc_get)
+./../../../../../psp_rel/lib/gui_api.a(gui_api710.o)
+                              launcher_scene_desktop.o (gui_dc_set_default_fontface)
+./../../../../../psp_rel/lib/gui_api.a(gui_api742.o)
+                              Launcher_desktop_ui.o (gui_dc_set_alpha)
+./../../../../../psp_rel/lib/gui_api.a(gui_api806.o)
+                              Launcher_desktop_ui.o (gui_dc_get_alpha)
+./../../../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                              desktop_api.o (api_install)
+./../../../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                              desktop_api.o (api_uninstall)
+./../../../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                              Launcher_desktop_ui.o (printf)
+./../../../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                              launcher_scene_desktop.o (dlopen)
+./../../../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                              launcher_scene_desktop.o (dlclose)
+
+Allocating common symbols
+Common symbol       size              file
+
+page_m_data         0x28              Launcher_desktop_ui.o
+app_icon_m_data     0x70              Launcher_desktop_ui.o
+pthread_mutex_type_t
+                    0x4               Launcher_desktop_ui.o
+page_r1_data        0x28              Launcher_desktop_ui.o
+page_l2_data        0x28              Launcher_desktop_ui.o
+str_app_no          0x4               Launcher_desktop_ui.o
+downbar_bg          0x8               Launcher_desktop_ui.o
+downbar_icon_p5     0x4               Launcher_desktop_ui.o
+str_p1_cur_appno    0x4               Launcher_desktop_ui.o
+app_icon_l1_data    0x70              Launcher_desktop_ui.o
+debug_time          0x4               Launcher_desktop_ui.o
+str_p2_cur_appno    0x4               Launcher_desktop_ui.o
+pthread_share_type_t
+                    0x4               Launcher_desktop_ui.o
+downbar_icon_p3     0x4               Launcher_desktop_ui.o
+str_p1_cur_app      0x4               Launcher_desktop_ui.o
+str_p2_cur_app      0x4               Launcher_desktop_ui.o
+downbar_icon_p2     0x4               Launcher_desktop_ui.o
+downbar_icon_res    0x38              Launcher_desktop_ui.o
+page_r2_data        0x28              Launcher_desktop_ui.o
+page_l1_data        0x28              Launcher_desktop_ui.o
+downbar_icon_sel_bg
+                    0x8               Launcher_desktop_ui.o
+app_icon_r2_data    0x70              Launcher_desktop_ui.o
+str_app_name        0x4               Launcher_desktop_ui.o
+str_p2_next_appno   0x4               Launcher_desktop_ui.o
+str_p2_next_app     0x4               Launcher_desktop_ui.o
+str_p1_next_app     0x4               Launcher_desktop_ui.o
+str_p1_next_appno   0x4               Launcher_desktop_ui.o
+app_icon_l2_data    0x70              Launcher_desktop_ui.o
+app_icon_r1_data    0x70              Launcher_desktop_ui.o
+downbar_icon_sel_res
+                    0x38              Launcher_desktop_ui.o
+downbar_icon_p1     0x4               Launcher_desktop_ui.o
+downbar_icon_p4     0x4               Launcher_desktop_ui.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.init           0x0000000053000000       0x20
+ *(.init)
+ .init          0x0000000053000000        0x8 ./../../../../../psp_rel/lib/libcrt/crti.o
+                0x0000000053000000                _init
+ .init          0x0000000053000008        0x8 ./../../../../../psp_rel/lib/libcrt/crtend.o
+ .init          0x0000000053000010       0x10 ./../../../../../psp_rel/lib/libcrt/crtn.o
+
+.text           0x0000000053000020     0x53f7
+ *(.text)
+ .text          0x0000000053000020     0x1ff0 Launcher_desktop_ui.o
+                0x0000000053001f58                show_next_desktop
+                0x00000000530005b8                desktop_buffer_resource
+                0x0000000053000020                desktop_load_style
+                0x000000005300077c                desktop_release_resource
+                0x00000000530009dc                desktop_get_headbar_appicon
+                0x0000000053001ee0                show_desktop_bg
+                0x0000000053001fcc                show_current_desktop
+                0x0000000053001fc4                show_child_desktop
+ .text          0x0000000053002010       0x30 desktop_api.o
+                0x0000000053002038                desktop_api_exit
+                0x0000000053002010                desktop_api_init
+ .text          0x0000000053002040     0x1888 launcher_scene_desktop.o
+                0x000000005300314c                launcher_scene_desktop
+ .text          0x00000000530038c8        0xc ./../../../../../case/lib/commonui_api.a(commonui_api320.o)
+                0x00000000530038c8                headbar_load_style
+ .text          0x00000000530038d4        0xc ./../../../../../case/lib/commonui_api.a(commonui_api328.o)
+                0x00000000530038d4                headbar_paint
+ .text          0x00000000530038e0        0xc ./../../../../../case/lib/commonui_api.a(commonui_api344.o)
+                0x00000000530038e0                headbar_create
+ .text          0x00000000530038ec        0xc ./../../../../../case/lib/commonui_api.a(commonui_api352.o)
+                0x00000000530038ec                headbar_delete
+ .text          0x00000000530038f8        0xc ./../../../../../case/lib/commonui_api.a(commonui_api416.o)
+                0x00000000530038f8                menu_create
+ .text          0x0000000053003904        0xc ./../../../../../case/lib/commonui_api.a(commonui_api424.o)
+                0x0000000053003904                menu_delete
+ .text          0x0000000053003910        0xc ./../../../../../case/lib/commonui_api.a(commonui_api432.o)
+                0x0000000053003910                menu_set_cur_index
+ .text          0x000000005300391c        0xc ./../../../../../case/lib/commonui_api.a(commonui_api514.o)
+                0x000000005300391c                menu_append_item
+ .text          0x0000000053003928        0xc ./../../../../../case/lib/commonui_api.a(commonui_api596.o)
+                0x0000000053003928                menuview_create
+ .text          0x0000000053003934        0xc ./../../../../../case/lib/commonui_api.a(commonui_api604.o)
+                0x0000000053003934                menuview_delete
+ .text          0x0000000053003940        0xc ./../../../../../case/lib/commonui_api.a(commonui_api612.o)
+                0x0000000053003940                menuview_paint
+ .text          0x000000005300394c        0xc ./../../../../../case/lib/commonui_api.a(commonui_api620.o)
+                0x000000005300394c                menuview_proc_gui
+ .text          0x0000000053003958        0xc ./../../../../../case/lib/commonui_api.a(commonui_api628.o)
+                0x0000000053003958                menuview_load_style
+ .text          0x0000000053003964        0xc ./../../../../../case/lib/commonui_api.a(commonui_api652.o)
+                0x0000000053003964                menuview_set_menu
+ .text          0x0000000053003970        0xc ./../../../../../case/lib/commonui_api.a(commonui_api708.o)
+                0x0000000053003970                msgbox_proc_gui
+ .text          0x000000005300397c        0xc ./../../../../../case/lib/commonui_api.a(commonui_api716.o)
+                0x000000005300397c                msgbox_proc_sys
+ .text          0x0000000053003988        0xc ./../../../../../case/lib/commonui_api.a(commonui_api724.o)
+                0x0000000053003988                msgbox_create
+ .text          0x0000000053003994        0xc ./../../../../../case/lib/commonui_api.a(commonui_api732.o)
+                0x0000000053003994                msgbox_paint
+ .text          0x00000000530039a0        0xc ./../../../../../case/lib/commonui_api.a(commonui_api740.o)
+                0x00000000530039a0                msgbox_delete
+ .text          0x00000000530039ac        0xc ./../../../../../case/lib/commonui_api.a(commonui_api748.o)
+                0x00000000530039ac                msgbox_load_style
+ .text          0x00000000530039b8        0xc ./../../../../../case/lib/commonui_api.a(commonui_api876.o)
+                0x00000000530039b8                volumebar_proc_gui
+ .text          0x00000000530039c4        0xc ./../../../../../case/lib/commonui_api.a(commonui_api884.o)
+                0x00000000530039c4                volumebar_create
+ .text          0x00000000530039d0        0xc ./../../../../../case/lib/commonui_api.a(commonui_api892.o)
+                0x00000000530039d0                volumebar_delete
+ .text          0x00000000530039dc        0xc ./../../../../../case/lib/commonui_api.a(commonui_api900.o)
+                0x00000000530039dc                volumebar_paint
+ .text          0x00000000530039e8        0xc ./../../../../../case/lib/commonui_api.a(commonui_api908.o)
+                0x00000000530039e8                volumebar_load_style
+ .text          0x00000000530039f4        0xc ./../../../../../case/lib/fusion_api.a(fusion_api15.o)
+                0x00000000530039f4                fusion_set_first_frame
+ .text          0x0000000053003a00        0xc ./../../../../../case/lib/fusion_api.a(fusion_api23.o)
+                0x0000000053003a00                fusion_set_last_frame
+ .text          0x0000000053003a0c        0xc ./../../../../../case/lib/fusion_api.a(fusion_api31.o)
+                0x0000000053003a0c                fusion_display
+ .text          0x0000000053003a18        0xc ./../../../../../case/lib/fusion_api.a(fusion_api47.o)
+                0x0000000053003a18                fusion_get_config
+ .text          0x0000000053003a24        0x8 ./../../../../../case/lib/fusion_api.a(fusion_api7.o)
+                0x0000000053003a24                fusion_set_effect
+ .text          0x0000000053003a2c       0x10 ./../../../../../case/lib/style_api.a(style_api16.o)
+                0x0000000053003a2c                close_style_file
+ .text          0x0000000053003a3c       0x10 ./../../../../../case/lib/style_api.a(style_api26.o)
+                0x0000000053003a3c                load_scene
+ .text          0x0000000053003a4c       0x10 ./../../../../../case/lib/style_api.a(style_api35.o)
+                0x0000000053003a4c                free_scene
+ .text          0x0000000053003a5c       0x10 ./../../../../../case/lib/style_api.a(style_api47.o)
+                0x0000000053003a5c                get_scene_child
+ .text          0x0000000053003a6c       0x10 ./../../../../../case/lib/style_api.a(style_api56.o)
+                0x0000000053003a6c                get_resgroup_child
+ .text          0x0000000053003a7c        0xc ./../../../../../case/lib/style_api.a(style_api7.o)
+                0x0000000053003a7c                open_style_file
+ .text          0x0000000053003a88        0xc ./../../../../../case/lib/applib_api.a(applib_api1157.o)
+                0x0000000053003a88                sys_pm_set_clk_domain
+ .text          0x0000000053003a94        0xc ./../../../../../case/lib/applib_api.a(applib_api1165.o)
+                0x0000000053003a94                sys_pm_clear_clk_domain
+ .text          0x0000000053003aa0        0xc ./../../../../../case/lib/applib_api.a(applib_api1197.o)
+                0x0000000053003aa0                sys_get_common_theme_res_dir
+ .text          0x0000000053003aac        0xc ./../../../../../case/lib/applib_api.a(applib_api1205.o)
+                0x0000000053003aac                sys_get_common_string_res_dir
+ .text          0x0000000053003ab8        0xc ./../../../../../case/lib/applib_api.a(applib_api1285.o)
+                0x0000000053003ab8                canvas_get_focus
+ .text          0x0000000053003ac4        0xc ./../../../../../case/lib/applib_api.a(applib_api282.o)
+                0x0000000053003ac4                get_user_bg_pic
+ .text          0x0000000053003ad0        0xc ./../../../../../case/lib/applib_api.a(applib_api455.o)
+                0x0000000053003ad0                get_msg
+ .text          0x0000000053003adc        0xc ./../../../../../case/lib/applib_api.a(applib_api473.o)
+                0x0000000053003adc                reply_sync_msg
+ .text          0x0000000053003ae8        0xc ./../../../../../case/lib/applib_api.a(applib_api497.o)
+                0x0000000053003ae8                dispatch_msg
+ .text          0x0000000053003af4        0xc ./../../../../../case/lib/applib_api.a(applib_api505.o)
+                0x0000000053003af4                register_sys_dispatcher
+ .text          0x0000000053003b00        0xc ./../../../../../case/lib/applib_api.a(applib_api513.o)
+                0x0000000053003b00                unregister_sys_dispatcher
+ .text          0x0000000053003b0c        0xc ./../../../../../case/lib/applib_api.a(applib_api521.o)
+                0x0000000053003b0c                exit_msg_loop
+ .text          0x0000000053003b18        0xc ./../../../../../case/lib/applib_api.a(applib_api537.o)
+                0x0000000053003b18                clear_key_msg_queue
+ .text          0x0000000053003b24        0xc ./../../../../../case/lib/applib_api.a(applib_api545.o)
+                0x0000000053003b24                enter_background_mode
+ .text          0x0000000053003b30        0xc ./../../../../../case/lib/applib_api.a(applib_api555.o)
+                0x0000000053003b30                enter_foreground_mode
+ .text          0x0000000053003b3c        0xc ./../../../../../case/lib/applib_api.a(applib_api579.o)
+                0x0000000053003b3c                sty_open_common_pic_res
+ .text          0x0000000053003b48        0xc ./../../../../../case/lib/applib_api.a(applib_api587.o)
+                0x0000000053003b48                sty_open_common_str_res
+ .text          0x0000000053003b54        0xc ./../../../../../case/lib/applib_api.a(applib_api595.o)
+                0x0000000053003b54                sty_close_common_pic_res
+ .text          0x0000000053003b60        0xc ./../../../../../case/lib/applib_api.a(applib_api603.o)
+                0x0000000053003b60                sty_close_common_str_res
+ .text          0x0000000053003b6c        0xc ./../../../../../case/lib/applib_api.a(applib_api611.o)
+                0x0000000053003b6c                sty_open_app_pic_res
+ .text          0x0000000053003b78        0xc ./../../../../../case/lib/applib_api.a(applib_api619.o)
+                0x0000000053003b78                sty_open_app_str_res
+ .text          0x0000000053003b84        0xc ./../../../../../case/lib/applib_api.a(applib_api627.o)
+                0x0000000053003b84                sty_close_app_pic_res
+ .text          0x0000000053003b90        0xc ./../../../../../case/lib/applib_api.a(applib_api635.o)
+                0x0000000053003b90                sty_close_app_str_res
+ .text          0x0000000053003b9c        0xc ./../../../../../case/lib/applib_api.a(applib_api643.o)
+                0x0000000053003b9c                sty_set_app_scene
+ .text          0x0000000053003ba8        0xc ./../../../../../case/lib/applib_api.a(applib_api651.o)
+                0x0000000053003ba8                sty_get_app_scene
+ .text          0x0000000053003bb4        0xc ./../../../../../case/lib/applib_api.a(applib_api659.o)
+                0x0000000053003bb4                sty_set_common_scene
+ .text          0x0000000053003bc0        0xc ./../../../../../case/lib/applib_api.a(applib_api675.o)
+                0x0000000053003bc0                sty_set_text_encoding
+ .text          0x0000000053003bcc        0xc ./../../../../../case/lib/applib_api.a(applib_api747.o)
+                0x0000000053003bcc                sty_draw_string_res_ext
+ .text          0x0000000053003bd8        0xc ./../../../../../case/lib/applib_api.a(applib_api787.o)
+                0x0000000053003bd8                sty_draw_picture_id
+ .text          0x0000000053003be4        0xc ./../../../../../case/lib/applib_api.a(applib_api795.o)
+                0x0000000053003be4                sty_draw_picture_res
+ .text          0x0000000053003bf0        0xc ./../../../../../case/lib/applib_api.a(applib_api827.o)
+                0x0000000053003bf0                sty_draw_bitmap
+ .text          0x0000000053003bfc        0xc ./../../../../../case/lib/applib_api.a(applib_api843.o)
+                0x0000000053003bfc                sty_create_bitmap
+ .text          0x0000000053003c08        0xc ./../../../../../case/lib/applib_api.a(applib_api859.o)
+                0x0000000053003c08                sty_delete_bitmap
+ .text          0x0000000053003c14        0xc ./../../../../../case/lib/applib_api.a(applib_api883.o)
+                0x0000000053003c14                sty_get_view_rotation
+ .text          0x0000000053003c20        0xc ./../../../../../case/lib/applib_api.a(applib_api891.o)
+                0x0000000053003c20                sty_set_screen_rotation
+ .text          0x0000000053003c2c        0xc ./../../../../../case/lib/applib_api.a(applib_api925.o)
+                0x0000000053003c2c                sys_get_app_theme_res_dir
+ .text          0x0000000053003c38        0xc ./../../../../../case/lib/applib_api.a(applib_api941.o)
+                0x0000000053003c38                sys_get_app_string_res_dir
+ .text          0x0000000053003c44        0xc ./../../../../../case/lib/applib_api.a(applib_api949.o)
+                0x0000000053003c44                sys_get_cur_language_codes
+ .text          0x0000000053003c50        0xc ./../../../../../case/lib/applib_api.a(applib_api957.o)
+                0x0000000053003c50                sys_get_cur_language_id
+ .text          0x0000000053003c5c        0xc ./../../../../../case/lib/applib_api.a(applib_api997.o)
+                0x0000000053003c5c                sys_get_default_font_file
+ .text          0x0000000053003c68       0x68 ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000053003c68                __do_global_dtors_aux
+ .text          0x0000000053003cd0       0x68 ./../../../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000053003cd0                __do_global_ctors_aux
+ .text          0x0000000053003d38        0xc ./../../../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                0x0000000053003d38                getpid
+ .text          0x0000000053003d44        0xc ./../../../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                0x0000000053003d44                __errno
+ .text          0x0000000053003d50       0x28 ./../../../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+                0x0000000053003d50                sprintf
+ .text          0x0000000053003d78      0x9fc ./../../../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                0x0000000053004038                vsprintf
+ .text          0x0000000053004774       0xfc ./../../../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+                0x00000000530047e0                strncasecmp
+                0x0000000053004774                strcasecmp
+ .text          0x0000000053004870        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api270.o)
+                0x0000000053004870                gui_set_language_mode
+ .text          0x000000005300487c        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api350.o)
+                0x000000005300487c                gui_create_font
+ .text          0x0000000053004888        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api358.o)
+                0x0000000053004888                gui_destroy_font
+ .text          0x0000000053004894        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api486.o)
+                0x0000000053004894                gui_screen_update
+ .text          0x00000000530048a0        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api518.o)
+                0x00000000530048a0                gui_wm_default_callback
+ .text          0x00000000530048ac        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api582.o)
+                0x00000000530048ac                gui_wm_create_window
+ .text          0x00000000530048b8        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api598.o)
+                0x00000000530048b8                gui_wm_set_focus
+ .text          0x00000000530048c4        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api606.o)
+                0x00000000530048c4                gui_wm_delete_window
+ .text          0x00000000530048d0        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api646.o)
+                0x00000000530048d0                gui_wm_set_size
+ .text          0x00000000530048dc        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api694.o)
+                0x00000000530048dc                gui_dc_get
+ .text          0x00000000530048e8        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api710.o)
+                0x00000000530048e8                gui_dc_set_default_fontface
+ .text          0x00000000530048f4        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api742.o)
+                0x00000000530048f4                gui_dc_set_alpha
+ .text          0x0000000053004900        0xc ./../../../../../psp_rel/lib/gui_api.a(gui_api806.o)
+                0x0000000053004900                gui_dc_get_alpha
+ .text          0x000000005300490c        0xc ./../../../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                0x000000005300490c                api_install
+ .text          0x0000000053004918        0xc ./../../../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                0x0000000053004918                api_uninstall
+ .text          0x0000000053004924        0xc ./../../../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                0x0000000053004924                printf
+ .text          0x0000000053004930        0xc ./../../../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                0x0000000053004930                dlopen
+ .text          0x000000005300493c        0xc ./../../../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                0x000000005300493c                dlclose
+ *(.rodata)
+ .rodata        0x0000000053004948       0x54 Launcher_desktop_ui.o
+ .rodata        0x000000005300499c        0x4 desktop_api.o
+ .rodata        0x00000000530049a0      0x15c launcher_scene_desktop.o
+ .rodata        0x0000000053004afc      0x194 ./../../../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000053004c90      0x1a3 Launcher_desktop_ui.o
+                                        0x1a4 (size before relaxing)
+ *fill*         0x0000000053004e33        0x1 00
+ .rodata.str1.4
+                0x0000000053004e34      0x58c launcher_scene_desktop.o
+ .rodata.str1.4
+                0x00000000530053c0       0x57 ./../../../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                                         0x58 (size before relaxing)
+
+.fini           0x0000000053005418       0x20
+ *(.fini)
+ .fini          0x0000000053005418        0x8 ./../../../../../psp_rel/lib/libcrt/crti.o
+                0x0000000053005418                _fini
+ .fini          0x0000000053005420        0x8 ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+ .fini          0x0000000053005428       0x10 ./../../../../../psp_rel/lib/libcrt/crtn.o
+
+.dlsym
+ *(.dlsym)
+
+.dlstr
+ *(.dlstr)
+                0x0000000053006000                . = ALIGN (0x1000)
+
+.ctors          0x0000000053006000        0xc
+ *crtbegin*.o(.ctors)
+ .ctors         0x0000000053006000        0x4 ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000053006000                __CTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ .ctors         0x0000000053006004        0x4 desktop_api.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000053006008        0x4 ./../../../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000053006008                __CTOR_END__
+
+.dtors          0x000000005300600c        0xc
+ *crtbegin*.o(.dtors)
+ .dtors         0x000000005300600c        0x4 ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000005300600c                __DTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ .dtors         0x0000000053006010        0x4 desktop_api.o
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000053006014        0x4 ./../../../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000053006014                __DTOR_END__
+
+.data           0x0000000053006018      0x294
+ *(.data)
+ .data          0x0000000053006018      0x294 Launcher_desktop_ui.o
+                0x0000000053006124                app_icon_r2
+                0x0000000053006040                page_m
+                0x000000005300607c                downbar_icon_sel
+                0x000000005300615c                app_icon_r1
+                0x0000000053006194                app_icon_m
+                0x0000000053006018                page_r2
+                0x0000000053006068                page_l2
+                0x00000000530061cc                app_icon_l1
+                0x00000000530060b4                headbar_appicon
+                0x0000000053006204                app_icon_l2
+                0x000000005300602c                page_r1
+                0x0000000053006054                page_l1
+                0x00000000530060ec                downbar_icon
+ *(.sdata)
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x00000000530062ac      0x3d0
+ *(.bss)
+ .bss           0x00000000530062ac        0x8 Launcher_desktop_ui.o
+ .bss           0x00000000530062b4        0x8 launcher_scene_desktop.o
+                0x00000000530062b4                g_scene_desktop
+ *(COMMON)
+ COMMON         0x00000000530062bc      0x3c0 Launcher_desktop_ui.o
+                0x00000000530062bc                page_m_data
+                0x00000000530062e4                app_icon_m_data
+                0x0000000053006354                pthread_mutex_type_t
+                0x0000000053006358                page_r1_data
+                0x0000000053006380                page_l2_data
+                0x00000000530063a8                str_app_no
+                0x00000000530063ac                downbar_bg
+                0x00000000530063b4                downbar_icon_p5
+                0x00000000530063b8                str_p1_cur_appno
+                0x00000000530063bc                app_icon_l1_data
+                0x000000005300642c                debug_time
+                0x0000000053006430                str_p2_cur_appno
+                0x0000000053006434                pthread_share_type_t
+                0x0000000053006438                downbar_icon_p3
+                0x000000005300643c                str_p1_cur_app
+                0x0000000053006440                str_p2_cur_app
+                0x0000000053006444                downbar_icon_p2
+                0x0000000053006448                downbar_icon_res
+                0x0000000053006480                page_r2_data
+                0x00000000530064a8                page_l1_data
+                0x00000000530064d0                downbar_icon_sel_bg
+                0x00000000530064d8                app_icon_r2_data
+                0x0000000053006548                str_app_name
+                0x000000005300654c                str_p2_next_appno
+                0x0000000053006550                str_p2_next_app
+                0x0000000053006554                str_p1_next_app
+                0x0000000053006558                str_p1_next_appno
+                0x000000005300655c                app_icon_l2_data
+                0x00000000530065cc                app_icon_r1_data
+                0x000000005300663c                downbar_icon_sel_res
+                0x0000000053006674                downbar_icon_p1
+                0x0000000053006678                downbar_icon_p4
+
+.rel.dyn
+Address of section .init set to 0x53000000
+LOAD Launcher_desktop_ui.o
+LOAD desktop_api.o
+LOAD launcher_scene_desktop.o
+LOAD ./../desktop_appinfo.a
+LOAD ./../../../../../case/lib/commonui_api.a
+LOAD ./../../../../../case/lib/fusion_api.a
+LOAD ./../../../../../case/lib/style_api.a
+LOAD ./../../../../../case/lib/applib_api.a
+LOAD ./../../../../../psp_rel/lib/libcrt/crti.o
+LOAD ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+LOAD ./../../../../../psp_rel/lib/libcrt/crtend.o
+LOAD ./../../../../../psp_rel/lib/libcrt/crtn.o
+LOAD ./../../../../../psp_rel/lib/ime_api.a
+LOAD ./../../../../../psp_rel/lib/mlang_api.a
+LOAD ./../../../../../psp_rel/lib/mnavi_api.a
+LOAD ./../../../../../psp_rel/lib/plist_api.a
+LOAD ./../../../../../psp_rel/lib/sqlite_api.a
+LOAD ./../../../../../psp_rel/lib/libc_sys_api.a
+LOAD ./../../../../../psp_rel/lib/libc_fs_api.a
+LOAD ./../../../../../psp_rel/lib/libc/libc_sysindep.a
+LOAD ./../../../../../psp_rel/lib/gui_api.a
+LOAD ./../../../../../psp_rel/lib/mmm_api.a
+LOAD ./../../../../../psp_rel/lib/transimage.a
+LOAD ./../../../../../psp_rel/lib/apconfig_api.a
+LOAD ./../../../../../psp_rel/lib/syscall_api.a
+LOAD ./../../../../../psp_rel/lib/kmodule_api.a
+OUTPUT(./../../../../../case/images/apps/launcher/qvga_style_1/desktop.so elf32-tradlittlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 Launcher_desktop_ui.o
+
+.pdr            0x0000000000000000     0x1120
+ .pdr           0x0000000000000000      0x1c0 Launcher_desktop_ui.o
+ .pdr           0x00000000000001c0       0x40 desktop_api.o
+ .pdr           0x0000000000000200      0x220 launcher_scene_desktop.o
+ .pdr           0x0000000000000420       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api320.o)
+ .pdr           0x0000000000000440       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api328.o)
+ .pdr           0x0000000000000460       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api344.o)
+ .pdr           0x0000000000000480       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api352.o)
+ .pdr           0x00000000000004a0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api416.o)
+ .pdr           0x00000000000004c0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api424.o)
+ .pdr           0x00000000000004e0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api432.o)
+ .pdr           0x0000000000000500       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api514.o)
+ .pdr           0x0000000000000520       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api596.o)
+ .pdr           0x0000000000000540       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api604.o)
+ .pdr           0x0000000000000560       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api612.o)
+ .pdr           0x0000000000000580       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api620.o)
+ .pdr           0x00000000000005a0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api628.o)
+ .pdr           0x00000000000005c0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api652.o)
+ .pdr           0x00000000000005e0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api708.o)
+ .pdr           0x0000000000000600       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api716.o)
+ .pdr           0x0000000000000620       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api724.o)
+ .pdr           0x0000000000000640       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api732.o)
+ .pdr           0x0000000000000660       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api740.o)
+ .pdr           0x0000000000000680       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api748.o)
+ .pdr           0x00000000000006a0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api876.o)
+ .pdr           0x00000000000006c0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api884.o)
+ .pdr           0x00000000000006e0       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api892.o)
+ .pdr           0x0000000000000700       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api900.o)
+ .pdr           0x0000000000000720       0x20 ./../../../../../case/lib/commonui_api.a(commonui_api908.o)
+ .pdr           0x0000000000000740       0x20 ./../../../../../case/lib/fusion_api.a(fusion_api15.o)
+ .pdr           0x0000000000000760       0x20 ./../../../../../case/lib/fusion_api.a(fusion_api23.o)
+ .pdr           0x0000000000000780       0x20 ./../../../../../case/lib/fusion_api.a(fusion_api31.o)
+ .pdr           0x00000000000007a0       0x20 ./../../../../../case/lib/fusion_api.a(fusion_api47.o)
+ .pdr           0x00000000000007c0       0x20 ./../../../../../case/lib/fusion_api.a(fusion_api7.o)
+ .pdr           0x00000000000007e0       0x20 ./../../../../../case/lib/style_api.a(style_api16.o)
+ .pdr           0x0000000000000800       0x20 ./../../../../../case/lib/style_api.a(style_api26.o)
+ .pdr           0x0000000000000820       0x20 ./../../../../../case/lib/style_api.a(style_api35.o)
+ .pdr           0x0000000000000840       0x20 ./../../../../../case/lib/style_api.a(style_api47.o)
+ .pdr           0x0000000000000860       0x20 ./../../../../../case/lib/style_api.a(style_api56.o)
+ .pdr           0x0000000000000880       0x20 ./../../../../../case/lib/style_api.a(style_api7.o)
+ .pdr           0x00000000000008a0       0x20 ./../../../../../case/lib/applib_api.a(applib_api1157.o)
+ .pdr           0x00000000000008c0       0x20 ./../../../../../case/lib/applib_api.a(applib_api1165.o)
+ .pdr           0x00000000000008e0       0x20 ./../../../../../case/lib/applib_api.a(applib_api1197.o)
+ .pdr           0x0000000000000900       0x20 ./../../../../../case/lib/applib_api.a(applib_api1205.o)
+ .pdr           0x0000000000000920       0x20 ./../../../../../case/lib/applib_api.a(applib_api1285.o)
+ .pdr           0x0000000000000940       0x20 ./../../../../../case/lib/applib_api.a(applib_api282.o)
+ .pdr           0x0000000000000960       0x20 ./../../../../../case/lib/applib_api.a(applib_api455.o)
+ .pdr           0x0000000000000980       0x20 ./../../../../../case/lib/applib_api.a(applib_api473.o)
+ .pdr           0x00000000000009a0       0x20 ./../../../../../case/lib/applib_api.a(applib_api497.o)
+ .pdr           0x00000000000009c0       0x20 ./../../../../../case/lib/applib_api.a(applib_api505.o)
+ .pdr           0x00000000000009e0       0x20 ./../../../../../case/lib/applib_api.a(applib_api513.o)
+ .pdr           0x0000000000000a00       0x20 ./../../../../../case/lib/applib_api.a(applib_api521.o)
+ .pdr           0x0000000000000a20       0x20 ./../../../../../case/lib/applib_api.a(applib_api537.o)
+ .pdr           0x0000000000000a40       0x20 ./../../../../../case/lib/applib_api.a(applib_api545.o)
+ .pdr           0x0000000000000a60       0x20 ./../../../../../case/lib/applib_api.a(applib_api555.o)
+ .pdr           0x0000000000000a80       0x20 ./../../../../../case/lib/applib_api.a(applib_api579.o)
+ .pdr           0x0000000000000aa0       0x20 ./../../../../../case/lib/applib_api.a(applib_api587.o)
+ .pdr           0x0000000000000ac0       0x20 ./../../../../../case/lib/applib_api.a(applib_api595.o)
+ .pdr           0x0000000000000ae0       0x20 ./../../../../../case/lib/applib_api.a(applib_api603.o)
+ .pdr           0x0000000000000b00       0x20 ./../../../../../case/lib/applib_api.a(applib_api611.o)
+ .pdr           0x0000000000000b20       0x20 ./../../../../../case/lib/applib_api.a(applib_api619.o)
+ .pdr           0x0000000000000b40       0x20 ./../../../../../case/lib/applib_api.a(applib_api627.o)
+ .pdr           0x0000000000000b60       0x20 ./../../../../../case/lib/applib_api.a(applib_api635.o)
+ .pdr           0x0000000000000b80       0x20 ./../../../../../case/lib/applib_api.a(applib_api643.o)
+ .pdr           0x0000000000000ba0       0x20 ./../../../../../case/lib/applib_api.a(applib_api651.o)
+ .pdr           0x0000000000000bc0       0x20 ./../../../../../case/lib/applib_api.a(applib_api659.o)
+ .pdr           0x0000000000000be0       0x20 ./../../../../../case/lib/applib_api.a(applib_api675.o)
+ .pdr           0x0000000000000c00       0x20 ./../../../../../case/lib/applib_api.a(applib_api747.o)
+ .pdr           0x0000000000000c20       0x20 ./../../../../../case/lib/applib_api.a(applib_api787.o)
+ .pdr           0x0000000000000c40       0x20 ./../../../../../case/lib/applib_api.a(applib_api795.o)
+ .pdr           0x0000000000000c60       0x20 ./../../../../../case/lib/applib_api.a(applib_api827.o)
+ .pdr           0x0000000000000c80       0x20 ./../../../../../case/lib/applib_api.a(applib_api843.o)
+ .pdr           0x0000000000000ca0       0x20 ./../../../../../case/lib/applib_api.a(applib_api859.o)
+ .pdr           0x0000000000000cc0       0x20 ./../../../../../case/lib/applib_api.a(applib_api883.o)
+ .pdr           0x0000000000000ce0       0x20 ./../../../../../case/lib/applib_api.a(applib_api891.o)
+ .pdr           0x0000000000000d00       0x20 ./../../../../../case/lib/applib_api.a(applib_api925.o)
+ .pdr           0x0000000000000d20       0x20 ./../../../../../case/lib/applib_api.a(applib_api941.o)
+ .pdr           0x0000000000000d40       0x20 ./../../../../../case/lib/applib_api.a(applib_api949.o)
+ .pdr           0x0000000000000d60       0x20 ./../../../../../case/lib/applib_api.a(applib_api957.o)
+ .pdr           0x0000000000000d80       0x20 ./../../../../../case/lib/applib_api.a(applib_api997.o)
+ .pdr           0x0000000000000da0       0x20 ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+ .pdr           0x0000000000000dc0       0x20 ./../../../../../psp_rel/lib/libcrt/crtend.o
+ .pdr           0x0000000000000de0       0x20 ./../../../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+ .pdr           0x0000000000000e00       0x20 ./../../../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+ .pdr           0x0000000000000e20       0x20 ./../../../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+ .pdr           0x0000000000000e40       0x60 ./../../../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ .pdr           0x0000000000000ea0       0x40 ./../../../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+ .pdr           0x0000000000000ee0       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api270.o)
+ .pdr           0x0000000000000f00       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api350.o)
+ .pdr           0x0000000000000f20       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api358.o)
+ .pdr           0x0000000000000f40       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api486.o)
+ .pdr           0x0000000000000f60       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api518.o)
+ .pdr           0x0000000000000f80       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api582.o)
+ .pdr           0x0000000000000fa0       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api598.o)
+ .pdr           0x0000000000000fc0       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api606.o)
+ .pdr           0x0000000000000fe0       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api646.o)
+ .pdr           0x0000000000001000       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api694.o)
+ .pdr           0x0000000000001020       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api710.o)
+ .pdr           0x0000000000001040       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api742.o)
+ .pdr           0x0000000000001060       0x20 ./../../../../../psp_rel/lib/gui_api.a(gui_api806.o)
+ .pdr           0x0000000000001080       0x20 ./../../../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+ .pdr           0x00000000000010a0       0x20 ./../../../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+ .pdr           0x00000000000010c0       0x20 ./../../../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+ .pdr           0x00000000000010e0       0x20 ./../../../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+ .pdr           0x0000000000001100       0x20 ./../../../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+
+.debug_abbrev   0x0000000000000000      0x64e
+ .debug_abbrev  0x0000000000000000      0x273 Launcher_desktop_ui.o
+ .debug_abbrev  0x0000000000000273       0xa5 desktop_api.o
+ .debug_abbrev  0x0000000000000318      0x336 launcher_scene_desktop.o
+
+.debug_info     0x0000000000000000     0x3010
+ .debug_info    0x0000000000000000     0x14de Launcher_desktop_ui.o
+ .debug_info    0x00000000000014de      0x128 desktop_api.o
+ .debug_info    0x0000000000001606     0x1a0a launcher_scene_desktop.o
+
+.debug_line     0x0000000000000000      0xbfc
+ .debug_line    0x0000000000000000      0x587 Launcher_desktop_ui.o
+ .debug_line    0x0000000000000587       0x77 desktop_api.o
+ .debug_line    0x00000000000005fe      0x5fe launcher_scene_desktop.o
+
+.debug_frame    0x0000000000000000      0x454
+ .debug_frame   0x0000000000000000      0x204 Launcher_desktop_ui.o
+ .debug_frame   0x0000000000000204       0x38 desktop_api.o
+ .debug_frame   0x000000000000023c      0x218 launcher_scene_desktop.o
+
+.debug_pubnames
+                0x0000000000000000      0x4fb
+ .debug_pubnames
+                0x0000000000000000      0x41a Launcher_desktop_ui.o
+ .debug_pubnames
+                0x000000000000041a       0x6e desktop_api.o
+ .debug_pubnames
+                0x0000000000000488       0x73 launcher_scene_desktop.o
+
+.debug_aranges  0x0000000000000000       0x60
+ .debug_aranges
+                0x0000000000000000       0x20 Launcher_desktop_ui.o
+ .debug_aranges
+                0x0000000000000020       0x20 desktop_api.o
+ .debug_aranges
+                0x0000000000000040       0x20 launcher_scene_desktop.o
+
+.debug_ranges   0x0000000000000000       0xd0
+ .debug_ranges  0x0000000000000000       0x20 Launcher_desktop_ui.o
+ .debug_ranges  0x0000000000000020       0xb0 launcher_scene_desktop.o
+
+.debug_str      0x0000000000000000     0x2448
+ .debug_str     0x0000000000000000      0xf32 Launcher_desktop_ui.o
+                                       0x1024 (size before relaxing)
+ .debug_str     0x0000000000000f32       0x3f desktop_api.o
+                                        0x20e (size before relaxing)
+ .debug_str     0x0000000000000f71     0x14d7 launcher_scene_desktop.o
+                                       0x1f73 (size before relaxing)
+
+.comment        0x0000000000000000      0x158
+ .comment       0x0000000000000000       0x2b Launcher_desktop_ui.o
+ .comment       0x000000000000002b       0x2b desktop_api.o
+ .comment       0x0000000000000056       0x2b launcher_scene_desktop.o
+ .comment       0x0000000000000081       0x2b ./../../../../../psp_rel/lib/libcrt/crtbegin.o
+ .comment       0x00000000000000ac       0x2b ./../../../../../psp_rel/lib/libcrt/crtend.o
+ .comment       0x00000000000000d7       0x2b ./../../../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+ .comment       0x0000000000000102       0x2b ./../../../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ .comment       0x000000000000012d       0x2b ./../../../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)

@@ -1,0 +1,37 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=emulator.app NES
+Icon-id=
+Icon=
+Name-id=
+Name=NES
+Name[zh_CN]=NES
+Name[zh_TW]=NES
+Name[en_GB]=NES
+Name[ja_JP]=NES
+Name[ko_KP]=NES
+Name[fr_FR]=NES
+Name[de_GE]=NES
+Name[it_IT]=NES 
+Name[nl_NL]=NES 
+Name[pt_PT]=NES 
+Name[es_PE]=NES 
+Name[sv_SE]=NES 
+Name[cs_CZ]=NES 
+Name[da_DK]=NES 
+Name[pl_PL]=NES 
+Name[ru_RU]=NES 
+Name[tr_TR]=NES 
+Name[he_IL]=NES 
+Name[th_TH]=NES 
+Name[hu_HU]=NES 
+Name[ro_RO]=NES 
+Name[ar]=NES 
+Name[id_ID] = NES
+Name[el_EG] = NES
+
+
+

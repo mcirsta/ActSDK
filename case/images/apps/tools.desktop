@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Directory
+Child=./watch/watch;./calculat/calculat;./calendar/calendar;./camera/pccamera       #鍒楀嚭games涓嬬殑瀛愰」鍚嶇О:NES,SFC,...,g-game
+Exec=
+Icon-id=
+Icon=
+Name-id=
+Name=Tools
+Name[zh_CN]=工具
+Name[zh_TW]=工具
+Name[en_GB]=Tools
+Name[ja_JP]=ツール
+Name[ko_KP]=공구
+Name[fr_FR]=Outil
+Name[de_GE]=Tool
+Name[it_IT]=Strumenti
+Name[nl_NL]=Werktuigen
+Name[pt_PT]=Ferramenta
+Name[es_PE]=Herramienta
+Name[sv_SE]=Verktyg
+Name[cs_CZ]=Nástroj
+Name[da_DK]=Værktøj
+Name[pl_PL]=Narzędzie
+Name[ru_RU]=инструмен
+Name[tr_TR]=Araçlar
+Name[he_IL]=מכשיר
+Name[th_TH]=เครื่องมือ
+Name[hu_HU]=Eszköz
+Name[ro_RO]=Unealtă
+Name[ar]=ادوات 
+Name[id_ID] = Permainan
+Name[el_EG] = Μηχάνημα Καταγραφής
+

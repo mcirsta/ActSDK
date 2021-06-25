@@ -1,0 +1,36 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=emulator.app SFC
+Icon-id=
+Icon=
+Name-id=
+Name=SFC
+Name[zh_CN]=SFC
+Name[zh_TW]=SFC
+Name[en_GB]=SFC
+Name[ja_JP]=SFC
+Name[ko_KP]=SFC
+Name[fr_FR]=SFC
+Name[de_GE]=SFC
+Name[it_IT]=SFC 
+Name[nl_NL]=SFC 
+Name[pt_PT]=SFC 
+Name[es_PE]=SFC 
+Name[sv_SE]=SFC 
+Name[cs_CZ]=SFC 
+Name[da_DK]=SFC 
+Name[pl_PL]=SFC 
+Name[ru_RU]=SFC 
+Name[tr_TR]=SFC 
+Name[he_IL]=SFC 
+Name[th_TH]=SFC 
+Name[hu_HU]=SFC 
+Name[ro_RO]=SFC 
+Name[ar]=SFC 
+Name[id_ID] = SFC
+Name[el_EG] = SFC
+
+

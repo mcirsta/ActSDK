@@ -1,0 +1,898 @@
+Archive member included because of file (symbol)
+
+./../../../case/lib/applib_api.a(applib_api1005.o)
+                              msg_server_main.o (sys_check_media_dir)
+./../../../case/lib/applib_api.a(applib_api1029.o)
+                              system_timers.o (sys_is_screensaver_forbidden)
+./../../../case/lib/applib_api.a(applib_api1053.o)
+                              system_timers.o (sys_is_auto_standby_forbidden)
+./../../../case/lib/applib_api.a(applib_api1141.o)
+                              process_msg.o (int_sqrt)
+./../../../case/lib/applib_api.a(applib_api1157.o)
+                              msg_server_main.o (sys_pm_set_clk_domain)
+./../../../case/lib/applib_api.a(applib_api1165.o)
+                              msg_server_main.o (sys_pm_clear_clk_domain)
+./../../../case/lib/applib_api.a(applib_api119.o)
+                              msg_server_main.o (set_timer)
+./../../../case/lib/applib_api.a(applib_api1261.o)
+                              msg_server_main.o (sys_get_main_disk)
+./../../../case/lib/applib_api.a(applib_api1269.o)
+                              msg_server_main.o (sys_set_main_disk)
+./../../../case/lib/applib_api.a(applib_api127.o)
+                              msg_server_main.o (set_single_shot_timer)
+./../../../case/lib/applib_api.a(applib_api1341.o)
+                              msg_server_main.o (sys_get_media_dir)
+./../../../case/lib/applib_api.a(applib_api1349.o)
+                              msg_server_main.o (create_global_msg_queue)
+./../../../case/lib/applib_api.a(applib_api135.o)
+                              system_timers.o (modify_timer)
+./../../../case/lib/applib_api.a(applib_api1357.o)
+                              msg_server_main.o (delete_global_msg_queue)
+./../../../case/lib/applib_api.a(applib_api1397.o)
+                              msg_server_main.o (send_async_msg_to_global_mq)
+./../../../case/lib/applib_api.a(applib_api1413.o)
+                              system_timers.o (sys_is_timed_shutdown_forbidden)
+./../../../case/lib/applib_api.a(applib_api143.o)
+                              msg_server_main.o (stop_timer)
+./../../../case/lib/applib_api.a(applib_api151.o)
+                              msg_server_main.o (restart_timer)
+./../../../case/lib/applib_api.a(applib_api167.o)
+                              msg_server_main.o (kill_timers)
+./../../../case/lib/applib_api.a(applib_api439.o)
+                              msg_server_main.o (applib_init)
+./../../../case/lib/applib_api.a(applib_api447.o)
+                              msg_server_main.o (applib_quit)
+./../../../case/lib/applib_api.a(applib_api455.o)
+                              msg_server_main.o (get_msg)
+./../../../case/lib/applib_api.a(applib_api473.o)
+                              msg_server_main.o (reply_sync_msg)
+./../../../case/lib/applib_api.a(applib_api489.o)
+                              post_msg.o (broadcast_msg)
+./../../../case/lib/applib_api.a(applib_api497.o)
+                              msg_server_main.o (dispatch_msg)
+./../../../case/lib/applib_api.a(applib_api505.o)
+                              msg_server_main.o (register_sys_dispatcher)
+./../../../case/lib/applib_api.a(applib_api513.o)
+                              msg_server_main.o (unregister_sys_dispatcher)
+./../../../case/lib/applib_api.a(applib_api521.o)
+                              msg_server_main.o (exit_msg_loop)
+./../../../case/lib/applib_api.a(applib_api71.o)
+                              system_timers.o (app_running_list_set_app_info)
+./../../../case/lib/applib_api.a(applib_api87.o)
+                              system_timers.o (app_running_list_get_list)
+./../../../case/lib/applib_api.a(applib_api907.o)
+                              system_timers.o (sty_lcd_update)
+./../../../case/lib/applib_api.a(applib_api917.o)
+                              msg_server_main.o (sys_get_hotplugin_dev_info)
+./../../../psp_rel/lib/actmem_api.a(actmem_api33.o)
+                              drv_op_ada.o (act_mem_allocate)
+./../../../psp_rel/lib/actmem_api.a(actmem_api41.o)
+                              drv_op_ada.o (act_mem_free)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api15.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_release_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                              drv_op_ada.o (getpid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api210.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_set_envp)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api23.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_get_process_struct)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                              drv_op_ada.o (__errno)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api269.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__current_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api285.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_insert_sub_to_parent)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api293.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_remove_sub_from_parent)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api320.o)
+                              msg_queue.o (mq_open)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api328.o)
+                              msg_queue.o (mq_close)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api344.o)
+                              post_msg.o (mq_send)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api384.o)
+                              post_msg.o (mq_getattr)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api566.o)
+                              msg_server_main.o (pthread_getschedparam)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api574.o)
+                              msg_server_main.o (pthread_setschedparam)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api590.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_create)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api614.o)
+                              msg_server_main.o (pthread_self)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api7.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (__kernel_get_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api718.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_init)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api726.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_destroy)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api734.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_setinheritsched)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api750.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (pthread_attr_setdetachstate)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api862.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (exit)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api87.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (_kernel_change_thread_pid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+                              drv_op_lcd.o (usleep)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api127.o)
+                              msg_server_main.o (mkdir)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api143.o)
+                              drv_op_ada.o (fstat)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                              drv_op_ada.o (close)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+                              drv_op_ada.o (read)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api39.o)
+                              drv_op_ada.o (lseek)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                              drv_op_ada.o (ioctl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                              drv_op_ada.o (open)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                              drv_op_ada.o (memcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                              drv_op_ada.o (memset)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+                              msg_server_main.o (strcasecmp)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+                              drv_op_ada.o (strncmp)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                              msg_server_config.o (strncpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+                              msg_server_config.o (strlen)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                              msg_server_config.o (set_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                              drv_op_ada.o (get_config)
+./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_sched_lock)
+./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_sched_unlock)
+./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                              drv_op_ada.o (printf)
+./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                              msg_server_config.o (malloc)
+./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                              msg_server_config.o (free)
+./../../../psp_rel/lib/syscall_api.a(syscall_api526.o)
+                              msg_server_main.o (sys_mount)
+./../../../psp_rel/lib/syscall_api.a(syscall_api534.o)
+                              msg_server_main.o (sys_umount)
+./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+                              msg_server_main.o (insmod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api862.o)
+                              msg_server_main.o (rmmod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                              msg_server_main.o (dlopen)
+./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                              msg_server_main.o (dlclose)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api14.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_cpu_store_sr)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api502.o)
+                              msg_server_main.o (kernel_sym)
+./../../../psp_rel/lib/kmodule_api.a(kmodule_api6.o)
+                              ./../../../psp_rel/lib/libcrt/crtend1.o (os_cpu_save_sr)
+
+Allocating common symbols
+Common symbol       size              file
+
+pthread_mutex_type_t
+                    0x4               drv_op_ada.o
+key_tone_param      0x41c             drv_op_ada.o
+pthread_share_type_t
+                    0x4               drv_op_ada.o
+mq_key_fd           0x4               msg_queue.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.init           0x0000000069400000       0x20
+ *(.init)
+ .init          0x0000000069400000        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000069400000                _init
+ .init          0x0000000069400008        0x8 ./../../../psp_rel/lib/libcrt/crtend.o
+ .init          0x0000000069400010       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.text           0x0000000069400020     0x9f65
+ *(.text)
+ .text          0x0000000069400020      0xffc drv_op_ada.o
+                0x00000000694000d0                ada_device_open
+                0x0000000069400da8                ada_set_key_tone_play
+                0x00000000694001a4                ada_device_close
+                0x0000000069400020                ada_para_init
+                0x0000000069400f44                ada_get_volume
+                0x0000000069400b5c                ada_set_key_tone_on
+                0x0000000069400e74                ada_set_volume
+                0x000000006940086c                ada_set_key_tone_param
+                0x0000000069400cd0                ada_set_key_tone_enable
+ .text          0x000000006940101c      0x534 drv_op_charge.o
+                0x0000000069401368                charge_set_start
+                0x00000000694011c4                charge_get_battery_voltage_show
+                0x0000000069401138                charge_get_battery_voltage
+                0x000000006940101c                charge_para_init
+                0x0000000069401250                charge_get_adapter
+                0x00000000694010ec                charge_device_close
+                0x000000006940103c                charge_device_open
+                0x000000006940143c                charge_get_status
+                0x00000000694012dc                charge_set_param
+                0x00000000694014c8                charge_set_process
+ .text          0x0000000069401550      0x488 drv_op_gsensor.o
+                0x0000000069401684                drv_op_gsensor_close_dev
+                0x000000006940183c                drv_op_gsensor_disable
+                0x0000000069401910                drv_op_gsensor_read
+                0x0000000069401768                drv_op_gsensor_enable
+                0x0000000069401550                drv_op_gsensor_open_dev
+                0x000000006940165c                drv_op_gsensor_is_dev_opened
+ .text          0x00000000694019d8      0x430 drv_op_key.o
+                0x0000000069401a14                key_device_open
+                0x0000000069401ac4                key_device_close
+                0x0000000069401c50                key_get_no_jitter_keyval
+                0x0000000069401b10                key_get_drv_keyval
+                0x00000000694019d8                key_para_init
+                0x0000000069401bb4                key_get_keylock_status
+ .text          0x0000000069401e08      0x51c drv_op_lcd.o
+                0x0000000069401e08                drv_op_lcd_open_dev
+                0x0000000069402094                drv_op_lcd_set_backlight
+                0x0000000069401fb0                drv_op_lcd_get_backlight
+                0x000000006940216c                drv_op_lcd_enter_standby
+                0x0000000069401ee4                drv_op_lcd_close_dev
+                0x0000000069402240                drv_op_lcd_exit_standby
+ .text          0x0000000069402324      0x1c4 drv_op_usb_monitor.o
+                0x0000000069402324                usb_monitor_para_init
+                0x00000000694023f4                usb_monitor_device_close
+                0x0000000069402440                usb_get_connect_type
+                0x0000000069402344                usb_monitor_device_open
+ .text          0x00000000694024e8      0x178 msg_queue.o
+                0x0000000069402624                msg_queue_deinit
+                0x000000006940259c                msg_queue_init
+ .text          0x0000000069402660      0x9ec msg_server_config.o
+                0x0000000069402f3c                msg_server_cfg_write_all
+                0x0000000069402660                msg_server_cfg_init
+                0x000000006940285c                msg_server_cfg_deinit
+                0x0000000069402c24                msg_server_cfg_read_all
+                0x0000000069402d34                msg_server_cfg_write
+                0x00000000694029d4                msg_server_cfg_read
+ .text          0x000000006940304c     0x2d84 msg_server_main.o
+                0x0000000069405b5c                main
+ .text          0x0000000069405dd0      0x158 post_msg.o
+                0x0000000069405ee4                post_broadcase_msg
+                0x0000000069405e3c                post_key_msg
+ .text          0x0000000069405f28     0x1004 process_msg.o
+                0x000000006940623c                key_mapping
+                0x0000000069406918                gsensor_get_rotation
+                0x0000000069406940                init_g_sensor_axes_trans_matrix
+                0x0000000069406190                key_mapping_set_status
+                0x0000000069406578                process_gsensor_event
+                0x0000000069405f28                process_key_event
+                0x0000000069406434                key_shortcut
+ .text          0x0000000069406f2c      0x81c sys_event_monitor.o
+                0x0000000069406f2c                sys_evt_monitor_open_dev
+                0x0000000069407190                sys_evt_monitor_get_evt
+                0x00000000694070b0                sys_evt_monitor_close_dev
+ .text          0x0000000069407748      0xa24 system_timers.o
+                0x0000000069407f10                enter_screensaver
+                0x0000000069408054                exit_screensaver
+                0x0000000069408144                is_in_screensaver
+                0x0000000069407924                start_sys_timer
+                0x000000006940789c                start_sys_idle_timers
+                0x0000000069407ec8                check_shutdown_timer
+                0x0000000069407748                load_sys_timers_config
+                0x0000000069407b30                set_sys_timer
+                0x0000000069407c94                get_sys_timer_timeout
+                0x0000000069407840                start_sys_timers
+ .text          0x000000006940816c        0xc ./../../../case/lib/applib_api.a(applib_api1005.o)
+                0x000000006940816c                sys_check_media_dir
+ .text          0x0000000069408178        0xc ./../../../case/lib/applib_api.a(applib_api1029.o)
+                0x0000000069408178                sys_is_screensaver_forbidden
+ .text          0x0000000069408184        0xc ./../../../case/lib/applib_api.a(applib_api1053.o)
+                0x0000000069408184                sys_is_auto_standby_forbidden
+ .text          0x0000000069408190        0xc ./../../../case/lib/applib_api.a(applib_api1141.o)
+                0x0000000069408190                int_sqrt
+ .text          0x000000006940819c        0xc ./../../../case/lib/applib_api.a(applib_api1157.o)
+                0x000000006940819c                sys_pm_set_clk_domain
+ .text          0x00000000694081a8        0xc ./../../../case/lib/applib_api.a(applib_api1165.o)
+                0x00000000694081a8                sys_pm_clear_clk_domain
+ .text          0x00000000694081b4        0xc ./../../../case/lib/applib_api.a(applib_api119.o)
+                0x00000000694081b4                set_timer
+ .text          0x00000000694081c0        0xc ./../../../case/lib/applib_api.a(applib_api1261.o)
+                0x00000000694081c0                sys_get_main_disk
+ .text          0x00000000694081cc        0xc ./../../../case/lib/applib_api.a(applib_api1269.o)
+                0x00000000694081cc                sys_set_main_disk
+ .text          0x00000000694081d8        0xc ./../../../case/lib/applib_api.a(applib_api127.o)
+                0x00000000694081d8                set_single_shot_timer
+ .text          0x00000000694081e4        0xc ./../../../case/lib/applib_api.a(applib_api1341.o)
+                0x00000000694081e4                sys_get_media_dir
+ .text          0x00000000694081f0        0xc ./../../../case/lib/applib_api.a(applib_api1349.o)
+                0x00000000694081f0                create_global_msg_queue
+ .text          0x00000000694081fc        0xc ./../../../case/lib/applib_api.a(applib_api135.o)
+                0x00000000694081fc                modify_timer
+ .text          0x0000000069408208        0xc ./../../../case/lib/applib_api.a(applib_api1357.o)
+                0x0000000069408208                delete_global_msg_queue
+ .text          0x0000000069408214        0xc ./../../../case/lib/applib_api.a(applib_api1397.o)
+                0x0000000069408214                send_async_msg_to_global_mq
+ .text          0x0000000069408220        0xc ./../../../case/lib/applib_api.a(applib_api1413.o)
+                0x0000000069408220                sys_is_timed_shutdown_forbidden
+ .text          0x000000006940822c        0xc ./../../../case/lib/applib_api.a(applib_api143.o)
+                0x000000006940822c                stop_timer
+ .text          0x0000000069408238        0xc ./../../../case/lib/applib_api.a(applib_api151.o)
+                0x0000000069408238                restart_timer
+ .text          0x0000000069408244        0xc ./../../../case/lib/applib_api.a(applib_api167.o)
+                0x0000000069408244                kill_timers
+ .text          0x0000000069408250        0xc ./../../../case/lib/applib_api.a(applib_api439.o)
+                0x0000000069408250                applib_init
+ .text          0x000000006940825c        0xc ./../../../case/lib/applib_api.a(applib_api447.o)
+                0x000000006940825c                applib_quit
+ .text          0x0000000069408268        0xc ./../../../case/lib/applib_api.a(applib_api455.o)
+                0x0000000069408268                get_msg
+ .text          0x0000000069408274        0xc ./../../../case/lib/applib_api.a(applib_api473.o)
+                0x0000000069408274                reply_sync_msg
+ .text          0x0000000069408280        0xc ./../../../case/lib/applib_api.a(applib_api489.o)
+                0x0000000069408280                broadcast_msg
+ .text          0x000000006940828c        0xc ./../../../case/lib/applib_api.a(applib_api497.o)
+                0x000000006940828c                dispatch_msg
+ .text          0x0000000069408298        0xc ./../../../case/lib/applib_api.a(applib_api505.o)
+                0x0000000069408298                register_sys_dispatcher
+ .text          0x00000000694082a4        0xc ./../../../case/lib/applib_api.a(applib_api513.o)
+                0x00000000694082a4                unregister_sys_dispatcher
+ .text          0x00000000694082b0        0xc ./../../../case/lib/applib_api.a(applib_api521.o)
+                0x00000000694082b0                exit_msg_loop
+ .text          0x00000000694082bc        0xc ./../../../case/lib/applib_api.a(applib_api71.o)
+                0x00000000694082bc                app_running_list_set_app_info
+ .text          0x00000000694082c8        0xc ./../../../case/lib/applib_api.a(applib_api87.o)
+                0x00000000694082c8                app_running_list_get_list
+ .text          0x00000000694082d4        0xc ./../../../case/lib/applib_api.a(applib_api907.o)
+                0x00000000694082d4                sty_lcd_update
+ .text          0x00000000694082e0        0xc ./../../../case/lib/applib_api.a(applib_api917.o)
+                0x00000000694082e0                sys_get_hotplugin_dev_info
+ .text          0x00000000694082ec        0xc ./../../../psp_rel/lib/actmem_api.a(actmem_api33.o)
+                0x00000000694082ec                act_mem_allocate
+ .text          0x00000000694082f8        0xc ./../../../psp_rel/lib/actmem_api.a(actmem_api41.o)
+                0x00000000694082f8                act_mem_free
+ .text          0x0000000069408304       0x68 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000069408304                __do_global_dtors_aux
+ .text          0x000000006940836c        0x8 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+                0x000000006940836c                exec_release
+ .text          0x0000000069408374      0x384 ./../../../psp_rel/lib/libcrt/crtend1.o
+                0x0000000069408374                dumpargv
+                0x00000000694083d0                process_start
+                0x00000000694084e8                __start
+ .text          0x00000000694086f8       0x68 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x00000000694086f8                __do_global_ctors_aux
+ .text          0x0000000069408760        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api15.o)
+                0x0000000069408760                __kernel_release_pid
+ .text          0x000000006940876c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                0x000000006940876c                getpid
+ .text          0x0000000069408778        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api210.o)
+                0x0000000069408778                __kernel_set_envp
+ .text          0x0000000069408784        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api23.o)
+                0x0000000069408784                __kernel_get_process_struct
+ .text          0x0000000069408790        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                0x0000000069408790                __errno
+ .text          0x000000006940879c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api269.o)
+                0x000000006940879c                __current_pid
+ .text          0x00000000694087a8        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api285.o)
+                0x00000000694087a8                __kernel_insert_sub_to_parent
+ .text          0x00000000694087b4        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api293.o)
+                0x00000000694087b4                __kernel_remove_sub_from_parent
+ .text          0x00000000694087c0        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api320.o)
+                0x00000000694087c0                mq_open
+ .text          0x00000000694087cc        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api328.o)
+                0x00000000694087cc                mq_close
+ .text          0x00000000694087d8        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api344.o)
+                0x00000000694087d8                mq_send
+ .text          0x00000000694087e4        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api384.o)
+                0x00000000694087e4                mq_getattr
+ .text          0x00000000694087f0        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api566.o)
+                0x00000000694087f0                pthread_getschedparam
+ .text          0x00000000694087fc        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api574.o)
+                0x00000000694087fc                pthread_setschedparam
+ .text          0x0000000069408808        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api590.o)
+                0x0000000069408808                pthread_create
+ .text          0x0000000069408814        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api614.o)
+                0x0000000069408814                pthread_self
+ .text          0x0000000069408820        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api7.o)
+                0x0000000069408820                __kernel_get_pid
+ .text          0x000000006940882c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api718.o)
+                0x000000006940882c                pthread_attr_init
+ .text          0x0000000069408838        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api726.o)
+                0x0000000069408838                pthread_attr_destroy
+ .text          0x0000000069408844        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api734.o)
+                0x0000000069408844                pthread_attr_setinheritsched
+ .text          0x0000000069408850        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api750.o)
+                0x0000000069408850                pthread_attr_setdetachstate
+ .text          0x000000006940885c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api862.o)
+                0x000000006940885c                exit
+ .text          0x0000000069408868        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api87.o)
+                0x0000000069408868                _kernel_change_thread_pid
+ .text          0x0000000069408874        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+                0x0000000069408874                usleep
+ .text          0x0000000069408880        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api127.o)
+                0x0000000069408880                mkdir
+ .text          0x000000006940888c        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api143.o)
+                0x000000006940888c                fstat
+ .text          0x0000000069408898        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                0x0000000069408898                close
+ .text          0x00000000694088a4        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+                0x00000000694088a4                read
+ .text          0x00000000694088b0        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api39.o)
+                0x00000000694088b0                lseek
+ .text          0x00000000694088bc        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                0x00000000694088bc                ioctl
+ .text          0x00000000694088c8        0x8 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                0x00000000694088c8                open
+ .text          0x00000000694088d0       0x50 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                0x00000000694088d0                memcpy
+                0x00000000694088f8                bcopy
+ .text          0x0000000069408920       0x44 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                0x0000000069408944                bzero
+                0x0000000069408920                memset
+ .text          0x0000000069408964       0xfc ./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+                0x00000000694089d0                strncasecmp
+                0x0000000069408964                strcasecmp
+ .text          0x0000000069408a60       0x78 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+                0x0000000069408a8c                strcoll
+                0x0000000069408a94                strncmp
+                0x0000000069408a60                strcmp
+ .text          0x0000000069408ad8       0x80 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                0x0000000069408ad8                strcpy
+                0x0000000069408b04                strncpy
+ .text          0x0000000069408b58       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+                0x0000000069408b58                strlen
+ .text          0x0000000069408b78       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                0x0000000069408b78                set_config
+ .text          0x0000000069408b88        0xc ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                0x0000000069408b88                get_config
+ .text          0x0000000069408b94        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+                0x0000000069408b94                os_sched_lock
+ .text          0x0000000069408ba0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+                0x0000000069408ba0                os_sched_unlock
+ .text          0x0000000069408bac        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                0x0000000069408bac                printf
+ .text          0x0000000069408bb8        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                0x0000000069408bb8                malloc
+ .text          0x0000000069408bc4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                0x0000000069408bc4                free
+ .text          0x0000000069408bd0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api526.o)
+                0x0000000069408bd0                sys_mount
+ .text          0x0000000069408bdc        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api534.o)
+                0x0000000069408bdc                sys_umount
+ .text          0x0000000069408be8        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+                0x0000000069408be8                insmod
+ .text          0x0000000069408bf4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api862.o)
+                0x0000000069408bf4                rmmod
+ .text          0x0000000069408c00        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                0x0000000069408c00                dlopen
+ .text          0x0000000069408c0c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                0x0000000069408c0c                dlclose
+ .text          0x0000000069408c18        0xc ./../../../psp_rel/lib/kmodule_api.a(kmodule_api14.o)
+                0x0000000069408c18                os_cpu_store_sr
+ .text          0x0000000069408c24        0xc ./../../../psp_rel/lib/kmodule_api.a(kmodule_api502.o)
+                0x0000000069408c24                kernel_sym
+ .text          0x0000000069408c30        0x8 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api6.o)
+                0x0000000069408c30                os_cpu_save_sr
+ *(.rodata)
+ .rodata        0x0000000069408c38      0x318 drv_op_ada.o
+ .rodata        0x0000000069408f50       0x5c drv_op_charge.o
+ .rodata        0x0000000069408fac      0x178 drv_op_gsensor.o
+ .rodata        0x0000000069409124       0x6c drv_op_key.o
+ .rodata        0x0000000069409190      0x228 drv_op_lcd.o
+ .rodata        0x00000000694093b8       0x84 drv_op_usb_monitor.o
+ .rodata        0x000000006940943c       0x1c msg_queue.o
+ .rodata        0x0000000069409458      0x1b8 msg_server_config.o
+ .rodata        0x0000000069409610      0x45c msg_server_main.o
+ .rodata        0x0000000069409a6c      0x1a4 process_msg.o
+ .rodata        0x0000000069409c10      0x2a0 sys_event_monitor.o
+ .rodata        0x0000000069409eb0       0x20 system_timers.o
+ .rodata        0x0000000069409ed0       0x18 ./../../../psp_rel/lib/libcrt/crtend1.o
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000069409ee8       0x9d ./../../../psp_rel/lib/libcrt/crtend1.o
+                                         0xa0 (size before relaxing)
+
+.fini           0x0000000069409f88       0x20
+ *(.fini)
+ .fini          0x0000000069409f88        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000069409f88                _fini
+ .fini          0x0000000069409f90        0x8 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .fini          0x0000000069409f98       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+                0x000000006940a000                . = ALIGN (0x1000)
+
+.ctors          0x000000006940a000        0x8
+ *crtbegin*.o(.ctors)
+ .ctors         0x000000006940a000        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000006940a000                __CTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000006940a004        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x000000006940a004                __CTOR_END__
+
+.dtors          0x000000006940a008        0xc
+ *crtbegin*.o(.dtors)
+ .dtors         0x000000006940a008        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000006940a008                __DTOR_LIST__
+ .dtors         0x000000006940a00c        0x4 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000006940a010        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x000000006940a010                __DTOR_END__
+
+.data           0x000000006940a014      0x38c
+ *(.data)
+ .data          0x000000006940a014        0x4 drv_op_ada.o
+ .data          0x000000006940a018        0x4 drv_op_charge.o
+ .data          0x000000006940a01c        0x4 drv_op_gsensor.o
+ .data          0x000000006940a020      0x110 drv_op_key.o
+                0x000000006940a020                key_para
+ .data          0x000000006940a130        0x4 drv_op_lcd.o
+ .data          0x000000006940a134        0x4 drv_op_usb_monitor.o
+ .data          0x000000006940a138      0x210 msg_server_config.o
+                0x000000006940a138                g_msg_server_cfgs
+ .data          0x000000006940a348        0x4 msg_server_main.o
+ .data          0x000000006940a34c        0x4 process_msg.o
+ .data          0x000000006940a350        0x4 sys_event_monitor.o
+ .data          0x000000006940a354       0x4c system_timers.o
+ *(.sdata)
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x000000006940a3a0      0x51c
+ *(.bss)
+ .bss           0x000000006940a3a0        0x4 drv_op_gsensor.o
+ .bss           0x000000006940a3a4       0x14 drv_op_key.o
+ .bss           0x000000006940a3b8       0x90 msg_server_main.o
+ .bss           0x000000006940a448       0x34 process_msg.o
+ .bss           0x000000006940a47c        0x4 sys_event_monitor.o
+ .bss           0x000000006940a480       0x14 system_timers.o
+ *(COMMON)
+ COMMON         0x000000006940a494      0x424 drv_op_ada.o
+                0x000000006940a494                pthread_mutex_type_t
+                0x000000006940a498                key_tone_param
+                0x000000006940a8b4                pthread_share_type_t
+ COMMON         0x000000006940a8b8        0x4 msg_queue.o
+                0x000000006940a8b8                mq_key_fd
+
+.rel.dyn
+Address of section .init set to 0x69400000
+LOAD drv_op_ada.o
+LOAD drv_op_charge.o
+LOAD drv_op_gsensor.o
+LOAD drv_op_key.o
+LOAD drv_op_lcd.o
+LOAD drv_op_usb_monitor.o
+LOAD msg_queue.o
+LOAD msg_server_config.o
+LOAD msg_server_main.o
+LOAD post_msg.o
+LOAD process_msg.o
+LOAD sys_event_monitor.o
+LOAD system_timers.o
+LOAD ./../../../case/lib/commonui_api.a
+LOAD ./../../../case/lib/style_api.a
+LOAD ./../../../case/lib/fusion_api.a
+LOAD ./../../../case/lib/applib_api.a
+LOAD ./../../../psp_rel/lib/libcom.a
+LOAD ./../../../psp_rel/lib/actmem_api.a
+LOAD ./../../../psp_rel/lib/libcom.a
+LOAD ./../../../psp_rel/lib/libcrt/crti.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin1.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend1.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend.o
+LOAD ./../../../psp_rel/lib/libcrt/crtn.o
+LOAD ./../../../psp_rel/lib/ime_api.a
+LOAD ./../../../psp_rel/lib/mlang_api.a
+LOAD ./../../../psp_rel/lib/mnavi_api.a
+LOAD ./../../../psp_rel/lib/plist_api.a
+LOAD ./../../../psp_rel/lib/sqlite_api.a
+LOAD ./../../../psp_rel/lib/libc_sys_api.a
+LOAD ./../../../psp_rel/lib/libc_fs_api.a
+LOAD ./../../../psp_rel/lib/libc/libc_sysindep.a
+LOAD ./../../../psp_rel/lib/gui_api.a
+LOAD ./../../../psp_rel/lib/mmm_api.a
+LOAD ./../../../psp_rel/lib/transimage.a
+LOAD ./../../../psp_rel/lib/apconfig_api.a
+LOAD ./../../../psp_rel/lib/syscall_api.a
+LOAD ./../../../psp_rel/lib/kmodule_api.a
+OUTPUT(./../../../case/images/apps//msg_serv.app elf32-tradlittlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 drv_op_ada.o
+
+.pdr            0x0000000000000000     0x1960
+ .pdr           0x0000000000000000      0x180 drv_op_ada.o
+ .pdr           0x0000000000000180      0x140 drv_op_charge.o
+ .pdr           0x00000000000002c0       0xc0 drv_op_gsensor.o
+ .pdr           0x0000000000000380       0xc0 drv_op_key.o
+ .pdr           0x0000000000000440       0xc0 drv_op_lcd.o
+ .pdr           0x0000000000000500       0x80 drv_op_usb_monitor.o
+ .pdr           0x0000000000000580       0x60 msg_queue.o
+ .pdr           0x00000000000005e0       0xc0 msg_server_config.o
+ .pdr           0x00000000000006a0      0x240 msg_server_main.o
+ .pdr           0x00000000000008e0       0x60 post_msg.o
+ .pdr           0x0000000000000940      0x100 process_msg.o
+ .pdr           0x0000000000000a40      0x100 sys_event_monitor.o
+ .pdr           0x0000000000000b40      0x1c0 system_timers.o
+ .pdr           0x0000000000000d00       0x20 ./../../../case/lib/applib_api.a(applib_api1005.o)
+ .pdr           0x0000000000000d20       0x20 ./../../../case/lib/applib_api.a(applib_api1029.o)
+ .pdr           0x0000000000000d40       0x20 ./../../../case/lib/applib_api.a(applib_api1053.o)
+ .pdr           0x0000000000000d60       0x20 ./../../../case/lib/applib_api.a(applib_api1141.o)
+ .pdr           0x0000000000000d80       0x20 ./../../../case/lib/applib_api.a(applib_api1157.o)
+ .pdr           0x0000000000000da0       0x20 ./../../../case/lib/applib_api.a(applib_api1165.o)
+ .pdr           0x0000000000000dc0       0x20 ./../../../case/lib/applib_api.a(applib_api119.o)
+ .pdr           0x0000000000000de0       0x20 ./../../../case/lib/applib_api.a(applib_api1261.o)
+ .pdr           0x0000000000000e00       0x20 ./../../../case/lib/applib_api.a(applib_api1269.o)
+ .pdr           0x0000000000000e20       0x20 ./../../../case/lib/applib_api.a(applib_api127.o)
+ .pdr           0x0000000000000e40       0x20 ./../../../case/lib/applib_api.a(applib_api1341.o)
+ .pdr           0x0000000000000e60       0x20 ./../../../case/lib/applib_api.a(applib_api1349.o)
+ .pdr           0x0000000000000e80       0x20 ./../../../case/lib/applib_api.a(applib_api135.o)
+ .pdr           0x0000000000000ea0       0x20 ./../../../case/lib/applib_api.a(applib_api1357.o)
+ .pdr           0x0000000000000ec0       0x20 ./../../../case/lib/applib_api.a(applib_api1397.o)
+ .pdr           0x0000000000000ee0       0x20 ./../../../case/lib/applib_api.a(applib_api1413.o)
+ .pdr           0x0000000000000f00       0x20 ./../../../case/lib/applib_api.a(applib_api143.o)
+ .pdr           0x0000000000000f20       0x20 ./../../../case/lib/applib_api.a(applib_api151.o)
+ .pdr           0x0000000000000f40       0x20 ./../../../case/lib/applib_api.a(applib_api167.o)
+ .pdr           0x0000000000000f60       0x20 ./../../../case/lib/applib_api.a(applib_api439.o)
+ .pdr           0x0000000000000f80       0x20 ./../../../case/lib/applib_api.a(applib_api447.o)
+ .pdr           0x0000000000000fa0       0x20 ./../../../case/lib/applib_api.a(applib_api455.o)
+ .pdr           0x0000000000000fc0       0x20 ./../../../case/lib/applib_api.a(applib_api473.o)
+ .pdr           0x0000000000000fe0       0x20 ./../../../case/lib/applib_api.a(applib_api489.o)
+ .pdr           0x0000000000001000       0x20 ./../../../case/lib/applib_api.a(applib_api497.o)
+ .pdr           0x0000000000001020       0x20 ./../../../case/lib/applib_api.a(applib_api505.o)
+ .pdr           0x0000000000001040       0x20 ./../../../case/lib/applib_api.a(applib_api513.o)
+ .pdr           0x0000000000001060       0x20 ./../../../case/lib/applib_api.a(applib_api521.o)
+ .pdr           0x0000000000001080       0x20 ./../../../case/lib/applib_api.a(applib_api71.o)
+ .pdr           0x00000000000010a0       0x20 ./../../../case/lib/applib_api.a(applib_api87.o)
+ .pdr           0x00000000000010c0       0x20 ./../../../case/lib/applib_api.a(applib_api907.o)
+ .pdr           0x00000000000010e0       0x20 ./../../../case/lib/applib_api.a(applib_api917.o)
+ .pdr           0x0000000000001100       0x20 ./../../../psp_rel/lib/actmem_api.a(actmem_api33.o)
+ .pdr           0x0000000000001120       0x20 ./../../../psp_rel/lib/actmem_api.a(actmem_api41.o)
+ .pdr           0x0000000000001140       0x20 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .pdr           0x0000000000001160       0x20 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .pdr           0x0000000000001180       0x60 ./../../../psp_rel/lib/libcrt/crtend1.o
+ .pdr           0x00000000000011e0       0x20 ./../../../psp_rel/lib/libcrt/crtend.o
+ .pdr           0x0000000000001200       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api15.o)
+ .pdr           0x0000000000001220       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+ .pdr           0x0000000000001240       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api210.o)
+ .pdr           0x0000000000001260       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api23.o)
+ .pdr           0x0000000000001280       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+ .pdr           0x00000000000012a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api269.o)
+ .pdr           0x00000000000012c0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api285.o)
+ .pdr           0x00000000000012e0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api293.o)
+ .pdr           0x0000000000001300       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api320.o)
+ .pdr           0x0000000000001320       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api328.o)
+ .pdr           0x0000000000001340       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api344.o)
+ .pdr           0x0000000000001360       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api384.o)
+ .pdr           0x0000000000001380       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api566.o)
+ .pdr           0x00000000000013a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api574.o)
+ .pdr           0x00000000000013c0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api590.o)
+ .pdr           0x00000000000013e0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api614.o)
+ .pdr           0x0000000000001400       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api7.o)
+ .pdr           0x0000000000001420       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api718.o)
+ .pdr           0x0000000000001440       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api726.o)
+ .pdr           0x0000000000001460       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api734.o)
+ .pdr           0x0000000000001480       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api750.o)
+ .pdr           0x00000000000014a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api862.o)
+ .pdr           0x00000000000014c0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api87.o)
+ .pdr           0x00000000000014e0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api878.o)
+ .pdr           0x0000000000001500       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api127.o)
+ .pdr           0x0000000000001520       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api143.o)
+ .pdr           0x0000000000001540       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+ .pdr           0x0000000000001560       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api23.o)
+ .pdr           0x0000000000001580       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api39.o)
+ .pdr           0x00000000000015a0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+ .pdr           0x00000000000015c0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+ .pdr           0x00000000000015e0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .pdr           0x0000000000001620       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .pdr           0x0000000000001660       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+ .pdr           0x00000000000016a0       0x60 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+ .pdr           0x0000000000001700       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .pdr           0x0000000000001740       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+ .pdr           0x0000000000001760       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+ .pdr           0x0000000000001780       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+ .pdr           0x00000000000017a0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api22.o)
+ .pdr           0x00000000000017c0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api30.o)
+ .pdr           0x00000000000017e0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+ .pdr           0x0000000000001800       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+ .pdr           0x0000000000001820       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+ .pdr           0x0000000000001840       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api526.o)
+ .pdr           0x0000000000001860       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api534.o)
+ .pdr           0x0000000000001880       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+ .pdr           0x00000000000018a0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api862.o)
+ .pdr           0x00000000000018c0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+ .pdr           0x00000000000018e0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+ .pdr           0x0000000000001900       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api14.o)
+ .pdr           0x0000000000001920       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api502.o)
+ .pdr           0x0000000000001940       0x20 ./../../../psp_rel/lib/kmodule_api.a(kmodule_api6.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+
+.debug_abbrev   0x0000000000000000     0x1343
+ .debug_abbrev  0x0000000000000000      0x1e4 drv_op_ada.o
+ .debug_abbrev  0x00000000000001e4      0x11d drv_op_charge.o
+ .debug_abbrev  0x0000000000000301       0xf7 drv_op_gsensor.o
+ .debug_abbrev  0x00000000000003f8      0x119 drv_op_key.o
+ .debug_abbrev  0x0000000000000511       0xc4 drv_op_lcd.o
+ .debug_abbrev  0x00000000000005d5       0xf0 drv_op_usb_monitor.o
+ .debug_abbrev  0x00000000000006c5       0xf1 msg_queue.o
+ .debug_abbrev  0x00000000000007b6       0xf8 msg_server_config.o
+ .debug_abbrev  0x00000000000008ae      0x22e msg_server_main.o
+ .debug_abbrev  0x0000000000000adc      0x119 post_msg.o
+ .debug_abbrev  0x0000000000000bf5      0x1a7 process_msg.o
+ .debug_abbrev  0x0000000000000d9c      0x157 sys_event_monitor.o
+ .debug_abbrev  0x0000000000000ef3      0x1fa system_timers.o
+ .debug_abbrev  0x00000000000010ed       0x80 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_abbrev  0x000000000000116d      0x1d6 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_info     0x0000000000000000     0xcc9d
+ .debug_info    0x0000000000000000      0x9a7 drv_op_ada.o
+ .debug_info    0x00000000000009a7      0x828 drv_op_charge.o
+ .debug_info    0x00000000000011cf      0x4dd drv_op_gsensor.o
+ .debug_info    0x00000000000016ac     0x1790 drv_op_key.o
+ .debug_info    0x0000000000002e3c      0x487 drv_op_lcd.o
+ .debug_info    0x00000000000032c3      0x3d9 drv_op_usb_monitor.o
+ .debug_info    0x000000000000369c      0x3ab msg_queue.o
+ .debug_info    0x0000000000003a47      0x646 msg_server_config.o
+ .debug_info    0x000000000000408d     0x2c9a msg_server_main.o
+ .debug_info    0x0000000000006d27     0x163b post_msg.o
+ .debug_info    0x0000000000008362     0x1c1a process_msg.o
+ .debug_info    0x0000000000009f7c      0x81f sys_event_monitor.o
+ .debug_info    0x000000000000a79b     0x1c32 system_timers.o
+ .debug_info    0x000000000000c3cd       0xfe ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_info    0x000000000000c4cb      0x7d2 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_line     0x0000000000000000     0x18ea
+ .debug_line    0x0000000000000000      0x241 drv_op_ada.o
+ .debug_line    0x0000000000000241      0x142 drv_op_charge.o
+ .debug_line    0x0000000000000383      0x116 drv_op_gsensor.o
+ .debug_line    0x0000000000000499      0x152 drv_op_key.o
+ .debug_line    0x00000000000005eb       0xee drv_op_lcd.o
+ .debug_line    0x00000000000006d9       0xfb drv_op_usb_monitor.o
+ .debug_line    0x00000000000007d4       0xc3 msg_queue.o
+ .debug_line    0x0000000000000897      0x164 msg_server_config.o
+ .debug_line    0x00000000000009fb      0x5d2 msg_server_main.o
+ .debug_line    0x0000000000000fcd      0x155 post_msg.o
+ .debug_line    0x0000000000001122      0x28b process_msg.o
+ .debug_line    0x00000000000013ad      0x174 sys_event_monitor.o
+ .debug_line    0x0000000000001521      0x20f system_timers.o
+ .debug_line    0x0000000000001730       0x62 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_line    0x0000000000001792      0x158 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_frame    0x0000000000000000      0xe30
+ .debug_frame   0x0000000000000000      0x190 drv_op_ada.o
+ .debug_frame   0x0000000000000190      0x14c drv_op_charge.o
+ .debug_frame   0x00000000000002dc       0xcc drv_op_gsensor.o
+ .debug_frame   0x00000000000003a8       0xcc drv_op_key.o
+ .debug_frame   0x0000000000000474       0xd0 drv_op_lcd.o
+ .debug_frame   0x0000000000000544       0x8c drv_op_usb_monitor.o
+ .debug_frame   0x00000000000005d0       0x70 msg_queue.o
+ .debug_frame   0x0000000000000640       0xd4 msg_server_config.o
+ .debug_frame   0x0000000000000714      0x258 msg_server_main.o
+ .debug_frame   0x000000000000096c       0x70 post_msg.o
+ .debug_frame   0x00000000000009dc      0x100 process_msg.o
+ .debug_frame   0x0000000000000adc      0x10c sys_event_monitor.o
+ .debug_frame   0x0000000000000be8      0x1c8 system_timers.o
+ .debug_frame   0x0000000000000db0       0x20 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_frame   0x0000000000000dd0       0x60 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_pubnames
+                0x0000000000000000      0xb55
+ .debug_pubnames
+                0x0000000000000000      0x121 drv_op_ada.o
+ .debug_pubnames
+                0x0000000000000121      0x139 drv_op_charge.o
+ .debug_pubnames
+                0x000000000000025a       0xeb drv_op_gsensor.o
+ .debug_pubnames
+                0x0000000000000345       0xdb drv_op_key.o
+ .debug_pubnames
+                0x0000000000000420       0xe8 drv_op_lcd.o
+ .debug_pubnames
+                0x0000000000000508       0xb0 drv_op_usb_monitor.o
+ .debug_pubnames
+                0x00000000000005b8       0x7a msg_queue.o
+ .debug_pubnames
+                0x0000000000000632       0xf6 msg_server_config.o
+ .debug_pubnames
+                0x0000000000000728       0x4d msg_server_main.o
+ .debug_pubnames
+                0x0000000000000775       0x6c post_msg.o
+ .debug_pubnames
+                0x00000000000007e1       0xed process_msg.o
+ .debug_pubnames
+                0x00000000000008ce       0x9b sys_event_monitor.o
+ .debug_pubnames
+                0x0000000000000969      0x128 system_timers.o
+ .debug_pubnames
+                0x0000000000000a91       0x55 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_pubnames
+                0x0000000000000ae6       0x6f ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_aranges  0x0000000000000000      0x1e0
+ .debug_aranges
+                0x0000000000000000       0x20 drv_op_ada.o
+ .debug_aranges
+                0x0000000000000020       0x20 drv_op_charge.o
+ .debug_aranges
+                0x0000000000000040       0x20 drv_op_gsensor.o
+ .debug_aranges
+                0x0000000000000060       0x20 drv_op_key.o
+ .debug_aranges
+                0x0000000000000080       0x20 drv_op_lcd.o
+ .debug_aranges
+                0x00000000000000a0       0x20 drv_op_usb_monitor.o
+ .debug_aranges
+                0x00000000000000c0       0x20 msg_queue.o
+ .debug_aranges
+                0x00000000000000e0       0x20 msg_server_config.o
+ .debug_aranges
+                0x0000000000000100       0x20 msg_server_main.o
+ .debug_aranges
+                0x0000000000000120       0x20 post_msg.o
+ .debug_aranges
+                0x0000000000000140       0x20 process_msg.o
+ .debug_aranges
+                0x0000000000000160       0x20 sys_event_monitor.o
+ .debug_aranges
+                0x0000000000000180       0x20 system_timers.o
+ .debug_aranges
+                0x00000000000001a0       0x20 ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .debug_aranges
+                0x00000000000001c0       0x20 ./../../../psp_rel/lib/libcrt/crtend1.o
+
+.debug_str      0x0000000000000000      0x68e
+ .debug_str     0x0000000000000000       0x2b drv_op_ada.o
+ .debug_str     0x000000000000002b       0x19 drv_op_charge.o
+ .debug_str     0x0000000000000044       0x1b drv_op_gsensor.o
+ .debug_str     0x000000000000005f       0x12 drv_op_key.o
+ .debug_str     0x0000000000000071       0x1b drv_op_lcd.o
+ .debug_str     0x000000000000008c       0x12 drv_op_usb_monitor.o
+ .debug_str     0x000000000000009e       0x12 msg_queue.o
+ .debug_str     0x00000000000000b0       0x21 msg_server_config.o
+ .debug_str     0x00000000000000d1       0x28 msg_server_main.o
+ .debug_str     0x00000000000000f9       0x12 post_msg.o
+ .debug_str     0x000000000000010b       0x23 process_msg.o
+ .debug_str     0x000000000000012e       0x1b sys_event_monitor.o
+ .debug_str     0x0000000000000149       0x1b system_timers.o
+ .debug_str     0x0000000000000164      0x1ac ./../../../psp_rel/lib/libcrt/crtbegin1.o
+                                        0x1d9 (size before relaxing)
+ .debug_str     0x0000000000000310      0x37e ./../../../psp_rel/lib/libcrt/crtend1.o
+                                        0x556 (size before relaxing)
+
+.comment        0x0000000000000000      0x3dd
+ .comment       0x0000000000000000       0x2b drv_op_ada.o
+ .comment       0x000000000000002b       0x2b drv_op_charge.o
+ .comment       0x0000000000000056       0x2b drv_op_gsensor.o
+ .comment       0x0000000000000081       0x2b drv_op_key.o
+ .comment       0x00000000000000ac       0x2b drv_op_lcd.o
+ .comment       0x00000000000000d7       0x2b drv_op_usb_monitor.o
+ .comment       0x0000000000000102       0x2b msg_queue.o
+ .comment       0x000000000000012d       0x2b msg_server_config.o
+ .comment       0x0000000000000158       0x2b msg_server_main.o
+ .comment       0x0000000000000183       0x2b post_msg.o
+ .comment       0x00000000000001ae       0x2b process_msg.o
+ .comment       0x00000000000001d9       0x2b sys_event_monitor.o
+ .comment       0x0000000000000204       0x2b system_timers.o
+ .comment       0x000000000000022f       0x2b ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .comment       0x000000000000025a       0x2b ./../../../psp_rel/lib/libcrt/crtbegin1.o
+ .comment       0x0000000000000285       0x2b ./../../../psp_rel/lib/libcrt/crtend1.o
+ .comment       0x00000000000002b0       0x2b ./../../../psp_rel/lib/libcrt/crtend.o
+ .comment       0x00000000000002db       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .comment       0x0000000000000306       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .comment       0x0000000000000331       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcasecmp.o)
+ .comment       0x000000000000035c       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+ .comment       0x0000000000000387       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .comment       0x00000000000003b2       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+
+.debug_ranges   0x0000000000000000       0x30
+ .debug_ranges  0x0000000000000000       0x30 ./../../../psp_rel/lib/libcrt/crtend1.o

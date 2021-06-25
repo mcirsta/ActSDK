@@ -1,0 +1,6 @@
+/*alarm.dot*/
+digraph alarm {
+	alarm->kernel	/*关系指向*/
+	alarm->rtc
+	alarm->sysinfo
+}

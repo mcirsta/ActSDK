@@ -1,0 +1,44 @@
+/*! \page scene_page1 代码示例
+ *   
+ * \par 示例
+ * 先初始化，再设置循环模式、当前索引和索引总数，然后可以获得上一首或下一首的索引值。当返回值是-1时，表示循环结束或错误，这时需要重新设置循环模式\n
+ * \code
+int main(void)
+{
+	int index;
+	/*使用前的初始化*/
+	loop_init()；
+
+	/*设置循环模式、当前索引和索引总数*/
+	set_loopMode(LOOPMODE_SEQUENCE, 5, 10);
+
+	/*获得下一个索引值*/
+	index = loop_next();
+	
+	/*如果返回-1，说明循环结束或有错误，需重置循环模式*/
+	if(index == -1)
+	{
+		set_loopMode(LOOPMODE_SEQUENCE, 3, 10);
+		index = 3；
+	}
+
+	/*获得上一个索引值*/
+	index = loop_next();
+
+	/*如果返回-1，说明循环结束或有错误，需重置循环模式*/
+	if(index == -1)
+	{
+		set_loopMode(LOOPMODE_SEQUENCE, 6, 10);
+		index = 6；
+	}
+	
+	/*删除索引*/
+	index = loop_delete_index(6);
+        if(index == -1)
+	{
+		//索引总数已经为0
+	}
+}
+ * \endcode
+ * 
+*/

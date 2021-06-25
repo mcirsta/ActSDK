@@ -1,0 +1,25 @@
+/********************************************************************************
+*                              213x -- usdk130
+*                            Module: lib_loop
+*                 Copyright(c) 2003-2008 Actions Semiconductor,
+*                            All Rights Reserved. 
+*
+* History:         
+*      <author>    <time>           <version >             <desc>
+*       rcmai     2008-02-01 15:00     1.0             build this file 
+********************************************************************************/
+/*!
+* \file     interface.c
+* \brief      详细说明模块接口
+* \author   xusongzhou
+* \par      GENERAL DESCRIPTION:
+*             详细说明"循环模式库模块"的总体框架和接口定义，介绍该模块的功能和使用方法
+* \par      EXTERNALIZED FUNCTIONS:
+*             底层支持：\n
+*       	  该模块底层调用了SHUFFLE模块来实现SHUFFLE循环模式（参见参考文献）;\n
+*             向上提供服务：\n
+*       	  向应用提供6种循环模式。当应用需要循环控制播放时，可能包含并调用该循环模式库。
+*
+* \version 1.0
+* \date  2007/5/4
+*******************************************************************************/

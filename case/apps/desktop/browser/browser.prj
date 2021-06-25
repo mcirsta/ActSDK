@@ -1,0 +1,23 @@
+VersionTag45
+StartProjectMarker
+FolderName=browser
+SourcePath=C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\
+OutputPath=C:\Program Files\PRQA\QAC-7.0\temp\
+SubsPers=C:\Program Files\PRQA\QAC-7.0\personalities\wt_actions(us213f).p_s
+AnalPers=C:\Program Files\PRQA\QAC-7.0\personalities\wt_actions(us213f).p_a
+CompPers=C:\Program Files\PRQA\QAC-7.0\personalities\wt_actions(us213f).p_c
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\file_operation.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_sty.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_scene_browsing.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_widget_option.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_widget_filelist.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_option.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser.h
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\file_operation.c
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_scene_browsing.c
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_main.c
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_widget_option.c
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_widget_filelist.c
+C:\binannan\us213F\binannan_us213f\uvob\usdk213f\case\apps\desktop\browser\browser_browsing_option.c
+EndContainedFilesMarker
+

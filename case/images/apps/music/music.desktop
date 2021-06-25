@@ -1,0 +1,36 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=music.app
+Icon-id=
+ICon=
+Name-id=
+Name=Music
+Name[zh_CN]=音乐
+Name[zh_TW]=音樂
+Name[en_GB]=Music
+Name[ja_JP]=音楽
+Name[ko_KP]=음악
+Name[fr_FR]=Musique
+Name[de_GE]=Musik
+Name[it_IT]=Musica
+Name[nl_NL]=Muziek
+Name[pt_PT]=Música
+Name[es_PE]=Música	
+Name[sv_SE]=Musik	
+Name[cs_CZ]=Hudba	
+Name[da_DK]=Musik	
+Name[pl_PL]=Muzyka	
+Name[ru_RU]=Музыка	
+Name[tr_TR]=Müzik	
+Name[he_IL]=מוזיקה	
+Name[th_TH]=ดนตรี
+Name[hu_HU]=zene	
+Name[ro_RO]=Muzică	
+Name[ar]=موسيقىى 
+Name[id_ID] = Musik Saya
+Name[el_EG] =Μουσική.
+
+

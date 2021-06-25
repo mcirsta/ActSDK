@@ -1,0 +1,8 @@
+/*sample.dot*/
+digraph sample {
+	gui->libc	/*关系指向*/
+	gui->multilang
+	gui->fb
+	gui->key
+              multilang->libc
+}

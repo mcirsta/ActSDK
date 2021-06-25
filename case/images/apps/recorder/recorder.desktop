@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=recorder.app
+Icon-id=
+ICon=
+Name-id=
+Name=Recorder
+Name[zh_CN]=录音
+Name[zh_TW]=錄音
+Name[en_GB]=Recorder
+Name[ja_JP]=録音
+Name[ko_KP]=녹음
+Name[fr_FR]=Enreg
+Name[de_GE]=Aufnahme
+Name[it_IT]=Registrazione
+Name[nl_NL]=Opnemen
+Name[pt_PT]=Gravação
+Name[es_PE]=Grabación
+Name[sv_SE]=Inspelningar
+Name[cs_CZ]=Nahrávání
+Name[da_DK]=Optagelse
+Name[pl_PL]=Nagrania
+Name[ru_RU]=Записи
+Name[tr_TR]=Kayıtlar
+Name[he_IL]=הקלטה
+Name[th_TH]=บันทึกเสียง
+Name[hu_HU]=rekord
+Name[ro_RO]=Recorduri
+Name[ar]=تسجيل 
+Name[id_ID] = Perekaman
+Name[el_EG] =Μηχάνημα Καταγραφής
+

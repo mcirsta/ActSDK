@@ -1,0 +1,39 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Directory
+
+# Child=./emulator/NES;./emulator/SFC;./emulator/GBC;./emulator/MD;./g-game/g-game  #鍒楀嚭games涓嬬殑瀛愰」鍚嶇О:NES,SFC,...,g-game
+
+Child=./emulator/NES;./emulator/SFC;./emulator/GBC;./emulator/MD; #鍒楀嚭games涓嬬殑瀛愰」鍚嶇О:NES,SFC,...
+
+Exec=
+Icon-id=
+Icon=
+Name-id=
+Name=Games
+Name[zh_CN]=游戏
+Name[zh_TW]=遊戲
+Name[en_GB]=Games
+Name[ja_JP]=ゲーム
+Name[ko_KP]=게임 
+Name[fr_FR]=Jeu	
+Name[de_GE]=Spiele	
+Name[it_IT]=giochi
+Name[nl_NL]=Spelletje
+Name[pt_PT]=Jogo
+Name[es_PE]=Juego
+Name[sv_SE]=spel
+Name[cs_CZ]=Hra
+Name[da_DK]=Spil
+Name[pl_PL]=gra
+Name[ru_RU]=игра
+Name[tr_TR]=oyun
+Name[he_IL]=משחק	
+Name[th_TH]=เกมส์
+Name[hu_HU]=Játék
+Name[ro_RO]=Jocuri
+Name[ar]=اللعبة
+Name[id_ID] = Peralatan
+Name[el_EG] = Παιχνίδι
+

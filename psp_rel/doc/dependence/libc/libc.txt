@@ -1,0 +1,6 @@
+/*libc.dot*/
+digraph libc {
+	libc->kernel	/*关系指向*/
+	libc->fs
+	libc->rtc
+}

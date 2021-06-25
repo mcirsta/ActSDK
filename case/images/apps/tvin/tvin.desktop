@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=tvin.app
+Icon-id=
+ICon=
+Name-id=
+Name=TVin
+Name[zh_CN]=视频录制
+Name[zh_TW]=視頻錄製
+Name[en_GB]=TV Recorder
+Name[ja_JP]=ビデオ録画
+Name[ko_KP]=TV녹화
+Name[fr_FR]=Enre. TV
+Name[de_GE]=TV Aufnahme
+Name[it_IT]=TV Reg
+Name[nl_NL]=Video opnemen
+Name[pt_PT]=TV Rec
+Name[es_PE]=Graba TV
+Name[sv_SE]=TV Rek.
+Name[cs_CZ]=Videozázn.
+Name[da_DK]=TV Rec.
+Name[pl_PL]=TV rekord
+Name[ru_RU]=ТВ записи
+Name[tr_TR]=TV kayıt
+Name[he_IL]=הקלטת טלוויזיה
+Name[th_TH]=บันทึกวิดีโอ
+Name[hu_HU]=TV felvételés
+Name[ro_RO]=TV Rec
+Name[ar]=تصوير الفيديو 
+Name[id_ID] = Rek. Tv
+Name[el_EG] = TV Καταγράφετε
+

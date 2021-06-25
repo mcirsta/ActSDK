@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="gb2312"?>
+<LanguageList codepageFilePath="ce" resourceFilePath="de">
+	<LanguageDefinition description="默认设置">
+		<locale>AA_DF</locale>
+		<codepage>936</codepage>
+		<unicodeToIsn>FTBL_GB.$$$</unicodeToIsn>
+		<isnToUnicode>FTBL_C36.$$$</isnToUnicode>
+	</LanguageDefinition>
+
+	<LanguageDefinition description="英文">
+		<locale>EN_GB</locale>
+		<codepage>936</codepage>
+		<unicodeToIsn>FTBL_GB.$$$</unicodeToIsn>
+		<isnToUnicode>FTBL_C36.$$$</isnToUnicode>
+	</LanguageDefinition>
+
+	<LanguageDefinition description="简体中文">
+		<locale>ZH_CN</locale>
+		<codepage>936</codepage>
+		<unicodeToIsn>FTBL_GB.$$$</unicodeToIsn>
+		<isnToUnicode>FTBL_C36.$$$</isnToUnicode>
+	</LanguageDefinition>
+
+	<LanguageDefinition description="繁体中文">
+		<locale>ZH_TW</locale>
+		<codepage>950</codepage>
+		<unicodeToIsn>FTBL_B5.$$$</unicodeToIsn>
+		<isnToUnicode>FTBL_C50.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="日本语">
+		<locale>JA_JP</locale>
+		<codepage>932</codepage>
+		<unicodeToIsn>FTBL_JP.$$$</unicodeToIsn>
+		<isnToUnicode>FTBL_C32.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="韩国语">
+		<locale>KO_KP</locale>
+		<codepage>949</codepage>
+		<unicodeToIsn>FTBL_KR.$$$</unicodeToIsn>
+		<isnToUnicode>FTBL_C49.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="法语">
+		<locale>FR_FR</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="德语">
+		<locale>DE_GE</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="意大利语">
+		<locale>IT_IT</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="荷兰语">
+		<locale>NL_NL</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="葡萄牙语">
+		<locale>PT_PT</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="西班牙语">
+		<locale>ES_ES</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="瑞典语">
+		<locale>SV_SE</locale>
+		<codepage>1252</codepage>
+		<unicodeToIsn>FTBL_52.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1252.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="捷克语">
+		<locale>CS_CZ</locale>
+		<codepage>1250</codepage>
+		<unicodeToIsn>FTBL_50.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1250.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="丹麦语">
+		<locale>DA_DK</locale>
+		<codepage>1250</codepage>
+		<unicodeToIsn>FTBL_50.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1250.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="波兰语">
+		<locale>PL_PL</locale>
+		<codepage>1257</codepage>
+		<unicodeToIsn>FTBL_57.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1257.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="俄语">
+		<locale>RU_RU</locale>
+		<codepage>1251</codepage>
+		<unicodeToIsn>FTBL_51.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1251.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="土耳其语">
+		<locale>TR_TR</locale>
+		<codepage>1254</codepage>
+		<unicodeToIsn>FTBL_54.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1254.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="希伯来语">
+		<locale>HE_IL</locale>
+		<codepage>1255</codepage>
+		<unicodeToIsn>FTBL_55.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1255.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="泰语">
+		<locale>TH</locale>
+		<codepage>874</codepage>
+		<unicodeToIsn>FTBL874.$$$</unicodeToIsn>
+		<isnToUnicode>i2u874.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="匈牙利语">
+		<locale>HU_HU</locale>
+		<codepage>1250</codepage>
+		<unicodeToIsn>FTBL_50.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1250.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="罗马尼亚语">
+		<locale>RO_RO</locale>
+		<codepage>1250</codepage>
+		<unicodeToIsn>FTBL_50.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1250.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	<LanguageDefinition description="阿拉伯语">
+		<locale>AR</locale>
+		<codepage>1256</codepage>
+		<unicodeToIsn>FTBL_56.$$$</unicodeToIsn>
+		<isnToUnicode>i2u1256.$$$</isnToUnicode>
+	</LanguageDefinition>
+	
+	
+	
+</LanguageList>

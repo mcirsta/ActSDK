@@ -1,0 +1,32 @@
+ /*! \mainpage 
+ *
+ * \section dest_sec 文档目的
+ * \li  详细说明“循环模式库模块”的总体框架和接口定义，介绍该模块的功能和使用方法，为使用到循环模式的应用提供详细接口说明文档
+ 
+ * \section ref_sec 参考文献
+ *
+ * \li  《cn_usdk13X_noya_tp方案_shuffle驱动说明书_V1.0.doc》杨永东，算法部门， 2008/06/02
+ 
+ * \section func_sec 功能概述
+ * \li  该模块提供了6种循环模式，分别为：（参考文件case/include/loop_api.h）\n
+1）LOOPMODE_ONE（单次）\n
+2）LOOPMODE_ONE_REPEAT（单次循环）\n
+3）LOOPMODE_SEQUENCE（顺序一次）\n
+4）LOOPMODE_REPEAT（顺序循环）\n
+5）SHUFFLE_MODE（SHUFFLE一次）\n
+6）SHUFFLE_REPEAT_MODE（SHUFFLE循环）
+
+ 
+ * \section apilist_sec 函数列表
+ * \li  int loop_init(void)
+ * \li  int set_loopMode(loop_mode_t mode, int current, int total)
+ * \li  int loop_next(void)
+ * \li  int loop_prev(void)
+ * \li  int loop_delete_index(int del_index)
+ *
+ * \section install_sec 用法示例
+ *
+ * \li  示例1 \ref scene_page1   
+ *
+ * 
+ */

@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=watch.app
+Icon-id=
+Icon=
+Name-id=
+Name=Stopwatch
+Name[zh_CN]=秒表
+Name[zh_TW]=碼錶
+Name[en_GB]=Stopwatch
+Name[ja_JP]=ストップ・ウオッチ
+Name[ko_KP]=스톱워치
+Name[fr_FR]=Chronomètre
+Name[de_GE]=Sekundenuhr
+Name[it_IT]=cronometro
+Name[nl_NL]=Secondemaat
+Name[pt_PT]=Cronômetro
+Name[es_PE]=Cronómetro
+Name[sv_SE]=stoppur
+Name[cs_CZ]=Stopky
+Name[da_DK]=Stopur
+Name[pl_PL]=minutnik
+Name[ru_RU]=секундомер
+Name[tr_TR]=saniye listesi
+Name[he_IL]=שנית
+Name[th_TH]=นาฬิกาจับเวลา
+Name[hu_HU]=stopperóra
+Name[ro_RO]=Ceas de secund
+Name[ar]=عداد الثواني 
+Name[id_ID] = Stopwatch
+Name[el_EG] =Χρονόμετρο
+

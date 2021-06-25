@@ -1,0 +1,100 @@
+#/*************************************************
+#*                                  USDK130                                               *
+#*                              CASE LINK FILE                                        *
+#*          Copyright(c) 2002-2008 Actions Semiconductor,         *
+#*                        All Rights Reserved.                                    *
+#*                                                                                                *
+#*History:                                                                                *
+#*      <author>    <time>       <version >    <desc>             *
+#*       fanqh      2008/03/10          1.0         build this file    *
+#**************************************************/
+
+#/**************MANAGER_TASK prio=2************/
+MANAGER_VADDR       =           0x60000000
+
+#/**************SYS_TASK prio=8****************/
+PLGENE_VADDR        =           0x60400000
+CHDISK_VADDR        =           0x60800000
+LOGO_VADDR          =           0x60c00000
+
+#/**************SYS_TASK prio=9****************/
+CARDIN_VADDR        =           0x61000000
+CARDOUT_VADDR       =           0x61400000
+REGISTER_VADDR      =           0x61800000
+RELEASE_VADDR       =           0x61c00000
+KEYLOCK_VADDR       =           0x62000000
+LOWPOW_VADDR        =           0x62400000
+
+#/**************SYS_TASK prio=10***************/
+UDISK_VADDR         =           0x62800000
+USBUI_VADDR         =           0x62c00000
+UMTP_VADDR          =           0x63000000
+UCHARGE_VADDR       =           0x63400000
+UCAMERA_VADDR       =           0x63800000
+STANDBY_VADDR       =           0x63c00000
+UPGRADE_VADDR       =           0x63000000
+
+#/**************AP_UI_TASK prio=11*************/
+FILENAVI_VADDR      =           0x64000000
+
+#/**************AP_UI_TASK prio=12*************/
+RADIOUI_VADDR       =           0x64400000
+MUSICUI_VADDR       =           0x64800000
+PUSHBOX_VADDR       =           0x64c00000
+SNAKE_VADDR         =           0x65000000
+BLOCK_VADDR         =           0x65400000
+CALCUL_VADDR        =           0x65800000
+CALENDAR_VADDR      =           0x65c00000
+WATCH_VADDR         =           0x66000000
+LAUNCHER_VADDR      =           0x66400000
+NESENTRY_VADDR      =           0x66800000
+
+VIDEO_VADDR         =           0x66c00000
+SETTING_VADDR       =           0x67000000
+RECORD_VADDR        =           0x67400000
+EBOOK_VADDR         =           0x67800000
+PHOTO_VADDR         =           0x67c00000
+CAMERA_VADDR        =           0x68000000
+TVIN_VADDR          =           0x68400000
+
+#/**************AP_UI_TASK prio=13*************/
+NESUI_VADDR         =           0x68800000
+
+#/**************AP_UI_TASK prio=14*************/
+RADIOEG_VADDR       =           0x68c00000
+MUSICEG_VADDR       =           0x69000000
+
+#/**************GUI_TASK prio=15**************/
+MSG_SERV_VADDR      =           0x69400000
+
+#/**************AP_BG_TASK prio=16************/
+DEBUG_KEY_VADDR     =           0x69800000
+
+#/**************AP_BG_TASK prio=17************/
+CONFIG_VADDR        =           0x69c00000
+
+ALARM_VADDR         =           0x6a000000
+
+#/*******************emulator prio=2****************/
+EMULATOR_VADDR      =           0x70000000
+
+#/*******************so****************/
+
+STYLE_VADDR         =           0x41400000
+APPLIB_VADDR        =           0x51000000
+COMMONUI_VADDR      =           0x52000000
+DESKTOP_VADDR       =           0x53000000
+FUSION_VADDR        =           0x54000000
+
+#/*******************kernel & kernel modules****************/
+KEY_VADDR           =           0xc1000000
+LCM_VADDR           =           0xc1400000
+CARD_VADDR          =           0xc1c00000
+ADA_VADDR           =           0xc2000000
+FM_VADDR            =           0xc2400000
+MLANG_VADDR         =           0xc2800000
+CHARGE_VADDR        =           0xc2c00000
+SENSOR_VADDR        =           0xc3000000
+TOUCHSCEEN_VADDR    =           0xc3400000
+GSENSOR_VADDR       =           0xc9000000
+WD_VADDR            =           0xc5800000

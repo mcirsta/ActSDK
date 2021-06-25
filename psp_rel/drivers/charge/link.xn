@@ -1,0 +1,50 @@
+INCLUDE case.xn
+OUTPUT_ARCH(mips) 
+
+/*ENTRY(GetDrvInfo)*/
+
+SECTIONS
+{
+	.text CHARGE_VADDR : 
+	{
+	 *(.text)
+	 *(.rodata)
+	 *(.rodata.*)
+	}
+	__ksymtab_strings :
+	{
+		*(__ksymtab_strings)
+	}
+
+	__ksymtab :
+	{
+		*(__ksymtab)
+	}
+	__ksymtab_gpl :
+	{
+		*(__ksymtab_gpl)
+	}
+
+	.data :
+	{
+	 *(.data)
+	 *(.sdata)
+	}
+	
+	.gnu.linkonce.this_module :
+	{
+	 *(.gnu.linkonce.this_module)	
+	}
+	
+	.sbss : 
+  	{ 	
+  	 *(.sbss) 
+ 	 *(.scommon)
+ 	}
+	.bss :
+ 	{
+ 	 *(.bss)
+  	 *(COMMON)
+ 	 }
+ } 
+

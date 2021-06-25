@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=camera.app
+Icon-id=
+ICon=
+Name-id=
+Name=Camera
+Name[zh_CN]=照相机
+Name[zh_TW]=照相機
+Name[en_GB]=Camera
+Name[ja_JP]=カメラ
+Name[ko_KP]=카메라
+Name[fr_FR]=Appareil Photo
+Name[de_GE]=Kamera
+Name[it_IT]=Camera
+Name[nl_NL]=Camera
+Name[pt_PT]=Câmera
+Name[es_PE]=Cámara
+Name[sv_SE]=Kamera
+Name[cs_CZ]=Fotoaparát
+Name[da_DK]=Kamera
+Name[pl_PL]=Aparat Fotograficzny
+Name[ru_RU]=Фотокамера
+Name[tr_TR]=Kamera
+Name[he_IL]=מצלמה
+Name[th_TH]=กล้องถ่ายรูป
+Name[hu_HU]=Kamera
+Name[ro_RO]=Aparat de Foto.	
+Name[ar]= كاميرا
+Name[id_ID] = Kamera
+Name[el_EG] =Φωτογραφική Μηχανή
+

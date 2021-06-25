@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--Actions IDE, Rapid Application Development-->
+<ui-rad>
+    <property name="prj_name" value="anim_off" />
+    <property name="prj_language" value="0x0" />
+    <property name="prj_screen_width" value="0xf0" />
+    <property name="prj_screen_height" value="0x140" />
+    <property name="prj_res_file" value=".\images\apps\anim_off\qvga_style_1\anim_off.res" />
+    <property name="prj_res_head_file" value="..\..\..\..\..\apps\desktop\logo_poweroff\logo_off_pic.h" />
+    <property name="prj_res_str_head_file" value="..\..\..\..\..\apps\desktop\logo_poweroff\logo_off_str.h" />
+    <property name="prj_sty_head_file" value=".\apps\desktop\animation_poweroff\anim_off_sty.h" />
+    <property name="prj_sty_file" value=".\images\apps\anim_off\qvga_style_1\anim_off.sty" />
+    <property name="prj_build_res_type" value="0x1" />
+    <property name="prj_build_res_mode" value="0x0" />
+    <property name="prj_case_path" value="..\..\..\..\..\case" />
+    <property name="prj_sdk_path" value="..\..\usdk213f" />
+    <property name="prj_res_str_dir" value=".\images\apps\anim_off\qvga_style_1" />
+    <scene>
+        <property name="name" value="ANIMATION_POWEROFF_UPRIGHT_SCENE" />
+        <property name="id" value="0" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="1" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x00f0" />
+            <property name="height" value="0x0140" />
+            <property name="background" value="0x00c8c8c8" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picregion_resource">
+                <property name="name" value="REG" />
+                <property name="id" value="3" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x00f0" />
+                <property name="height" value="0x0140" />
+                <property name="visible" value="0x0001" />
+                <element class="layer">
+                    <property name="0" value=".\resource\qvga_style_1\pic\anim_off\off0.bmp" />
+                    <property name="1" value=".\resource\qvga_style_1\pic\anim_off\off1.bmp" />
+                    <property name="2" value=".\resource\qvga_style_1\pic\anim_off\off2.bmp" />
+                    <property name="3" value=".\resource\qvga_style_1\pic\anim_off\off3.bmp" />
+                    <property name="4" value=".\resource\qvga_style_1\pic\anim_off\off4.bmp" />
+                    <property name="5" value=".\resource\qvga_style_1\pic\anim_off\off5.bmp" />
+                    <property name="6" value=".\resource\qvga_style_1\pic\anim_off\off6.bmp" />
+                    <property name="7" value=".\resource\qvga_style_1\pic\anim_off\off7.bmp" />
+                    <property name="8" value=".\resource\qvga_style_1\pic\anim_off\off8.bmp" />
+                    <property name="9" value=".\resource\qvga_style_1\pic\anim_off\off9.bmp" />
+                    <property name="10" value=".\resource\qvga_style_1\pic\anim_off\off10.bmp" />
+                    <property name="11" value=".\resource\qvga_style_1\pic\anim_off\off11.bmp" />
+                    <property name="12" value=".\resource\qvga_style_1\pic\anim_off\off12.bmp" />
+                    <property name="13" value=".\resource\qvga_style_1\pic\anim_off\off13.bmp" />
+                    <property name="14" value=".\resource\qvga_style_1\pic\anim_off\off14.bmp" />
+                    <property name="15" value=".\resource\qvga_style_1\pic\anim_off\off15.bmp" />
+                    <property name="16" value=".\resource\qvga_style_1\pic\anim_off\off16.bmp" />
+                    <property name="17" value=".\resource\qvga_style_1\pic\anim_off\off17.bmp" />
+                </element>
+            </element>
+        </element>
+    </scene>
+    <scene>
+        <property name="name" value="ANIMATION_POWEROFF_SIDELONG_SCENE" />
+        <property name="id" value="4" />
+        <property name="direction" value="0" />
+        <property name="key1" value="1" />
+        <property name="key2" value="2" />
+        <property name="key3" value="3" />
+        <property name="key4" value="4" />
+        <property name="key5" value="5" />
+        <property name="key6" value="6" />
+        <property name="key7" value="7" />
+        <property name="key8" value="8" />
+        <property name="key9" value="9" />
+        <property name="key10" value="10" />
+        <property name="key11" value="11" />
+        <property name="key12" value="12" />
+        <property name="key13" value="13" />
+        <property name="key14" value="14" />
+        <property name="key15" value="15" />
+        <property name="key16" value="16" />
+        <element class="resgroup_resource">
+            <property name="name" value="window" />
+            <property name="id" value="5" />
+            <property name="x" value="0x0000" />
+            <property name="y" value="0x0000" />
+            <property name="width" value="0x0140" />
+            <property name="height" value="0x00f0" />
+            <property name="background" value="0x00c8c8c8" />
+            <property name="opaque" value="0x0000" />
+            <property name="transparency" value="0x00ff" />
+            <property name="visible" value="0x0001" />
+            <property name="editable" value="1" />
+            <element class="picregion_resource">
+                <property name="name" value="REG" />
+                <property name="id" value="6" />
+                <property name="x" value="0x0000" />
+                <property name="y" value="0x0000" />
+                <property name="width" value="0x0140" />
+                <property name="height" value="0x00f0" />
+                <property name="visible" value="0x0001" />
+                <element class="layer">
+                    <property name="0" value=".\resource\qvga_style_1\pich\anim_off\off0.bmp" />
+                    <property name="1" value=".\resource\qvga_style_1\pich\anim_off\off1.bmp" />
+                    <property name="2" value=".\resource\qvga_style_1\pich\anim_off\off2.bmp" />
+                    <property name="3" value=".\resource\qvga_style_1\pich\anim_off\off3.bmp" />
+                    <property name="4" value=".\resource\qvga_style_1\pich\anim_off\off4.bmp" />
+                    <property name="5" value=".\resource\qvga_style_1\pich\anim_off\off5.bmp" />
+                    <property name="6" value=".\resource\qvga_style_1\pich\anim_off\off6.bmp" />
+                    <property name="7" value=".\resource\qvga_style_1\pich\anim_off\off7.bmp" />
+                    <property name="8" value=".\resource\qvga_style_1\pich\anim_off\off8.bmp" />
+                    <property name="9" value=".\resource\qvga_style_1\pich\anim_off\off9.bmp" />
+                    <property name="10" value=".\resource\qvga_style_1\pich\anim_off\off10.bmp" />
+                    <property name="11" value=".\resource\qvga_style_1\pich\anim_off\off11.bmp" />
+                    <property name="12" value=".\resource\qvga_style_1\pich\anim_off\off12.bmp" />
+                    <property name="13" value=".\resource\qvga_style_1\pich\anim_off\off13.bmp" />
+                    <property name="14" value=".\resource\qvga_style_1\pich\anim_off\off14.bmp" />
+                    <property name="15" value=".\resource\qvga_style_1\pich\anim_off\off15.bmp" />
+                    <property name="16" value=".\resource\qvga_style_1\pich\anim_off\off16.bmp" />
+                    <property name="17" value=".\resource\qvga_style_1\pich\anim_off\off17.bmp" />
+                </element>
+            </element>
+        </element>
+    </scene>
+    <resource>
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off0.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off1.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off10.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off11.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off12.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off13.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off14.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off15.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off16.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off17.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off2.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off3.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off4.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off5.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off6.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off7.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off8.bmp" />
+        <picture value=".\resource\qvga_style_1\pic\anim_off\off9.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off0.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off1.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off10.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off11.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off12.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off13.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off14.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off15.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off16.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off17.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off2.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off3.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off4.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off5.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off6.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off7.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off8.bmp" />
+        <picture value=".\resource\qvga_style_1\pich\anim_off\off9.bmp" />
+    </resource>
+</ui-rad>

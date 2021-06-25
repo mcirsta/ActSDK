@@ -1,0 +1,6 @@
+cdl_package CYGPKG_CASE {
+	display		"CASE configuration"
+	include_dir "cyg/CASE"
+	no_define
+	description	"CASE configuration"
+}

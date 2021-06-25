@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=g-game.app
+Icon-id=
+ICon=
+Name-id=
+Name=G-Game
+Name[zh_CN]=G-Game
+Name[zh_TW]=G-Game
+Name[en_GB]=G-Game
+Name[ja_JP]=G-Game
+Name[ko_KP]=G-Game 
+Name[fr_FR]=G-Game 
+Name[de_GE]=G-Game 
+Name[it_IT]=G-Game 
+Name[nl_NL]=G-Game
+Name[pt_PT]=G-Game
+Name[es_PE]=G-Game
+Name[sv_SE]=G-Game
+Name[cs_CZ]=G-Game
+Name[da_DK]=G-Game
+Name[pl_PL]=G-Game
+Name[ru_RU]=G-Game
+Name[tr_TR]=G-Game
+Name[he_IL]=G-Game
+Name[th_TH]=G-Game
+Name[hu_HU]=G-Game
+Name[ro_RO]=G-Game
+Name[ar]=G-Game 
+Name[id_ID] = G-Game
+Name[el_EG] = G-Game
+

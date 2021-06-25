@@ -1,0 +1,4 @@
+/*pm.dot*/
+digraph pm {
+	pm->kernel	/*关系指向*/
+}

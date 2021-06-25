@@ -1,0 +1,37 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=camera.app pccam
+Icon-id=
+ICon=
+Name-id=
+Name= PC Camera	
+
+Name[zh_CN]=PC Camera	
+Name[zh_TW]=PC Camera	
+Name[en_GB]=PC camera	
+Name[ja_JP]=PC カメラ	
+Name[ko_KP]=PC 카메라	
+Name[fr_FR]=PC Appareil photo	
+Name[de_GE]=PC Kamera	
+Name[it_IT]=PC macchina fotografica	
+Name[nl_NL]=PC Camera	
+Name[pt_PT]=PC Câmara	
+Name[es_PE]=PC Cámara fotográfica	
+Name[sv_SE]=PC kamera	
+Name[cs_CZ]=PC kamery	
+Name[da_DK]=PC kamera	
+Name[pl_PL]=PC kamera	
+Name[ru_RU]=фотокамера РС	
+Name[tr_TR]=PC kamera	
+Name[he_IL]=פי סי מצלמה	
+Name[th_TH]=กล้องถ่ายรูปPC	
+Name[hu_HU]=PC kamera
+Name[ro_RO]=Aparat fotograf de PC	
+Name[ar]=كاميراpc 
+Name[id_ID] = Kamera PC
+Name[el_EG] =Φωτογραφική Μηχανή
+
+

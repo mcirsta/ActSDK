@@ -1,0 +1,421 @@
+cdl_package CYGPKG_NORMAL_CONFIG {
+	display			"常用信息配置"
+	define_header 	tools.gn
+	description		"configuration item for fw tools"
+	
+	define_proc {
+		puts $::cdl_header "#include \"tools_inner.h\""
+		puts $::cdl_header ""
+	}
+
+	cdl_component USB_CFG {
+		display "USB 相关配置"
+		flavor none
+		no_define
+		description "描述USB相关的属性"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*USB相关配置*/"
+		}
+		
+		cdl_option PID {
+			display "PID"
+			flavor data
+			no_define
+			default_value {"PID=0x1101"}
+			define ADDCONFIG
+			
+			define_proc {
+				puts $::cdl_header "/*end of PID*/"
+				puts $::cdl_header ""
+			}
+		}
+		
+		
+		cdl_option VID {
+			display "VID"
+			flavor data
+			no_define
+			default_value {"VID=0x10D6"}
+			define ADDCONFIG
+			
+			define_proc {
+				puts $::cdl_header "/*end of VID*/"
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option USBATTRI {
+			display "USB 属性"
+			flavor data
+			default_value {"USBATTRI_8=\"GENERIC\""}
+			no_define
+			define 	ADDCONFIG
+			description "
+				描述USB属性，注意：value值的字符最大长度为8.
+				"
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option USBIDENTIFICATION {
+			display "USB ID"
+			flavor data
+			default_value {"USBIDENTIFICATION_16=\"USB DISK DEVICE\""}
+			no_define
+			define ADDCONFIG
+			description "描述USB ID，注意：VALUE值的字符最大长度为16"
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option USBPRODUCTVER {
+			display "USB产品版本"
+			flavor data
+			default_value {"USBPRODUCTVER_4=\"1.00\""}
+			no_define
+			define ADDCONFIG
+			description "描述USB产品版本号，注意：VALUE值的字符最大长度为4"
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option USBDESCRIPSTR {
+			display "USB描述信息"
+			flavor data
+			default_value {"USBDESCRIPSTR_23=\"USB MASS STORAGE CLASS\""}
+			no_define
+			define ADDCONFIG
+			description "USB描述信息，注意：VALUE值的字符最大长度为23"
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option USBSERIAL {
+			display "U盘是否上报产品序列号"
+			flavor data
+			default_value {"UdiskSerialNumFlag=1"}
+			no_define
+			define ADDCONFIG
+			description "U盘下是否上报产品序列号，0-no，1-yes。"
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+	}
+	
+	cdl_component MTP_CFG {
+		display "MTP 相关配置"
+		flavor none
+		no_define
+		description "MTP相关配置"
+	
+		cdl_option MTPPID {
+			display "MTPPID"
+			flavor data
+			no_define
+			default_value {"MTPPID=0x2300"}
+			define ADDCONFIG
+			
+			define_proc {
+				puts $::cdl_header "/*end of MTPPID*/"
+				puts $::cdl_header ""
+			}
+		}
+		
+		
+		cdl_option MTPVID {
+			display "MTPVID"
+			flavor data
+			no_define
+			default_value {"MTPVID=0x10D6"}
+			define ADDCONFIG
+			
+			define_proc {
+				puts $::cdl_header "/*end of MTPVID*/"
+				puts $::cdl_header ""
+			
+			}
+		}
+		
+		cdl_option MTPMFTINFO {
+			display "MTPMFTINFO配置"
+			flavor data
+			default_value {"MTPMFTINFO=\"Actions Semiconductor Co., Ltd.\""}
+			no_define
+			define ADDCONFIG
+			description "MTPMFTINFO配置,注意：VALUE值的字符最大长度为32"
+			
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option MTPPRODUCTINFO {
+			display "MTPPRODUCTINFO配置"
+			flavor data
+			default_value {"MTPPRODUCTINFO=\"Actions Mtp Device 000001\""}
+			no_define
+			define ADDCONFIG
+			description "MTPPRODUCTINFO配置,注意：VALUE值的字符最大长度为32"
+			
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+		
+		cdl_option MTPPRODUCTVER {
+			display "MTPPRODUCTVER配置"
+			flavor data
+			default_value {"MTPPRODUCTVER=\"V1.00.3333\""}
+			no_define
+			define ADDCONFIG
+			description "MTPPRODUCTVER配置,注意：VALUE值的字符最大长度为16"
+			
+			define_proc {
+				puts $::cdl_header ""
+			}
+		}
+	}
+
+	cdl_component NandFlashCE_CFG {
+		display "NandFlashCE 配置"
+		no_define
+		description "配置4CE方案相关片选信息"
+		
+		cdl_option NandflashCE_TYPE {
+			display "NandFlash CE类型配置"
+			flavor data
+			default_value 1
+			legal_values {1 2}
+			no_define
+			description "1：gpio方式；2：MUX方式"
+		}
+		
+		cdl_option NandflashCE_RESERVE {
+			display "NandFlash CE保留配置"
+			flavor data
+			default_value 0
+			no_define
+			description "暂时不用配置"
+		}
+		
+		cdl_option NandflashCE_CE3 {
+			display "Nandflash CE3实现方式"
+			flavor data
+			no_define
+			description "0～31为gpioA的id，32～63为gpioB的对应id"
+		}
+		
+		cdl_option NandflashCE_CE4 {
+			display "Nandflash CE4实现方式"
+			flavor data
+			no_define
+			description "0～31为gpioA的id，32～63为gpioB的对应id"
+		}
+		
+		
+		cdl_option NandflashCE_CFG {
+			display "NandFlash 配置"
+			flavor data
+			calculated { (NandflashCE_TYPE<<24) + (NandflashCE_RESERVE<<16)+ (NandflashCE_CE3<<8) + NandflashCE_CE4 }
+			no_define
+			define ADDAFINFO_VALUE
+			description "dNandflashCE 配置"
+			
+			define_proc {
+				puts $::cdl_header "#define ADDAFINFO_OFFSET 0x180"
+				puts $::cdl_header "#define ADDAFINFO_LEN 0x4"
+				puts $::cdl_header "/*end of NandflashCE_CFG*/"
+				puts $::cdl_header ""
+			}
+		}
+	}
+	
+	cdl_option RTC_SOURCE {
+		display 	"RTC 时钟源配置"
+		flavor data
+		default_value 0
+		legal_values {0 1}
+		description "RTC 时钟源配置： \n
+			0： 外部时钟源	\n
+			1： 内部时钟源	\n"
+		no_define
+		define ADDFMINFO_VALUE
+		
+		define_proc {
+			puts $::cdl_header "#define ADDFMINFO_OFFSET 0x42"
+			puts $::cdl_header "#define ADDFMINFO_LEN 0x4"
+			puts $::cdl_header "/*end of RTC_SOURCE*/"
+			puts $::cdl_header ""
+		}
+	}
+
+	
+	cdl_option VER {
+		display "厂商固件版本号"
+		flavor data
+		no_define
+		default_value {"VER=\"13.00.10.1017.20080515\""}
+		define ADDCONFIG
+		
+		define_proc {
+			puts $::cdl_header "/*end of VER*/"
+			puts $::cdl_header ""
+		}
+	}
+
+	cdl_option SCODE_CAP {
+		display "系统代码区大小(单位：扇区)"
+		flavor data
+		default_value 1
+		no_define
+		define ADDAFINFO_VALUE
+		
+		define_proc {
+			puts $::cdl_header "#define ADDAFINFO_OFFSET 0x200"
+			puts $::cdl_header "#define ADDAFINFO_LEN 0x4"
+			puts $::cdl_header "/*end of SCODE_CAP*/"
+			puts $::cdl_header ""
+		}
+	}
+	
+	
+	cdl_option SCODE_CAP_BAK {
+		display "系统代码备份区大小(单位：扇区)"
+		flavor data
+		default_value 1
+		no_define
+		define ADDAFINFO_VALUE
+		
+		define_proc {
+			puts $::cdl_header "#define ADDAFINFO_OFFSET 0x204"
+			puts $::cdl_header "#define ADDAFINFO_LEN 0x4"
+			puts $::cdl_header "/*end of SCODE_CAP_BAK*/"
+			puts $::cdl_header ""
+		}
+	}
+	
+	
+	cdl_option CFG_DEFAULTDATE {
+		display "缺省日期设置"
+		flavor data
+		default_value {"DATE=\"2000-01-01\""} 
+		no_define
+		define ADDCONFIG
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	
+	cdl_option CFG_DEFAULTTIME {
+		display "缺省时间设置"
+		flavor data
+		default_value {"TIME=\"00:00\""} 
+		no_define
+		define ADDCONFIG
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	
+	cdl_option TIME_FORMAT {
+		display "时间制式设置"
+		flavor data
+		default_value {"TIME_FORMAT=24"} 
+		no_define
+		define ADDCONFIG
+		description "时间制式：12/24"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	cdl_option  BACKLIGHT_BRIGHT {
+		display "背光选择"
+		flavor data
+		default_value {"BACKLIGHT_BRIGHTNESS=3"} 
+		no_define
+		define ADDCONFIG
+		description "亮度等级：1~5"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	
+	cdl_option  BACKLIGHT_DURATION {
+		display "背景灯亮时间设置"
+		flavor data
+		default_value {"BACKLIGHT_DURATION=0"} 
+		no_define
+		define ADDCONFIG
+		description "0~60秒,步进5秒"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+		
+	cdl_option  IDLE_TIME {
+		display "StandBy定时"
+		flavor data
+		default_value {"IDLE_TIME=0"} 
+		no_define
+		define ADDCONFIG
+		description "0~60秒"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	cdl_option  SLEEP_TIME {
+		display "睡眠时间设置"
+		flavor data
+		default_value {"SLEEP_TIME=0"} 
+		no_define
+		define ADDCONFIG
+		description "0~120分钟"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	cdl_option  LANG_ID {
+		display "界面语言设置"
+		flavor data
+		default_value {"LANG_ID=2"} 
+		no_define
+		define ADDCONFIG
+		description "界面语言, 英文:0, Reserved:1, 简体:2 繁体:3"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+	cdl_option  VOICE_VOLUM {
+		display "音量等级设置"
+		flavor data
+		default_value {"VOICE_VOLUM=15"} 
+		no_define
+		define ADDCONFIG
+		description "音量, 0~31"
+		
+		define_proc {
+			puts $::cdl_header ""
+		}
+	}
+	
+}

@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=photo.app
+Icon-id=
+ICon=
+Name-id=
+Name=Photo
+Name[zh_CN]=图片
+Name[zh_TW]=圖片
+Name[en_GB]=Photo
+Name[ja_JP]=画像
+Name[ko_KP]=사진
+Name[fr_FR]=Photo
+Name[de_GE]=Photo
+Name[it_IT]=Foto
+Name[nl_NL]=Foto
+Name[pt_PT]=Foto
+Name[es_PE]=Foto
+Name[sv_SE]=Foto
+Name[cs_CZ]=Foto
+Name[da_DK]=Billede
+Name[pl_PL]=Aparat
+Name[ru_RU]=Камер
+Name[tr_TR]=Foto
+Name[he_IL]=תמונה 
+Name[th_TH]=กล้องถ่าย
+Name[hu_HU]=Fotó 
+Name[ro_RO]=Poză
+Name[ar]=كاميرا 
+Name[id_ID] = Gambar Saya
+Name[el_EG] =Εικόνες
+

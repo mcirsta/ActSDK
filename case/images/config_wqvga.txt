@@ -1,0 +1,636 @@
+
+///////////////////////////////////////////////////////////////////////////////
+// 全局配置
+///////////////////////////////////////////////////////////////////////////////
+
+UPGRADE_FLAG=0;
+USBATTRI_8 = "GENERIC";
+USBIDENTIFICATION_16 = "USB DISK DEVICE";
+USBPRODUCTVER_4 = "1.00";
+USBDESCRIPSTR_23 = "USB MASS STORAGE CLASS";
+UdiskSerialNumFlag = 1;
+UdiskVolume = "ActDisk";    // U盘卷标名，最大11个字符
+MTPPID = 0x2300;
+MTPVID = 0x10D6;
+MTPMFTINFO = "Actions Semiconductor Co. Ltd.";
+MTPPRODUCTINFO = "Actions Mtp Device 000001";
+MTPPRODUCTVER = "V1.00.3333";
+VER = "1.1.00.100318";
+DATE = "2008-01-01";
+TIME = "00:00";
+//时间制式. 12:12制式, 112:yyyy/mm/dd 12制式, 212:yyyy-mm-dd 12制式
+//时间制式. 24:24制式, 124:yyyy/mm/dd 24制式, 212:yyyy-mm-dd 24制式
+TIME_FORMAT = 24;               
+BACKLIGHT_BRIGHTNESS = 3;
+BACKLIGHT_DURATION = 0;
+IDLE_TIME = 0;
+SLEEP_TIME = 0;
+LANG_CODES = "zh_CN";               // 语言codes
+VOICE_VOLUM = 15;
+SCREEN_MODE = "Horizontal";                            // 屏幕模式(Horizontal/Vertical/Auto)
+TVOUT = "Off";
+CONNECT_TYPE = "UDISK";                              // USB连接类型(UDISK/MTP)
+DEFAULT_FONT = "attfv1.ttf";                         // 系统默认字体,若使用点阵字体则填写"FWQY",若使用ttf字体则需要指定ttf文件名
+USER_FONT = "";                                      // 用户自定义字体文件名
+USER_FONT_VALID = 0;                                 // 用户自定义字体是否有效(1:有效/0:无效) 
+THEMES = "wqvga_style_1";                           // 支持风格 
+CUR_THEME = "wqvga_style_1";                          // 当前风格
+
+KEY_TONE_ON         = 0;                             // 是否打开按键音(1:打开/0:关闭)
+KEY_TONE_FULLPATH   = "/mnt/diska/misc/keytone1.wav";
+KEY_TONES           = "KEY_TONE_1,KEY_TONE_2,KEY_TONE_3,KEY_TONE_4"; //按键音支持列表
+KEY_TONE_CUR        = "KEY_TONE_1";
+KEY_TONE_1          = "/mnt/diska/misc/keytone1.wav";
+KEY_TONE_2          = "/mnt/diska/misc/keytone2.wav";
+KEY_TONE_3          = "/mnt/diska/misc/keytone3.wav";
+KEY_TONE_4          = "/mnt/diska/misc/keytone4.wav";
+
+USERNAME = "unknown";
+
+SEARCH_FOLDER = "on";          // 是否支持目录搜索(on/off)
+GSENSOR_SHAKE_SUPPORT = "on";  // 是否支持g_sensor甩动功能(on/off) 
+GSENSOR_SHAKE_THRESHOLD = 2000;	//g_sensor甩动的阀值 
+UHOST_SUPPORT = "on";           // 是否支持uhost功能(on/off) 
+CARD_SUPPORT = "on";            // 是否支持卡(on/off) 
+
+WATCHDOG_TIME = 60000;   // watchdog 超时时间，单位ms
+
+env = "PATH=/mnt/remotedisk/:/mnt/diska/apps:/mnt/sdisk/";
+
+//屏幕坐标系与g_sensor芯片坐标系映射关系
+//////////////////////////////////
+// 美芯g_sensor
+// SCREEN_X = "-g_sensor_y";
+// SCREEN_Y = "+g_sensor_x";
+// SCREEN_Z = "+g_sensor_z";
+//////////////////////////////////
+
+//////////////////////////////////
+// ST g_sensor
+// SCREEN_X = "-g_sensor_y";
+// SCREEN_Y = "-g_sensor_x";
+// SCREEN_Z = "+g_sensor_z";
+//////////////////////////////////
+
+SCREEN_X = "-g_sensor_y";
+SCREEN_Y = "-g_sensor_x";
+SCREEN_Z = "+g_sensor_z";
+
+NANDBASE = 1;           // 1: 表示此方案为nand flash base的方案, 否则为nor 方案
+
+///////////////////////////////////////////////////////////////////////////////
+// 开关机动画文件名, 其路径根据应用和风格而定, 如:
+//    /mnt/diska/apps/anim_on/style_1/
+//    /mnt/diska/apps/anim_off/style_2/
+///////////////////////////////////////////////////////////////////////////////
+poweron_enable			= 1;
+poweron_start_mode	    = 0;    //0:读取res中图片, 并逐张显示以完成动画效果; 
+poweron_pic_upright_name        = "poweron_upright.gif";    // 当前开机动画文件路径
+poweron_pic_sidelong_name       = "poweron_sidelong.gif";   // 当前开机动画文件路径
+def_poweron_pic_upright_name    = "poweron_upright.gif";    // 默认开机动画文件路径
+def_poweron_pic_sidelong_name   = "poweron_sidelong.gif";   // 默认开机动画文件路径
+
+poweroff_enable			= 1;
+poweroff_start_mode	    = 0;    //1: 读取gif,photo中设置的图片, 解码完成动画效果
+poweroff_pic_upright_name       = "poweroff_upright.gif";   // 当前关机动画文件路径
+poweroff_pic_sidelong_name      = "poweroff_sidelong.gif";  // 当前关机动画文件路径
+def_poweroff_pic_upright_name   = "poweroff_upright.gif";   // 默认关机动画文件路径
+def_poweroff_pic_sidelong_name  = "poweroff_sidelong.gif";  // 默认关机动画文件路径
+
+
+
+
+////////////////////////////////////////////////////////////////////////////
+// 特效配置
+////////////////////////////////////////////////////////////////////////////
+
+// 普通页面 
+mode_common = 0;          // 特效模式
+forward_common = 3;       // 前一级页面进入方向：0-up, 1-down, 2-left, 3-right
+backward_common = 2;      // 后一级页面返回方向：0-up, 1-down, 2-left, 3-right
+
+// 应用切换
+mode_app_change = 0;      // normal
+forward_app_change = 0;
+backward_app_change = 0;
+
+// Option菜单(RGB)
+mode_option_rgb = 4;      // popupalpha
+forward_option = 0;
+backward_option = 10;     // 默认无效方向（no effect）
+
+// Option菜单(YUV)
+mode_option_yuv = 5;      // movealpha
+
+
+// 旋转屏
+mode_rotate = 3;          // cube
+forward_rotate = 2;
+backward_rotate = 2;
+
+// 对话框
+mode_dialog = 8;         // fade
+forward_dialog = 3;
+backward_dialog = 3;
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+//和后台引擎进程互斥的进程列表
+///////////////////////////////////////////////////////////////////////////////
+
+music_mutex_apps="radio.app;recorder.app;tvin.app;video.app;emulator.app;camera.app;usb.app;pl_gener.app;";
+radio_mutex_apps="music.app;recorder.app;tvin.app;video.app;emulator.app;camera.app;usb.app;pl_gener.app;";
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// 使用文件选择器时的排序方式，取值为 nosorting, pinyin, unicode
+///////////////////////////////////////////////////////////////////////////////
+
+fsel_sort_style="pinyin";
+
+
+///////////////////////////////////////////////////////////////////////////////
+// 多媒体文件后缀
+// 各应用程序会用到, setting统计各应用支持文件个数也会用到, 统一使用宏名
+///////////////////////////////////////////////////////////////////////////////
+
+app_support_ext_music="mp3|wma|asf|ogg|ape|flac|wav|mpc|aif|aiff|amr|aac|m4a|ra|ram";
+                                 
+app_support_ext_video="avi|flv|wmv|rmvb|rm|3gp|mp4|mov|mkv";  
+app_support_ext_video_swf="swf";  
+                                 
+app_support_ext_photo="jpg|jpeg|jpe|bmp|gif|png|tiff|tif";
+                                 
+app_support_ext_ebook="txt|jar"; 
+app_support_ext_emulator="nes|gb|gbc|smc|smd|bin|mdx|gba";  
+                                 
+app_support_ext_all="mp3|wma|asf|ogg|ape|flac|wav|mpc|aif|aiff|amr|aac|m4a|ra|ram|avi|flv|wmv|rmvb|rm|3gp|mp4|mov|mkv|swf|jpg|jpeg|jpe|bmp|gif|png|tiff|tif|txt|jar|nes|gb|gbc|smc|smd|bin|mdx|gba";
+
+app_support_ext_recorder="wav|mp3|wma"; //支持的录音文件格式
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// Launcher应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+//launcher根据“Applications”字段中的应用名称、顺序，决定显示哪些应用，以及应用的先后顺序
+Applications = "music;video;tvin;photo;camera;recorder;radio;ebook;games;tools;browser;setting";
+FOCUS_APPID = 0;                            //记录 启动后 焦点应用的ID；默认是0,表示第一次上电后，焦点在Applications的第一个应用上。
+DESKTOP_PATH = "/mnt/diska/apps/";          //标案应用.desktop文件的存放路径
+THIRD_PARTY_PATH = "/mnt/disk0/3rdParty/";  //第三方应用存放路径
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// photo应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+photo_previewmode = 1;      // 预览模式：0-列表，1-缩略图 
+
+// 图片播放特效
+//  0-Random, 1-Fly In, 2-Chessboard, 3-Cut
+//  4-Erase, 5-Louver, 6-Random Line, 7-Water Wave
+//  8-Cube, 9-3D Rotation, 10-OFF
+photo_slide_effect_mode = 10;
+
+photo_slide_interval = 3;   // slide show 时间间隔(1-10) 
+
+// 是否支持设置背景图/开关机动画（对spi nor flash方案A盘空间不足，则不支持该功能），1-支持，0-不支持
+photo_enable_background = 1;
+
+
+///////////////////////////////////////////////////////////////////////////////
+// fm应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+fm_band = 0;
+fm_intensity = 6;
+fm_freq = 87500;
+fm_record_quality = 1;           //录音质量: 0 ＝ 低  1 ＝ 中  2 ＝ 高
+fm_record_gain = 3;             //录音增益
+fm_record_path = 0;             //录音文件保存路径: 0 = internal   1 = card  2 = external
+fm_line_in_check = 1;           //是否需要检查line_in线：1 = 需要 0 = 不需要
+
+fm_use_preset = 0;              //收音模式：0-normal模式，1-预制模式
+fm_cur_preset_id = 0;           //当前预制频道ID
+fm_userchannel_mode = 0;        //0-电台列表模式，1-用户列表模式
+fm_userchannel_id = 0;          //当前用户列表频道ID
+fm_userchannel_path = " ";
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// dc/dv应用配置
+///////////////////////////////////////////////////////////////////////////////
+dsc_stikcer_fullname_1 = "/mnt/diska/misc/C_STIK1.png";
+dsc_stikcer_fullname_2 = "/mnt/diska/misc/C_STIK2.png";
+dsc_stikcer_fullname_3 = "/mnt/diska/misc/C_STIK3.png";
+dsc_stikcer_tmp_1 = "/mnt/diska/misc/C_STIK1.tmp";
+dsc_stikcer_tmp_2 = "/mnt/diska/misc/C_STIK2.tmp";                      
+dsc_stikcer_tmp_3 = "/mnt/diska/misc/C_STIK3.tmp";
+dsc_shutter_sound_fullname_1 = "/mnt/diska/misc/shutter1.wav";
+dsc_shutter_sound_fullname_2 = "/mnt/diska/misc/shutter2.wav";
+dsc_shutter_sound_fullname_3 = "/mnt/diska/misc/shutter3.wav";
+
+dsc_playback = 0;	//默认没有回放
+dsc_whitebalance = 0;// 0=自动 1= 晴天 2=阴天 3=白炽灯 4= 荧光灯
+dsc_brightness = 3;	//明亮度 0=-3 1=-2 2=-1 3=0 4=1 5=2 6=3
+dsc_exposure_mode = 0;	//曝光模式 0=自动 1=室内 2=室外
+dsc_flashlamp = 0;	//led补光 0=自动 1=打开 2=关闭
+dsc_face_identify =0;	//人脸检测 0=关闭 1=打开
+dsc_stickerphoto =0;	//大头贴 0=无 1=背景1 2=背景2 3=背景3
+dsc_specialeffect = 0;	//特效 0=无 1=黑白 2=复古 3=负片
+dsc_savepath = 0;	//保存路径 0=无存储器1=内部 2=卡 3=外部
+dsc_resolution = 0;	//分辨率 0=默认最大 据mmm_encode.h
+dsc_shutter_sound = 0;	//快门声音 0=关闭 1=音效1 2=音效2 3=音效3
+dsc_dater = 0;	//照片日期标记 0=关闭 1=日期 2=日期+时间
+dsc_playback_root ="/mnt/disk0/PICTURES/CAMERA/"; 
+dsc_playback_fullname ="/mnt/disk0/PICTURES/CAMERA/20090429231718.jpg";
+dsc_machinename = "chip of atj213x";
+
+dv_playback = 0;	//默认没有回放
+dv_whitebalance = 0;// 0=自动 1= 晴天 2=阴天 3=白炽灯 4= 荧光灯
+dv_brightness = 3;	//明亮度 0=-3 1=-2 2=-1 3=0 4=1 5=2 6=3
+dv_exposure_mode = 0;	//曝光模式 0=自动 1=室内 2=室外
+dv_specialeffect = 0;	//特效 0=无 1=黑白 2=复古 3=负片
+dv_savepath = 0;	//保存路径 0=无存储器1=内部 2=卡 3=外部
+dv_resolution = 0;	//分辨率 0=默认最大 据mmm_encode.h
+dv_record_quality = 0;	//录像质量0=高 1= 中 2=低 3=自动
+dv_record_gain =  3;	//录音增益1-5   
+dv_activity_detect = 0;	//动静检测0=关闭1= 打开
+dv_playback_root ="/mnt/disk0/VIDEO/CAMERA/"; 
+dv_playback_fullname ="/mnt/disk0/VIDEO/CAMERA/20090429231718.avi";
+dv_rec_frame_rate_max = 22;	//录像小分辨率，取的帧率
+dv_rec_frame_rate_min = 15;	//录像大分辨率，取的帧率
+
+cam_playback_scene = 1; // 1= DSC 2= DV;
+cam_default_scene = 1; // 1= DSC 2= DV;
+
+///////////////////////////////////////////////////////////
+// dc/dv 应用菜单项是否可见配置，取值0x0ffff为不显示此项
+
+dsc_visible_playback = 1;
+dsc_visible_whitebalance = 1;
+dsc_visible_brightness = 1;
+dsc_visible_exposure_mode = 1;
+dsc_visible_flashlamp = 0x0ffff;
+dsc_visible_face_identify = 1;
+dsc_visible_stickerphoto = 3;
+dsc_visible_specialeffect = 1;
+dsc_visible_savepath = 1;
+dsc_visible_resolution = 1;
+dsc_visible_free_space = 1;
+dsc_visible_selftimer = 1;
+dsc_visible_contshooting = 1;
+dsc_visible_shutter_sound = 3;
+dsc_visible_dater = 1;
+
+dv_visible_playback = 1;
+dv_visible_whitebalance = 1;
+dv_visible_brightness = 1;
+dv_visible_exposure_mode = 1;
+dv_visible_specialeffect = 1;
+dv_visible_savepath = 1;
+dv_visible_resolution = 1;
+dv_visible_free_space = 1;
+dv_visible_record_quality = 1;
+dv_visible_record_gain = 1;
+dv_visible_activity_detect = 1;
+
+///////////////////////////////////////////////////////////////////////////////
+// music应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+music_play_mode = 0;    //循环模式：0-Sequence, 1-Repeat All, 2-Repeat One, 3-Shuffle, 4-Shuffle + Repeat, 5-Intro
+music_display_mode = 0;	//显示模式：0-Spectrum, 1-Lyric, 2-Effect1, 3-Effect2, 4-Effect3
+music_display_effect = 0;      //显示特效：0-Disable, 1-Enable
+music_eq_mode = 0;	//Eq类型：0-Norma, 1-Pop, 2-Classic, 3-Soft, 4-Jazz, 5-Rock, 6-DBB, 7-Custom EQ, 8-SRS WOW, 9-SRS WOW HD, 10-SRS USER Mode
+music_fade = 1;		//淡入淡出：0-disable, 1-enable
+music_play_speed = 0;		//变速播放的速度：-4~+4
+music_ffb_speed = 0;	//快进速度：0-2X, 1-4X, 2-8X, 3-16X, 4-32X
+music_ffb_time = 200;	//快进过程播放音乐时间
+music_ab_count = 1;	//AB循环的次数：1～10
+music_ab_time = 1;		//AB循环的间隔：1～6秒
+music_ab_autoplay = 1;	//自动AB播放的标志：0-手动, 1-自动
+
+// mainmenu visible
+music_nowplaying_visible = 1;  
+music_allmusic_visible = 1;  
+music_artist_visible = 1;  
+music_album_visible = 1;  
+music_genre_visible = 1;  
+music_myplaylist_visible = 1;  
+music_dirlist_visible = 1;  
+music_reclist_visible = 1;  
+music_myrating_visible = 1;  
+music_taglist_visible = 1;  
+
+// option visible
+music_seleq_visible = 1;   
+music_playmode_visible = 1;   
+music_displaymode_visible = 1;  
+music_addlist_visible = 1;  
+music_setrating_visible = 1;  
+music_addtag_visible = 1; 
+music_abrep_visible = 1;
+music_playspeed_visible = 1;   
+music_delete_visible = 1;  
+music_advanced_visible = 1; 
+music_setupeq_visible = 1;  
+music_info_visible = 1; 
+
+
+///////////////////////////////////////////////////////////////////////////////
+// video应用配置
+///////////////////////////////////////////////////////////////////////////////
+video_swf_support = 1; //是否支持swf，1-支持，0-不支持
+video_resume_visible = 1;//是否支持断点播放，1-支持，0-不支持
+
+///////////////////////////////////////////////////////////////////////////////
+// ebook应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+//option菜单中是否有改变字体大小的项：1 有； 0 没有。
+ebook_has_change_font_size_item = 1;
+
+//缺省字体的颜色值， 0 为黑色
+ebook_deault_font_color = 0x000000;  
+
+//颜色对，第一个数字是字体的颜色，第二个是背景的颜色
+//序号为 0 - 9 , 要连续，最多 10 个。
+ebook_font_color0 = 0x808080;
+ebook_bg_color0 = 0xffffff;
+
+ebook_font_color1 = 0x0000ff;
+ebook_bg_color1 = 0x0;
+
+ebook_font_color2 = 0xffffff;
+ebook_bg_color2 = 0x0;
+
+ebook_font_color3 = 0x0;
+ebook_bg_color3 = 0xffffff;
+
+// 阅读界面是否使用纯色背景，1 表示使用；
+// 其他值都表示不使用,这时上面的背景颜色将无用，所以可以只写第一个数字。
+ebook_use_color_background = 1;
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// usb 应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+// u 盘的配置
+udisk_PID = 0x1101;
+udisk_VID = 0x10D6;
+udisk_release = 0x100;
+
+//生产商，8 位字符串
+udisk_vendor = "actions";
+//产品名，16 位字符串
+udisk_product = "media-player";
+
+// 序列号，最多 33 位的字符串
+udisk_serial = "1234567887654321";
+
+
+// mtp 的配置
+mtp_PID = 0x2300;
+mtp_VID = 0x10d6;
+mtp_EXT = 0x0000;
+
+mtp_dev_manufacturer = "Actions Semiconductor Co., Ltd.";
+mtp_dev_model = "H-MTP";
+mtp_dev_version = "MTP-1.063-N-FRE";
+mtp_dev_serial = "6FC89818B0F5C9AC5DAF09D860F78BFD";
+
+mtp_store_inner_desc = "u1100";
+mtp_store_portable_desc = "u1100 external";
+
+mtp_dev_ext_desc0 = "none";
+mtp_dev_ext_desc1 = "none";
+
+
+
+// 是否弹出厂商分区；1 表示弹出；否则不弹出。
+usb_show_manufacturer_disk = 1;
+// 是否弹出U盘分区；1 表示弹出；否则不弹出。
+usb_show_u_disk = 1;
+
+// 是否弹出卡分区；1 表示弹出；否则不弹出。
+usb_show_card_disk = 1;
+
+// usb 升级的文件路径
+usb_upgrade_fw_file = "/mnt/disk0/us213f.upg";
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// record应用配置
+///////////////////////////////////////////////////////////////////////////////
+recorder_format = "wav";        //录音文件格式: "wav", "mp3", "wma"
+recorder_quality = 1;           //录音质量: 0 ＝ 低  1 ＝ 中  2 ＝ 高
+recorder_mode = 0;              //音源: 0 ＝ voice   1 ＝ line in
+recorder_gain = 3;             //录音增益
+recorder_path = 0;             //录音文件保存路径: 0 = internal   1 = card  2 = external
+recorder_line_in_support = 1;//是否支持line_in，1-支持，0-不支持
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+// tvin应用配置
+///////////////////////////////////////////////////////////////////////////////
+
+tvin_signal = "PAL";         
+tvin_savepath = 0;        
+tvin_record_quality = 0;  
+tvin_lcd_onoff = "LCD_ON";       
+tvin_single1_date = "2009-07-10";    
+tvin_single2_date = "2009-07-10";
+tvin_single3_date = "2009-07-10";
+
+tvin_single1_time = "08:08";    
+tvin_single2_time = "08:08";
+tvin_single3_time = "08:08";
+
+tvin_single1_length = "00:01";  
+tvin_single2_length = "00:02";
+tvin_single3_length = "00:03";
+
+tvin_single1_onoff = "OFF";   
+tvin_single2_onoff = "OFF";
+tvin_single3_onoff = "OFF";
+
+tvin_repeat1_time = "08:08";
+tvin_repeat2_time = "08:08";
+tvin_repeat3_time = "08:08";  
+
+tvin_repeat1_length = "00:04"; 
+tvin_repeat2_length = "00:05"; 
+tvin_repeat3_length = "00:06"; 
+
+tvin_repeat1_weekday = 0x10;
+tvin_repeat2_weekday = 0x10;
+tvin_repeat3_weekday = 0x10;
+
+tvin_repeat1_onoff = "OFF";
+tvin_repeat2_onoff = "OFF";
+tvin_repeat3_onoff = "OFF";
+
+tvin_single1_clocknum = 0;
+tvin_single2_clocknum = 0;
+tvin_single3_clocknum = 0;
+
+tvin_repeat1_clocknum = 0;
+tvin_repeat2_clocknum = 0;
+tvin_repeat3_clocknum = 0;
+
+tvin_singlerec1_visible = 1;
+tvin_singlerec2_visible = 1;
+tvin_singlerec3_visible = 1;
+tvin_repeatrec1_visible = 1;
+tvin_repeatrec2_visible = 1;
+tvin_repeatrec3_visible = 1;
+tvin_savepath_visible = 1;
+tvin_lcd_onoff_visible = 1;
+tvin_record_quality_visible = 1;
+
+///////////////////////////////////////////////////////////////////////////////
+// setting应用界面配置
+///////////////////////////////////////////////////////////////////////////////
+
+// main menu
+setting_menu_theme_visible  = 1;               
+setting_menu_scr_mode_visible  = 1;            
+setting_menu_display_visible = 1;               
+setting_menu_power_visible = 1;                
+setting_menu_date_time_visible = 1;              
+setting_menu_language_visible = 1;              
+setting_menu_tvout_visible = 1;                  
+setting_menu_sync_plist_visible = 1;                  
+setting_menu_advanced_visible = 1;              
+                                                
+// screen mode menu
+setting_menu_scr_mode_horizontal_visible = 1; 
+setting_menu_scr_mode_veritcal_visible = 1;
+setting_menu_scr_mode_auto_visible = 1;
+                                                
+// display menu
+setting_menu_display_brightness_visible = 1; 
+setting_menu_display_backlight_visible = 1; 
+                                                
+// power menu
+setting_menu_power_idle_time_visible = 1; 
+setting_menu_power_sleep_time_visible = 1; 
+                                                
+// date time menu
+setting_menu_date_time_adjust_date_visible = 1; 
+setting_menu_date_time_adjust_time_visible = 1; 
+setting_menu_date_time_drm_time_visible = 1; 
+                                                
+// advanced menu
+setting_menu_advanced_info_visible = 1;  
+setting_menu_advanced_connect_type_visible = 1;  
+setting_menu_advanced_font_visible = 1; 
+setting_menu_advanced_key_tone_visible = 1;
+setting_menu_advanced_show_effect_visible  = 1; 
+setting_menu_advanced_search_folder_visible  = 1;
+setting_menu_advanced_gsensor_shake_support_visible  = 1;
+setting_menu_advanced_format_internal_visible  = 1;
+setting_menu_advanced_format_card_visible  = 1;    
+setting_menu_advanced_format_external_visible  = 1;
+setting_menu_advanced_set_username_visible  = 1;   
+setting_menu_advanced_clear_drm_visible = 1;
+setting_menu_advanced_check_sys_visible = 1;
+setting_menu_advanced_reset_visible  = 1;
+                                                
+// info menu
+setting_menu_info_username_visible  = 1;
+setting_menu_info_version_visible  = 1;
+setting_menu_info_internal_space_visible  = 1;
+setting_menu_info_internal_free_visible = 1;
+setting_menu_info_card_space_visible  = 1;
+setting_menu_info_card_free_visible = 1;
+setting_menu_info_external_space_visible = 1;
+setting_menu_info_external_free_visible = 1;
+
+
+///////////////////////////////////////////////////////////////////////////////
+// emulator 应用界面配置
+///////////////////////////////////////////////////////////////////////////////
+emu_disp_mode = 1;
+emu_sound_mode = 1;
+emu_key_a = "KEY_TVOUT";
+emu_key_b = "KEY_CAMERA";
+emu_key_start = "KEY_MENU";
+emu_key_select = "KEY_OK";
+emu_key_left = "KEY_VSUB";
+emu_key_right = "KEY_VADD";
+emu_key_up = "KEY_PREV";
+emu_key_down = "KEY_NEXT";
+
+///////////////////////////////////////////////////////////////////////////////
+// 应用目录项名配置 
+///////////////////////////////////////////////////////////////////////////////
+
+//播放列表是否放到A盘
+put_plist_in_adisk = 1;
+
+media_dir_udisk_music = "/MUSIC/";
+media_dir_udisk_video = "/VIDEO/";
+media_dir_udisk_photo = "/PICTURES/";
+media_dir_udisk_ebook = "/EBOOK/";
+media_dir_udisk_video_camera = "/VIDEO/CAMERA/";
+media_dir_udisk_photo_camera = "/PICTURES/CAMERA/";
+media_dir_udisk_game = "/GAME/";
+media_dir_udisk_recorder = "/RECORD/";
+media_dir_udisk_radio_record = "/RECORD/FM/";
+media_dir_udisk_recorder_mic = "/RECORD/MIC/";
+media_dir_udisk_recorder_linein = "/RECORD/LINEIN/";
+media_dir_udisk_tvin = "/VIDEO/TVIN/";
+media_dir_udisk_system = "/SYSTEM/"; 
+media_dir_udisk_system_fm = "/SYSTEM/FM/";
+media_dir_udisk_system_font = "/SYSTEM/FONTS/";
+media_dir_udisk_system_playlist = "/SYSTEM/PLAYLIST/";
+                           
+media_dir_card_music = "/MUSIC/";
+media_dir_card_video = "/VIDEO/";  
+media_dir_card_photo = "/PICTURES/";
+media_dir_card_ebook = "/EBOOK/";
+media_dir_card_video_camera = "/VIDEO/CAMERA/";
+media_dir_card_photo_camera = "/PICTURES/CAMERA/";
+media_dir_card_game = "/GAME/";
+media_dir_card_recorder = "/RECORD/";
+media_dir_card_radio_record = "/RECORD/FM/";
+media_dir_card_recorder_mic = "/RECORD/MIC/";   
+media_dir_card_recorder_linein = "/RECORD/LINEIN/";
+media_dir_card_tvin = "/VIDEO/TVIN/";
+media_dir_card_system = "/SYSTEM/";  
+media_dir_card_system_fm = "/SYSTEM/FM/";
+media_dir_card_system_font = "/SYSTEM/FONTS/";
+media_dir_card_system_playlist = "/SYSTEM/PLAYLIST/";
+                            
+media_dir_external_music = "/MUSIC/";
+media_dir_external_video = "/VIDEO/";  
+media_dir_external_photo = "/PICTURES/";
+media_dir_external_ebook = "/EBOOK/";
+media_dir_external_video_camera = "/VIDEO/CAMERA/";
+media_dir_external_photo_camera = "/PICTURES/CAMERA/";
+media_dir_external_game = "/GAME/";
+media_dir_external_recorder = "/RECORD/";
+media_dir_external_radio_record = "/RECORD/FM/";
+media_dir_external_recorder_mic = "/RECORD/MIC/";
+media_dir_external_recorder_linein =  "/RECORD/LINEIN/";
+media_dir_external_tvin = "/VIDEO/TVIN/";
+media_dir_external_system = "/SYSTEM/";
+media_dir_external_system_fm = "/SYSTEM/FM/";
+media_dir_external_system_font = "/SYSTEM/FONTS/";
+media_dir_external_system_playlist = "/SYSTEM/PLAYLIST/";

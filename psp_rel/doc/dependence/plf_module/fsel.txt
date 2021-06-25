@@ -1,0 +1,5 @@
+/*sample.dot*/
+digraph sample {
+	mnavi->sqlite	/*关系指向*/
+	mnavi->libc_fs
+}

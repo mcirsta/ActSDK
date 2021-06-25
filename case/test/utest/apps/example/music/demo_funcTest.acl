@@ -1,0 +1,47 @@
+# retrieve the script path
+set script_file [info script]
+
+# retrieve the project path
+if {[catch {puts $prj_path}] == 1} {
+    # search for project Path
+    regexp {^(.*)\\case\\test} $script_file match prj_path
+}
+
+puts " == RootDir ** $prj_path ** =="
+
+# set the module and test dir
+set moduleDir $prj_path/case/apps/example/music
+set unitTestDir $prj_path/case/test/utest/apps/example/music
+
+# set the name of registry
+# must be the same as test registry's name
+###set registryName exampleTest
+
+#set module and test application makefile path
+set mfModule $moduleDir/Makefile
+set mfuTestAPP $unitTestDir/Makefile
+
+# set report dir
+set reportDir $unitTestDir/UTreport/[getpctime 0]
+
+#load the function for auto unit test
+source $prj_path/case/test/script_com/utest_com.acl
+
+#auto make, list the program makefile
+if {[utest_autoMake $mfModule $mfuTestAPP] != 1} {
+    return 0
+}
+
+#exec test cases, if do cover test, the 3th fill "COV"
+#if run sensor sdk, the 4th fill "sensor" [unitTest_autoRun $prj_path $reportDir FUNC sensor]
+if {[unitTest_autoRun $prj_path $reportDir] != 1} {
+    return 0
+}
+
+#get the report
+set ret [report_convert_show $reportDir]
+
+#return 0 -- unnormal end
+#return -1 -- test fail
+#return 1 -- test pass
+return $ret

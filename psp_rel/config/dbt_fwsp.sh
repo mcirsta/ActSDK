@@ -1,0 +1,1 @@
+./fwsp.sh 1 test

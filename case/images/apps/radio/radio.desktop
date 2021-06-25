@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=radio.app
+Icon-id=
+ICon=
+Name-id=
+Name=Radio
+Name[zh_CN]=FM收音
+Name[zh_TW]=FM收音
+Name[en_GB]=FM Radio
+Name[ja_JP]=FMラジオ
+Name[ko_KP]=FM 라디오
+Name[fr_FR]=Radio FM
+Name[de_GE]=FM Tuner
+Name[it_IT]=Radio FM
+Name[nl_NL]=FM Tuner
+Name[pt_PT]=FM Tuner
+Name[es_PE]=Radio FM
+Name[sv_SE]=FM Radio
+Name[cs_CZ]=FM rádio
+Name[da_DK]=FM radio
+Name[pl_PL]=Radio FM
+Name[ru_RU]=FM Тюнер
+Name[tr_TR]=Fm Radyo
+Name[he_IL]=טריפה	
+Name[th_TH]=วิทยุ FM
+Name[hu_HU]=FM rádió
+Name[ro_RO]=Radio de FM
+Name[ar]=راديوfm 
+Name[id_ID] = Radio FM
+Name[el_EG] = FM Ραδιόφωνο
+

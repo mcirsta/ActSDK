@@ -1,0 +1,70 @@
+CC        = sde-gcc
+LD        = sde-ld
+OBJCOPY   = sde-objcopy
+OBJDUMP   = sde-objdump
+
+# **********************************************
+# Endianness
+# **********************************************
+
+ENDIAN  = EL
+
+ifeq ($(ENDIAN),EL)
+OFORMAT = -EL
+else
+OFORMAT = -EB
+endif
+
+# **********************************************
+# Directories
+# **********************************************
+SDKROOT		= ./../..
+PRJROOT		= $(SDKROOT)/..
+FWSPROOT	= $(PRJROOT)/fwsp
+ALSPROOT	= $(PRJROOT)/alsp
+LIBCRTROOT	= $(SDKROOT)/psp_rel/lib/libcrt
+include $(SDKROOT)/psp_rel/config/config.cfg
+
+LIBCRT    = $(LIBCRTROOT)/crti.o $(LIBCRTROOT)/crtbegin.o $(LIBCRTROOT)/crtend.o $(LIBCRTROOT)/crtn.o 
+LIBS = $(SDKROOT)/psp_rel/lib/libc/libc_sysindep.a	\
+	   $(SDKROOT)/psp_rel/lib/libc_sys_api.a \
+	   $(SDKROOT)/psp_rel/lib/libc_fs_api.a  \
+	   $(SDKROOT)/psp_rel/lib/actmem_api.a  \
+	   $(SDKROOT)/psp_rel/lib/syscall_api.a \
+	   $(SDKROOT)/psp_rel/lib/codec_common.o \
+	   $(SDKROOT)/psp_rel/lib/libgcc/libgcc.a \
+	   
+LINCLUDE = -L$(FWSPROOT)/inc
+CC_OPTS   = -c -g -G0 -O0 $(OFORMAT) $(INCLUDE) -Wall -fsigned-char -mtune=4kec -mips32 -fno-builtin
+CC_OPTS_A = $(CC_OPTS) -D_ASSEMBLER_
+
+#指定连接脚本
+LD_SCRIPT = $(FWSPROOT)/include/xn/so.xn   
+
+#传递链接地址(so文件的首个section为.init)                                         
+LD_OPTS   = -G0 $(LINCLUDE) -T $(LD_SCRIPT) $(OFORMAT)
+
+# **********************************************
+# depend.cfg
+# **********************************************
+START_ADDR = 0x45800000
+ADDR_INTERVAL = 0x400000
+END_ADDR = 0x60000000
+
+SO_LIB_PATH = $(ALSPROOT)/$(ALSP_IC)/lib
+OUT_DIR = $(SDKROOT)/psp_rel/lib/libmmm
+
+# **********************************************
+# Rules
+# **********************************************
+
+all:
+	$(LD)   ./lib/a1.o ./lib/a2.o $(LIBCRT) $(LIBS) $(LD_OPTS) --section-start .init=0x80000000 -o ./1.so
+	$(LD)   ./lib/a1.o ./lib/a3.o $(LIBCRT) $(LIBS) $(LD_OPTS) --section-start .init=0x80400000 -o ./2.so
+	$(LD)   ./lib/a2.o ./lib/a3.o $(LIBCRT) $(LIBS) $(LD_OPTS) --section-start .init=0x80800000 -o ./3.so
+Makefile: depend.cfg 
+	mv $@ $@.tmp
+	Python gen_makefile.py $@.tmp $(ALSPROOT)/$(ALSP_IC)/depend.cfg >$@	
+	
+.PHONY : all clean 
+

@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=emulator.app GBC
+Icon-id=
+ICon=
+Name-id=
+Name=GBC
+Name[zh_CN]=GBC
+Name[zh_TW]=GBC
+Name[en_GB]=GBC
+Name[ja_JP]=GBC 
+Name[ko_KP]=GBC
+Name[fr_FR]=GBC
+Name[de_GE]=GBC
+Name[it_IT]=GBC
+Name[nl_NL]=GBC
+Name[pt_PT]=GBC
+Name[es_PE]=GBC
+Name[sv_SE]=GBC
+Name[cs_CZ]=GBC
+Name[da_DK]=GBC
+Name[pl_PL]=GBC
+Name[ru_RU]=GBC
+Name[tr_TR]=GBC
+Name[he_IL]=GBC
+Name[th_TH]=GBC
+Name[hu_HU]=GBC
+Name[ro_RO]=GBC
+Name[ar]=GBC 
+Name[id_ID] = GBC
+Name[el_EG] = GBC
+

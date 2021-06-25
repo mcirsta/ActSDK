@@ -1,0 +1,27 @@
+﻿# multi-language support information description file
+
+# support list 
+Name[zh_CN] = 简体中文
+Name[zh_TW] = 繁體中文
+Name[en_GB] = English
+Name[ja_JP] = 日本語
+Name[ko_KP] = 한글
+Name[fr_FR] = FranÇais
+Name[de_GE] = Deutsch
+Name[it_IT] = Italiano
+Name[nl_NL] = Nederlands
+Name[pt_PT] = Português
+Name[es_PE] = Español
+Name[sv_SE] = Svenska
+Name[cs_CZ] = Česky
+Name[da_DK] = Dansk
+Name[pl_PL] = Polski
+Name[ru_RU] = Русский
+Name[tr_TR] = Türkçe
+Name[he_IL] = עִבְרִית
+Name[th_TH] = ภาษาไทย
+Name[hu_HU] = Hungarian
+Name[ro_RO] = Romanian
+Name[ar]= لغة عربية 
+Name[id_ID] = Indonesian
+Name[el_EG] = Ελληνικά

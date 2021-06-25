@@ -1,0 +1,146 @@
+#**************************************************************************
+#                                                                         *
+#   PROJECT     : MIPS port for UCOS-II                                   *
+#                                                                         *
+#   MODULE      : MakeFile                                                *
+#                                                                         *
+#   AUTHOR      : Wurui                                                   *
+#                                                                         *
+#   PROCESSOR   : MIPS 4KEc (32 bit RISC) - Actions board                 *
+#                                                                         *
+#   Tool-chain  :  Cygnus                                                 *
+#                                                                         *
+#   DESCRIPTION :                                                         *
+#   Makefile used for building application.                               *
+#                                                                         *
+#   targets are :                                                         *
+#                                                                         *
+#*************************************************************************/
+PRJROOT = ../../..
+FWSPROOT  = $(PRJROOT)/fwsp
+FWSP_SROOT	= $(PRJROOT)/fwsp_s
+CASEROOT  = ../../case
+PSP_RELROOT = ../
+
+BOOT_SROOT  = $(FWSP_SROOT)/boot
+BOOT_S_ADFU_ROOT = $(BOOT_SROOT)/adfu
+
+USERMODULEROOT = $(FWSPROOT)/usermodule
+
+DRVROOT   = $(FWSPROOT)/drivers
+USBROOT   = $(DRVROOT)/usb
+
+LIBSRCROOT	= $(FWSPROOT)/libsrc
+LIBCROOT  = $(LIBSRCROOT)/libc
+
+SDK_API_DIR=  $(PSP_RELROOT)/lib
+
+FSROOT    = $(FWSPROOT)/fs/cfg
+KERNELROOT = $(FWSPROOT)/kernel
+MMMROOT	= $(USERMODULEROOT)/midware
+
+BOOT_MFDIR = $(BOOT_S_ADFU_ROOT)/libsrc $(BOOT_S_ADFU_ROOT)/adfudec $(BOOT_S_ADFU_ROOT)/adfuserver \
+            $(BOOT_SROOT)/fwsc \
+            $(BOOT_SROOT)/hwsc \
+            $(FWSPROOT)/boot/brec \
+            $(FWSPROOT)/boot/mbrc $(FWSPROOT)/boot/mbrc_lba  $(FWSPROOT)/boot/mbrc_spi
+                       
+OS_MFDIR = $(LIBSRCROOT)/libprof \
+            $(LIBSRCROOT)/libsemihosting \
+            $(LIBSRCROOT)/libutest \
+            $(LIBSRCROOT)/libcom \
+            $(KERNELROOT)\
+            $(FSROOT) \
+            $(LIBSRCROOT)/libcrt \
+            $(LIBCROOT)/sysindep \
+            $(LIBCROOT)/general/cfg \
+            $(LIBCROOT)/fs/cfg \
+
+KO_MFDIR =  $(FWSP_SROOT)/drivers/flash $(FWSP_SROOT)/drivers/flash_lba \
+			$(FWSP_SROOT)/drivers/stub/cfg \
+
+MFDIR = $(BOOT_MFDIR) $(OS_MFDIR) $(KO_MFDIR)
+
+SDKDRVDIR := $(FWSPROOT)
+SDK_API_FILES := $(shell find $(SDKDRVDIR) -name '*api.S' )
+# **********************************************
+# Rules
+# **********************************************
+
+.PHONY : all
+all:
+	@echo make nothing,please choose object to make for example :
+	
+	@echo make boot    //编译boot
+	@echo make os    	//编译os
+	@echo make ko    	//编译sdk\drivers目录下所有内核模块	
+	@echo make clean      //clean
+	
+.PHONY : sdk_api boot os ko pmm mmm clean
+boot:
+	@$(foreach dir, $(BOOT_MFDIR), \
+		echo Make -C $(dir);\
+		if [ -d $(dir) ];then \
+			if [ -f $(dir)/Makefile ];then \
+				$(MAKE) -C $(dir);\
+			else \
+				echo error :Can not find Makefile in $(dir);\
+			fi;\
+		else \
+			echo error :Can not find directory $(dir);\
+		fi;\
+		echo end;\
+		echo;\
+	)
+
+os:
+	@$(foreach dir, $(OS_MFDIR), \
+		echo Make -C $(dir);\
+		if [ -d $(dir) ];then \
+			if [ -f $(dir)/Makefile ];then \
+				$(MAKE) -C $(dir);\
+			else \
+				echo error :Can not find Makefile in $(dir);\
+			fi;\
+		else \
+			echo error :Can not find directory $(dir);\
+		fi;\
+		echo end;\
+		echo;\
+	)
+
+ko:
+	@$(foreach dir, $(KO_MFDIR), \
+		echo Make -C $(dir);\
+		if [ -d $(dir) ];then \
+			if [ -f $(dir)/Makefile ];then \
+				$(MAKE) -C $(dir);\
+			else \
+				echo error :Can not find Makefile in $(dir);\
+			fi;\
+		else \
+			echo error :Can not find directory $(dir);\
+		fi;\
+		echo end;\
+		echo;\
+	)
+
+sdk_api:
+	for api_file in $(SDK_API_FILES); do $(CASEROOT)/makefile/create_api.sh  $$api_file  $(SDK_API_DIR) $(ROOT)../ ; done
+
+clean :
+	@$(foreach dir, $(MFDIR) , \
+		echo Make clean -C $(dir);\
+		if [ -d $(dir) ];then \
+			if [ -f $(dir)/Makefile ];then \
+				$(MAKE) clean -C $(dir);\
+			else \
+				echo error :Can not find Makefile in $(dir);\
+			fi;\
+		else \
+			echo error :Can not find directory $(dir);\
+		fi;\
+		echo end;\
+		echo;\
+	)
+

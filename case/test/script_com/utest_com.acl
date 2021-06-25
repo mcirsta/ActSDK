@@ -1,0 +1,186 @@
+#get the next line offset where the str first match the file line
+proc stringIn_fileLine {str sfile} {
+
+    set fh [open $sfile r]
+    set offset -1
+    while {[gets $fh line] != -1} {
+	     if {[string match "$str" $line] == 1} {
+            set offset [tell $fh]
+            break
+        }
+    }
+
+    close $fh
+    return $offset
+}
+
+# the dev should be "stub" and "jdi"
+proc open_target {dev} {
+
+	 switch $dev {
+	     "stub"  {set str "PacketSize=4000"}
+	     "jdi"   {set str "PacketSize=0x1400;qXfer:memory-map:read+"}
+	     default {
+	     	            puts "-- target ERR! --"
+	     	            return 0
+	             }
+	 }
+
+	 #check all the usb port
+	 for {set i 0} {$i < 7} {incr i} {
+        if {[md_opendev $i] == 1} {
+            if {[catch {md_query supported} dmsg] == 1} {
+                puts "-- QUERY device $i ERR! MSG >> $dmsg --"
+            } elseif {[md_query supported] == $str} {
+            	 return 1
+            } else {
+            	 puts "-- QUERY device $i ERR! --"
+            }
+            md_closedev
+        }
+	 }
+
+	 return 0
+}
+
+
+
+# input the full path of makefile, it will clean and make
+proc utest_autoMake {args} {
+    set makeTag 1
+    set makeLog "_make.log"
+	 foreach i $args {
+        if {[file exist $i] == 1} {
+        	   set makeDir [file dirname $i]
+        	   set makeFile [file tail $i]
+        	   set ret [bashexec "cd $makeDir; make -f $makeFile >& $makeLog"]
+            if {$ret != 0} {
+            	 puts "-- makefile >> $i --"
+                puts "-- make ERR! please check the code! --\n"
+
+                global globalReportRoot
+                if {[info exists globalReportRoot] != 0} {
+                	  file mkdir $globalReportRoot
+                	  set module [file tail $makeDir]
+                    file copy $makeDir/$makeLog $globalReportRoot/$module$makeLog
+                } else {
+                    bashexec "cat $makeLog"
+                }
+                set makeTag 0
+            }
+        }
+	 }
+
+    return $makeTag
+}
+
+
+#if collect the cover info, make sure the module or test application make right
+#then set cov "COV"
+proc unitTest_autoRun {prjRoot reportRoot {cov "FUNC"} {type ""}} {
+
+    # set current working directory
+    # the test log file will write to this directory
+    md_setcwd $reportRoot
+    file mkdir $reportRoot
+
+    puts "    open device for unit test..."
+
+    # open debug device
+    if {[open_target "stub"] != 1} {
+    	puts "  connect target fail! \n"
+    	return 0
+    }
+
+    # set the path where to download app and drv
+    md_setusdkpath $prjRoot $type
+    md_setcasedir "case"
+
+    # load apps from PC through remote file system, without rewriting firmware image
+    md_loadfrompc 1
+
+    # prepare for coverage test
+    if {$cov == "COV"} {
+        puts "    prepare for coverage test  "
+        md_prep_gcov
+    }
+
+    puts "    continue to exec the test application ..."
+
+    # continue target
+    # user operation to run the specific APP, which will do unit testing
+    # when the test finished, "md_continue" command will be stopped
+    # if not, press "ESC" key
+    md_continue
+
+    puts "    test complete! "
+    return 1
+}
+
+#return 0 -- unnormal end
+#return -1 -- test fail
+#return 1 -- test pass
+proc report_convert_show {reportRoot {covFilesRoot ""} {covMakefileRoot ""}} {
+
+    cd $reportRoot
+    set logFile [glob *.log]
+    set htmlFile [file rootname $logFile].html
+    set testResult 0
+
+    if {[file exist $logFile]} {
+
+        #get the result from log file
+        set sLine "moduleresult=*"
+        set fh [open $logFile r]
+        while {[gets $fh line] != -1} {
+	         if {[string match "$sLine" $line] == 1} {
+                set line [split $line =]
+                if {[lindex $line 1] == 1} {
+                    set testResult 1
+                }
+                if {[lindex $line 1] == 0} {
+                    set testResult -1
+                }
+                break
+            }
+        }
+        close $fh
+
+    } else {
+        puts "-- 	log file not exist -- "
+        return 0
+    }
+
+    # convert .log file to HTML
+    file del $htmlFile
+    report $logFile $htmlFile
+
+    global globalReportRoot
+    if {[catch {puts $globalReportRoot}] == 0} {
+    	  file mkdir $globalReportRoot
+    	  cd ../../
+    	  set module [file tail [pwd]]
+        file copy $reportRoot/$htmlFile $globalReportRoot/$module\_$htmlFile
+       return $testResult
+    }
+
+    #show the test report
+    shellopen $htmlFile
+
+    if {$covFilesRoot != "" && $covMakefileRoot != ""} {
+        # coverage test
+        # build the coverage result file name
+        set index_html $reportRoot/covreport/index.html
+
+        # use "lcov" to generate html result
+        # the first arg of the cmd "md_lcov" the root dir of all *.gcno and *.gcda files
+        # but the gcno and gcda files must be twin
+        # the second arg is the makefile path which the makefile make with cover flag
+        md_lcov $covFilesRoot $covMakefileRoot $reportRoot
+        shellopen $index_html
+    }
+
+    return $testResult
+}
+
+

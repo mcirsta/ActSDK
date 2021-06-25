@@ -1,0 +1,35 @@
+﻿锘縖Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=calculat.app
+Icon-id=
+Icon=
+Name-id=
+Name=Calculator
+Name[zh_CN]=计算器
+Name[zh_TW]=計算器
+Name[en_GB]=Calculator
+Name[ja_JP]=計算器
+Name[ko_KP]=계산기
+Name[fr_FR]=Calculateur
+Name[de_GE]=Kalikulator
+Name[it_IT]=calcolatrice
+Name[nl_NL]=Rekenmachine
+Name[pt_PT]=Calculador
+Name[es_PE]=Calculadora
+Name[sv_SE]=ränkare
+Name[cs_CZ]=Kalkulačka
+Name[da_DK]=Regnemaskine
+Name[pl_PL]=kalkulator
+Name[ru_RU]=калькулятор
+Name[tr_TR]=hesap makinesi
+Name[he_IL]=מחשבון
+Name[th_TH]=เครื่องคิดเลข	
+Name[hu_HU]=számológép
+Name[ro_RO]=Calculator
+Name[ar]=الحاسبة 
+Name[id_ID] = Kalkulator
+Name[el_EG] =υπολογιστής
+

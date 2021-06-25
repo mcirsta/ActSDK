@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=browser.app
+Icon-id=
+ICon=
+Name-id=
+Name=Browser
+Name[zh_CN]=浏览器
+Name[zh_TW]=瀏覽器
+Name[en_GB]=Browser
+Name[ja_JP]=ブラウザ
+Name[ko_KP]=블라우저
+Name[fr_FR]=Browser
+Name[de_GE]=Browser
+Name[it_IT]=Browser
+Name[nl_NL]=Browser
+Name[pt_PT]=Navegador
+Name[es_PE]=Navegador
+Name[sv_SE]=Browser
+Name[cs_CZ]=Browser
+Name[da_DK]=Browser
+Name[pl_PL]=Przeglądarka
+Name[ru_RU]=Браузер
+Name[tr_TR]=Tarayıcı
+Name[he_IL]=דפדפן	
+Name[th_TH]=เบราว์เซอร์
+Name[hu_HU]=Böngésző
+Name[ro_RO]=Căutare
+Name[ar]=متصفح 
+Name[id_ID] = Browser
+Name[el_EG] =Μηχανή Αναζήτησης 
+

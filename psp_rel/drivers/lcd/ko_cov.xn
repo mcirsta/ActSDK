@@ -1,0 +1,77 @@
+OUTPUT_ARCH(mips)
+
+ENTRY(init_module)
+
+PHDRS
+{
+	text PT_LOAD ;
+	data PT_LOAD ;
+}
+SECTIONS
+{
+	.text :
+	{
+	 *(.text)
+	 *(.rodata)
+	 *(.rodata.*)
+	}:text
+
+	__ksymtab_strings :
+	{
+		*(__ksymtab_strings)
+	}:text
+
+	__ksymtab :
+	{
+		*(__ksymtab)
+	}:text
+
+	__ksymtab_gpl :
+	{
+		*(__ksymtab_gpl)
+	}:text
+
+   	. = ALIGN (0x1000);
+
+   .ctors :
+   {
+		_ctor_start = ABSOLUTE(.);
+		*(.ctors)
+      _ctor_end  = ABSOLUTE(.);
+	}:data
+
+	.dtors :
+	{
+		_dtor_start = ABSOLUTE(.);
+		*(.dtors)
+		_dtor_end = ABSOLUTE(.);
+	}:data
+
+	.data :
+	{
+	 *(.data)
+	 *(.sdata)
+	}:data
+
+	.gnu.linkonce.this_module :
+	{
+	 *(.gnu.linkonce.this_module)
+	}:data
+
+	__obsparm :
+	{
+	 *(__obsparm)
+	}:data
+
+	.sbss :
+  	{
+  	 *(.sbss)
+ 	 *(.scommon)
+ 	}:data
+
+	.bss :
+ 	{
+ 	 *(.bss)
+  	 *(COMMON)
+ 	 }:data
+ }

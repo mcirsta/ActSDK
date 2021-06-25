@@ -1,0 +1,5 @@
+/*sample.dot*/
+digraph sample {
+	id3_parse->multilang	/*关系指向*/
+	id3_parse->libc_fs
+}

@@ -1,0 +1,758 @@
+cdl_package CYGPKG_APPS_CONFIG {
+	display			"应用参数配置"
+	define_header 	tools.gn
+	description		"apps configuration item"
+	
+	cdl_component PHOTO_CFG {
+		display "PHOTO 相关配置"
+		flavor none
+		no_define
+		description "PHOTO相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*PHOTO相关配置*/"
+		}
+		
+		cdl_option photo_playmode {
+			display "play mode"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "photo_playmode=%d" ADDCONFIG
+			description "图片浏览方式：0-手动浏览；1-自动浏览"
+		}
+		
+		cdl_option photo_browsemode {
+			display "browse mode"
+			flavor data
+			no_define
+			default_value {"1"}
+			legal_values {"0" "1"}
+			define -format "photo_browsemode=%d" ADDCONFIG
+			description "文件浏览方式：0-文件名浏览；1-缩略图浏览"
+		}
+		
+		cdl_option photo_slide_effect_mode {
+			display "slide effect mode"
+			flavor data
+			no_define
+			default_value {"7"}
+			legal_values {"0" "1" "2" "3" "4" "5" "6" "7"}
+			define -format "photo_slide_effect_mode=%d" ADDCONFIG
+			description "图片特效方式：0-none;1-fade;2-check;3-cut;4-erase;5-louver;6-randomline; 7-random"
+		}
+		
+		cdl_option photo_delaytime {
+			display "delay time"
+			flavor data
+			no_define
+			default_value {"2"}
+			legal_values {"1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "photo_delaytime=%d" ADDCONFIG
+			description "幻灯片播放间隔时间：1s~10s"
+		}
+		
+		cdl_option photo_tvout {
+			display "photo tvout"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "photo_tvout=%d" ADDCONFIG
+			description "tvout输出：0-off; 1-on"
+		}
+		
+		cdl_option photo_nowplayindex {
+			display "nowplay index"
+			flavor data
+			no_define
+			default_value {"0"}
+			define -format "photo_nowplayindex=%d" ADDCONFIG
+			description "当前播放图片的偏移"
+		}
+		
+		cdl_option photo_nowplayname {
+			display "nowplay name"
+			flavor data
+			no_define
+			default_value {"a"}
+			define -format "photo_nowplayname=\"%s\"" ADDCONFIG
+			description "当前播放图片的名称"
+		}
+		
+		cdl_option photo_nowplaypath {
+			display "nowplay path"
+			flavor data
+			no_define
+			default_value {"a"}
+			define -format "photo_nowplaypath=\"%s\"" ADDCONFIG
+			description "当前播放图片的路径"
+		}
+
+	}
+		
+	cdl_component FM_CFG {
+		display "FM 相关配置"
+		flavor none
+		no_define
+		description "FM相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*FM相关配置*/"
+		}
+		
+		cdl_option fm_frequency {
+			display "Frequency"
+			flavor data
+			no_define
+			default_value {"87000"}
+			define -format "fm_frequency=%d" ADDCONFIG
+			description "当前播放频率"
+		}
+		
+		cdl_option fm_band {
+			display "Band"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "fm_band=%d" ADDCONFIG
+			description "波段设置：0- USA Band; 1-JAPAN Band"
+		}
+		
+		cdl_option fm_stereo_mode {
+			display "stereo mode"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "fm_stereo_mode=%d" ADDCONFIG
+			description "声道：0-mono track;1-stereo track"
+		}
+		
+		cdl_option fm_intensity {
+			display "intensity"
+			flavor data
+			no_define
+			default_value {"6"}
+			define -format "fm_intensity=%d" ADDCONFIG
+			description "灵敏度"
+		}
+		
+		cdl_option fm_record_fidelity {
+			display "record fidelity"
+			flavor data
+			no_define
+			default_value {"1"}
+			legal_values {"0" "1" "2"}
+			define -format "fm_record_fidelity=%d" ADDCONFIG
+			description "强度:0-low;1-medium;2-hight"
+		}
+		
+		cdl_option fm_record_gain {
+			display "record gain"
+			flavor data
+			no_define
+			default_value {"4"}
+			legal_values {"1" "2" "3" "4" "5" "6" "7"}
+			define -format "fm_record_gain=%d" ADDCONFIG
+			description "增益:0~7"
+		}
+			
+	}
+	
+	cdl_component CAMERA_CFG {
+		display "CAMERA 相关配置"
+		flavor none
+		no_define
+		description "CAMERA相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*CAMERA相关配置*/"
+		}
+		
+	    cdl_component DC_CFG {
+		    display "DC 相关配置"
+		    flavor none
+		    no_define
+		    description "DC相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*DC相关配置*/"
+		    }
+		
+		    cdl_option dc_whitebalance {
+			    display "white balance"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3" "4" "5"}
+			    define -format "dc_whitebalance=%d" ADDCONFIG
+			    description "白平衡: 1-Auto; 2-Fine; 3-Cloudy; 4-Filament Lamp; 5-Fluorescent Lamp"
+		    }
+		
+		    cdl_option dc_brightness {
+			    display "brightness"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"-3" "-2" "-1" "0" "1" "2" "3" }
+			    define -format "dc_brightness=%d" ADDCONFIG
+			    description "明亮度: -3~3"
+		    }
+		
+		    cdl_option dc_exposure_mode {
+			    display "exposure mode"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3"}
+			    define -format "dc_exposure_mode=%d" ADDCONFIG
+			    description "曝光模式: 1- Auto; 2-Indoor; 3-Outdoor"
+		    }
+		
+		    cdl_option dc_flashlamp {
+			    display "flashlamp"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3"}
+			    define -format "dc_flashlamp=%d" ADDCONFIG
+			    description "闪光灯: 1-Auto; 2-ON; 3-OFF"
+		    }
+		
+		    cdl_option dc_face_identify {
+			    display "face identify"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2"}
+			    define -format "dc_face_identify=%d" ADDCONFIG
+			    description "人脸检测: 1-OFF; 2-ON"
+		    }
+		
+		    cdl_option dc_stickerphoto {
+		    	display "sticker photo"
+		    	flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3" "4"}
+			    define -format "dc_stickerphoto=%d" ADDCONFIG
+			    description "大头贴: 1-OFF; 2-Photo1; 3-Photo2; 4-Photo3"
+		    }
+		
+		    cdl_option dc_specialeffect {
+		    	display "special effect"
+		    	flavor data
+		    	no_define
+		    	default_value {"1"}
+		    	legal_values {"1" "2" "3" "4"}
+			    define -format "dc_specialeffect=%d" ADDCONFIG
+		    	description "特效: 1-OFF; 2-Black & White; 3-Sepia; 4-Negative"
+		    }
+		
+		    cdl_option dc_savepath {
+		    	display "save path"
+		    	flavor data
+			    no_define
+			    default_value {" "}
+			    define -format "dc_savepath=\"%s\"" ADDCONFIG
+			    description "保存路径"
+		    }
+		
+		    cdl_option dc_resolution {
+			    display "resolution"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12"}
+			    define -format "dc_resolution=%d" ADDCONFIG
+			    description "分辨率:1.4672x3504; 2.4416x3312; 3.3840x2880; 4.3264x2448; 5.2816x2112; 6.2560x1920; 7.2400x1800; 8.2048x1536; 9.1600x1200; 10.1280x960; 11.1024x768; 12.640x480"
+		    }
+		
+		    cdl_option dc_selftimer {
+		    	display "self timer"
+		    	flavor data
+		    	no_define
+		    	default_value {"1"}
+		    	legal_values {"1" "2" "3" "4" "5"}
+			    define -format "dc_selftimer=%d" ADDCONFIG
+		    	description "定时自拍:1-OFF; 2-5 Sec; 3-10 Sec; 4-15 Sec; 5-20 Sec"
+		    }
+		
+		    cdl_option dc_contshooting {
+		    	display "contshooting"
+		    	flavor data
+		    	no_define
+		    	default_value {"1"}
+		    	legal_values {"1" "2" "3" "4" "5"}
+			    define -format "dc_contshooting=%d" ADDCONFIG
+		    	description "定时连拍:1-OFF; 2-5 Sec; 3-10 Sec; 4-15 Sec; 5-20 Sec"
+		    }
+		
+		    cdl_option dc_shutter_sound {
+		    	display "shutter sound"
+		    	flavor data
+		    	no_define
+		    	default_value {"1"}
+		    	legal_values {"1" "2" "3" "4"}
+			    define -format "dc_shutter_sound=%d" ADDCONFIG
+		    	description "快门声音:1-OFF; 2-Sound1; 3-Sound2; 4-Sound3"
+		    }
+		
+		    cdl_option dc_dater {
+		    	display "dater"
+		    	flavor data
+		    	no_define
+		    	default_value {"1"}
+		    	legal_values {"1" "2" "3"}
+			    define -format "dc_dater=%d" ADDCONFIG
+		    	description "日期标记:1-OFF; 2-Date; 3-Date & Time"
+		    }
+
+	    }
+	    cdl_component DV_CFG {
+		    display "DV 相关配置"
+		    flavor none
+		    no_define
+		    description "DV相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*DV相关配置*/"
+		    }
+		    
+		    cdl_option dv_whitebalance {
+			    display "white balance"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3" "4" "5"}
+			    define -format "dv_whitebalance=%d" ADDCONFIG
+			    description "白平衡: 1-Auto; 2-Fine; 3-Cloudy; 4-Filament Lamp; 5-Fluorescent Lamp"
+		    }
+		    
+		    cdl_option dv_brightness {
+			    display "brightness"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"-3" "-2" "-1" "0" "1" "2" "3" }
+			    define -format "dv_brightness=%d" ADDCONFIG
+			    description "明亮度: -3~3"
+		    }
+	    
+		    cdl_option dv_exposure_mode {
+			    display "exposure mode"
+			    flavor data
+			    no_define
+			    default_value {"1"}
+			    legal_values {"1" "2" "3"}
+			    define -format "dv_exposure_mode=%d" ADDCONFIG
+			    description "曝光模式: 1- Auto; 2-Indoor; 3-Outdoor"
+		    }
+		    
+		    
+		   
+		    
+        }
+        
+        cdl_component PC_CAMERA_CFG {
+		    display "PC_CAMERA 相关配置"
+		    flavor none
+		    no_define
+		    description "PC_CAMERA相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*PC_CAMERA相关配置*/"
+		    }
+		    
+        }
+	    
+	}
+	
+	cdl_component MUSIC_CFG {
+		display "MUSIC 相关配置"
+		flavor none
+		no_define
+		description "MUSIC相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*MUSIC相关配置*/"
+		}
+		
+		cdl_option music_loop_mode {
+			display "loop mode"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4" "5"}
+			define -format "music_loop_mode=%d" ADDCONFIG
+			description "循环模式:0-Sequence, 1-Repeat All, 2-Repeat One, 3-Shuffle, 4-Shuffle + Repeat, 5-Intro"
+		}
+		
+		cdl_option music_display_mode {
+			display "display mode"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4"}
+			define -format "music_display_mode=%d" ADDCONFIG
+			description "显示模式: 0-Spectrum, 1-Lyric, 2-Effect1, 3-Effect2, 4-Effect3"
+		}
+		
+		cdl_option music_eq_mode {
+			display "eq mode"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "music_eq_mode=%d" ADDCONFIG
+			description "Eq类型:0-Norma, 1-Pop, 2-Classic, 3-Soft, 4-Jazz, 5-Rock, 6-DBB, 7-Custom EQ, 8-SRS WOW, 9-SRS WOW HD, 10-SRS USER Mode"
+		}
+		
+		cdl_option music_srs_3d {
+			display "srs 3d"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "music_srs_3d=%d" ADDCONFIG
+			description "Srs的srs 3d值:0 ~ 10"
+		}
+		
+		cdl_option music_srs_trubass {
+			display "srs trubass"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "music_srs_trubass=%d" ADDCONFIG
+			description "Srs的Trubass值:0 ~ 10"
+		}
+		
+		cdl_option music_srs_focus {
+			display "srs focus"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "music_srs_focus=%d" ADDCONFIG
+			description "Srs的Focus值:0 ~ 10"
+		}
+		
+		cdl_option music_srs_center {
+			display "srs center"
+			flavor data
+			no_define
+			default_value {"1"}
+			legal_values {"1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "music_srs_center=%d" ADDCONFIG
+			description "Srs的Center值:1~ 10"
+		}
+		
+		cdl_option music_srs_definition {
+			display "srs definition"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"}
+			define -format "music_srs_definition=%d" ADDCONFIG
+			description "Srs的Definition值:0 ~ 10"
+		}
+		
+		cdl_option music_srs_speaker {
+			display "srs speaker"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2"}
+			define -format "music_srs_speaker=%d" ADDCONFIG
+			description "Srs的Speaker size值:0-60Hz, 1-100Hz, 2-150Hz"
+		}
+		
+		cdl_option music_srs_limiter {
+			display "srs limiter"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "music_srs_limiter=%d" ADDCONFIG
+			description "Srs的Limiter值:0-disable, 1-enable"
+		}
+		
+		cdl_option music_custom_80Hz {
+			display "custom 80Hz"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"-6" "-5" "-4" "-3" "-2" "-1" "0" "1" "2" "3" "4" "5" "6"}
+			define -format "music_custom_80Hz=%d" ADDCONFIG
+			description "Custom Eq的80Hz设置:-6db~+6db"
+		}
+		
+		cdl_option music_custom_200Hz {
+			display "custom 200Hz"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"-6" "-5" "-4" "-3" "-2" "-1" "0" "1" "2" "3" "4" "5" "6"}
+			define -format "music_custom_200Hz=%d" ADDCONFIG
+			description "Custom Eq的200Hz设置:-6db~+6db"
+		}
+		
+		cdl_option music_custom_1kHz {
+			display "custom 1kHz"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"-6" "-5" "-4" "-3" "-2" "-1" "0" "1" "2" "3" "4" "5" "6"}
+			define -format "music_custom_1kHz=%d" ADDCONFIG
+			description "Custom Eq的1kHz设置:-6db~+6db"
+		}
+		
+		cdl_option music_custom_4kHz {
+			display "custom 4kHz"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"-6" "-5" "-4" "-3" "-2" "-1" "0" "1" "2" "3" "4" "5" "6"}
+			define -format "music_custom_4kHz=%d" ADDCONFIG
+			description "Custom Eq的4kHz设置:-6db~+6db"
+		}
+		
+		cdl_option music_custom_8kHz {
+			display "custom 8kHz"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"-6" "-5" "-4" "-3" "-2" "-1" "0" "1" "2" "3" "4" "5" "6"}
+			define -format "music_custom_8kHz=%d" ADDCONFIG
+			description "Custom Eq的8kHz设置:-6db~+6db"
+		}
+		
+		cdl_option music_fade {
+			display "music fade"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "music_fade=%d" ADDCONFIG
+			description "淡入淡出:0-disable, 1-enable"
+		}
+		
+		cdl_option music_speed {
+			display "music speed"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"-4" "-3" "-2" "-1" "0" "1" "2" "3" "4"}
+			define -format "music_speed=%d" ADDCONFIG
+			description "变速播放的速度:-4~+4"
+		}
+		
+		cdl_option music_scan_speed {
+			display "scan speed"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3" "4"}
+			define -format "music_scan_speed=%d" ADDCONFIG
+			description "扫描速度:0-2X, 1-4X, 2-8X, 3-16X, 4-32X"
+		}
+		
+	}
+	
+	cdl_component VIDEO_CFG {
+		display "VIDEO 相关配置"
+		flavor none
+		no_define
+		description "VIDEO相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*VIDEO相关配置*/"
+		}
+		
+	}
+	
+	cdl_component EBOOK_CFG {
+		display "EBOOK 相关配置"
+		flavor none
+		no_define
+		description "EBOOK相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*EBOOK相关配置*/"
+		}
+		
+		cdl_option ebook_roll_effect {
+			display "roll effect"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2"}
+			define -format "ebook_roll_effect=%d" ADDCONFIG
+			description "自动滚动的特效: 0-关闭，1-平移上翻，2-立体卷曲翻页"
+		}
+		
+		cdl_option ebook_font_size {
+			display "font size"
+			flavor data
+			no_define
+			default_value {"12"}
+			legal_values {"12" "16" "24"}
+			define -format "ebook_font_size=%d" ADDCONFIG
+			description "字体的大小: 12-小，16-中，24-大"
+		}
+		
+		cdl_option ebook_font_color {
+			display "font color"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1" "2" "3"}
+			define -format "ebook_font_color=%d" ADDCONFIG
+			description "字体的颜色: 0-纯白，1-蓝色，2-暗灰，3-纯黑"
+		}
+	}
+	
+	cdl_component RECORD_CFG {
+		display "RECORD 相关配置"
+		flavor none
+		no_define
+		description "RECORD相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*RECORD相关配置*/"
+		}
+		
+		cdl_option record_rectype {
+			display "file type"
+			flavor data
+			no_define
+			default_value {"0"}
+			legal_values {"0" "1"}
+			define -format "record_rectype=%d" ADDCONFIG
+			description "录音文件保存类型: 0-wav;1-mp3"
+		}
+		
+		cdl_option record_channel {
+			display "channel"
+			flavor data
+			no_define
+			default_value {"2"}
+			legal_values {"1" "2"}
+			define -format "record_channel=%d" ADDCONFIG
+			description "音频采样的通道数:1-单声道；2-双声道"
+		}
+	}
+	
+	cdl_component TOOLS_CFG {
+		display "TOOLS 相关配置"
+		flavor none
+		no_define
+		description "TOOLS相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*TOOLS相关配置*/"
+		}
+		
+		cdl_component CALENDAR_CFG {
+		    display "CALENDAR 相关配置"
+		    flavor none
+		    no_define
+		    description "CALENDAR相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*CALENDAR相关配置*/"
+		    }
+		}	
+		
+		cdl_component STOPWATCH_CFG {
+		    display "STOPWATCH 相关配置"
+		    flavor none
+		    no_define
+		    description "STOPWATCH相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*STOPWATCH相关配置*/"
+		    }
+		}	
+		
+		cdl_component CALCULATOR_CFG {
+		    display "CALCULATOR 相关配置"
+		    flavor none
+		    no_define
+		    description "CALCULATOR相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*CALCULATOR相关配置*/"
+		    }
+		}	
+		
+	}
+	
+	cdl_component GAMES_CFG {
+		display "GAMES 相关配置"
+		flavor none
+		no_define
+		description "GAMES相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*GAMES相关配置*/"
+		}
+		cdl_component EMULATOR_CFG {
+		    display "EMULATOR 相关配置"
+		    flavor none
+		    no_define
+		    description "EMULATOR相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*EMULATOR相关配置*/"
+		    }
+		}
+		
+		cdl_component G_GAME_CFG {
+		    display "G_GAME 相关配置"
+		    flavor none
+		    no_define
+		    description "G_GAME相关选项的配置"
+		
+		    define_proc {
+			    puts $::cdl_header ""
+			    puts $::cdl_header "/*G_GAME相关配置*/"
+		    }
+		}	
+		
+	}
+	
+	cdl_component APPOTHERS_CFG {
+		display "应用其他相关配置"
+		flavor none
+		no_define
+		description "应用其他相关选项的配置"
+		
+		define_proc {
+			puts $::cdl_header ""
+			puts $::cdl_header "/*应用其他相关配置*/"
+		}
+		
+	}
+}
+

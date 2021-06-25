@@ -1,0 +1,1391 @@
+Archive member included because of file (symbol)
+
+./../../../case/lib/style_api.a(style_api47.o)
+                              adjust.o (get_scene_child)
+./../../../case/lib/style_api.a(style_api56.o)
+                              adjust.o (get_resgroup_child)
+./../../../case/lib/style_api.a(style_api67.o)
+                              adjust_ui.o (get_picregion_frame)
+./../../../case/lib/applib_api.a(applib_api1013.o)
+                              msgbox.o (sys_forbid_screensaver)
+./../../../case/lib/applib_api.a(applib_api1029.o)
+                              msgbox.o (sys_is_screensaver_forbidden)
+./../../../case/lib/applib_api.a(applib_api1085.o)
+                              headbar.o (sys_get_rtc_date_time)
+./../../../case/lib/applib_api.a(applib_api1181.o)
+                              msgbox.o (basename)
+./../../../case/lib/applib_api.a(applib_api1189.o)
+                              dirlist.o (dirname)
+./../../../case/lib/applib_api.a(applib_api119.o)
+                              headbar.o (set_timer)
+./../../../case/lib/applib_api.a(applib_api1221.o)
+                              dialog_modal.o (grab_msg)
+./../../../case/lib/applib_api.a(applib_api1229.o)
+                              dialog_modal.o (release_msg)
+./../../../case/lib/applib_api.a(applib_api1245.o)
+                              headbar.o (canvas_disable_focus)
+./../../../case/lib/applib_api.a(applib_api1261.o)
+                              msgbox.o (sys_get_main_disk)
+./../../../case/lib/applib_api.a(applib_api127.o)
+                              dirlist.o (set_single_shot_timer)
+./../../../case/lib/applib_api.a(applib_api1277.o)
+                              dirlist.o (sys_get_main_disk_dir)
+./../../../case/lib/applib_api.a(applib_api1309.o)
+                              dialog_modal.o (filter_msg)
+./../../../case/lib/applib_api.a(applib_api1317.o)
+                              dialog_modal.o (unfilter_msg)
+./../../../case/lib/applib_api.a(applib_api1365.o)
+                              msgbox.o (connect_global_msg_queue)
+./../../../case/lib/applib_api.a(applib_api1373.o)
+                              msgbox.o (disconnect_global_msg_queue)
+./../../../case/lib/applib_api.a(applib_api151.o)
+                              msgbox.o (restart_timer)
+./../../../case/lib/applib_api.a(applib_api159.o)
+                              headbar.o (kill_timer)
+./../../../case/lib/applib_api.a(applib_api183.o)
+                              dialog.o (set_inner_single_shot_timer)
+./../../../case/lib/applib_api.a(applib_api207.o)
+                              dialog_modal.o (restart_inner_timer)
+./../../../case/lib/applib_api.a(applib_api218.o)
+                              dialog.o (kill_inner_timer)
+./../../../case/lib/applib_api.a(applib_api290.o)
+                              adjust.o (canvas_create)
+./../../../case/lib/applib_api.a(applib_api298.o)
+                              adjust.o (canvas_delete)
+./../../../case/lib/applib_api.a(applib_api309.o)
+                              menuview.o (canvas_show)
+./../../../case/lib/applib_api.a(applib_api317.o)
+                              menuview.o (canvas_hide)
+./../../../case/lib/applib_api.a(applib_api325.o)
+                              adjust.o (canvas_set_region)
+./../../../case/lib/applib_api.a(applib_api333.o)
+                              dialog_ui.o (canvas_erase)
+./../../../case/lib/applib_api.a(applib_api341.o)
+                              adjust.o (canvas_erase_all)
+./../../../case/lib/applib_api.a(applib_api373.o)
+                              slider.o (canvas_get_info)
+./../../../case/lib/applib_api.a(applib_api455.o)
+                              dialog_modal.o (get_msg)
+./../../../case/lib/applib_api.a(applib_api465.o)
+                              headbar.o (send_sync_msg)
+./../../../case/lib/applib_api.a(applib_api47.o)
+                              msgbox.o (get_app_name)
+./../../../case/lib/applib_api.a(applib_api481.o)
+                              msgbox.o (send_async_msg)
+./../../../case/lib/applib_api.a(applib_api497.o)
+                              dialog_modal.o (dispatch_msg)
+./../../../case/lib/applib_api.a(applib_api521.o)
+                              dialog_modal.o (exit_msg_loop)
+./../../../case/lib/applib_api.a(applib_api537.o)
+                              adjust.o (clear_key_msg_queue)
+./../../../case/lib/applib_api.a(applib_api63.o)
+                              msgbox.o (app_running_list_get_this_app_info)
+./../../../case/lib/applib_api.a(applib_api651.o)
+                              dialog_modal.o (sty_get_app_scene)
+./../../../case/lib/applib_api.a(applib_api667.o)
+                              adjust.o (sty_get_common_scene)
+./../../../case/lib/applib_api.a(applib_api675.o)
+                              softkeyboard.o (sty_set_text_encoding)
+./../../../case/lib/applib_api.a(applib_api683.o)
+                              softkeyboard.o (sty_get_text_encoding)
+./../../../case/lib/applib_api.a(applib_api691.o)
+                              adjust_ui.o (sty_get_string)
+./../../../case/lib/applib_api.a(applib_api699.o)
+                              softkeyboard.o (sty_truncate_string_by_width)
+./../../../case/lib/applib_api.a(applib_api707.o)
+                              dialog_ui.o (sty_set_string_format)
+./../../../case/lib/applib_api.a(applib_api715.o)
+                              dialog_ui.o (sty_restore_string_format)
+./../../../case/lib/applib_api.a(applib_api723.o)
+                              dialog_ui.o (sty_draw_string_buf)
+./../../../case/lib/applib_api.a(applib_api739.o)
+                              adjust_ui.o (sty_draw_string_res)
+./../../../case/lib/applib_api.a(applib_api747.o)
+                              adjust_ui.o (sty_draw_string_res_ext)
+./../../../case/lib/applib_api.a(applib_api755.o)
+                              menuview_ui.o (sty_create_scroll_string)
+./../../../case/lib/applib_api.a(applib_api763.o)
+                              menuview_ui.o (sty_draw_scroll_string)
+./../../../case/lib/applib_api.a(applib_api771.o)
+                              menuview.o (sty_delete_scroll_string)
+./../../../case/lib/applib_api.a(applib_api787.o)
+                              adjust_ui.o (sty_draw_picture_id)
+./../../../case/lib/applib_api.a(applib_api795.o)
+                              adjust_ui.o (sty_draw_picture_res)
+./../../../case/lib/applib_api.a(applib_api803.o)
+                              dialog_ui.o (sty_draw_picregion_res)
+./../../../case/lib/applib_api.a(applib_api819.o)
+                              dialog_ui.o (sty_draw_sub_picture_id)
+./../../../case/lib/applib_api.a(applib_api827.o)
+                              loadingbox_ui.o (sty_draw_bitmap)
+./../../../case/lib/applib_api.a(applib_api835.o)
+                              loadingbox_ui.o (sty_draw_sub_bitmap)
+./../../../case/lib/applib_api.a(applib_api843.o)
+                              loadingbox.o (sty_create_bitmap)
+./../../../case/lib/applib_api.a(applib_api851.o)
+                              menuview.o (sty_create_sub_bitmap)
+./../../../case/lib/applib_api.a(applib_api859.o)
+                              loadingbox.o (sty_delete_bitmap)
+./../../../case/lib/applib_api.a(applib_api917.o)
+                              dirlist.o (sys_get_hotplugin_dev_info)
+./../../../psp_rel/lib/ime_api.a(ime.o)
+                              softkeyboard.o (ime_engine_init)
+./../../../psp_rel/lib/mlang_api.a(mlang_api22.o)
+                              softkeyboard.o (mlang_unicode_to_utf8)
+./../../../psp_rel/lib/mlang_api.a(mlang_api30.o)
+                              softkeyboard.o (mlang_utf8_to_unicode)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api103.o)
+                              dirlist.o (fsel_set_query)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api111.o)
+                              dirlist.o (fsel_subdir_setting)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api119.o)
+                              dirlist.o (fsel_getfullpath)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api14.o)
+                              dirlist.o (fsel_close)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api22.o)
+                              dirlist.o (fsel_setworkdir)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api30.o)
+                              dirlist.o (fsel_getworkdir)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api38.o)
+                              dirlist.o (fsel_setfilter)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api47.o)
+                              dirlist.o (fsel_getfilenum)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api55.o)
+                              dirlist.o (fsel_listfile)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api6.o)
+                              dirlist.o (fsel_open)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api63.o)
+                              dirlist.o (fsel_listdir)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api71.o)
+                              dirlist.o (fsel_cd)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api79.o)
+                              dirlist.o (fsel_sortstyle)
+./../../../psp_rel/lib/mnavi_api.a(mnavi_api87.o)
+                              dirlist.o (fsel_getidbyname)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                              adjust.o (getpid)
+./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                              adjust.o (__errno)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                              msgbox.o (close)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api151.o)
+                              dirlist.o (stat)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api167.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (fopen)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api175.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (fclose)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api207.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (fread)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api255.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (fileno)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api263.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (fseek)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api295.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (setbuf)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api47.o)
+                              ./../../../psp_rel/lib/ime_api.a(ime.o) (fcntl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                              msgbox.o (ioctl)
+./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                              msgbox.o (open)
+./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+                              adjust_ui.o (sprintf)
+./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                              ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o) (vsprintf)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                              adjust.o (memcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                              adjust.o (memset)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+                              adjust_ui.o (strcat)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+                              dialog_ui.o (strcmp)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                              adjust.o (strcpy)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+                              dirlist.o (strdup)
+./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+                              dirlist.o (strlen)
+./../../../psp_rel/lib/gui_api.a(gui_api1006.o)
+                              softkeyboard.o (gui_dc_get_string_dist_x)
+./../../../psp_rel/lib/gui_api.a(gui_api446.o)
+                              dialog_modal.o (gui_select_layer)
+./../../../psp_rel/lib/gui_api.a(gui_api582.o)
+                              dialog_modal.o (gui_wm_create_window)
+./../../../psp_rel/lib/gui_api.a(gui_api598.o)
+                              dialog_modal.o (gui_wm_set_focus)
+./../../../psp_rel/lib/gui_api.a(gui_api606.o)
+                              dialog_modal.o (gui_wm_delete_window)
+./../../../psp_rel/lib/gui_api.a(gui_api630.o)
+                              dialog_modal.o (gui_wm_get_focus)
+./../../../psp_rel/lib/gui_api.a(gui_api694.o)
+                              adjust_ui.o (gui_dc_get)
+./../../../psp_rel/lib/gui_api.a(gui_api718.o)
+                              softkeyboard_ui.o (gui_dc_set_text_mode)
+./../../../psp_rel/lib/gui_api.a(gui_api726.o)
+                              softkeyboard_ui.o (gui_dc_set_color)
+./../../../psp_rel/lib/gui_api.a(gui_api734.o)
+                              menuview_ui.o (gui_dc_set_background_color)
+./../../../psp_rel/lib/gui_api.a(gui_api758.o)
+                              softkeyboard.o (gui_dc_set_font_size)
+./../../../psp_rel/lib/gui_api.a(gui_api862.o)
+                              softkeyboard_ui.o (gui_dc_display_string_in_rect)
+./../../../psp_rel/lib/gui_api.a(gui_api926.o)
+                              menuview_ui.o (gui_dc_draw_bitmap_ext)
+./../../../psp_rel/lib/gui_api.a(gui_api958.o)
+                              menuview_ui.o (gui_dc_clear_rect)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                              msgbox.o (set_config)
+./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                              adjust.o (get_config)
+./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                              commonui_api.o (api_install)
+./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                              commonui_api.o (api_uninstall)
+./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                              adjust.o (printf)
+./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                              adjust.o (malloc)
+./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                              adjust.o (free)
+./../../../psp_rel/lib/syscall_api.a(syscall_api542.o)
+                              volumebar.o (sys_mknod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+                              volumebar.o (insmod)
+./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                              dirlist.o (dlopen)
+./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                              dirlist.o (dlclose)
+
+Allocating common symbols
+Common symbol       size              file
+
+pthread_mutex_type_t
+                    0x4               adjust.o
+hzNodeLoadTotal     0x4               ./../../../psp_rel/lib/ime_api.a(ime.o)
+fpLgt               0x4               ./../../../psp_rel/lib/ime_api.a(ime.o)
+pinyinTree          0xc               ./../../../psp_rel/lib/ime_api.a(ime.o)
+pCurrentHZNode      0x4               ./../../../psp_rel/lib/ime_api.a(ime.o)
+pthread_share_type_t
+                    0x4               adjust.o
+hzListMan           0x400             ./../../../psp_rel/lib/ime_api.a(ime.o)
+nkb_resource        0x8               softkeyboard_private.o
+fpMB                0x4               ./../../../psp_rel/lib/ime_api.a(ime.o)
+hzListLoadTotal     0x4               ./../../../psp_rel/lib/ime_api.a(ime.o)
+msgbox_private_data_t
+                    0x8               msgbox.o
+ckb_resource        0x28              softkeyboard.o
+dialog_modal_vars   0xc               dialog_modal.o
+ekb_resource        0x8               softkeyboard_private.o
+cur_adjust          0x4               adjust.o
+common_resource     0x10              softkeyboard_private.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.init           0x0000000052000000       0x20
+ *(.init)
+ .init          0x0000000052000000        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000052000000                _init
+ .init          0x0000000052000008        0x8 ./../../../psp_rel/lib/libcrt/crtend.o
+ .init          0x0000000052000010       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.text           0x0000000052000020    0x26fef
+ *(.text)
+ .text          0x0000000052000020     0x2eac adjust.o
+                0x0000000052002e58                adjust_get_recordtime
+                0x0000000052002d70                adjust_get_setting_time
+                0x0000000052002094                adjust_load_style
+                0x0000000052002d10                adjust_get_switch_status
+                0x0000000052002cb0                adjust_get_current_index
+                0x0000000052001f8c                adjust_delete
+                0x0000000052002c50                adjust_get_current_val
+                0x0000000052002bec                adjust_proc_gui
+                0x00000000520016bc                adjust_key
+                0x0000000052002de4                adjust_get_setting_date
+                0x00000000520017a8                adjust_create
+ .text          0x0000000052002ecc     0x1910 adjust_ui.o
+                0x00000000520046bc                adjust_paint
+ .text          0x00000000520047dc       0x74 commonui_api.o
+                0x00000000520047dc                commonui_api_init
+                0x000000005200481c                commonui_api_exit
+ .text          0x0000000052004850      0xf4c dialog.o
+                0x0000000052004d2c                dialog_paint
+                0x0000000052005188                dialog_proc_gui
+                0x00000000520056ec                dialog_delete
+                0x000000005200520c                dialog_create
+                0x00000000520048a0                dialog_load_style
+ .text          0x000000005200579c      0x63c dialog_modal.o
+                0x0000000052005898                dialog_modal_load_style
+                0x000000005200590c                dialog_modal_paint
+                0x00000000520059c8                dialog_modal
+ .text          0x0000000052005dd8     0x1004 dialog_ui.o
+                0x00000000520063d4                dialog_draw_no
+                0x00000000520066dc                dialog_get_clew_param
+                0x0000000052005ea0                dialog_draw_head
+                0x0000000052005dd8                dialog_draw_bg
+                0x00000000520069c0                dialog_draw_clew
+                0x00000000520060cc                dialog_draw_yes
+ .text          0x0000000052006ddc     0x514c dirlist.o
+                0x000000005200bbb0                dirlist_set_search_string
+                0x000000005200b670                dirlist_get_total
+                0x000000005200afa4                dirlist_get_bitmap_height
+                0x000000005200aff0                dirlist_get_item_bitmap
+                0x000000005200aa04                dirlist_proc_gui
+                0x000000005200b7c0                dirlist_get_global_offset
+                0x000000005200b718                dirlist_get_global_size
+                0x000000005200beac                dirlist_get_fsel_handle
+                0x000000005200b868                dirlist_show
+                0x000000005200bad4                dirlist_hide
+                0x000000005200b0a4                dirlist_set_item_bitmap
+                0x000000005200b2e8                dirlist_get_offset
+                0x000000005200b438                dirlist_get_item_name
+                0x000000005200b390                dirlist_get_current
+                0x000000005200a770                dirlist_delete
+                0x000000005200acf0                dirlist_load_style
+                0x000000005200a908                dirlist_paint
+                0x000000005200b584                dirlist_is_item_dir
+                0x000000005200aad0                dirlist_proc_sys
+                0x000000005200af58                dirlist_get_bitmap_width
+                0x0000000052009f0c                dirlist_create
+                0x000000005200b244                dirlist_paint_bitmap
+ .text          0x000000005200bf28     0x18c8 headbar.o
+                0x000000005200d0a0                headbar_repaint
+                0x000000005200d1cc                headbar_create
+                0x000000005200cda8                headbar_set_title_buffer
+                0x000000005200d148                headbar_proc_gui
+                0x000000005200cd08                headbar_set_title_id
+                0x000000005200ce48                headbar_set_time_format
+                0x000000005200d740                headbar_delete
+                0x000000005200c72c                headbar_load_style
+                0x000000005200cee0                headbar_paint
+ .text          0x000000005200d7f0     0x1b0c headbar_ui.o
+                0x000000005200d7f0                headbar_draw_bg
+                0x000000005200db30                headbar_draw_keylock
+                0x000000005200efc4                headbar_draw_time
+                0x000000005200ecf4                headbar_draw_title_by_buffer
+                0x000000005200d8b4                headbar_draw_music_play
+                0x000000005200e364                headbar_draw_head
+                0x000000005200e6a4                headbar_draw_battery
+                0x000000005200e0a8                headbar_draw_usb
+                0x000000005200ddec                headbar_draw_card
+                0x000000005200e9a8                headbar_draw_title_by_id
+ .text          0x000000005200f2fc      0xb24 loadingbox.o
+                0x000000005200faa0                loadingbox_load_style
+                0x000000005200f5c8                loadingbox_create
+                0x000000005200f3a0                loadingbox_paint
+                0x000000005200f9ac                loadingbox_delete
+                0x000000005200f55c                loadingbox_proc_gui
+ .text          0x000000005200fe20      0x44c loadingbox_ui.o
+                0x00000000520100b8                loadingbox_draw_bg
+                0x0000000052010170                loadingbox_draw_one_frame
+ .text          0x000000005201026c     0x1008 menu.o
+                0x0000000052010584                menu_set_cur_index
+                0x0000000052011224                menu_get_global_size
+                0x0000000052011124                menu_set_global_offset
+                0x0000000052010c08                menu_prepend_item
+                0x0000000052010324                menuitem_delete
+                0x000000005201060c                menu_get_cur_index
+                0x000000005201026c                menuitem_create
+                0x0000000052011088                menu_remove_all_items
+                0x00000000520111cc                menu_set_global_size
+                0x0000000052010784                menu_get_cur_item
+                0x0000000052011020                menu_remove_last_item
+                0x0000000052010fc4                menu_remove_first_item
+                0x000000005201065c                menu_set_offset
+                0x0000000052010c6c                menu_append_item
+                0x0000000052010cd4                menu_append_items
+                0x0000000052010438                menu_delete
+                0x0000000052010ec8                menu_remove_item
+                0x000000005201084c                menu_set_item
+                0x00000000520106e4                menu_get_offset
+                0x0000000052010380                menu_create
+                0x0000000052010b04                menu_insert_item
+                0x0000000052010734                menu_get_total
+                0x00000000520107e4                menu_get_item
+                0x000000005201117c                menu_get_global_offset
+ .text          0x0000000052011274     0x24c0 menuview.o
+                0x0000000052013448                menuview_get_lines
+                0x000000005201352c                menuview_get_bitmap_height
+                0x00000000520126a0                menuview_load_style
+                0x00000000520132b0                menuview_hide
+                0x00000000520134ac                menuview_get_bitmap_width
+                0x00000000520135ac                menuview_set_prefetch_num
+                0x0000000052013338                menuview_set_menu
+                0x00000000520124d0                menuview_delete
+                0x0000000052012048                menuview_create
+                0x000000005201322c                menuview_show
+                0x000000005201367c                menuview_get_prefetch_start
+                0x00000000520133dc                menuview_set_lines
+                0x0000000052011560                menuview_paint
+                0x0000000052011fdc                menuview_proc_gui
+                0x0000000052013390                menuview_get_menu
+                0x0000000052013618                menuview_get_prefetch_num
+ .text          0x0000000052013734     0x1328 menuview_ui.o
+                0x00000000520144b4                menuview_paint_bitmap
+                0x0000000052013938                menuview_draw_line
+                0x0000000052013808                scroll_timer_event
+                0x0000000052014974                menuview_draw_slider
+                0x0000000052013734                menuview_draw_bg
+ .text          0x0000000052014a5c     0x3ba8 msgbox.o
+                0x0000000052014b14                msgbox_create
+                0x00000000520152b4                msgbox_proc_gui
+                0x000000005201549c                msgbox_delete
+                0x00000000520153fc                msgbox_load_style
+                0x0000000052014e3c                msgbox_proc_sys
+                0x000000005201535c                msgbox_paint
+ .text          0x0000000052018604      0xe04 progress_box.o
+                0x0000000052018dcc                progress_box_load_style
+                0x00000000520187e0                progress_box_create
+                0x000000005201922c                progress_box_set_cur_step
+                0x0000000052018c50                progress_box_delete
+                0x00000000520186a8                progress_box_paint
+                0x000000005201934c                progress_box_set_text
+                0x0000000052018774                progress_box_proc_gui
+ .text          0x0000000052019408      0x81c progress_box_ui.o
+                0x000000005201992c                progress_box_draw_wait_animation
+                0x00000000520197ec                progress_box_draw_bg
+                0x00000000520198b4                progress_box_draw_text
+                0x00000000520199ec                progress_box_draw_progress_bar
+ .text          0x0000000052019c24      0xb58 slider.o
+                0x0000000052019e5c                slider_load_style
+                0x000000005201a658                slider_delete
+                0x0000000052019c24                slider_set_parameter
+                0x000000005201a2c8                slider_create
+                0x0000000052019cac                slider_switch_type_test
+                0x0000000052019c80                slider_proc_gui
+ .text          0x000000005201a77c      0x460 slider_ui.o
+                0x000000005201a77c                slider_paint
+ .text          0x000000005201abdc     0x2e80 softkeyboard.o
+                0x000000005201abdc                softkeyboard_proc_gui
+                0x000000005201b15c                softkeyboard_paint
+                0x000000005201b6c0                softkeyboard_load_style
+                0x000000005201b208                softkeyboard_delete
+                0x000000005201b644                softkeyboard_clear
+                0x000000005201ac60                softkeyboard_create
+                0x000000005201b460                softkeyboard_set_text
+                0x000000005201b29c                softkeyboard_get_text
+ .text          0x000000005201da5c     0x13dc softkeyboard_ui.o
+                0x000000005201e2f4                paint_candidacy
+                0x000000005201ebf8                paint_right_arrow
+                0x000000005201da5c                paint_key_table
+                0x000000005201ddd4                paint_display_text
+                0x000000005201e9b8                paint_left_arrow
+ .text          0x000000005201ee38     0x1150 usb_select_box.o
+                0x000000005201f768                usb_select_box_load_style
+                0x000000005201f314                usb_select_box_create
+                0x000000005201eea0                usb_select_box_paint
+                0x000000005201f6c8                usb_select_box_delete
+                0x000000005201f2a8                usb_select_box_proc_gui
+ .text          0x000000005201ff88      0x498 usb_select_box_ui.o
+                0x000000005201fffc                usb_select_box_draw_items
+                0x000000005201ff88                usb_select_box_draw_bg
+ .text          0x0000000052020420     0x18a8 volumebar.o
+                0x00000000520213c4                volumebar_delete
+                0x0000000052021088                volumebar_proc_gui
+                0x0000000052020614                volumebar_paint
+                0x00000000520210ec                volumebar_create
+                0x0000000052021488                volumebar_load_style
+ .text          0x0000000052021cc8      0xc2c volumebar_ui.o
+                0x0000000052021cc8                vbar_draw_bg
+                0x0000000052022030                vbar_draw_inc
+                0x0000000052021d38                vbar_draw_dec
+                0x0000000052022388                vbar_draw_pb
+                0x000000005202273c                vbar_draw_val
+                0x00000000520226dc                vbar_draw_logo
+                0x0000000052022328                vbar_draw_icon
+ .text          0x00000000520228f4       0x10 ./../../../case/lib/style_api.a(style_api47.o)
+                0x00000000520228f4                get_scene_child
+ .text          0x0000000052022904       0x10 ./../../../case/lib/style_api.a(style_api56.o)
+                0x0000000052022904                get_resgroup_child
+ .text          0x0000000052022914       0x10 ./../../../case/lib/style_api.a(style_api67.o)
+                0x0000000052022914                get_picregion_frame
+ .text          0x0000000052022924        0xc ./../../../case/lib/applib_api.a(applib_api1013.o)
+                0x0000000052022924                sys_forbid_screensaver
+ .text          0x0000000052022930        0xc ./../../../case/lib/applib_api.a(applib_api1029.o)
+                0x0000000052022930                sys_is_screensaver_forbidden
+ .text          0x000000005202293c        0xc ./../../../case/lib/applib_api.a(applib_api1085.o)
+                0x000000005202293c                sys_get_rtc_date_time
+ .text          0x0000000052022948        0xc ./../../../case/lib/applib_api.a(applib_api1181.o)
+                0x0000000052022948                basename
+ .text          0x0000000052022954        0xc ./../../../case/lib/applib_api.a(applib_api1189.o)
+                0x0000000052022954                dirname
+ .text          0x0000000052022960        0xc ./../../../case/lib/applib_api.a(applib_api119.o)
+                0x0000000052022960                set_timer
+ .text          0x000000005202296c        0xc ./../../../case/lib/applib_api.a(applib_api1221.o)
+                0x000000005202296c                grab_msg
+ .text          0x0000000052022978        0xc ./../../../case/lib/applib_api.a(applib_api1229.o)
+                0x0000000052022978                release_msg
+ .text          0x0000000052022984        0xc ./../../../case/lib/applib_api.a(applib_api1245.o)
+                0x0000000052022984                canvas_disable_focus
+ .text          0x0000000052022990        0xc ./../../../case/lib/applib_api.a(applib_api1261.o)
+                0x0000000052022990                sys_get_main_disk
+ .text          0x000000005202299c        0xc ./../../../case/lib/applib_api.a(applib_api127.o)
+                0x000000005202299c                set_single_shot_timer
+ .text          0x00000000520229a8        0xc ./../../../case/lib/applib_api.a(applib_api1277.o)
+                0x00000000520229a8                sys_get_main_disk_dir
+ .text          0x00000000520229b4        0xc ./../../../case/lib/applib_api.a(applib_api1309.o)
+                0x00000000520229b4                filter_msg
+ .text          0x00000000520229c0        0xc ./../../../case/lib/applib_api.a(applib_api1317.o)
+                0x00000000520229c0                unfilter_msg
+ .text          0x00000000520229cc        0xc ./../../../case/lib/applib_api.a(applib_api1365.o)
+                0x00000000520229cc                connect_global_msg_queue
+ .text          0x00000000520229d8        0xc ./../../../case/lib/applib_api.a(applib_api1373.o)
+                0x00000000520229d8                disconnect_global_msg_queue
+ .text          0x00000000520229e4        0xc ./../../../case/lib/applib_api.a(applib_api151.o)
+                0x00000000520229e4                restart_timer
+ .text          0x00000000520229f0        0xc ./../../../case/lib/applib_api.a(applib_api159.o)
+                0x00000000520229f0                kill_timer
+ .text          0x00000000520229fc        0xc ./../../../case/lib/applib_api.a(applib_api183.o)
+                0x00000000520229fc                set_inner_single_shot_timer
+ .text          0x0000000052022a08        0xc ./../../../case/lib/applib_api.a(applib_api207.o)
+                0x0000000052022a08                restart_inner_timer
+ .text          0x0000000052022a14        0xc ./../../../case/lib/applib_api.a(applib_api218.o)
+                0x0000000052022a14                kill_inner_timer
+ .text          0x0000000052022a20        0xc ./../../../case/lib/applib_api.a(applib_api290.o)
+                0x0000000052022a20                canvas_create
+ .text          0x0000000052022a2c        0xc ./../../../case/lib/applib_api.a(applib_api298.o)
+                0x0000000052022a2c                canvas_delete
+ .text          0x0000000052022a38        0xc ./../../../case/lib/applib_api.a(applib_api309.o)
+                0x0000000052022a38                canvas_show
+ .text          0x0000000052022a44        0xc ./../../../case/lib/applib_api.a(applib_api317.o)
+                0x0000000052022a44                canvas_hide
+ .text          0x0000000052022a50        0xc ./../../../case/lib/applib_api.a(applib_api325.o)
+                0x0000000052022a50                canvas_set_region
+ .text          0x0000000052022a5c        0xc ./../../../case/lib/applib_api.a(applib_api333.o)
+                0x0000000052022a5c                canvas_erase
+ .text          0x0000000052022a68        0xc ./../../../case/lib/applib_api.a(applib_api341.o)
+                0x0000000052022a68                canvas_erase_all
+ .text          0x0000000052022a74        0xc ./../../../case/lib/applib_api.a(applib_api373.o)
+                0x0000000052022a74                canvas_get_info
+ .text          0x0000000052022a80        0xc ./../../../case/lib/applib_api.a(applib_api455.o)
+                0x0000000052022a80                get_msg
+ .text          0x0000000052022a8c        0xc ./../../../case/lib/applib_api.a(applib_api465.o)
+                0x0000000052022a8c                send_sync_msg
+ .text          0x0000000052022a98        0xc ./../../../case/lib/applib_api.a(applib_api47.o)
+                0x0000000052022a98                get_app_name
+ .text          0x0000000052022aa4        0xc ./../../../case/lib/applib_api.a(applib_api481.o)
+                0x0000000052022aa4                send_async_msg
+ .text          0x0000000052022ab0        0xc ./../../../case/lib/applib_api.a(applib_api497.o)
+                0x0000000052022ab0                dispatch_msg
+ .text          0x0000000052022abc        0xc ./../../../case/lib/applib_api.a(applib_api521.o)
+                0x0000000052022abc                exit_msg_loop
+ .text          0x0000000052022ac8        0xc ./../../../case/lib/applib_api.a(applib_api537.o)
+                0x0000000052022ac8                clear_key_msg_queue
+ .text          0x0000000052022ad4        0xc ./../../../case/lib/applib_api.a(applib_api63.o)
+                0x0000000052022ad4                app_running_list_get_this_app_info
+ .text          0x0000000052022ae0        0xc ./../../../case/lib/applib_api.a(applib_api651.o)
+                0x0000000052022ae0                sty_get_app_scene
+ .text          0x0000000052022aec        0xc ./../../../case/lib/applib_api.a(applib_api667.o)
+                0x0000000052022aec                sty_get_common_scene
+ .text          0x0000000052022af8        0xc ./../../../case/lib/applib_api.a(applib_api675.o)
+                0x0000000052022af8                sty_set_text_encoding
+ .text          0x0000000052022b04        0xc ./../../../case/lib/applib_api.a(applib_api683.o)
+                0x0000000052022b04                sty_get_text_encoding
+ .text          0x0000000052022b10        0xc ./../../../case/lib/applib_api.a(applib_api691.o)
+                0x0000000052022b10                sty_get_string
+ .text          0x0000000052022b1c        0xc ./../../../case/lib/applib_api.a(applib_api699.o)
+                0x0000000052022b1c                sty_truncate_string_by_width
+ .text          0x0000000052022b28        0xc ./../../../case/lib/applib_api.a(applib_api707.o)
+                0x0000000052022b28                sty_set_string_format
+ .text          0x0000000052022b34        0xc ./../../../case/lib/applib_api.a(applib_api715.o)
+                0x0000000052022b34                sty_restore_string_format
+ .text          0x0000000052022b40        0xc ./../../../case/lib/applib_api.a(applib_api723.o)
+                0x0000000052022b40                sty_draw_string_buf
+ .text          0x0000000052022b4c        0xc ./../../../case/lib/applib_api.a(applib_api739.o)
+                0x0000000052022b4c                sty_draw_string_res
+ .text          0x0000000052022b58        0xc ./../../../case/lib/applib_api.a(applib_api747.o)
+                0x0000000052022b58                sty_draw_string_res_ext
+ .text          0x0000000052022b64        0xc ./../../../case/lib/applib_api.a(applib_api755.o)
+                0x0000000052022b64                sty_create_scroll_string
+ .text          0x0000000052022b70        0xc ./../../../case/lib/applib_api.a(applib_api763.o)
+                0x0000000052022b70                sty_draw_scroll_string
+ .text          0x0000000052022b7c        0xc ./../../../case/lib/applib_api.a(applib_api771.o)
+                0x0000000052022b7c                sty_delete_scroll_string
+ .text          0x0000000052022b88        0xc ./../../../case/lib/applib_api.a(applib_api787.o)
+                0x0000000052022b88                sty_draw_picture_id
+ .text          0x0000000052022b94        0xc ./../../../case/lib/applib_api.a(applib_api795.o)
+                0x0000000052022b94                sty_draw_picture_res
+ .text          0x0000000052022ba0        0xc ./../../../case/lib/applib_api.a(applib_api803.o)
+                0x0000000052022ba0                sty_draw_picregion_res
+ .text          0x0000000052022bac        0xc ./../../../case/lib/applib_api.a(applib_api819.o)
+                0x0000000052022bac                sty_draw_sub_picture_id
+ .text          0x0000000052022bb8        0xc ./../../../case/lib/applib_api.a(applib_api827.o)
+                0x0000000052022bb8                sty_draw_bitmap
+ .text          0x0000000052022bc4        0xc ./../../../case/lib/applib_api.a(applib_api835.o)
+                0x0000000052022bc4                sty_draw_sub_bitmap
+ .text          0x0000000052022bd0        0xc ./../../../case/lib/applib_api.a(applib_api843.o)
+                0x0000000052022bd0                sty_create_bitmap
+ .text          0x0000000052022bdc        0xc ./../../../case/lib/applib_api.a(applib_api851.o)
+                0x0000000052022bdc                sty_create_sub_bitmap
+ .text          0x0000000052022be8        0xc ./../../../case/lib/applib_api.a(applib_api859.o)
+                0x0000000052022be8                sty_delete_bitmap
+ .text          0x0000000052022bf4        0xc ./../../../case/lib/applib_api.a(applib_api917.o)
+                0x0000000052022bf4                sys_get_hotplugin_dev_info
+ .text          0x0000000052022c00       0x68 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000052022c00                __do_global_dtors_aux
+ .text          0x0000000052022c68       0x68 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000052022c68                __do_global_ctors_aux
+ .text          0x0000000052022cd0      0xbe4 ./../../../psp_rel/lib/ime_api.a(ime.o)
+                0x00000000520232fc                getPinyinNode
+                0x00000000520236d0                getPinyinNodeParent
+                0x0000000052023674                getPinyinNodeFromChilds
+                0x0000000052023498                ime_engine_get_candidates
+                0x0000000052023710                isLeafPinyinNode
+                0x0000000052022cd0                loadDictionary
+                0x00000000520233ac                get_current_candidates
+                0x0000000052023130                ime_engine_init
+                0x0000000052023880                ime_engine_exit
+                0x0000000052023190                loadHanziTable
+                0x000000005202371c                DeletePinyinTree
+ .text          0x00000000520238b4        0xc ./../../../psp_rel/lib/mlang_api.a(mlang_api22.o)
+                0x00000000520238b4                mlang_unicode_to_utf8
+ .text          0x00000000520238c0        0xc ./../../../psp_rel/lib/mlang_api.a(mlang_api30.o)
+                0x00000000520238c0                mlang_utf8_to_unicode
+ .text          0x00000000520238cc        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api103.o)
+                0x00000000520238cc                fsel_set_query
+ .text          0x00000000520238d8        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api111.o)
+                0x00000000520238d8                fsel_subdir_setting
+ .text          0x00000000520238e4        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api119.o)
+                0x00000000520238e4                fsel_getfullpath
+ .text          0x00000000520238f0        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api14.o)
+                0x00000000520238f0                fsel_close
+ .text          0x00000000520238fc        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api22.o)
+                0x00000000520238fc                fsel_setworkdir
+ .text          0x0000000052023908        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api30.o)
+                0x0000000052023908                fsel_getworkdir
+ .text          0x0000000052023914        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api38.o)
+                0x0000000052023914                fsel_setfilter
+ .text          0x0000000052023920        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api47.o)
+                0x0000000052023920                fsel_getfilenum
+ .text          0x000000005202392c        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api55.o)
+                0x000000005202392c                fsel_listfile
+ .text          0x0000000052023938        0x8 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api6.o)
+                0x0000000052023938                fsel_open
+ .text          0x0000000052023940        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api63.o)
+                0x0000000052023940                fsel_listdir
+ .text          0x000000005202394c        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api71.o)
+                0x000000005202394c                fsel_cd
+ .text          0x0000000052023958        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api79.o)
+                0x0000000052023958                fsel_sortstyle
+ .text          0x0000000052023964        0xc ./../../../psp_rel/lib/mnavi_api.a(mnavi_api87.o)
+                0x0000000052023964                fsel_getidbyname
+ .text          0x0000000052023970        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+                0x0000000052023970                getpid
+ .text          0x000000005202397c        0xc ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+                0x000000005202397c                __errno
+ .text          0x0000000052023988        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+                0x0000000052023988                close
+ .text          0x0000000052023994        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api151.o)
+                0x0000000052023994                stat
+ .text          0x00000000520239a0        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api167.o)
+                0x00000000520239a0                fopen
+ .text          0x00000000520239ac        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api175.o)
+                0x00000000520239ac                fclose
+ .text          0x00000000520239b8        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api207.o)
+                0x00000000520239b8                fread
+ .text          0x00000000520239c4        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api255.o)
+                0x00000000520239c4                fileno
+ .text          0x00000000520239d0        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api263.o)
+                0x00000000520239d0                fseek
+ .text          0x00000000520239dc        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api295.o)
+                0x00000000520239dc                setbuf
+ .text          0x00000000520239e8        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api47.o)
+                0x00000000520239e8                fcntl
+ .text          0x00000000520239f4        0xc ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+                0x00000000520239f4                ioctl
+ .text          0x0000000052023a00        0x8 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+                0x0000000052023a00                open
+ .text          0x0000000052023a08       0x28 ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+                0x0000000052023a08                sprintf
+ .text          0x0000000052023a30      0x9fc ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                0x0000000052023cf0                vsprintf
+ .text          0x000000005202442c       0x50 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+                0x000000005202442c                memcpy
+                0x0000000052024454                bcopy
+ .text          0x000000005202447c       0x44 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+                0x00000000520244a0                bzero
+                0x000000005202447c                memset
+ .text          0x00000000520244c0       0xac ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+                0x00000000520244c0                strcat
+                0x000000005202450c                strncat
+ .text          0x000000005202456c       0x78 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+                0x0000000052024598                strcoll
+                0x00000000520245a0                strncmp
+                0x000000005202456c                strcmp
+ .text          0x00000000520245e4       0x80 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+                0x00000000520245e4                strcpy
+                0x0000000052024610                strncpy
+ .text          0x0000000052024664       0x64 ./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+                0x0000000052024664                strdup
+ .text          0x00000000520246c8       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+                0x00000000520246c8                strlen
+ .text          0x00000000520246e8        0xc ./../../../psp_rel/lib/gui_api.a(gui_api1006.o)
+                0x00000000520246e8                gui_dc_get_string_dist_x
+ .text          0x00000000520246f4        0xc ./../../../psp_rel/lib/gui_api.a(gui_api446.o)
+                0x00000000520246f4                gui_select_layer
+ .text          0x0000000052024700        0xc ./../../../psp_rel/lib/gui_api.a(gui_api582.o)
+                0x0000000052024700                gui_wm_create_window
+ .text          0x000000005202470c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api598.o)
+                0x000000005202470c                gui_wm_set_focus
+ .text          0x0000000052024718        0xc ./../../../psp_rel/lib/gui_api.a(gui_api606.o)
+                0x0000000052024718                gui_wm_delete_window
+ .text          0x0000000052024724        0xc ./../../../psp_rel/lib/gui_api.a(gui_api630.o)
+                0x0000000052024724                gui_wm_get_focus
+ .text          0x0000000052024730        0xc ./../../../psp_rel/lib/gui_api.a(gui_api694.o)
+                0x0000000052024730                gui_dc_get
+ .text          0x000000005202473c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api718.o)
+                0x000000005202473c                gui_dc_set_text_mode
+ .text          0x0000000052024748        0xc ./../../../psp_rel/lib/gui_api.a(gui_api726.o)
+                0x0000000052024748                gui_dc_set_color
+ .text          0x0000000052024754        0xc ./../../../psp_rel/lib/gui_api.a(gui_api734.o)
+                0x0000000052024754                gui_dc_set_background_color
+ .text          0x0000000052024760        0xc ./../../../psp_rel/lib/gui_api.a(gui_api758.o)
+                0x0000000052024760                gui_dc_set_font_size
+ .text          0x000000005202476c        0xc ./../../../psp_rel/lib/gui_api.a(gui_api862.o)
+                0x000000005202476c                gui_dc_display_string_in_rect
+ .text          0x0000000052024778        0xc ./../../../psp_rel/lib/gui_api.a(gui_api926.o)
+                0x0000000052024778                gui_dc_draw_bitmap_ext
+ .text          0x0000000052024784        0xc ./../../../psp_rel/lib/gui_api.a(gui_api958.o)
+                0x0000000052024784                gui_dc_clear_rect
+ .text          0x0000000052024790       0x10 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+                0x0000000052024790                set_config
+ .text          0x00000000520247a0        0xc ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+                0x00000000520247a0                get_config
+ .text          0x00000000520247ac        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+                0x00000000520247ac                api_install
+ .text          0x00000000520247b8        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+                0x00000000520247b8                api_uninstall
+ .text          0x00000000520247c4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+                0x00000000520247c4                printf
+ .text          0x00000000520247d0        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+                0x00000000520247d0                malloc
+ .text          0x00000000520247dc        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+                0x00000000520247dc                free
+ .text          0x00000000520247e8        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api542.o)
+                0x00000000520247e8                sys_mknod
+ .text          0x00000000520247f4        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+                0x00000000520247f4                insmod
+ .text          0x0000000052024800        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+                0x0000000052024800                dlopen
+ .text          0x000000005202480c        0xc ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+                0x000000005202480c                dlclose
+ *(.rodata)
+ .rodata        0x0000000052024818      0x168 adjust.o
+ .rodata        0x0000000052024980       0x1c adjust_ui.o
+ .rodata        0x000000005202499c      0x218 commonui_api.o
+ .rodata        0x0000000052024bb4      0x1c0 dialog.o
+ .rodata        0x0000000052024d74       0xd8 dialog_modal.o
+ .rodata        0x0000000052024e4c       0x58 dialog_ui.o
+ .rodata        0x0000000052024ea4      0x56c dirlist.o
+ .rodata        0x0000000052025410      0x33c headbar.o
+ .rodata        0x000000005202574c      0x160 loadingbox.o
+ .rodata        0x00000000520258ac      0x144 menu.o
+ .rodata        0x00000000520259f0      0x1f8 menuview.o
+ .rodata        0x0000000052025be8      0x70c msgbox.o
+ .rodata        0x00000000520262f4      0x194 progress_box.o
+ .rodata        0x0000000052026488      0x1c8 slider.o
+ .rodata        0x0000000052026650       0x88 slider_ui.o
+ .rodata        0x00000000520266d8      0x31c softkeyboard.o
+ .rodata        0x00000000520269f4      0x1a4 usb_select_box.o
+ .rodata        0x0000000052026b98       0x8c volumebar.o
+ .rodata        0x0000000052026c24        0x8 volumebar_ui.o
+ .rodata        0x0000000052026c2c      0x194 ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000052026dc0      0x1f8 ./../../../psp_rel/lib/ime_api.a(ime.o)
+ .rodata.str1.4
+                0x0000000052026fb8       0x57 ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+                                         0x58 (size before relaxing)
+
+.fini           0x0000000052027010       0x20
+ *(.fini)
+ .fini          0x0000000052027010        0x8 ./../../../psp_rel/lib/libcrt/crti.o
+                0x0000000052027010                _fini
+ .fini          0x0000000052027018        0x8 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .fini          0x0000000052027020       0x10 ./../../../psp_rel/lib/libcrt/crtn.o
+
+.dlsym
+ *(.dlsym)
+
+.dlstr
+ *(.dlstr)
+                0x0000000052028000                . = ALIGN (0x1000)
+
+.ctors          0x0000000052028000        0xc
+ *crtbegin*.o(.ctors)
+ .ctors         0x0000000052028000        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x0000000052028000                __CTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ .ctors         0x0000000052028004        0x4 commonui_api.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000052028008        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000052028008                __CTOR_END__
+
+.dtors          0x000000005202800c        0xc
+ *crtbegin*.o(.dtors)
+ .dtors         0x000000005202800c        0x4 ./../../../psp_rel/lib/libcrt/crtbegin.o
+                0x000000005202800c                __DTOR_LIST__
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ .dtors         0x0000000052028010        0x4 commonui_api.o
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000052028014        0x4 ./../../../psp_rel/lib/libcrt/crtend.o
+                0x0000000052028014                __DTOR_END__
+
+.data           0x0000000052028018      0x5e0
+ *(.data)
+ .data          0x0000000052028018       0x60 adjust.o
+                0x0000000052028018                month_normal_days
+                0x0000000052028048                month_leapyear_days
+ .data          0x0000000052028078        0x4 dialog_modal.o
+ .data          0x000000005202807c       0x10 dialog_ui.o
+ .data          0x000000005202808c       0x14 dirlist.o
+ .data          0x00000000520280a0        0x4 headbar_ui.o
+ .data          0x00000000520280a4       0x64 msgbox.o
+ .data          0x0000000052028108      0x4f0 softkeyboard_private.o
+                0x0000000052028108                ckb_key_table
+                0x00000000520282f8                ekb_key_table
+                0x00000000520284e8                nkb_key_table
+ *(.sdata)
+
+.sbss
+ *(.sbss)
+ *(.scommon)
+
+.bss            0x00000000520285f8     0x11b4
+ *(.bss)
+ .bss           0x00000000520285f8       0xd8 dialog_ui.o
+ .bss           0x00000000520286d0      0x828 dirlist.o
+ .bss           0x0000000052028ef8        0x4 headbar.o
+ .bss           0x0000000052028efc       0x14 headbar_ui.o
+ .bss           0x0000000052028f10      0x40c msgbox.o
+                0x0000000052028f14                g_msgbox
+ .bss           0x000000005202931c        0x8 ./../../../psp_rel/lib/ime_api.a(ime.o)
+ *(COMMON)
+ COMMON         0x0000000052029324        0xc adjust.o
+                0x0000000052029324                pthread_mutex_type_t
+                0x0000000052029328                pthread_share_type_t
+                0x000000005202932c                cur_adjust
+ COMMON         0x0000000052029330        0xc dialog_modal.o
+                0x0000000052029330                dialog_modal_vars
+ COMMON         0x000000005202933c        0x8 msgbox.o
+                0x000000005202933c                msgbox_private_data_t
+ COMMON         0x0000000052029344       0x28 softkeyboard.o
+                0x0000000052029344                ckb_resource
+ COMMON         0x000000005202936c       0x20 softkeyboard_private.o
+                0x000000005202936c                nkb_resource
+                0x0000000052029374                ekb_resource
+                0x000000005202937c                common_resource
+ COMMON         0x000000005202938c      0x420 ./../../../psp_rel/lib/ime_api.a(ime.o)
+                0x000000005202938c                hzNodeLoadTotal
+                0x0000000052029390                fpLgt
+                0x0000000052029394                pinyinTree
+                0x00000000520293a0                pCurrentHZNode
+                0x00000000520293a4                hzListMan
+                0x00000000520297a4                fpMB
+                0x00000000520297a8                hzListLoadTotal
+
+.rel.dyn
+Address of section .init set to 0x52000000
+LOAD adjust.o
+LOAD adjust_ui.o
+LOAD commonui_api.o
+LOAD dialog.o
+LOAD dialog_modal.o
+LOAD dialog_ui.o
+LOAD dirlist.o
+LOAD headbar.o
+LOAD headbar_ui.o
+LOAD loadingbox.o
+LOAD loadingbox_ui.o
+LOAD menu.o
+LOAD menuview.o
+LOAD menuview_ui.o
+LOAD msgbox.o
+LOAD progress_box.o
+LOAD progress_box_ui.o
+LOAD slider.o
+LOAD slider_ui.o
+LOAD softkeyboard.o
+LOAD softkeyboard_private.o
+LOAD softkeyboard_ui.o
+LOAD usb_select_box.o
+LOAD usb_select_box_ui.o
+LOAD volumebar.o
+LOAD volumebar_ui.o
+LOAD ./../../../case/lib/style_api.a
+LOAD ./../../../case/lib/applib_api.a
+LOAD ./../../../psp_rel/lib/libcrt/crti.o
+LOAD ./../../../psp_rel/lib/libcrt/crtbegin.o
+LOAD ./../../../psp_rel/lib/libcrt/crtend.o
+LOAD ./../../../psp_rel/lib/libcrt/crtn.o
+LOAD ./../../../psp_rel/lib/ime_api.a
+LOAD ./../../../psp_rel/lib/mlang_api.a
+LOAD ./../../../psp_rel/lib/mnavi_api.a
+LOAD ./../../../psp_rel/lib/plist_api.a
+LOAD ./../../../psp_rel/lib/sqlite_api.a
+LOAD ./../../../psp_rel/lib/libc_sys_api.a
+LOAD ./../../../psp_rel/lib/libc_fs_api.a
+LOAD ./../../../psp_rel/lib/libc/libc_sysindep.a
+LOAD ./../../../psp_rel/lib/gui_api.a
+LOAD ./../../../psp_rel/lib/mmm_api.a
+LOAD ./../../../psp_rel/lib/transimage.a
+LOAD ./../../../psp_rel/lib/apconfig_api.a
+LOAD ./../../../psp_rel/lib/syscall_api.a
+LOAD ./../../../psp_rel/lib/kmodule_api.a
+OUTPUT(./../../../case/images/lib/commonui.so elf32-tradlittlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 adjust.o
+
+.pdr            0x0000000000000000     0x3d60
+ .pdr           0x0000000000000000      0x2c0 adjust.o
+ .pdr           0x00000000000002c0      0x340 adjust_ui.o
+ .pdr           0x0000000000000600       0x40 commonui_api.o
+ .pdr           0x0000000000000640      0x120 dialog.o
+ .pdr           0x0000000000000760       0xc0 dialog_modal.o
+ .pdr           0x0000000000000820       0xc0 dialog_ui.o
+ .pdr           0x00000000000008e0      0x780 dirlist.o
+ .pdr           0x0000000000001060      0x220 headbar.o
+ .pdr           0x0000000000001280      0x140 headbar_ui.o
+ .pdr           0x00000000000013c0      0x100 loadingbox.o
+ .pdr           0x00000000000014c0       0x80 loadingbox_ui.o
+ .pdr           0x0000000000001540      0x360 menu.o
+ .pdr           0x00000000000018a0      0x280 menuview.o
+ .pdr           0x0000000000001b20       0xa0 menuview_ui.o
+ .pdr           0x0000000000001bc0      0x640 msgbox.o
+ .pdr           0x0000000000002200      0x140 progress_box.o
+ .pdr           0x0000000000002340       0xe0 progress_box_ui.o
+ .pdr           0x0000000000002420       0xc0 slider.o
+ .pdr           0x00000000000024e0       0x20 slider_ui.o
+ .pdr           0x0000000000002500      0x200 softkeyboard.o
+ .pdr           0x0000000000002700       0xa0 softkeyboard_ui.o
+ .pdr           0x00000000000027a0       0xe0 usb_select_box.o
+ .pdr           0x0000000000002880       0x40 usb_select_box_ui.o
+ .pdr           0x00000000000028c0      0x140 volumebar.o
+ .pdr           0x0000000000002a00       0xe0 volumebar_ui.o
+ .pdr           0x0000000000002ae0       0x20 ./../../../case/lib/style_api.a(style_api47.o)
+ .pdr           0x0000000000002b00       0x20 ./../../../case/lib/style_api.a(style_api56.o)
+ .pdr           0x0000000000002b20       0x20 ./../../../case/lib/style_api.a(style_api67.o)
+ .pdr           0x0000000000002b40       0x20 ./../../../case/lib/applib_api.a(applib_api1013.o)
+ .pdr           0x0000000000002b60       0x20 ./../../../case/lib/applib_api.a(applib_api1029.o)
+ .pdr           0x0000000000002b80       0x20 ./../../../case/lib/applib_api.a(applib_api1085.o)
+ .pdr           0x0000000000002ba0       0x20 ./../../../case/lib/applib_api.a(applib_api1181.o)
+ .pdr           0x0000000000002bc0       0x20 ./../../../case/lib/applib_api.a(applib_api1189.o)
+ .pdr           0x0000000000002be0       0x20 ./../../../case/lib/applib_api.a(applib_api119.o)
+ .pdr           0x0000000000002c00       0x20 ./../../../case/lib/applib_api.a(applib_api1221.o)
+ .pdr           0x0000000000002c20       0x20 ./../../../case/lib/applib_api.a(applib_api1229.o)
+ .pdr           0x0000000000002c40       0x20 ./../../../case/lib/applib_api.a(applib_api1245.o)
+ .pdr           0x0000000000002c60       0x20 ./../../../case/lib/applib_api.a(applib_api1261.o)
+ .pdr           0x0000000000002c80       0x20 ./../../../case/lib/applib_api.a(applib_api127.o)
+ .pdr           0x0000000000002ca0       0x20 ./../../../case/lib/applib_api.a(applib_api1277.o)
+ .pdr           0x0000000000002cc0       0x20 ./../../../case/lib/applib_api.a(applib_api1309.o)
+ .pdr           0x0000000000002ce0       0x20 ./../../../case/lib/applib_api.a(applib_api1317.o)
+ .pdr           0x0000000000002d00       0x20 ./../../../case/lib/applib_api.a(applib_api1365.o)
+ .pdr           0x0000000000002d20       0x20 ./../../../case/lib/applib_api.a(applib_api1373.o)
+ .pdr           0x0000000000002d40       0x20 ./../../../case/lib/applib_api.a(applib_api151.o)
+ .pdr           0x0000000000002d60       0x20 ./../../../case/lib/applib_api.a(applib_api159.o)
+ .pdr           0x0000000000002d80       0x20 ./../../../case/lib/applib_api.a(applib_api183.o)
+ .pdr           0x0000000000002da0       0x20 ./../../../case/lib/applib_api.a(applib_api207.o)
+ .pdr           0x0000000000002dc0       0x20 ./../../../case/lib/applib_api.a(applib_api218.o)
+ .pdr           0x0000000000002de0       0x20 ./../../../case/lib/applib_api.a(applib_api290.o)
+ .pdr           0x0000000000002e00       0x20 ./../../../case/lib/applib_api.a(applib_api298.o)
+ .pdr           0x0000000000002e20       0x20 ./../../../case/lib/applib_api.a(applib_api309.o)
+ .pdr           0x0000000000002e40       0x20 ./../../../case/lib/applib_api.a(applib_api317.o)
+ .pdr           0x0000000000002e60       0x20 ./../../../case/lib/applib_api.a(applib_api325.o)
+ .pdr           0x0000000000002e80       0x20 ./../../../case/lib/applib_api.a(applib_api333.o)
+ .pdr           0x0000000000002ea0       0x20 ./../../../case/lib/applib_api.a(applib_api341.o)
+ .pdr           0x0000000000002ec0       0x20 ./../../../case/lib/applib_api.a(applib_api373.o)
+ .pdr           0x0000000000002ee0       0x20 ./../../../case/lib/applib_api.a(applib_api455.o)
+ .pdr           0x0000000000002f00       0x20 ./../../../case/lib/applib_api.a(applib_api465.o)
+ .pdr           0x0000000000002f20       0x20 ./../../../case/lib/applib_api.a(applib_api47.o)
+ .pdr           0x0000000000002f40       0x20 ./../../../case/lib/applib_api.a(applib_api481.o)
+ .pdr           0x0000000000002f60       0x20 ./../../../case/lib/applib_api.a(applib_api497.o)
+ .pdr           0x0000000000002f80       0x20 ./../../../case/lib/applib_api.a(applib_api521.o)
+ .pdr           0x0000000000002fa0       0x20 ./../../../case/lib/applib_api.a(applib_api537.o)
+ .pdr           0x0000000000002fc0       0x20 ./../../../case/lib/applib_api.a(applib_api63.o)
+ .pdr           0x0000000000002fe0       0x20 ./../../../case/lib/applib_api.a(applib_api651.o)
+ .pdr           0x0000000000003000       0x20 ./../../../case/lib/applib_api.a(applib_api667.o)
+ .pdr           0x0000000000003020       0x20 ./../../../case/lib/applib_api.a(applib_api675.o)
+ .pdr           0x0000000000003040       0x20 ./../../../case/lib/applib_api.a(applib_api683.o)
+ .pdr           0x0000000000003060       0x20 ./../../../case/lib/applib_api.a(applib_api691.o)
+ .pdr           0x0000000000003080       0x20 ./../../../case/lib/applib_api.a(applib_api699.o)
+ .pdr           0x00000000000030a0       0x20 ./../../../case/lib/applib_api.a(applib_api707.o)
+ .pdr           0x00000000000030c0       0x20 ./../../../case/lib/applib_api.a(applib_api715.o)
+ .pdr           0x00000000000030e0       0x20 ./../../../case/lib/applib_api.a(applib_api723.o)
+ .pdr           0x0000000000003100       0x20 ./../../../case/lib/applib_api.a(applib_api739.o)
+ .pdr           0x0000000000003120       0x20 ./../../../case/lib/applib_api.a(applib_api747.o)
+ .pdr           0x0000000000003140       0x20 ./../../../case/lib/applib_api.a(applib_api755.o)
+ .pdr           0x0000000000003160       0x20 ./../../../case/lib/applib_api.a(applib_api763.o)
+ .pdr           0x0000000000003180       0x20 ./../../../case/lib/applib_api.a(applib_api771.o)
+ .pdr           0x00000000000031a0       0x20 ./../../../case/lib/applib_api.a(applib_api787.o)
+ .pdr           0x00000000000031c0       0x20 ./../../../case/lib/applib_api.a(applib_api795.o)
+ .pdr           0x00000000000031e0       0x20 ./../../../case/lib/applib_api.a(applib_api803.o)
+ .pdr           0x0000000000003200       0x20 ./../../../case/lib/applib_api.a(applib_api819.o)
+ .pdr           0x0000000000003220       0x20 ./../../../case/lib/applib_api.a(applib_api827.o)
+ .pdr           0x0000000000003240       0x20 ./../../../case/lib/applib_api.a(applib_api835.o)
+ .pdr           0x0000000000003260       0x20 ./../../../case/lib/applib_api.a(applib_api843.o)
+ .pdr           0x0000000000003280       0x20 ./../../../case/lib/applib_api.a(applib_api851.o)
+ .pdr           0x00000000000032a0       0x20 ./../../../case/lib/applib_api.a(applib_api859.o)
+ .pdr           0x00000000000032c0       0x20 ./../../../case/lib/applib_api.a(applib_api917.o)
+ .pdr           0x00000000000032e0       0x20 ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .pdr           0x0000000000003300       0x20 ./../../../psp_rel/lib/libcrt/crtend.o
+ .pdr           0x0000000000003320      0x160 ./../../../psp_rel/lib/ime_api.a(ime.o)
+ .pdr           0x0000000000003480       0x20 ./../../../psp_rel/lib/mlang_api.a(mlang_api22.o)
+ .pdr           0x00000000000034a0       0x20 ./../../../psp_rel/lib/mlang_api.a(mlang_api30.o)
+ .pdr           0x00000000000034c0       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api103.o)
+ .pdr           0x00000000000034e0       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api111.o)
+ .pdr           0x0000000000003500       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api119.o)
+ .pdr           0x0000000000003520       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api14.o)
+ .pdr           0x0000000000003540       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api22.o)
+ .pdr           0x0000000000003560       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api30.o)
+ .pdr           0x0000000000003580       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api38.o)
+ .pdr           0x00000000000035a0       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api47.o)
+ .pdr           0x00000000000035c0       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api55.o)
+ .pdr           0x00000000000035e0       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api6.o)
+ .pdr           0x0000000000003600       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api63.o)
+ .pdr           0x0000000000003620       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api71.o)
+ .pdr           0x0000000000003640       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api79.o)
+ .pdr           0x0000000000003660       0x20 ./../../../psp_rel/lib/mnavi_api.a(mnavi_api87.o)
+ .pdr           0x0000000000003680       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api151.o)
+ .pdr           0x00000000000036a0       0x20 ./../../../psp_rel/lib/libc_sys_api.a(libc_sys_api261.o)
+ .pdr           0x00000000000036c0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api15.o)
+ .pdr           0x00000000000036e0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api151.o)
+ .pdr           0x0000000000003700       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api167.o)
+ .pdr           0x0000000000003720       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api175.o)
+ .pdr           0x0000000000003740       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api207.o)
+ .pdr           0x0000000000003760       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api255.o)
+ .pdr           0x0000000000003780       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api263.o)
+ .pdr           0x00000000000037a0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api295.o)
+ .pdr           0x00000000000037c0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api47.o)
+ .pdr           0x00000000000037e0       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api511.o)
+ .pdr           0x0000000000003800       0x20 ./../../../psp_rel/lib/libc_fs_api.a(libc_fs_api7.o)
+ .pdr           0x0000000000003820       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+ .pdr           0x0000000000003840       0x60 ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ .pdr           0x00000000000038a0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .pdr           0x00000000000038e0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .pdr           0x0000000000003920       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+ .pdr           0x0000000000003960       0x60 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+ .pdr           0x00000000000039c0       0x40 ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .pdr           0x0000000000003a00       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+ .pdr           0x0000000000003a20       0x20 ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)
+ .pdr           0x0000000000003a40       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api1006.o)
+ .pdr           0x0000000000003a60       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api446.o)
+ .pdr           0x0000000000003a80       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api582.o)
+ .pdr           0x0000000000003aa0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api598.o)
+ .pdr           0x0000000000003ac0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api606.o)
+ .pdr           0x0000000000003ae0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api630.o)
+ .pdr           0x0000000000003b00       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api694.o)
+ .pdr           0x0000000000003b20       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api718.o)
+ .pdr           0x0000000000003b40       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api726.o)
+ .pdr           0x0000000000003b60       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api734.o)
+ .pdr           0x0000000000003b80       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api758.o)
+ .pdr           0x0000000000003ba0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api862.o)
+ .pdr           0x0000000000003bc0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api926.o)
+ .pdr           0x0000000000003be0       0x20 ./../../../psp_rel/lib/gui_api.a(gui_api958.o)
+ .pdr           0x0000000000003c00       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api15.o)
+ .pdr           0x0000000000003c20       0x20 ./../../../psp_rel/lib/apconfig_api.a(apconfig_api6.o)
+ .pdr           0x0000000000003c40       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api326.o)
+ .pdr           0x0000000000003c60       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api334.o)
+ .pdr           0x0000000000003c80       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api406.o)
+ .pdr           0x0000000000003ca0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api470.o)
+ .pdr           0x0000000000003cc0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api478.o)
+ .pdr           0x0000000000003ce0       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api542.o)
+ .pdr           0x0000000000003d00       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api854.o)
+ .pdr           0x0000000000003d20       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api870.o)
+ .pdr           0x0000000000003d40       0x20 ./../../../psp_rel/lib/syscall_api.a(syscall_api878.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+
+.debug_abbrev   0x0000000000000000     0x2b7a
+ .debug_abbrev  0x0000000000000000      0x211 adjust.o
+ .debug_abbrev  0x0000000000000211      0x19d adjust_ui.o
+ .debug_abbrev  0x00000000000003ae       0xa5 commonui_api.o
+ .debug_abbrev  0x0000000000000453      0x20d dialog.o
+ .debug_abbrev  0x0000000000000660      0x1a1 dialog_modal.o
+ .debug_abbrev  0x0000000000000801      0x1ae dialog_ui.o
+ .debug_abbrev  0x00000000000009af      0x264 dirlist.o
+ .debug_abbrev  0x0000000000000c13      0x249 headbar.o
+ .debug_abbrev  0x0000000000000e5c      0x14b headbar_ui.o
+ .debug_abbrev  0x0000000000000fa7      0x1f6 loadingbox.o
+ .debug_abbrev  0x000000000000119d      0x124 loadingbox_ui.o
+ .debug_abbrev  0x00000000000012c1      0x1b8 menu.o
+ .debug_abbrev  0x0000000000001479      0x288 menuview.o
+ .debug_abbrev  0x0000000000001701      0x185 menuview_ui.o
+ .debug_abbrev  0x0000000000001886      0x266 msgbox.o
+ .debug_abbrev  0x0000000000001aec      0x1e2 progress_box.o
+ .debug_abbrev  0x0000000000001cce      0x124 progress_box_ui.o
+ .debug_abbrev  0x0000000000001df2      0x1cb slider.o
+ .debug_abbrev  0x0000000000001fbd      0x117 slider_ui.o
+ .debug_abbrev  0x00000000000020d4      0x260 softkeyboard.o
+ .debug_abbrev  0x0000000000002334       0xb3 softkeyboard_private.o
+ .debug_abbrev  0x00000000000023e7      0x150 softkeyboard_ui.o
+ .debug_abbrev  0x0000000000002537      0x1d3 usb_select_box.o
+ .debug_abbrev  0x000000000000270a      0x109 usb_select_box_ui.o
+ .debug_abbrev  0x0000000000002813      0x23a volumebar.o
+ .debug_abbrev  0x0000000000002a4d      0x12d volumebar_ui.o
+
+.debug_info     0x0000000000000000    0x22cfc
+ .debug_info    0x0000000000000000     0x209a adjust.o
+ .debug_info    0x000000000000209a     0x1973 adjust_ui.o
+ .debug_info    0x0000000000003a0d      0x2b7 commonui_api.o
+ .debug_info    0x0000000000003cc4     0x1297 dialog.o
+ .debug_info    0x0000000000004f5b     0x17da dialog_modal.o
+ .debug_info    0x0000000000006735      0xeb8 dialog_ui.o
+ .debug_info    0x00000000000075ed     0x41a1 dirlist.o
+ .debug_info    0x000000000000b78e     0x35dc headbar.o
+ .debug_info    0x000000000000ed6a     0x1010 headbar_ui.o
+ .debug_info    0x000000000000fd7a     0x1066 loadingbox.o
+ .debug_info    0x0000000000010de0      0xa64 loadingbox_ui.o
+ .debug_info    0x0000000000011844      0xd7a menu.o
+ .debug_info    0x00000000000125be     0x1e41 menuview.o
+ .debug_info    0x00000000000143ff     0x1575 menuview_ui.o
+ .debug_info    0x0000000000015974     0x3d39 msgbox.o
+ .debug_info    0x00000000000196ad     0x112e progress_box.o
+ .debug_info    0x000000000001a7db      0xc1d progress_box_ui.o
+ .debug_info    0x000000000001b3f8      0xbdb slider.o
+ .debug_info    0x000000000001bfd3      0x7e9 slider_ui.o
+ .debug_info    0x000000000001c7bc     0x17e0 softkeyboard.o
+ .debug_info    0x000000000001df9c      0x8d6 softkeyboard_private.o
+ .debug_info    0x000000000001e872      0xf93 softkeyboard_ui.o
+ .debug_info    0x000000000001f805     0x1003 usb_select_box.o
+ .debug_info    0x0000000000020808      0x962 usb_select_box_ui.o
+ .debug_info    0x000000000002116a     0x113f volumebar.o
+ .debug_info    0x00000000000222a9      0xa53 volumebar_ui.o
+
+.debug_line     0x0000000000000000     0x4bdc
+ .debug_line    0x0000000000000000      0x534 adjust.o
+ .debug_line    0x0000000000000534      0x2fe adjust_ui.o
+ .debug_line    0x0000000000000832       0x75 commonui_api.o
+ .debug_line    0x00000000000008a7      0x293 dialog.o
+ .debug_line    0x0000000000000b3a      0x196 dialog_modal.o
+ .debug_line    0x0000000000000cd0      0x251 dialog_ui.o
+ .debug_line    0x0000000000000f21      0x854 dirlist.o
+ .debug_line    0x0000000000001775      0x456 headbar.o
+ .debug_line    0x0000000000001bcb      0x323 headbar_ui.o
+ .debug_line    0x0000000000001eee      0x25f loadingbox.o
+ .debug_line    0x000000000000214d      0x1ad loadingbox_ui.o
+ .debug_line    0x00000000000022fa      0x240 menu.o
+ .debug_line    0x000000000000253a      0x444 menuview.o
+ .debug_line    0x000000000000297e      0x2b6 menuview_ui.o
+ .debug_line    0x0000000000002c34      0x64f msgbox.o
+ .debug_line    0x0000000000003283      0x29f progress_box.o
+ .debug_line    0x0000000000003522      0x1f1 progress_box_ui.o
+ .debug_line    0x0000000000003713      0x24b slider.o
+ .debug_line    0x000000000000395e      0x198 slider_ui.o
+ .debug_line    0x0000000000003af6      0x4a5 softkeyboard.o
+ .debug_line    0x0000000000003f9b       0xa0 softkeyboard_private.o
+ .debug_line    0x000000000000403b      0x2a6 softkeyboard_ui.o
+ .debug_line    0x00000000000042e1      0x2a5 usb_select_box.o
+ .debug_line    0x0000000000004586      0x152 usb_select_box_ui.o
+ .debug_line    0x00000000000046d8      0x330 volumebar.o
+ .debug_line    0x0000000000004a08      0x1d4 volumebar_ui.o
+
+.debug_frame    0x0000000000000000     0x2be4
+ .debug_frame   0x0000000000000000      0x2b8 adjust.o
+ .debug_frame   0x00000000000002b8      0x350 adjust_ui.o
+ .debug_frame   0x0000000000000608       0x50 commonui_api.o
+ .debug_frame   0x0000000000000658      0x130 dialog.o
+ .debug_frame   0x0000000000000788       0xd4 dialog_modal.o
+ .debug_frame   0x000000000000085c       0xd0 dialog_ui.o
+ .debug_frame   0x000000000000092c      0x770 dirlist.o
+ .debug_frame   0x000000000000109c      0x22c headbar.o
+ .debug_frame   0x00000000000012c8      0x150 headbar_ui.o
+ .debug_frame   0x0000000000001418      0x110 loadingbox.o
+ .debug_frame   0x0000000000001528       0x90 loadingbox_ui.o
+ .debug_frame   0x00000000000015b8      0x348 menu.o
+ .debug_frame   0x0000000000001900      0x264 menuview.o
+ .debug_frame   0x0000000000001b64       0xb4 menuview_ui.o
+ .debug_frame   0x0000000000001c18      0x650 msgbox.o
+ .debug_frame   0x0000000000002268      0x14c progress_box.o
+ .debug_frame   0x00000000000023b4       0xf0 progress_box_ui.o
+ .debug_frame   0x00000000000024a4       0xc8 slider.o
+ .debug_frame   0x000000000000256c       0x30 slider_ui.o
+ .debug_frame   0x000000000000259c      0x218 softkeyboard.o
+ .debug_frame   0x00000000000027b4       0xb0 softkeyboard_ui.o
+ .debug_frame   0x0000000000002864       0xf0 usb_select_box.o
+ .debug_frame   0x0000000000002954       0x50 usb_select_box_ui.o
+ .debug_frame   0x00000000000029a4      0x150 volumebar.o
+ .debug_frame   0x0000000000002af4       0xf0 volumebar_ui.o
+
+.debug_pubnames
+                0x0000000000000000     0x17f7
+ .debug_pubnames
+                0x0000000000000000      0x185 adjust.o
+ .debug_pubnames
+                0x0000000000000185       0x55 adjust_ui.o
+ .debug_pubnames
+                0x00000000000001da       0x70 commonui_api.o
+ .debug_pubnames
+                0x000000000000024a       0xa3 dialog.o
+ .debug_pubnames
+                0x00000000000002ed       0x9e dialog_modal.o
+ .debug_pubnames
+                0x000000000000038b       0xc2 dialog_ui.o
+ .debug_pubnames
+                0x000000000000044d      0x256 dirlist.o
+ .debug_pubnames
+                0x00000000000006a3      0x10e headbar.o
+ .debug_pubnames
+                0x00000000000007b1      0x13b headbar_ui.o
+ .debug_pubnames
+                0x00000000000008ec       0xb7 loadingbox.o
+ .debug_pubnames
+                0x00000000000009a3       0x79 loadingbox_ui.o
+ .debug_pubnames
+                0x0000000000000a1c      0x251 menu.o
+ .debug_pubnames
+                0x0000000000000c6d      0x1c4 menuview.o
+ .debug_pubnames
+                0x0000000000000e31       0xba menuview_ui.o
+ .debug_pubnames
+                0x0000000000000eeb       0xde msgbox.o
+ .debug_pubnames
+                0x0000000000000fc9       0xf9 progress_box.o
+ .debug_pubnames
+                0x00000000000010c2       0xc0 progress_box_ui.o
+ .debug_pubnames
+                0x0000000000001182       0xc7 slider.o
+ .debug_pubnames
+                0x0000000000001249       0x55 slider_ui.o
+ .debug_pubnames
+                0x000000000000129e      0x11d softkeyboard.o
+ .debug_pubnames
+                0x00000000000013bb       0xc1 softkeyboard_private.o
+ .debug_pubnames
+                0x000000000000147c       0xbf softkeyboard_ui.o
+ .debug_pubnames
+                0x000000000000153b       0xcb usb_select_box.o
+ .debug_pubnames
+                0x0000000000001606       0x7d usb_select_box_ui.o
+ .debug_pubnames
+                0x0000000000001683       0xb2 volumebar.o
+ .debug_pubnames
+                0x0000000000001735       0xc2 volumebar_ui.o
+
+.debug_aranges  0x0000000000000000      0x320
+ .debug_aranges
+                0x0000000000000000       0x20 adjust.o
+ .debug_aranges
+                0x0000000000000020       0x20 adjust_ui.o
+ .debug_aranges
+                0x0000000000000040       0x20 commonui_api.o
+ .debug_aranges
+                0x0000000000000060       0x20 dialog.o
+ .debug_aranges
+                0x0000000000000080       0x20 dialog_modal.o
+ .debug_aranges
+                0x00000000000000a0       0x20 dialog_ui.o
+ .debug_aranges
+                0x00000000000000c0       0x20 dirlist.o
+ .debug_aranges
+                0x00000000000000e0       0x20 headbar.o
+ .debug_aranges
+                0x0000000000000100       0x20 headbar_ui.o
+ .debug_aranges
+                0x0000000000000120       0x20 loadingbox.o
+ .debug_aranges
+                0x0000000000000140       0x20 loadingbox_ui.o
+ .debug_aranges
+                0x0000000000000160       0x20 menu.o
+ .debug_aranges
+                0x0000000000000180       0x20 menuview.o
+ .debug_aranges
+                0x00000000000001a0       0x20 menuview_ui.o
+ .debug_aranges
+                0x00000000000001c0       0x20 msgbox.o
+ .debug_aranges
+                0x00000000000001e0       0x20 progress_box.o
+ .debug_aranges
+                0x0000000000000200       0x20 progress_box_ui.o
+ .debug_aranges
+                0x0000000000000220       0x20 slider.o
+ .debug_aranges
+                0x0000000000000240       0x20 slider_ui.o
+ .debug_aranges
+                0x0000000000000260       0x20 softkeyboard.o
+ .debug_aranges
+                0x0000000000000280       0x20 softkeyboard_ui.o
+ .debug_aranges
+                0x00000000000002a0       0x20 usb_select_box.o
+ .debug_aranges
+                0x00000000000002c0       0x20 usb_select_box_ui.o
+ .debug_aranges
+                0x00000000000002e0       0x20 volumebar.o
+ .debug_aranges
+                0x0000000000000300       0x20 volumebar_ui.o
+
+.debug_str      0x0000000000000000      0xe0b
+ .debug_str     0x0000000000000000      0x127 adjust.o
+ .debug_str     0x0000000000000127       0xcb adjust_ui.o
+ .debug_str     0x00000000000001f2       0x12 commonui_api.o
+ .debug_str     0x0000000000000204       0x8c dialog.o
+ .debug_str     0x0000000000000290       0x12 dialog_modal.o
+ .debug_str     0x00000000000002a2       0x73 dialog_ui.o
+ .debug_str     0x0000000000000315      0x168 dirlist.o
+ .debug_str     0x000000000000047d      0x11d headbar.o
+ .debug_str     0x000000000000059a       0x61 headbar_ui.o
+ .debug_str     0x00000000000005fb       0xa3 loadingbox.o
+ .debug_str     0x000000000000069e       0x4e loadingbox_ui.o
+ .debug_str     0x00000000000006ec       0x3f menu.o
+ .debug_str     0x000000000000072b       0xb6 menuview.o
+ .debug_str     0x00000000000007e1       0x71 menuview_ui.o
+ .debug_str     0x0000000000000852      0x146 msgbox.o
+ .debug_str     0x0000000000000998       0x9f progress_box.o
+ .debug_str     0x0000000000000a37       0x50 progress_box_ui.o
+ .debug_str     0x0000000000000a87       0x85 slider.o
+ .debug_str     0x0000000000000b0c       0x22 slider_ui.o
+ .debug_str     0x0000000000000b2e       0xb5 softkeyboard.o
+ .debug_str     0x0000000000000be3       0x35 softkeyboard_private.o
+ .debug_str     0x0000000000000c18       0x60 softkeyboard_ui.o
+ .debug_str     0x0000000000000c78       0x8d usb_select_box.o
+ .debug_str     0x0000000000000d05       0x4c usb_select_box_ui.o
+ .debug_str     0x0000000000000d51       0x7a volumebar.o
+ .debug_str     0x0000000000000dcb       0x40 volumebar_ui.o
+
+.comment        0x0000000000000000      0x662
+ .comment       0x0000000000000000       0x2b adjust.o
+ .comment       0x000000000000002b       0x2b adjust_ui.o
+ .comment       0x0000000000000056       0x2b commonui_api.o
+ .comment       0x0000000000000081       0x2b dialog.o
+ .comment       0x00000000000000ac       0x2b dialog_modal.o
+ .comment       0x00000000000000d7       0x2b dialog_ui.o
+ .comment       0x0000000000000102       0x2b dirlist.o
+ .comment       0x000000000000012d       0x2b headbar.o
+ .comment       0x0000000000000158       0x2b headbar_ui.o
+ .comment       0x0000000000000183       0x2b loadingbox.o
+ .comment       0x00000000000001ae       0x2b loadingbox_ui.o
+ .comment       0x00000000000001d9       0x2b menu.o
+ .comment       0x0000000000000204       0x2b menuview.o
+ .comment       0x000000000000022f       0x2b menuview_ui.o
+ .comment       0x000000000000025a       0x2b msgbox.o
+ .comment       0x0000000000000285       0x2b progress_box.o
+ .comment       0x00000000000002b0       0x2b progress_box_ui.o
+ .comment       0x00000000000002db       0x2b slider.o
+ .comment       0x0000000000000306       0x2b slider_ui.o
+ .comment       0x0000000000000331       0x2b softkeyboard.o
+ .comment       0x000000000000035c       0x2b softkeyboard_private.o
+ .comment       0x0000000000000387       0x2b softkeyboard_ui.o
+ .comment       0x00000000000003b2       0x2b usb_select_box.o
+ .comment       0x00000000000003dd       0x2b usb_select_box_ui.o
+ .comment       0x0000000000000408       0x2b volumebar.o
+ .comment       0x0000000000000433       0x2b volumebar_ui.o
+ .comment       0x000000000000045e       0x2b ./../../../psp_rel/lib/libcrt/crtbegin.o
+ .comment       0x0000000000000489       0x2b ./../../../psp_rel/lib/libcrt/crtend.o
+ .comment       0x00000000000004b4       0x2b ./../../../psp_rel/lib/ime_api.a(ime.o)
+ .comment       0x00000000000004df       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(sprintf.o)
+ .comment       0x000000000000050a       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(vsprintf.o)
+ .comment       0x0000000000000535       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memcpy.o)
+ .comment       0x0000000000000560       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(memset.o)
+ .comment       0x000000000000058b       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcat.o)
+ .comment       0x00000000000005b6       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcmp.o)
+ .comment       0x00000000000005e1       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strcpy.o)
+ .comment       0x000000000000060c       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strdup.o)
+ .comment       0x0000000000000637       0x2b ./../../../psp_rel/lib/libc/libc_sysindep.a(strlen.o)

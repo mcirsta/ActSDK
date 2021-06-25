@@ -1,0 +1,36 @@
+﻿[Desktop Entry]
+Comment=
+Path=/mnt/diska/apps/
+Type=Application
+Child=
+Exec=emulator.app MD
+Icon-id=
+Icon=
+Name-id=
+Name=MD
+Name[zh_CN]=MD
+Name[zh_TW]=MD
+Name[en_GB]=MD
+Name[ja_JP]=MD
+Name[ko_KP]=MD
+Name[fr_FR]=MD
+Name[de_GE]=MD
+Name[it_IT]=MD 
+Name[nl_NL]=MD 
+Name[pt_PT]=MD 
+Name[es_PE]=MD 
+Name[sv_SE]=MD 
+Name[cs_CZ]=MD 
+Name[da_DK]=MD
+Name[pl_PL]=MD
+Name[ru_RU]=MD
+Name[tr_TR]=MD
+Name[he_IL]=MD
+Name[th_TH]=MD
+Name[hu_HU]=MD
+Name[ro_RO]=MD
+Name[ar]=MD 
+Name[id_ID] = MD
+Name[el_EG] = MD
+
+

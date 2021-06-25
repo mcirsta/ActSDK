@@ -1,0 +1,40 @@
+OUTPUT_ARCH(mips)
+
+ENTRY(display_poweron_logo)
+
+SECTIONS
+{
+.text 0xC3000000 :
+	{
+     	display_logo.o (.text)
+     	
+
+     
+	 *(.text)
+	}
+
+.rodata :
+ {
+ *(.rodata)
+ }
+
+.data :
+	{
+	 *(.data)
+	 *(.sdata)	 
+	}
+
+.sbss :
+  	{
+  	 *(.sbss)
+ 	 *(.scommon)
+ 	}
+
+.bss :
+ 	{
+ 	 *(.bss)
+  	 *(COMMON)
+ 	 }
+
+ }
+

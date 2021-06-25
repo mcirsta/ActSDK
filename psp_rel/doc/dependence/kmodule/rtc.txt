@@ -1,0 +1,4 @@
+/*rtc.dot*/
+digraph rtc {
+	rtc->kernl
+}
