@@ -14,7 +14,7 @@ out_dir=$2
 cur_dir=$(pwd)
 
 if [ -z $input_file ]; then
-    echo 'usage: ./create_lib.sh input_file  [输出目录]  [工程根目录]'
+    echo 'usage: ./create_lib.sh input_file  [Output Directory] [Project Root Directory]'
     echo 'example: ../../../case/makefile/create_api.sh card_api.S ../../lib ../../../../usdk130_flash'
     echo 'param 2 3 is optional, default value: current directory'
     exit
