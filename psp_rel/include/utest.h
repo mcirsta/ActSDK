@@ -25,7 +25,7 @@
 #endif /* end of (__TESTENV__==0) */
 
 #include "assert.h"
-#include "./utest/remote.h"
+//#include "./utest/remote.h"
 #include "./utest/cunit_arch.h"
 
 #endif /* end of __UTEST_H__ */
