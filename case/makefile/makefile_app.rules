@@ -150,7 +150,7 @@ PRINT_OPT = $(PRINT_ERR) $(PRINT_WARN) $(PRINT_DBG) $(PRINT_INFO) $(PRINT_TIME)
 INCLUDE   = $(foreach dir, $(INCDIR), -I$(dir))
 LINCLUDE = -L$(CASEROOT)/include -L$(PSPROOT)/include/xn
 
-CC_OPTS   = -g -O2 -G0 -Wall -Wno-unknown-pragmas $(INCLUDE) -fsigned-char -mtune=4kec -mips32r2 -fno-builtin $(OFORMAT) $(PRINT_OPT)
+CC_OPTS   = -g -O2 -G0 -Wall -Wno-unknown-pragmas $(INCLUDE) -fsigned-char -mtune=24kec -mips32r2 -fno-builtin $(OFORMAT) $(PRINT_OPT)
 
 CC_OPTS_A = $(CC_OPTS) -D_ASSEMBLER_
 
