@@ -63,6 +63,39 @@ void dumpdir(const char *dir, const char *fName,int recurse, int raw)
   fclose(fp);
 }
 
+
+/* Dump the contents of a directory. */
+void dumpSysDir(const char *dir, const char *fName,int recurse, int raw)
+{ 
+  fp = fopen(fName, "w");
+  
+  int dp = sys_open(dir, O_RDONLY, 0);
+  if (dp<0) {
+    fputs("failed to open", fp);
+    return;
+  }
+  struct dirent *de;
+  while ((de = sys_readdir(dp, 0 , de, 100))) {
+    if (!strcmp(de->d_name, ".") || !strcmp(de->d_name, ".."))
+      continue;
+
+    fputs(dir, fp);
+    fputc('/', fp);
+    fputs(de->d_name, fp);
+    fputc('\n', fp);
+
+/*    
+    if (recurse && (de->d_type & DT_DIR) && !raw) {
+      char rd[256];
+      sprintf(rd, "%s/%s", dir, de->d_name);
+      dumpdir(rd, recurse++, raw);
+    }
+*/
+  }
+  sys_close(dp);
+  fclose(fp);
+}
+
 /* Dump the contents of various file systems. */
 void findDirs(void)
 {
@@ -87,6 +120,9 @@ void findDirs(void)
     dumpdir("/mnt/diska/apps/pl_gener", "/mnt/card/pl_gener.txt" , 1, 0);
     dumpdir("/mnt/diska/apps/setting", "/mnt/card/setting.txt" , 1, 0);
     dumpdir("/mnt/diska/apps/usb", "/mnt/card/usb.txt" , 1, 0);
+    
+    
+        
     dumpdir("/mnt/sdisk", "/mnt/card/sdisk.txt" , 1, 0);
 }
 
@@ -97,13 +133,13 @@ void copyFile(const char* source, const char* dest)
 
     int dump = open(dest, O_WRONLY | O_CREAT | O_TRUNC);
     if (dump < 0) {
-            fputs("error when open file\n", fp);
+            fputs("error when open dest\n", fp);
         /* Handle error */
     }
 
     int flash = open(source, O_RDONLY);
     if (flash < 0) {
-        fputs("error when open flash\n", fp);
+        fputs("error when open source\n", fp);
         /* Handle error */
     }
 
@@ -136,19 +172,20 @@ void copyFile(const char* source, const char* dest)
 
 
 
-void dumpFlash (void) {
+void copySysFile(const char* source, const char* dest)
+{
     fp = fopen("/mnt/card/log.txt", "w");
     fputs("Start of log\n", fp);
 
-    int dump = sys_open("/mnt/card/dump.bin", O_CREAT | O_WRONLY, 0644);
+    int dump = sys_open(dest, O_WRONLY | O_CREAT | O_TRUNC, 0);
     if (dump < 0) {
-            fputs("error when open file\n", fp);
+            fputs("error when open dest\n", fp);
         /* Handle error */
     }
 
-    int flash = sys_open(DEVICE_FLASH, O_RDONLY, 0644);
+    int flash = sys_open(source, O_RDONLY, 0);
     if (flash < 0) {
-        fputs("error when open flash\n", fp);
+        fputs("error when open source\n", fp);
         /* Handle error */
     }
 
@@ -195,8 +232,11 @@ int main(int argc, const char *argv[])
     copyFile("/mnt/diska/apps/launcher/tools.desktop", "/mnt/card/tools.desktop");
     copyFile("/mnt/diska/apps/pl_gener/pl_gener.app", "/mnt/card/pl_gener.app");
     copyFile("/mnt/diska/apps/usb/usb.app", "/mnt/card/usb.app");
-    copyFile("//mnt/diska/lib/commonui/commonui.so", "/mnt/card/commonui.so");
+    copyFile("/mnt/diska/lib/commonui/commonui.so", "/mnt/card/commonui.so");
 
+    copySysFile("/dev/flashu", "/mnt/card/flashdump");
+    copySysFile("/mnt/sdisk/libgb1.so", "/mnt/card/libgb1.so");
+    copySysFile("/mnt/sdisk/libemu.so", "/mnt/card/libemu.so");
 
     findDirs();
     
