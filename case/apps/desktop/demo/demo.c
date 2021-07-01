@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <stat.h>
 
+#include "libc_extra.h"
 #include "ucos/api.h"
 #include "ucos/syscalls_general.h"
 #include "app_define.h"
@@ -210,6 +211,50 @@ void copySysFile(const char* source, const char* dest)
     fclose(fp);
 }
 
+void doStat(const char* target, const char* logName)
+{
+    fp = fopen(logName, "w");
+    struct stat statbuf;
+    if(sys_stat(target, &statbuf) == 0)
+    {
+        fputs("Sys stat success\n", fp);
+        fprintf(fp, "Type: %d\n" , statbuf.st_mode);
+    }
+    else
+    {
+        fputs("Sys stat failure\n", fp);
+    }
+    
+    if(stat(target, &statbuf) == 0)
+    {
+        fputs("Stat success\n", fp);
+        fprintf(fp, "Type: %d\n" , statbuf.st_mode);
+    }
+    else
+    {
+        fputs("Sys stat failure\n", fp);
+    }
+    
+    struct statfs statfsbuf;
+    if(sys_statfs(target, &statfsbuf) == 0)
+    {
+        fputs("Statfs success\n", fp);
+        fprintf(fp, "FS type: %ld\n" , statfsbuf.f_type);
+        if(statfsbuf.f_type == 0)
+        {
+           fputs("No f_type\n", fp);
+        }
+        fprintf(fp, "Avail blocks: %d\n" , statfsbuf.f_bavail);
+        fprintf(fp, "Blocks: %ld\n" , statfsbuf.f_blocks);
+    }
+    else
+    {
+        fputs("Statfs failure\n", fp);
+    }
+    
+    fclose(fp);
+}
+
 int main(int argc, const char *argv[])
 {
     fp = fopen("/mnt/card/test.txt", "w");
@@ -234,10 +279,15 @@ int main(int argc, const char *argv[])
     copyFile("/mnt/diska/apps/usb/usb.app", "/mnt/card/usb.app");
     copyFile("/mnt/diska/lib/commonui/commonui.so", "/mnt/card/commonui.so");
 
-    copySysFile("/dev/flashu", "/mnt/card/flashdump");
     copySysFile("/mnt/sdisk/libgb1.so", "/mnt/card/libgb1.so");
     copySysFile("/mnt/sdisk/libemu.so", "/mnt/card/libemu.so");
-
+    
+    doStat("/mnt/sdisk/libgb1.so", "/mnt/card/stat_libgb1.txt");
+    doStat("/dev/flash", "/mnt/card/stat_flash.txt");
+    doStat("/dev/flashu", "/mnt/card/stat_flashu.txt");
+    doStat("/dev/flashau", "/mnt/card/stat_flasha.txt");
+    doStat("/mnt/diska/lib/style.so", "/mnt/card/stat_style.txt");
+    
     findDirs();
     
     return 0;

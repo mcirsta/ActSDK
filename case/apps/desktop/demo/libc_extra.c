@@ -10,6 +10,38 @@ struct param {
     char *bf;           /**<  Buffer to output */
 };
 
+#ifdef PRINTF_LONG_SUPPORT
+
+static void uli2a(unsigned long int num, struct param *p)
+{
+    int n = 0;
+    unsigned long int d = 1;
+    char *bf = p->bf;
+    while (num / d >= (unsigned int)p->base)
+        d *= p->base;
+    while (d != 0) {
+        int dgt = num / d;
+        num %= d;
+        d /= p->base;
+        if (n || dgt > 0 || d == 0) {
+            *bf++ = dgt + (dgt < 10 ? '0' : (p->uc ? 'A' : 'a') - 10);
+            ++n;
+        }
+    }
+    *bf = 0;
+}
+
+static void li2a(long num, struct param *p)
+{
+    if (num < 0) {
+        num = -num;
+        p->sign = '-';
+    }
+    uli2a(num, p);
+}
+
+#endif
+
 static void ui2a(unsigned int num, struct param *p)
 {
     int n = 0;

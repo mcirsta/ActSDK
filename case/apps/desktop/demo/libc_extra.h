@@ -3,6 +3,9 @@
 
 #include <stdio.h>
 
+
+#define PRINTF_LONG_SUPPORT
+
 extern int fprintf(FILE *, const char *, ...);
 extern int vfprintf(FILE *, const char *, va_list);
 
